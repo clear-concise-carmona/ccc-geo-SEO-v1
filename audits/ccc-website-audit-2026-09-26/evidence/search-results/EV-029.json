@@ -1,0 +1,24 @@
+{
+ "evidence_id": "EV-029",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:11Z",
+ "query": "site:clearconciseconsulting.com privacy OR llms.txt OR resources/guides OR newsletter",
+ "links": [
+  {
+   "title": "Privacy Policy | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/privacy-policy"
+  },
+  {
+   "title": "Terms & Conditions \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/terms-conditions"
+  },
+  {
+   "title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/about"
+  }
+ ],
+ "observations": [
+  "Terms snippet references a Data Processing Agreement. About snippet: 'every configuration is documented for handoff and the next admin shouldn't need to call them to understand what was built'.",
+  "No llms.txt, /resources/guides, or newsletter page surfaced."
+ ]
+}

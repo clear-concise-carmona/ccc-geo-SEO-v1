@@ -1,0 +1,36 @@
+{
+ "evidence_id": "EV-004",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:02Z",
+ "query": "clearconciseconsulting.com Salesforce AI Data Readiness Assessment",
+ "links": [
+  {
+   "title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist"
+  },
+  {
+   "title": "Salesforce AI Data Preparation Services \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-ai-data-preparation"
+  },
+  {
+   "title": "7 Ways to Measure Your Salesforce AI Readiness Assessment (Girikon)",
+   "url": "https://www.girikon.com/blog/salesforce-ai-readiness-assessment/"
+  },
+  {
+   "title": "AI Readiness Assessment - Acxiom Salesforce Practice",
+   "url": "https://www.acxiom.com/salesforce/services/ai-readiness/"
+  },
+  {
+   "title": "Get Your AI Readiness Assessment - Soliant",
+   "url": "https://www.soliantconsulting.com/salesforce/salesforce-ai-readiness/"
+  },
+  {
+   "title": "Salesforce AI Readiness Assessment Point of View - Demand Chain",
+   "url": "https://www.demandchain.com/salesforce-ai-agentforce-data-readiness-assessment/"
+  }
+ ],
+ "observations": [
+  "No CCC page titled 'AI Data Readiness Assessment' returned. Closest CCC pages: the AI data preparation service page and the pre-Agentforce checklist article.",
+  "AI Data Preparation snippet: 'comprehensive data audit to identify quality issues'; 'focused cleanup can be completed in 2-4 weeks'; 'complete transformation typically takes 2-3 months'."
+ ]
+}

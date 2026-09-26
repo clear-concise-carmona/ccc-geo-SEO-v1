@@ -1,0 +1,4 @@
+"url","page_purpose","http_status","canonical_url","indexability_signals","title","meta_description","h1","schema_types","primary_cta","audit_status","evidence_id"
+"http://127.0.0.1:8765/","","200","http://127.0.0.1:8765/","none observed","Fixture Home | Test","Fixture description","Fixture H1","Organization","","FETCHED","CRAWL-001:1844cc142a48"
+"http://127.0.0.1:8765/blocked/x.html","","","","robots.txt disallow","","","","","","EXCLUDED_ROBOTS","CRAWL-002"
+"http://127.0.0.1:8765/services/one.html","","200","http://127.0.0.1:8765/","none observed","Fixture Home | Test","Fixture description","Fixture H1","Organization","","FETCHED","CRAWL-003:ebe51e32343f"

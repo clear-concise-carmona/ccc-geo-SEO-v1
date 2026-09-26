@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Architect-led Salesforce AI governance, data governance, and implementation architecture for nonprofit, government, healthcare, and enterprise organizations.",
+      "founder": {
+        "@id": "https://www.clearconciseconsulting.com/about#person"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.salesforceben.com/author/jeremy-carmona/",
+        "https://medium.com/@jcarmona86",
+        "https://salesforcebreak.com/author/cccjeremycarmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona"
+      ],
+      "knowsAbout": [
+        "Salesforce AI governance",
+        "Salesforce data governance",
+        "Salesforce data quality",
+        "Salesforce Nonprofit Cloud",
+        "Salesforce implementation architecture"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.clearconciseconsulting.com/about#person",
+      "name": "Jeremy Carmona",
+      "url": "https://www.clearconciseconsulting.com/about",
+      "jobTitle": "Salesforce Architect",
+      "worksFor": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.salesforceben.com/author/jeremy-carmona/",
+        "https://medium.com/@jcarmona86",
+        "https://salesforcebreak.com/author/cccjeremycarmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona"
+      ],
+      "knowsAbout": [
+        "Salesforce AI governance",
+        "Salesforce data governance",
+        "Salesforce data quality",
+        "Salesforce Nonprofit Cloud"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.clearconciseconsulting.com/#website",
+      "url": "https://www.clearconciseconsulting.com/",
+      "name": "Clear Concise Consulting",
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      }
+    }
+  ]
+}

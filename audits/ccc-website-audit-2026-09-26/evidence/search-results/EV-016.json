@@ -1,0 +1,28 @@
+{
+ "evidence_id": "EV-016",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:07Z",
+ "query": "site:clearconciseconsulting.squarespace.com",
+ "links": [
+  {
+   "title": "FAQs 2 \u2014 Clear Concise Consulting",
+   "url": "https://clearconciseconsulting.squarespace.com/faqs"
+  },
+  {
+   "title": "AI Services for Salesforce Teams \u2014 Clear Concise Consulting",
+   "url": "https://clearconciseconsulting.squarespace.com/ai-services"
+  },
+  {
+   "title": "Salesforce Non Profit Support \u2014 Clear Concise Consulting",
+   "url": "https://clearconciseconsulting.squarespace.com/services/non-profit"
+  },
+  {
+   "title": "Salesforce Consulting Services \u2014 Clear Concise Consulting",
+   "url": "https://clearconciseconsulting.squarespace.com/services"
+  }
+ ],
+ "observations": [
+  "Built-in Squarespace domain has indexed URLs. Mirror FAQ snippet: 'specializing in implementation, customization and training for nonprofits and growing businesses'; contact 'support@clearconciseconsulting.com or the contact form'.",
+  "AI Services snippet: 'prepare data, govern AI, and keep workflows steady'."
+ ]
+}

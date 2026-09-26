@@ -1,0 +1,20 @@
+{
+ "evidence_id": "EV-021",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:09Z",
+ "query": "clearconciseconsulting.com scorecard questions categories score maturity 120 OR 15 questions OR thirty questions",
+ "links": [
+  {
+   "title": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/scorecard"
+  },
+  {
+   "title": "FAQs 2 \u2014 Clear Concise Consulting (built-in domain)",
+   "url": "https://clearconciseconsulting.squarespace.com/faqs"
+  }
+ ],
+ "observations": [
+  "Search tool reported: 'thirty questions, five per category, 1-to-5 maturity scale, 120 or above indicates readiness, below 60 signals foundation work' AND 'also mentions 15 questions elsewhere' and characterized this as a discrepancy on the page. Attribution to /scorecard is search-tool-derived; requires live verification.",
+  "Arithmetic note: five categories x five questions = 25, not 30; 30 questions x 5 = 150 max, making 120 = 80%."
+ ]
+}

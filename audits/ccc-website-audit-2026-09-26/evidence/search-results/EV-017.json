@@ -1,0 +1,32 @@
+{
+ "evidence_id": "EV-017",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:07Z",
+ "query": "\"Jeremy Carmona\" NYU Tandon Salesforce Administration course instructor",
+ "links": [
+  {
+   "title": "Jeremy Carmona (LinkedIn)",
+   "url": "https://www.linkedin.com/in/jeremy-a-carmona/"
+  },
+  {
+   "title": "Carmona | Salesforce Ben",
+   "url": "https://www.salesforceben.com/author/jeremy-carmona/"
+  },
+  {
+   "title": "160 Students Later: The One Thing That Predicts Salesforce Career Success | Medium",
+   "url": "https://medium.com/@jcarmona86/160-students-one-thing-predicts-salesforce-success-eb05c4d58df8"
+  },
+  {
+   "title": "Salesforce Administrator Career Certificate | NYU Tandon School of Engineering",
+   "url": "https://engineering.nyu.edu/academics/programs/salesforce-administrator-career-certificate"
+  },
+  {
+   "title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/about"
+  }
+ ],
+ "observations": [
+  "Snippets: taught Salesforce Administration to over 160 students at NYU; about 80% landed Salesforce jobs within six months (source of the statistic and denominator not observed).",
+  "NYU program page exists; whether it names the instructor could not be verified (host blocked)."
+ ]
+}

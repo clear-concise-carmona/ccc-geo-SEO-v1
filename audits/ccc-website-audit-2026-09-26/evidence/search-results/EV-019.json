@@ -1,0 +1,36 @@
+{
+ "evidence_id": "EV-019",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:07Z",
+ "query": "Salesforce AI governance consulting assessment Agentforce readiness architect-led",
+ "links": [
+  {
+   "title": "Salesforce Agentforce Consulting - Centric Consulting",
+   "url": "https://centricconsulting.com/technology-solutions/salesforce-consulting-services/salesforce-agentforce-consulting/"
+  },
+  {
+   "title": "Salesforce Agentforce Consulting Services | 500+ Experts (Cyntexa)",
+   "url": "https://cyntexa.com/salesforce-agentforce-services/"
+  },
+  {
+   "title": "AI Readiness Assessment for Salesforce Data Cloud (AppExchange listing)",
+   "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=df9e7080-0f59-4418-b8b4-06304631872c"
+  },
+  {
+   "title": "Accelerate AI Readiness with a Strong Foundation | Salesforce",
+   "url": "https://www.salesforce.com/agentforce/ai-readiness/"
+  },
+  {
+   "title": "Agentforce and the Rise of AI Governance: Proceed with Caution - VFP Consulting",
+   "url": "https://vfp-consulting.com/agentforce-and-the-rise-of-ai-governance-proceed-with-caution/"
+  },
+  {
+   "title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist"
+  }
+ ],
+ "observations": [
+  "CCC's checklist article ranks in this competitive result set (position 9 of 9 returned).",
+  "Competitor snippets describe: maturity scorecard, gap analysis, 90-day roadmap; cross-functional governance councils; senior-architect evaluation."
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "evidence_id": "EV-030",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:11Z",
+ "query": "Salesforce \"AI readiness assessment\" Agentforce data readiness consulting offer deliverables weeks price",
+ "links": [
+  {
+   "title": "Salesforce Agentforce Readiness Assessment (Perficient solution sheet PDF)",
+   "url": "https://www.perficient.com/-/media/files/solution-sheets/salesforce-agentforce-readiness-assessment.pdf"
+  },
+  {
+   "title": "Agentforce Implementation: Live in 8 Weeks, Fixed Price (Clientell)",
+   "url": "https://www.getclientell.com/agentforce-implementation-services"
+  },
+  {
+   "title": "Agentforce Assessment (Launch Consulting)",
+   "url": "https://www.launchconsulting.com/agentforce-assessment"
+  },
+  {
+   "title": "Get Your AI Readiness Assessment (Soliant)",
+   "url": "https://www.soliantconsulting.com/salesforce/salesforce-ai-readiness/"
+  },
+  {
+   "title": "AI & Agentforce Readiness Assessment | Demand Chain",
+   "url": "https://www.demandchain.com/salesforce-ai-agentforce-data-readiness-assessment/"
+  },
+  {
+   "title": "AI Readiness Assessment - Acxiom Salesforce Practice",
+   "url": "https://www.acxiom.com/salesforce/services/ai-readiness/"
+  },
+  {
+   "title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist"
+  }
+ ],
+ "observations": [
+  "Competitor snippets: seven-step assessment with roadmap deliverable (Perficient); 4-6 week evaluation of data, processes, AI maturity; deliverables lists such as integration review, data quality audit, process impact review, custom roadmap; fixed-price implementation from $15K (Clientell). Assessment prices were not shown in snippets."
+ ]
+}

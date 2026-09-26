@@ -1,0 +1,28 @@
+{
+ "evidence_id": "EV-024",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:09Z",
+ "query": "site:clearconciseconsulting.com guides OR templates OR checklist OR resources",
+ "links": [
+  {
+   "title": "Mastering Salesforce Security: Essential Guide for Admins \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide"
+  },
+  {
+   "title": "Salesforce Resources and Guides (alternate indexed title for /blog)",
+   "url": "https://www.clearconciseconsulting.com/blog"
+  },
+  {
+   "title": "Salesforce Resources for Beginners & Career Changers \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/resources/beginners-career-changers"
+  },
+  {
+   "title": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates"
+  }
+ ],
+ "observations": [
+  "Snippets: premium templates, governance kits, training resources on Gumroad at gumroad.com/clearconciseconsulting ($7-$49); Org Health Roadmap Template (30-60-90 framework); Salesforce Security Starter Pack.",
+  "Two different Gumroad handles observed across sources: gumroad.com/clearconciseconsulting (site snippet) and jeremycarmona.gumroad.com (EV-005)."
+ ]
+}

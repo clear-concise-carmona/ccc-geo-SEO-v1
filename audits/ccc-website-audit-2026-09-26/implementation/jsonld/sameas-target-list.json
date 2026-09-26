@@ -1,0 +1,26 @@
+{
+  "_note": "Target sameAs lists. Owner rule (EV-032): every deployed sameAs array must be identical. Recommended: deploy ONE combined array on both Organization and Person blocks so the rule holds. Candidates are excluded until confirmed.",
+  "combined_array_for_all_blocks": [
+    "https://www.linkedin.com/in/jeremy-a-carmona/",
+    "https://www.salesforceben.com/author/jeremy-carmona/",
+    "https://medium.com/@jcarmona86",
+    "https://salesforcebreak.com/author/cccjeremycarmona/",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona"
+  ],
+  "candidates_pending_owner_confirmation": {
+    "gumroad": [
+      "https://jeremycarmona.gumroad.com",
+      "https://gumroad.com/clearconciseconsulting"
+    ],
+    "facebook": "https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/",
+    "bbb": "https://www.bbb.org/us/ny/brooklyn/profile/business-consultant/clear-concise-consulting-llc-0121-87143876"
+  },
+  "evidence": [
+    "EV-005",
+    "EV-007",
+    "EV-018",
+    "EV-024",
+    "EV-025"
+  ]
+}

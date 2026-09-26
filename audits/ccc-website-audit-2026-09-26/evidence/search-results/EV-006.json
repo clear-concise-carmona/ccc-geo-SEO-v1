@@ -1,0 +1,21 @@
+{
+ "evidence_id": "EV-006",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:02Z",
+ "query": "site:clearconciseconsulting.com about OR contact OR services OR case-studies",
+ "links": [
+  {
+   "title": "Salesforce Consultant NYC | 13x Certified Architect",
+   "url": "https://www.clearconciseconsulting.com/"
+  },
+  {
+   "title": "Salesforce Data Governance | Published Expert | NYC",
+   "url": "https://www.clearconciseconsulting.com/services/data-governance"
+  }
+ ],
+ "observations": [
+  "Homepage snippet: 'Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. Jeremy Carmona, a 13x certified Salesforce Architect, leads every engagement from scoping to go-live.'",
+  "Implementation snippet: 'documentation package that your team can actually use the day after handoff'.",
+  "Data Governance snippet: 'immediate improvements after the initial data cleansing phase, typically within 2-4 weeks'; 'full implementation of governance processes usually takes 1-3 months'."
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "evidence_id": "EV-009",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:05Z",
+ "query": "site:clearconciseconsulting.com/services",
+ "links": [
+  {
+   "title": "Salesforce Implementation Services | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation"
+  },
+  {
+   "title": "Salesforce Consulting Services \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services"
+  },
+  {
+   "title": "Salesforce AI Data Preparation Services \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-ai-data-preparation"
+  },
+  {
+   "title": "Salesforce Training and Documentation | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training"
+  }
+ ],
+ "observations": [
+  "Services snippet: 'Salesforce consulting, admin, governance, and training tailored to business needs'.",
+  "Implementation snippet: 'planning, architecture, configuration, testing, and go-live support for organizations that need clear decisions and maintainable delivery'.",
+  "Training snippet: 'for people who've struggled with traditional Salesforce training'.",
+  "Also mentioned in snippets: Data Governance ('ensure data quality, security, and accessibility'), Administration services."
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "evidence_id": "EV-003",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:02Z",
+ "query": "clearconciseconsulting.com AI readiness scorecard",
+ "links": [
+  {
+   "title": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/scorecard"
+  }
+ ],
+ "observations": [
+  "Snippet A: free Salesforce AI Readiness Scorecard, 15 questions, 2 minutes, personalized report across Data Quality, Governance, Automation, AI Preparedness, Documentation Health.",
+  "Snippet B (attributed by search tool to same result set): 'thirty questions, five per category, each scored on a 1-to-5 maturity scale. A score of 120 or above indicates readiness for AI activation. Below 60 signals foundation work is needed'.",
+  "CAVEAT: snippet B attribution to /scorecard could not be confirmed without live fetch; competitor scorecard pages were in the same result set."
+ ]
+}
