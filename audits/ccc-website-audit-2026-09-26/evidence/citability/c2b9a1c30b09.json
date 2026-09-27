@@ -1,0 +1,261 @@
+{
+ "url": "http://127.0.0.1:8765/c2b9a1c30b09.html",
+ "total_blocks_analyzed": 6,
+ "average_citability_score": 59.5,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 4,
+  "D": 1,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "Where This Connects",
+   "word_count": 143,
+   "total_score": 71,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Human Oversight is the second of six guiding principles. The first (Data First)governswhether the AI is operating against trustworthy input. The second (Human Oversight) governs whether the AI's actions are..."
+  },
+  {
+   "heading": "Human Oversight: The Difference Between AI and Autopilot",
+   "word_count": 125,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "\"Human-in-the-loop\" appears on every AI vendor pitch deck I have ever seen. Almost none of those vendors can define what it means in practice. I have asked the question in..."
+  },
+  {
+   "heading": "The Three Tiers",
+   "word_count": 289,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every AI decision needs the same level of oversight. Trying to apply the same gate to every output is a fast way to kill adoption while still missing the..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 180,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Human Oversight.Every AI-assisted decision has a documented human review gate. Automated actions are bounded by explicit scope limits. That sentence is the second guiding principle of the CCCAI Center of..."
+  },
+  {
+   "heading": "The Kill Switch",
+   "word_count": 192,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every Tier 3 deployment needs a documented kill switch. The kill switch is not the same as turning off Agentforce. Agentforce off is a vendor-level control. The CCC kill switch..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "What \"Bounded Scope\" Looks Like in Salesforce",
+   "word_count": 180,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Scope limits at the policy level are insufficient. \"The agent should only update Contact records\" written in a Word document does not stop an agent from running an UPDATE on..."
+  },
+  {
+   "heading": "The Kill Switch",
+   "word_count": 192,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every Tier 3 deployment needs a documented kill switch. The kill switch is not the same as turning off Agentforce. Agentforce off is a vendor-level control. The CCC kill switch..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 180,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Human Oversight.Every AI-assisted decision has a documented human review gate. Automated actions are bounded by explicit scope limits. That sentence is the second guiding principle of the CCCAI Center of..."
+  },
+  {
+   "heading": "The Three Tiers",
+   "word_count": 289,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every AI decision needs the same level of oversight. Trying to apply the same gate to every output is a fast way to kill adoption while still missing the..."
+  },
+  {
+   "heading": "Human Oversight: The Difference Between AI and Autopilot",
+   "word_count": 125,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "\"Human-in-the-loop\" appears on every AI vendor pitch deck I have ever seen. Almost none of those vendors can define what it means in practice. I have asked the question in..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Human Oversight: The Difference Between AI and Autopilot",
+   "word_count": 125,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "\"Human-in-the-loop\" appears on every AI vendor pitch deck I have ever seen. Almost none of those vendors can define what it means in practice. I have asked the question in..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 180,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Human Oversight.Every AI-assisted decision has a documented human review gate. Automated actions are bounded by explicit scope limits. That sentence is the second guiding principle of the CCCAI Center of..."
+  },
+  {
+   "heading": "The Three Tiers",
+   "word_count": 289,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every AI decision needs the same level of oversight. Trying to apply the same gate to every output is a fast way to kill adoption while still missing the..."
+  },
+  {
+   "heading": "What \"Bounded Scope\" Looks Like in Salesforce",
+   "word_count": 180,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Scope limits at the policy level are insufficient. \"The agent should only update Contact records\" written in a Word document does not stop an agent from running an UPDATE on..."
+  },
+  {
+   "heading": "The Kill Switch",
+   "word_count": 192,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every Tier 3 deployment needs a documented kill switch. The kill switch is not the same as turning off Agentforce. Agentforce off is a vendor-level control. The CCC kill switch..."
+  },
+  {
+   "heading": "Where This Connects",
+   "word_count": 143,
+   "total_score": 71,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Human Oversight is the second of six guiding principles. The first (Data First)governswhether the AI is operating against trustworthy input. The second (Human Oversight) governs whether the AI's actions are..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

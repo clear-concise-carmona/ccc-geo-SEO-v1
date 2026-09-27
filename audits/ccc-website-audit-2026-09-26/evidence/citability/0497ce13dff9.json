@@ -1,0 +1,306 @@
+{
+ "url": "http://127.0.0.1:8765/0497ce13dff9.html",
+ "total_blocks_analyzed": 9,
+ "average_citability_score": 41.4,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 5,
+  "F": 2
+ },
+ "top_5_citable": [
+  {
+   "heading": "Key Takeaways",
+   "word_count": 256,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 5
+   },
+   "preview": "Data governance is no longer a cleanup task. In a Headless 360 environment, it is the infrastructure that determines whether agents produce clean records or multiply existing problems at API..."
+  },
+  {
+   "heading": "What This Looks Like in Practice",
+   "word_count": 136,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 20,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "I ran a data qualityauditlast month for a nonprofit. 40% of their Contact records had no salutation, no phone format consistency, and three different abbreviations for the same state. The..."
+  },
+  {
+   "heading": "Why Data Governance Became Infrastructure",
+   "word_count": 115,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "When a human enters a record through the Salesforce UI, the page layout guides them. Required fields have red asterisks. Picklists constrain choices. Help text explains conventions. Error messages say..."
+  },
+  {
+   "heading": "The Data 360 Connection",
+   "word_count": 61,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce'sData 360 Governance frameworkprovides Attribute-Based Access Control (ABAC) including object, field, and row-level security. For orgs activating Headless 360, one technical detail matters: new organizations are created with a \"Day..."
+  },
+  {
+   "heading": "3. Validation Rules Designed for APIs",
+   "word_count": 74,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your existingvalidation rulesprobably work. They fire on API saves. But the error messages were written for humans. Review every error message and ask: if an API call receives this error,..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "1. Field Format Standardization",
+   "word_count": 72,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Pick one format for every formatted field and enforce it with a validation rule. FieldStandardEnforcementStateTwo-letter abbreviation (NY, CA, TX)Validation rule with picklist or REGEXPhone(XXX) XXX-XXXXValidation rule with REGEX patternZip Code5-digit..."
+  },
+  {
+   "heading": "2. Picklist Hygiene",
+   "word_count": 36,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Deactivate unused values. Consolidate duplicates. Use Global Value Sets where the same values appear on multiple objects. An agent presented with a picklist containing \"Active,\" \"active,\" and \"ACTIVE\" will pick..."
+  },
+  {
+   "heading": "Headless 360 Data Governance: What Changes for Your Org",
+   "word_count": 106,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every Salesforce org has a junk drawer. Fields nobody standardized, picklist values nobody consolidated, validation rules nobody documented. Humans worked around the mess. Agents will not. They will copy it,..."
+  },
+  {
+   "heading": "4. Field Descriptions as Agent Documentation",
+   "word_count": 65,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every field on every object that an agent will read or write should have a populated Description. This description is what agent developers reference when building API interactions. It should..."
+  },
+  {
+   "heading": "3. Validation Rules Designed for APIs",
+   "word_count": 74,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your existingvalidation rulesprobably work. They fire on API saves. But the error messages were written for humans. Review every error message and ask: if an API call receives this error,..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Headless 360 Data Governance: What Changes for Your Org",
+   "word_count": 106,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every Salesforce org has a junk drawer. Fields nobody standardized, picklist values nobody consolidated, validation rules nobody documented. Humans worked around the mess. Agents will not. They will copy it,..."
+  },
+  {
+   "heading": "Why Data Governance Became Infrastructure",
+   "word_count": 115,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "When a human enters a record through the Salesforce UI, the page layout guides them. Required fields have red asterisks. Picklists constrain choices. Help text explains conventions. Error messages say..."
+  },
+  {
+   "heading": "1. Field Format Standardization",
+   "word_count": 72,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Pick one format for every formatted field and enforce it with a validation rule. FieldStandardEnforcementStateTwo-letter abbreviation (NY, CA, TX)Validation rule with picklist or REGEXPhone(XXX) XXX-XXXXValidation rule with REGEX patternZip Code5-digit..."
+  },
+  {
+   "heading": "2. Picklist Hygiene",
+   "word_count": 36,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Deactivate unused values. Consolidate duplicates. Use Global Value Sets where the same values appear on multiple objects. An agent presented with a picklist containing \"Active,\" \"active,\" and \"ACTIVE\" will pick..."
+  },
+  {
+   "heading": "3. Validation Rules Designed for APIs",
+   "word_count": 74,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your existingvalidation rulesprobably work. They fire on API saves. But the error messages were written for humans. Review every error message and ask: if an API call receives this error,..."
+  },
+  {
+   "heading": "4. Field Descriptions as Agent Documentation",
+   "word_count": 65,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every field on every object that an agent will read or write should have a populated Description. This description is what agent developers reference when building API interactions. It should..."
+  },
+  {
+   "heading": "The Data 360 Connection",
+   "word_count": 61,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce'sData 360 Governance frameworkprovides Attribute-Based Access Control (ABAC) including object, field, and row-level security. For orgs activating Headless 360, one technical detail matters: new organizations are created with a \"Day..."
+  },
+  {
+   "heading": "What This Looks Like in Practice",
+   "word_count": 136,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 20,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "I ran a data qualityauditlast month for a nonprofit. 40% of their Contact records had no salutation, no phone format consistency, and three different abbreviations for the same state. The..."
+  },
+  {
+   "heading": "Key Takeaways",
+   "word_count": 256,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 5
+   },
+   "preview": "Data governance is no longer a cleanup task. In a Headless 360 environment, it is the infrastructure that determines whether agents produce clean records or multiply existing problems at API..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

@@ -1,0 +1,284 @@
+{
+ "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:36 GMT",
+  "Etag": "W/\"20de1424d74c86b014b5e40e1abe7ccb--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "w1dzbI53/g7csxcL3",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Implementation Services | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+  "og:type": "website",
+  "og:description": "Salesforce implementation planning, architecture, configuration, testing, and go-live support for organizations that need clear decisions and maintainable delivery.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd369d19a7c865b50639da/1775056541532/og_service_implementation.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Salesforce Implementation Services | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd369d19a7c865b50639da/1775056541532/og_service_implementation.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+  "twitter:card": "summary",
+  "twitter:description": "Salesforce implementation planning, architecture, configuration, testing, and go-live support for organizations that need clear decisions and maintainable delivery.",
+  "description": "Salesforce implementation planning, architecture, configuration, testing, and go-live support for organizations that need clear decisions and maintainable delivery.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Implementation Services | Clear Concise Consulting",
+ "description": "Salesforce implementation planning, architecture, configuration, testing, and go-live support for organizations that need clear decisions and maintainable delivery.",
+ "canonical": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+ "h1_tags": [
+  "Salesforce Implementation"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Implementation"
+  },
+  {
+   "level": 2,
+   "text": "The problem with most Salesforce implementations"
+  },
+  {
+   "level": 2,
+   "text": "What a CCC implementation includes"
+  },
+  {
+   "level": 2,
+   "text": "Proof"
+  },
+  {
+   "level": 2,
+   "text": "Ongoing administration"
+  },
+  {
+   "level": 2,
+   "text": "Timeline and investment"
+  },
+  {
+   "level": 4,
+   "text": "Scope"
+  },
+  {
+   "level": 4,
+   "text": "Timeline"
+  },
+  {
+   "level": 4,
+   "text": "Investment"
+  }
+ ],
+ "word_count": 465,
+ "text_content": "Salesforce Implementation Services | Clear Concise Consulting 0 Salesforce Implementation One architect. Scoping to handoff. No junior rotation. Book a Free Consultation The problem with most Salesforce implementations A solutions architect runs your discovery meeting. A technical lead writes the requirements. A developer builds the configuration. A different developer finishes when the first one gets reassigned. A project manager sends weekly status reports that don't mention the scope changes. Six months later, you have a system that works differently than what was described in the kickoff. CCC works differently. The person in your discovery meeting is the same person configuring your org, writing your documentation, and training your team. No handoffs. No ramp-up time. No \"let me get caught up on your project. What a CCC implementation includes Discovery and scoping. Requirements gathering with stakeholders, data model design, and a scoping document with timeline, deliverables, and fixed pricing. You approve the plan before any configuration starts. Architecture and configuration. Custom objects, fields, page layouts, record types, and relationships designed for your specific business processes. Flow automation for repetitive tasks. Permission sets and sharing model designed from day one (not retrofitted later). Data migration. Source data assessment, deduplication, field mapping, test loads, and business user sign-off before go-live. Testing and validation. Sandbox testing with documented results. User acceptance testing with actual end users, not just the admin. Post-deployment smoke testing in production. Documentation package. Every implementation produces documentation that non-technical leadership can read: process guides, Flow descriptions, data dictionary, admin runbook, and field-level reference. CCC handed off one implementation with 35 documentation assets. The client's new admin started the following Monday and never called back. Training. Live training for administrators and end users. Role-based sessions: admins learn configuration, end users learn daily workflows, leadership learns reporting. Post-launch support. 30 days of included support after go-live. Bug fixes, configuration adjustments, and questions handled by the same person who built the system. Proof CCC supported a Salesforce Government Cloud implementation with documented security and delivery requirements. Experience across nonprofit, government, healthcare, and enterprise organizations. Ongoing administration Not every organization needs a full-time Salesforce admin. CCC offers ongoing administration support on a flexible schedule: weekly, biweekly, or on-demand. What ongoing support covers: System maintenance and release updates. User management (new hires, role changes, deactivations). Report and dashboard modifications. Flow updates and new automation requests. Data quality monitoring. Issue resolution. Pricing: Retained advisory starts at $3,000/month (15 hours, 24-hour response time, 3-month minimum). On-demand support is available hourly for organizations that need less frequent help. Timeline and investment Scope Complex (GovCloud, multi-department, integrations) Timeline Investment Small (single Cloud, under 50 users) 6-8 weeks $15,000-$30,000 Medium (multi-Cloud, 50-200 users) 8-12 weeks $30,000-$50,000 10-16 weeks $50,000-$75,000 Fixed pricing. No hourly billing surprises. Every engagement begins with a free consultation to determine scope.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Free Consultation"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "name": "Salesforce Implementation",
+   "description": "Salesforce implementation planning, architecture, configuration, data migration, training, and documentation with direct architect accountability.",
+   "provider": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com",
+    "logo": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/4263363b-4b6b-4d0c-addc-4cf71f9c920e/CCC_Logo_Master_2000px.png",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "228 Park Ave S #871721",
+     "addressLocality": "New York",
+     "addressRegion": "NY",
+     "postalCode": "10003",
+     "addressCountry": "US"
+    },
+    "telephone": "+1-860-912-5740",
+    "email": "j.carmona@clearconciseconsulting.com",
+    "sameAs": [
+     "https://www.linkedin.com/in/jeremy-a-carmona/",
+     "https://www.salesforceben.com/author/jeremy-carmona/",
+     "https://medium.com/@jcarmona86"
+    ]
+   },
+   "serviceType": "Salesforce Implementation",
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Salesforce Implementation Services",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "name": "Small Implementation (Single Cloud, Under 50 Users)",
+      "description": "Single Cloud implementation for organizations with under 50 users. Includes discovery, configuration, data migration, documentation, training, and 30 days post-launch support.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "15000",
+       "maxPrice": "30000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Medium Implementation (Multi-Cloud, 50-200 Users)",
+      "description": "Multi-Cloud implementation for organizations with 50-200 users. Includes discovery, architecture, configuration, data migration, documentation, training, and 30 days post-launch support.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "30000",
+       "maxPrice": "50000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Complex Implementation (GovCloud, Multi-Department, Integrations)",
+      "description": "Complex implementation including GovCloud, multi-department configurations, and third-party integrations. Includes full architecture, configuration, migration, documentation, training, and 30 days post-launch support.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "50000",
+       "maxPrice": "75000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Retained Advisory",
+      "description": "Ongoing Salesforce administration support. System maintenance, user management, release updates, Flow updates, data quality monitoring, and issue resolution. 15 hours per month, 24-hour response time, 3-month minimum.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "3000",
+       "priceCurrency": "USD",
+       "unitText": "MONTH"
+      }
+     }
+    ]
+   },
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.clearconciseconsulting.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Services",
+     "item": "https://www.clearconciseconsulting.com/services"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Salesforce Implementation",
+     "item": "https://www.clearconciseconsulting.com/services/salesforce-implementation"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

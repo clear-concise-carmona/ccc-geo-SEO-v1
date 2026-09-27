@@ -2,21 +2,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "ProfessionalService"],
       "@id": "https://www.clearconciseconsulting.com/#organization",
       "name": "Clear Concise Consulting",
       "url": "https://www.clearconciseconsulting.com/",
       "description": "Architect-led Salesforce AI governance, data governance, and implementation architecture for nonprofit, government, healthcare, and enterprise organizations.",
       "founder": {
-        "@id": "https://www.clearconciseconsulting.com/about#person"
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
       },
       "sameAs": [
         "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
         "https://www.salesforceben.com/author/jeremy-carmona/",
         "https://medium.com/@jcarmona86",
         "https://salesforcebreak.com/author/cccjeremycarmona/",
-        "https://www.linkedin.com/company/clear-concise-consulting",
-        "https://github.com/clear-concise-carmona"
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://jeremycarmona.gumroad.com/",
+        "https://www.salesforce.com/trailblazer/jeremy-carmona"
       ],
       "knowsAbout": [
         "Salesforce AI governance",
@@ -28,20 +33,25 @@
     },
     {
       "@type": "Person",
-      "@id": "https://www.clearconciseconsulting.com/about#person",
+      "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
       "name": "Jeremy Carmona",
       "url": "https://www.clearconciseconsulting.com/about",
-      "jobTitle": "Salesforce Architect",
+      "jobTitle": "Salesforce Architect and Founder",
       "worksFor": {
         "@id": "https://www.clearconciseconsulting.com/#organization"
       },
       "sameAs": [
         "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
         "https://www.salesforceben.com/author/jeremy-carmona/",
         "https://medium.com/@jcarmona86",
         "https://salesforcebreak.com/author/cccjeremycarmona/",
-        "https://www.linkedin.com/company/clear-concise-consulting",
-        "https://github.com/clear-concise-carmona"
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://jeremycarmona.gumroad.com/",
+        "https://www.salesforce.com/trailblazer/jeremy-carmona"
       ],
       "knowsAbout": [
         "Salesforce AI governance",

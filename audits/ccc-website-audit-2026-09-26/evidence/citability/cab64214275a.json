@@ -1,0 +1,261 @@
+{
+ "url": "http://127.0.0.1:8765/cab64214275a.html",
+ "total_blocks_analyzed": 6,
+ "average_citability_score": 52.2,
+ "optimal_length_passages": 3,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 3,
+  "D": 3,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What Headless 360 Means for Nonprofit Orgs",
+   "word_count": 149,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 5
+   },
+   "preview": "Headless 360exposes every Salesforce capability as an API, MCP tool, or CLI command. For nonprofits, the practical implications are: Your data governance matters more now.If your org has inconsistent donor..."
+  },
+  {
+   "heading": "The NPSP vs Nonprofit Cloud Question",
+   "word_count": 137,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is the technical question most nonprofit Salesforce architects are not asking yet, and should be. NPSP (Nonprofit Success Pack) is a managed package. Nonprofit Cloud is built natively on..."
+  },
+  {
+   "heading": "Headless 360 for Nonprofits: What Your ED Needs to Know",
+   "word_count": 117,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce mentioned nonprofits exactly zero times during the Headless 360 keynote. That does not mean the announcement does not affect you. It means nobody is translating it for you yet...."
+  },
+  {
+   "heading": "What You Should Do Right Now",
+   "word_count": 152,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 20,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "None of this requires purchasing anything. These are free, immediate actions. 1. Run a data quality check.How clean are your donor records? What percentage have complete addresses, standardized states, and..."
+  },
+  {
+   "heading": "What Your ED Needs to Hear",
+   "word_count": 107,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Executive Directors do not need to understand MCP tools or AgentScript. They need to know three things: Nothing is broken today.Headless 360 does not change how your existing Salesforce org..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "What Your ED Needs to Hear",
+   "word_count": 107,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Executive Directors do not need to understand MCP tools or AgentScript. They need to know three things: Nothing is broken today.Headless 360 does not change how your existing Salesforce org..."
+  },
+  {
+   "heading": "Key Takeaways",
+   "word_count": 248,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "Headless 360 affects nonprofits through data governance, permission models, and validation rules, even if you do not plan to deploy AI agents. The 60+ MCP tools and 30+ coding skills..."
+  },
+  {
+   "heading": "What You Should Do Right Now",
+   "word_count": 152,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 20,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "None of this requires purchasing anything. These are free, immediate actions. 1. Run a data quality check.How clean are your donor records? What percentage have complete addresses, standardized states, and..."
+  },
+  {
+   "heading": "Headless 360 for Nonprofits: What Your ED Needs to Know",
+   "word_count": 117,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce mentioned nonprofits exactly zero times during the Headless 360 keynote. That does not mean the announcement does not affect you. It means nobody is translating it for you yet...."
+  },
+  {
+   "heading": "What Headless 360 Means for Nonprofit Orgs",
+   "word_count": 149,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 5
+   },
+   "preview": "Headless 360exposes every Salesforce capability as an API, MCP tool, or CLI command. For nonprofits, the practical implications are: Your data governance matters more now.If your org has inconsistent donor..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Headless 360 for Nonprofits: What Your ED Needs to Know",
+   "word_count": 117,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce mentioned nonprofits exactly zero times during the Headless 360 keynote. That does not mean the announcement does not affect you. It means nobody is translating it for you yet...."
+  },
+  {
+   "heading": "What Headless 360 Means for Nonprofit Orgs",
+   "word_count": 149,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 5
+   },
+   "preview": "Headless 360exposes every Salesforce capability as an API, MCP tool, or CLI command. For nonprofits, the practical implications are: Your data governance matters more now.If your org has inconsistent donor..."
+  },
+  {
+   "heading": "The NPSP vs Nonprofit Cloud Question",
+   "word_count": 137,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is the technical question most nonprofit Salesforce architects are not asking yet, and should be. NPSP (Nonprofit Success Pack) is a managed package. Nonprofit Cloud is built natively on..."
+  },
+  {
+   "heading": "What You Should Do Right Now",
+   "word_count": 152,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 20,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "None of this requires purchasing anything. These are free, immediate actions. 1. Run a data quality check.How clean are your donor records? What percentage have complete addresses, standardized states, and..."
+  },
+  {
+   "heading": "What Your ED Needs to Hear",
+   "word_count": 107,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Executive Directors do not need to understand MCP tools or AgentScript. They need to know three things: Nothing is broken today.Headless 360 does not change how your existing Salesforce org..."
+  },
+  {
+   "heading": "Key Takeaways",
+   "word_count": 248,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "Headless 360 affects nonprofits through data governance, permission models, and validation rules, even if you do not plan to deploy AI agents. The 60+ MCP tools and 30+ coding skills..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/headless-360-nonprofits",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

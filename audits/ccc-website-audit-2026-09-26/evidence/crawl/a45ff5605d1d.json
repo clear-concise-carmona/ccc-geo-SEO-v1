@@ -1,0 +1,315 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:05 GMT",
+  "Etag": "W/\"edaf2a66a05c6406b9b95c2a03f69613--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "qxbiwiJR/NvXLZ2ue",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Duplicate Management: Complete Admin Guide (2026) | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+  "og:type": "article",
+  "og:description": "Stop duplicates before they wreck your data. Configure matching rules, duplicate rules, and merge strategies. Includes detection reports and cleanup routines.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04637bff5380000ae33bc/1773159991794/03_duplicate_management_guide.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Duplicate Management: Complete Admin Guide (2026) | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04637bff5380000ae33bc/1773159991794/03_duplicate_management_guide.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+  "twitter:card": "summary",
+  "twitter:description": "Stop duplicates before they wreck your data. Configure matching rules, duplicate rules, and merge strategies. Includes detection reports and cleanup routines.",
+  "description": "Stop duplicates before they wreck your data. Configure matching rules, duplicate rules, and merge strategies. Includes detection reports and cleanup routines.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Duplicate Management: Complete Admin Guide (2026) | Clear Concise Consulting",
+ "description": "Stop duplicates before they wreck your data. Configure matching rules, duplicate rules, and merge strategies. Includes detection reports and cleanup routines.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+ "h1_tags": [
+  "The Admin's Guide to Salesforce Duplicate Management"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "The Admin's Guide to Salesforce Duplicate Management"
+  },
+  {
+   "level": 2,
+   "text": "Why Duplicates Happen"
+  },
+  {
+   "level": 2,
+   "text": "The Three-Part Duplicate Strategy"
+  },
+  {
+   "level": 2,
+   "text": "Part 1: Prevention with Duplicate Rules"
+  },
+  {
+   "level": 2,
+   "text": "Part 2: Detection with Reports and Tools"
+  },
+  {
+   "level": 2,
+   "text": "Part 3: Resolution Through Merging"
+  },
+  {
+   "level": 2,
+   "text": "Building a Duplicate Management Routine"
+  },
+  {
+   "level": 2,
+   "text": "Special Cases"
+  },
+  {
+   "level": 2,
+   "text": "Measuring Success"
+  },
+  {
+   "level": 2,
+   "text": "The Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Next Steps"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Job Description Templates: Stop Losing Qualified Candidates"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Certification Decoder: What Recruiters Must Know"
+  },
+  {
+   "level": 3,
+   "text": "Setting Up Matching Rules"
+  },
+  {
+   "level": 3,
+   "text": "Setting Up Duplicate Rules"
+  },
+  {
+   "level": 3,
+   "text": "My Recommended Configuration"
+  },
+  {
+   "level": 3,
+   "text": "Native Detection: Duplicate Record Sets"
+  },
+  {
+   "level": 3,
+   "text": "Report-Based Detection"
+  },
+  {
+   "level": 3,
+   "text": "Third-Party Detection Tools"
+  },
+  {
+   "level": 3,
+   "text": "Manual Merging: The Native Approach"
+  },
+  {
+   "level": 3,
+   "text": "Merge Considerations"
+  },
+  {
+   "level": 3,
+   "text": "Bulk Merging"
+  },
+  {
+   "level": 3,
+   "text": "Duplicates Across Objects"
+  },
+  {
+   "level": 3,
+   "text": "Intentional Duplicates"
+  },
+  {
+   "level": 3,
+   "text": "Duplicates from Integrations"
+  }
+ ],
+ "word_count": 1769,
+ "text_content": "Salesforce Duplicate Management: Complete Admin Guide (2026) | Clear Concise Consulting 0 The Admin's Guide to Salesforce Duplicate Management Data Governance Mar 24 Written By Jeremy Carmona How to find, merge, and prevent duplicate records before they wreck your data Three overlapping geometric circles consolidating into single circle, navy blue on beige The report said we had 12,000 donors. The actual number was closer to 8,500. The nonprofit had been running their annual giving campaign based on inflated numbers . Board reports were wrong. Segmentation was broken. Some donors received duplicate appeals while others received nothing because their records weren't linked to the right household. Three years of duplicate accumulation. No matching rules. No duplicate prevention. Just a growing mess that got harder to clean every quarter. Duplicate management isn't glamorous work. It's also one of the highest-impact things a Salesforce admin can do for data quality. Here's how to do it right. Why Duplicates Happen Understanding the sources helps you prevent future problems: Manual Entry Without Checking User creates a Contact without searching first. Same person, different spelling (\"John\" vs \"Jon\"), different company. Now you have two records. Web-to-Lead Without Matching Lead form submissions create records directly. Same person submits twice with different email addresses. Two leads, one person. Data Imports Without Deduplication Marketing uploads a list from an event. Half the attendees already exist in Salesforce. Now they exist twice. System Integrations Marketing automation syncs prospects. ERP syncs customers. Neither system checks for existing records. Duplicates multiply. Acquisitions and Mergers Company acquires another organization. Customer databases get combined. Overlap creates duplicates. Every organization has duplicates. The question is whether you're managing them proactively or discovering them in angry customer emails. The Three-Part Duplicate Strategy Effective duplicate management has three components: 1. Prevention: Stop new duplicates from being created 2. Detection: Find existing duplicates 3. Resolution: Merge or manage duplicate records Most organizations jump to resolution (cleaning up the mess) without addressing prevention (stopping new messes). This creates an endless cleanup cycle. Start with prevention. Part 1: Prevention with Duplicate Rules Salesforce's native Duplicate Management uses two components: Matching Rules: Define what \"duplicate\" means for each object. Which fields should match? How fuzzy should the matching be? Duplicate Rules: Define what happens when a match is found. Alert the user? Block the save? Allow but report? Setting Up Matching Rules Navigate to: Setup \u2192 Duplicate Management \u2192 Matching Rules Standard matching rules exist for Leads, Contacts, and Accounts. They're decent starting points but often need customization. Contact Matching Rule Example: Field | Matching Method Email | Exact First Name | Fuzzy: First Name Last Name | Fuzzy: Last Name Account Name | Fuzzy: Company Name The \"Fuzzy\" methods handle variations: \"Robert\" matches \"Bob,\" \"Smith\" matches \"Smyth.\" Matching Rule Logic: Most rules use \"OR\" logic: match if Email matches OR if (First Name AND Last Name AND Account) match. This catches duplicates even when email addresses differ. Setting Up Duplicate Rules Navigate to: Setup \u2192 Duplicate Management \u2192 Duplicate Rules For each rule, define: When does the rule run? \u2022 On create only \u2022 On create and edit What action to take? \u2022 Allow with alert (user sees warning, can save anyway) \u2022 Block (user cannot save) \u2022 Report (creates duplicate record set for admin review) Alert behavior: \u2022 What message does the user see? \u2022 What fields appear in the duplicate comparison? My Recommended Configuration For Leads: \u2022 Matching: Email exact OR (First Name fuzzy + Last Name fuzzy + Company fuzzy) \u2022 Action: Alert on create, allow save \u2022 Report: Yes For Contacts: \u2022 Matching: Email exact OR (First Name fuzzy + Last Name fuzzy + Account match) \u2022 Action: Alert on create and edit, allow save \u2022 Report: Yes For Accounts: \u2022 Matching: Company name fuzzy + (Billing City OR Website domain) \u2022 Action: Alert on create, allow save \u2022 Report: Yes I rarely recommend \"Block\" because it frustrates users and they'll find workarounds. \"Alert\" educates users while still flagging duplicates for review. Part 2: Detection with Reports and Tools Duplicate rules catch new duplicates. You still need to find existing ones. Native Detection: Duplicate Record Sets When duplicate rules run and find matches, they create Duplicate Record Sets. Review these regularly: Navigate to: Setup \u2192 Duplicate Management \u2192 Duplicate Record Sets This shows every duplicate pair your rules have detected. Prioritize by: \u2022 Record count (larger sets = more duplicates to merge) \u2022 Object type (Accounts typically matter more than Leads) \u2022 Created date (older sets may need immediate attention) Report-Based Detection Create reports to find potential duplicates your rules might miss: Same Email, Different Records: Object: ContactsColumns: Email, Name, Account, Created DateFilter: Email is not blankGroup By: EmailShow CountFilter Groups: Count > 1 Same Company Name Variations: Object: AccountsColumns: Name, Billing City, WebsiteSort By: NameReview manually for variations Same Phone Number: Object: ContactsColumns: Phone, Name, AccountFilter: Phone is not blankGroup By: PhoneFilter Groups: Count > 1 Third-Party Detection Tools For large orgs or complex matching, consider AppExchange tools: \u2022 Cloudingo: Mass deduplication with advanced matching \u2022 DemandTools: Enterprise-grade data management suite \u2022 Duplicate Check (Plauti): Real-time and batch duplicate management These tools offer matching algorithms more sophisticated than native rules and handle bulk merging that's tedious to do manually. Part 3: Resolution Through Merging Once you've found duplicates, you need to merge them. Manual Merging: The Native Approach For Accounts: 1. Go to the Account you want to keep (the \"master\") 2. Click \"Merge Accounts\" from the action menu 3. Search for duplicate Accounts 4. Select which fields to keep from each record 5. Merge For Contacts: 1. Go to the Contact you want to keep 2. Click \"Merge Contacts\" from the action menu 3. Search for duplicates (must be in same Account) 4. Select field values 5. Merge For Leads: 1. Navigate to the Leads tab 2. Select duplicate Leads from a list view 3. Click \"Merge Leads\" 4. Select field values 5. Merge Merge Considerations When merging, you're choosing which record becomes the \"master\" and which values survive: Keep the most complete record. The record with more populated fields usually becomes master. Keep the oldest record. Preserves historical Created Date and sometimes matters for reporting. Keep the record with more relationships. The record with more Activities, Opportunities, or related records often has richer history. Check before deleting. Merging deletes the non-master record. Related records typically transfer to the master, but verify. Bulk Merging Native Salesforce limits you to merging 3 records at a time. For large duplicate sets, use: Apex: Account master = [SELECT Id FROM Account WHERE Id = :masterId];List<Account> duplicates = [SELECT Id FROM Account WHERE Id IN :duplicateIds];Database.merge(master, duplicates); Data Loader: For truly large volumes, some organizations export, transform, and re-import rather than merging. This is more complex but handles thousands of records. Third-Party Tools: Cloudingo and similar tools excel at bulk merging with field-by-field control. Building a Duplicate Management Routine Duplicate management isn't a one-time project. Build it into your regular admin work: Weekly: \u2022 Review Duplicate Record Sets created in the past week \u2022 Merge high-priority duplicates (Accounts, key Contacts) Monthly: \u2022 Run duplicate detection reports \u2022 Review and tune matching rules if false positives are high \u2022 Train users who create the most duplicates Quarterly: \u2022 Audit duplicate prevention effectiveness \u2022 Run bulk detection on objects not covered by real-time rules \u2022 Review third-party data sources for duplicate contribution Annually: \u2022 Deep clean: Comprehensive duplicate sweep across all objects \u2022 Rule review: Are matching rules still appropriate? \u2022 Tool assessment: Do you need better tools? Special Cases Duplicates Across Objects Lead-to-Contact duplicates are common. A Lead converts, but a Contact with the same email already exists. Prevention: Check for existing Contacts before Lead conversion Detection: Cross-object reports comparing Lead and Contact emails Resolution: Convert Lead without creating Contact, link to existing record Intentional Duplicates Sometimes \"duplicates\" are legitimate: \u2022 Same person, different roles at different companies \u2022 Parent/child Account with same name \u2022 Contact who moved companies but you want history at both Handle these with: \u2022 Custom fields to flag \"known duplicate, intentional\" \u2022 Exclusions in your duplicate rules \u2022 Documentation of why they're separate records Duplicates from Integrations Integrations are often the biggest duplicate source. Prevent by: \u2022 Requiring External ID matching before creating records \u2022 Upsert operations instead of insert \u2022 Integration-specific duplicate rules \u2022 Syncing with duplicate detection before commit Measuring Success Track duplicate management effectiveness: Duplicate Creation Rate: \u2022 New duplicate record sets per week \u2022 Trend should decline after implementing prevention Duplicate Inventory: \u2022 Total unresolved duplicates \u2022 Should decrease over time Resolution Velocity: \u2022 Duplicates merged per week \u2022 Should exceed creation rate User Behavior: \u2022 Which users create the most duplicates? \u2022 Are alerts changing behavior? Build a simple dashboard with these metrics. Review monthly. The Checklist Before you consider duplicate management \"done\": Prevention: \u2022 [ ] Matching rules configured for Leads, Contacts, Accounts \u2022 [ ] Duplicate rules active with appropriate actions \u2022 [ ] Users trained on duplicate warnings \u2022 [ ] Integration sources configured for deduplication Detection: \u2022 [ ] Duplicate Record Sets reviewed regularly \u2022 [ ] Detection reports scheduled \u2022 [ ] Historical data scanned for existing duplicates Resolution: \u2022 [ ] Merge process documented \u2022 [ ] High-priority duplicates resolved \u2022 [ ] Ongoing merge routine established Monitoring: \u2022 [ ] Metrics tracked \u2022 [ ] Dashboard available \u2022 [ ] Quarterly review scheduled Next Steps 1. Activate standard matching and duplicate rules (they're off by default) 2. Run duplicate detection reports on your highest-value objects 3. Merge the worst offenders first 4. Establish a weekly review routine 5. Train users on duplicate prevention If your duplicate situation is severe (more than 10% of records), consider bringing in help. Clear Concise Consulting offers data quality assessments and bulk deduplication services. Sometimes a concentrated cleanup effort gets you to a maintainable state faster than incremental work. Jeremy Carmona is a 13x certified Salesforce Architect who has cleaned up duplicate databases for nonprofits, healthcare systems, and enterprise organizations. His largest deduplication project reduced a 50,700-record database to 34,200 clean records. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Salesforce Job Description Templates: Stop Losing Qualified Candidates Next Next Salesforce Certification Decoder: What Recruiters Must Know",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+   "text": "running their annual giving campaign based on inflated numbers"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+   "text": "Understanding the sources helps you prevent future problems:"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance",
+   "text": "a concentrated cleanup effort"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+   "text": "PreviousPreviousSalesforce Job Description Templates: Stop Losing Qualified Candidates"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-certification-decoder-for-recruiters",
+   "text": "NextNextSalesforce Certification Decoder: What Recruiters Must Know"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/f0959381-749a-499b-a731-f49f64ed684b/03_duplicate_management_guide.png",
+   "alt": "Overlapping circles merging into one representing Salesforce duplicate record management",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Duplicate Management: Complete Admin Guide (2026) | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+   "datePublished": "2026-03-24T07:39:23-0400",
+   "dateModified": "2026-06-06T03:29:41-0400",
+   "headline": "The Admin's Guide to Salesforce Duplicate Management",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04637bff5380000ae33bc/1773159991794/03_duplicate_management_guide.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,276 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:56 GMT",
+  "Etag": "W/\"1fe0dbc7930b21302fa92d39f77d7b71--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "OkLD5cGs/HuAkudmd",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Einstein Trust Layer: What It Protects and What It Misses | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+  "og:type": "article",
+  "og:description": "Data masking, prompt defense, zero retention: what the Einstein Trust Layer covers, where it stops, and the checks to run before turning on AI features.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69d58065ccd65b7f9d0bb463/1788137396802/og_article_einstein_trust_layer.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Einstein Trust Layer: What It Protects and What It Misses | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69d58065ccd65b7f9d0bb463/1788137396802/og_article_einstein_trust_layer.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+  "twitter:card": "summary",
+  "twitter:description": "Data masking, prompt defense, zero retention: what the Einstein Trust Layer covers, where it stops, and the checks to run before turning on AI features.",
+  "description": "Data masking, prompt defense, zero retention: what the Einstein Trust Layer covers, where it stops, and the checks to run before turning on AI features.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Einstein Trust Layer: What It Protects and What It Misses | Clear Concise Consulting",
+ "description": "Data masking, prompt defense, zero retention: what the Einstein Trust Layer covers, where it stops, and the checks to run before turning on AI features.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+ "h1_tags": [
+  "What Is the Salesforce Einstein Trust Layer?"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "What Is the Salesforce Einstein Trust Layer?"
+  },
+  {
+   "level": 2,
+   "text": "Why does the Trust Layer exist?"
+  },
+  {
+   "level": 2,
+   "text": "What are the components of the Trust Layer?"
+  },
+  {
+   "level": 2,
+   "text": "How does the Trust Layer interact with existing Salesforce security?"
+  },
+  {
+   "level": 2,
+   "text": "What should I check before relying on the Trust Layer?"
+  },
+  {
+   "level": 2,
+   "text": "Does the Trust Layer apply to Agentforce?"
+  },
+  {
+   "level": 2,
+   "text": "What do the Trust Layer's prompt defense guardrails protect against?"
+  },
+  {
+   "level": 2,
+   "text": "What helps Agentforce protect company data and detect toxicity?"
+  },
+  {
+   "level": 2,
+   "text": "Official Salesforce references"
+  },
+  {
+   "level": 2,
+   "text": "Is the Trust Layer enough for AI governance?"
+  },
+  {
+   "level": 2,
+   "text": "The Sandbox That Time Forgot: Why Your Test Environment Is Lying to You"
+  },
+  {
+   "level": 2,
+   "text": "The Report Nobody Trusts: Why Your Leadership Team Stopped Looking at Dashboards"
+  }
+ ],
+ "word_count": 1489,
+ "text_content": "Einstein Trust Layer: What It Protects and What It Misses | Clear Concise Consulting 0 What Is the Salesforce Einstein Trust Layer? Apr 13 Written By Jeremy Carmona The Einstein Trust Layer is Salesforce's security architecture for supported generative AI and Agentforce features. It helps control how those features retrieve Salesforce data, send prompts to models, and return responses, with safeguards that include permission-aware grounding, prompt defense, toxicity detection, zero-data-retention commitments with external model providers, and audit or feedback signals when configured. If your organization uses a supported Salesforce generative AI or Agentforce feature, the Trust Layer is the architecture that shapes what the AI can access and how the interaction is protected. The linked article is CCC's implementation checklist for administrators. Why does the Trust Layer exist? Salesforce AI features access real customer data. When Einstein generates a sales email, it reads Contact records, Opportunity histories, and Activity logs. When Agentforce answers a customer question, it pulls from Knowledge articles, Case histories, and Account details. Without guardrails, an AI model could expose PII in a generated response, hallucinate a policy that does not exist, or surface data that the current user does not have permission to see. The Trust Layer exists to prevent three specific failures: Data leakage. An AI response that includes Social Security numbers, credit card data, or health information that should be masked . Prompt injection. A user or external input that tricks the AI into ignoring its instructions and returning unauthorized data. Unaudited decisions. An AI-generated recommendation or action that no one can trace, review, or reverse. Traditional Salesforce security (Profiles, Permission Sets, Sharing Rules, Field-Level Security) controls what a human user can see. The Trust Layer extends that same principle to what an AI model can see and say. What are the components of the Trust Layer? The Trust Layer includes several controls that work together: Secure Data Retrieval. Before supported CRM data is added to a prompt, secure retrieval checks the executing user's Salesforce permissions. The model should receive only the records and fields that the running context can access. Grounding and zero data retention are separate controls: grounding supplies relevant CRM context, while Salesforce's external model-provider agreements prohibit those providers from retaining customer data. Dynamic Grounding. Supported features can add relevant Salesforce context to a prompt so the response reflects business data instead of relying only on general model knowledge. Grounding can improve relevance, but it does not correct incomplete records, unsafe permissions, or poorly scoped instructions. Data Masking. For supported direct generative AI flows, the Trust Layer can mask sensitive information before a prompt is sent to a model. Important Agentforce limitation: Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent. Least-privilege permissions and tightly scoped agent actions therefore remain essential. Prompt Defense. The Trust Layer adds system policies designed to reduce jailbreaking and prompt-injection attacks. These guardrails help the model reject unsupported or malicious instructions, but they do not replace permission design, security testing, or monitoring. Toxicity Detection. Supported responses can be evaluated for toxic content so teams have an additional safety signal to review and act on. Audit and Feedback Data. When data collection and storage are enabled, Salesforce can capture audit and feedback signals and map them into Data 360 for review. Do not assume that every AI interaction is automatically or permanently logged; administrators must verify the configuration, retention, and review process. How does the Trust Layer interact with existing Salesforce security? The Trust Layer does not replace your existing security model. It adds a second layer on top of it. The relationship works like this: Layer 1 (Salesforce standard security): Profiles, Permission Sets, Sharing Rules, and Field-Level Security determine what a user can see and do in the Salesforce UI. Layer 2 (Trust Layer): When that same user triggers a supported generative AI feature, the Trust Layer applies the controls available for that feature. Permission-aware retrieval, prompt defense, masking where supported, toxicity signals, and configured audit or feedback collection do not all behave identically in every Einstein and Agentforce pathway. If your Field-Level Security is misconfigured, the Trust Layer inherits those misconfigurations. A user with read access to a Social Security Number field will have that data included in AI prompts unless you configure masking rules separately. The Trust Layer is only as strong as the security model underneath it. This is why CCC recommends a security audit before enabling any AI features. Fixing your Permission Sets and Field-Level Security after AI is live is reactive. Fixing them before is preventive. What should I check before relying on the Trust Layer? Five checks before turning on any AI feature: Field-Level Security audit. Review every field on every object that AI will access. Identify sensitive fields (PII, financial data, health records) and confirm they are restricted to the appropriate Permission Sets. Any field a user can read, the AI can read. Data completeness assessment. AI trained on incomplete data produces incomplete results. If 40% of your Contact records are missing email addresses, Einstein's email recommendations will be based on a partial picture. Run a data completeness audit before enabling AI features. Sharing model review. If your org-wide defaults are set to Public Read/Write, every AI feature has access to every record. Tighten your sharing model before enabling AI, not after. Masking configuration. Identify which fields should be masked in supported direct generative AI prompts. Social Security numbers, dates of birth, financial account numbers, and health diagnoses are common candidates. For Agentforce, do not assume that prompt-template masking applies when the template is invoked through an agent. Audit and feedback setup. Confirm whether collection and storage are enabled, what data is retained, where it is available for review, and who owns the review cadence. Collection without review is just storage. Does the Trust Layer apply to Agentforce? Yes. Agentforce uses the Einstein Trust Layer, but not every control behaves the same way when a prompt template runs through an agent. Permission-aware retrieval, prompt-defense policies, toxicity controls, and zero-data-retention commitments with external model providers still apply where supported. Important limitation: Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent. The same prompt template used directly can apply masking according to its Trust Layer configuration. For Agentforce, administrators still need least-privilege permissions, tightly scoped actions, testing, monitoring, and human review. What do the Trust Layer's prompt defense guardrails protect against? Prompt defense helps reduce jailbreaking and prompt-injection attacks by adding system policies that tell the model how to handle unsupported or malicious instructions. It lowers risk; it does not replace least-privilege permissions, security testing, or monitoring. What helps Agentforce protect company data and detect toxicity? Agentforce relies on the Einstein Trust Layer's permission-aware retrieval, zero-data-retention commitments with external model providers, prompt-defense policies, toxicity detection, and audit or feedback signals when configured. These controls work together, but administrators still must configure access, actions, testing, monitoring, and review correctly. Official Salesforce references Einstein Generative AI and Agentforce Trust Layer architecture LLM data masking limitations for Agentforce Einstein Generative AI audit and feedback data Is the Trust Layer enough for AI governance? No. The Trust Layer is a technical safeguard, not a governance program . It handles the \"how\" of AI security. It does not handle: Who decides which AI features to enable. That is an organizational decision that requires clear ownership. What review process exists for AI outputs before they reach customers. The Trust Layer logs interactions, but someone needs to review those logs and act on findings. When AI outputs should be overridden by a human. The Trust Layer does not define your escalation policy. It provides the data you need to build one. How often AI performance is reviewed. The Trust Layer records data. A governance program defines the review cadence, the metrics that matter, and the thresholds for intervention. A complete AI governance program includes the Trust Layer as its technical foundation, plus policies for ownership, review cycles, escalation procedures, and performance monitoring. CCC's AI Governance service builds this full framework. Jeremy Carmona is a 13x certified Salesforce Architect and founder of Clear Concise Consulting. He teaches Salesforce Administration at NYU Tandon and has published in Salesforce Ben on AI governance and data quality. Take the free AI Readiness Scorecard at clearconciseconsulting.com/scorecard. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Sandbox That Time Forgot: Why Your Test Environment Is Lying to You Next Next The Report Nobody Trusts: Why Your Leadership Team Stopped Looking at Dashboards",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+   "text": "the Trust Layer is the architecture"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+   "text": "Agentforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+   "text": "health information that should be masked"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "a governance program"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-sandbox-management",
+   "text": "PreviousPreviousThe Sandbox That Time Forgot: Why Your Test Environment Is Lying to You"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-reports-data-quality",
+   "text": "NextNextThe Report Nobody Trusts: Why Your Leadership Team Stopped Looking at Dashboards"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&language=en_US",
+   "text": "Einstein Generative AI and Agentforce Trust Layer architecture"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.agent_trust_data_masking.htm&language=en_US",
+   "text": "LLM data masking limitations for Agentforce"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_feedback.htm&language=en_US&type=5",
+   "text": "Einstein Generative AI audit and feedback data"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1776085511221-8CUD3Y9LG4ZCQV3HXMM8/og_article_einstein_trust_layer.jpg",
+   "alt": "",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Einstein Trust Layer: What It Protects and What It Misses | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+   "datePublished": "2026-04-13T09:06:01-0400",
+   "dateModified": "2026-08-30T20:49:56-0400",
+   "headline": "What Is the Salesforce Einstein Trust Layer?",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69d58065ccd65b7f9d0bb463/1788137396802/og_article_einstein_trust_layer.jpg?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -10,5 +10,7 @@
 | Footer JS (H1 rewrite) | Remove the script block | minutes | script text |
 | Crawler toggle | Flip back; robots.txt regenerates | minutes plus recrawl | robots.txt before/after |
 | Index removals | Cancel the temporary removal in GSC/Bing | hours to days | removal request IDs |
+| Scorecard instrument (GitHub Pages, ccc-artifacts repository) | git revert of the commit that changed ccc-ai-readiness-scorecard.html; Pages redeploys | minutes | commit hash before/after |
+| Squarespace Business Information (native schema source) | Re-enter the previous address, hours, and social links | minutes | screenshot of the settings page before the change |
 
-No change in this workspace has been applied, so nothing currently needs rollback.
+No change in this workspace has been applied, so nothing currently needs rollback. The before-state of every fetched page is in evidence/crawl/ (raw HTML and parsed JSON, 2026-09-27).

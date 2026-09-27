@@ -1,0 +1,256 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:12 GMT",
+  "Etag": "W/\"b4072912be685b183435840b20a81b88--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "smhBDFuN/aIkekit8",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Admin vs. Consultant vs. Architect for Recruiters | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+  "og:type": "article",
+  "og:description": "Four Salesforce role tiers at four price points. What each role does daily, salary ranges, when to present one tier for another, and how to spot inflated titles.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69b1cd9db360391f83897add/1775057819450/08_admin_vs_consultant_architect.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Admin vs. Consultant vs. Architect for Recruiters | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69b1cd9db360391f83897add/1775057819450/08_admin_vs_consultant_architect.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+  "twitter:card": "summary",
+  "twitter:description": "Four Salesforce role tiers at four price points. What each role does daily, salary ranges, when to present one tier for another, and how to spot inflated titles.",
+  "description": "Four Salesforce role tiers at four price points. What each role does daily, salary ranges, when to present one tier for another, and how to spot inflated titles.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Admin vs. Consultant vs. Architect for Recruiters | Clear Concise Consulting",
+ "description": "Four Salesforce role tiers at four price points. What each role does daily, salary ranges, when to present one tier for another, and how to spot inflated titles.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+ "h1_tags": [
+  "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know"
+  },
+  {
+   "level": 2,
+   "text": "The Four Tiers"
+  },
+  {
+   "level": 2,
+   "text": "What Each Role Touches Daily"
+  },
+  {
+   "level": 2,
+   "text": "Task Complexity by Role"
+  },
+  {
+   "level": 2,
+   "text": "When to Present Up or Down"
+  },
+  {
+   "level": 2,
+   "text": "How to Tell If Someone Is Lying About Their Role Level"
+  },
+  {
+   "level": 2,
+   "text": "Quick Reference"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Certification Decoder: What Recruiters Must Know"
+  },
+  {
+   "level": 2,
+   "text": "How to Know If Your Candidate Actually Knows Nonprofit Cloud"
+  }
+ ],
+ "word_count": 949,
+ "text_content": "Salesforce Admin vs. Consultant vs. Architect for Recruiters | Clear Concise Consulting 0 Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know Career Development Mar 23 Written By Jeremy Carmona A recruiter presented me for a \"Senior Admin\" role last month. I am a 13x certified Architect. The salary was $40K below my range. The job involved resetting passwords and running reports. This happens constantly. Not because recruiters are malicious. Nobody taught them that \"Salesforce professional\" covers at least four completely different roles at four completely different price points, solving four completely different kinds of problems. Here is the breakdown that should have existed years ago. The Four Tiers Administrator ($70K-$110K, 1-5 years typical): Configures the platform using clicks, not code. Manages users, security, reports, dashboards, and automations (Flows). Day-to-day operators. They answer: \"How do I build this in Salesforce?\" Developer ($100K-$150K, 2-8 years typical): Writes custom code: Apex, Lightning Web Components, Visualforce, API integrations. Builds what configuration cannot. They answer: \"How do I code this for Salesforce?\" Consultant ($100K-$140K, 3-8 years typical): Gathers business requirements, designs solutions, manages implementations. Sits between business stakeholders and technical teams. Needs both technical depth and communication skills. They answer: \"What should we build and why?\" Architect ($140K-$200K+, 5-15 years typical): Designs overall technical strategy across entire Salesforce environments. Data models, integration patterns, security architecture, platform governance. They answer: \"How should the whole system work together?\" What Each Role Touches Daily Admins live in Setup: Flow Builder, Report Builder, Data Loader, user management. Their output is configured features, reports, and Flows. They talk to end users and managers. Developers live in VS Code: Apex classes, triggers, LWC components, test classes, GitHub. Their output is custom code, API integrations, and deployed packages. They talk to other developers and tech leads. Consultants live in documents: Google Docs, Lucidchart, Jira, presentations. Their output is functional specs, solution designs, and training materials. They talk to business stakeholders and project managers. Architects live in diagrams: ERD tools, integration architecture documents, governance frameworks. Their output is architecture decisions, data models, and technical strategy. They talk to CTOs, project sponsors, and vendor teams. Task Complexity by Role Simple work: Admin handles user setup and reports. Consultant documents requirements. Architect reviews existing architecture. Moderate work: Admin builds Flows and approval processes. Consultant leads discovery sessions and writes specs. Architect designs data models for new features. Complex work: Admin builds multi-object Flows with error handling. Consultant runs full lifecycle implementations with change management. Architect creates multi-org strategy and enterprise integration architecture. Do not assign: Admins should not write custom code or design system architecture. Consultants should not write Apex. Architects should not handle day-to-day configuration or user support. Misassigning complexity is how projects fail and placements go bad. When to Present Up or Down Admin for Consultant role: Works if 3+ years, client-facing experience, and demonstrated requirements gathering skills. Does not work if the candidate has only done internal admin work. Consultant for Architect role: Works if 5+ years, multi-org experience, and integration or data model design. Does not work with only single-org implementations. Developer for Consultant role: Rarely works. Developers and consultants solve different types of problems with different skill sets. Strong communication skills in a developer are the exception. Architect for Consultant role: Works if the candidate wants to step back (lifestyle change, travel reduction). Architecture skills translate downward cleanly. Expect pushback on rate. How to Tell If Someone Is Lying About Their Role Level For Admin candidates: \"What happens when you deploy a Flow from sandbox to production?\" Real: Describes change set or Salesforce DX deployment. Notes Flow must be activated separately in production. Mentions checking for conflicting automations. Fabricated: Cannot describe the deployment process, or says \"I built everything directly in production.\" Building in production signals no professional deployment standards. For Consultant candidates: \"Walk me through a discovery session you led.\" Real: Describes specific questions asked: business problem, users, current process, success criteria. Names the stakeholders and the deliverable (requirements doc, process map, user stories). Fabricated: \"I gathered requirements\" without describing the process, the questions, or the output. Consultants who have led discovery can reconstruct the conversation. Those who only observed cannot. For Architect candidates: \"You inherit an org with 400 custom objects and 200 Flows. Where do you start?\" Real: Systematic assessment: audit automation inventory, map object relationships, identify technical debt, review governor limit usage, assess security model. Prioritizes risk (what could break) before optimization (what could be better). Fabricated: \"I would clean it up\" or \"I would start rebuilding.\" An architect does not start building. An architect starts assessing. The instinct to understand before acting is what separates architects from everyone else. Quick Reference Admin Developer Consultant Architect Salary $70-110K $100-150K $100-140K $140-200K+ Key Cert Admin/Adv Admin Platform Dev I/II Cloud Consultant Architect certs Client-Facing? Sometimes Rarely Always Always Codes? No Yes Sometimes Sometimes Designs Systems? No No Partially Yes Part 8 of a 10-part series . Previously: Nonprofit Cloud Screening Guide . Next: Certification Decoder Jeremy Carmona is a 13x Salesforce certified architect, founder of Clear Concise Consulting, and adjunct instructor at NYU Tandon School of Engineering. Free Download of Salesforce Admin vs. Consultant vs. Architect Guide Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Salesforce Certification Decoder: What Recruiters Must Know Next Next How to Know If Your Candidate Actually Knows Nonprofit Cloud",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Career+Development",
+   "text": "Career Development"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/s/Guide_08_Admin_vs_Consultant_vs_Architect.pdf",
+   "text": "Salesforce Admin vs. Consultant vs. Architect Guide"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-certification-decoder-for-recruiters",
+   "text": "PreviousPreviousSalesforce Certification Decoder: What Recruiters Must Know"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+   "text": "NextNextHow to Know If Your Candidate Actually Knows Nonprofit Cloud"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "http:///blog/salesforce-for-recruiters",
+   "text": "10-part series"
+  },
+  {
+   "url": "http:///blog/nonprofit-cloud-screening-guide-for-recruiters",
+   "text": "Nonprofit Cloud Screening Guide"
+  },
+  {
+   "url": "http:///blog/salesforce-certification-decoder-for-recruiters",
+   "text": "Certification Decoder"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/4990c837-592e-4eec-854d-af06fe93b06f/08_admin_vs_consultant_architect.png",
+   "alt": "",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Admin vs. Consultant vs. Architect for Recruiters | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+   "datePublished": "2026-03-23T18:11:49-0400",
+   "dateModified": "2026-04-01T11:36:59-0400",
+   "headline": "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69b1cd9db360391f83897add/1775057819450/08_admin_vs_consultant_architect.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

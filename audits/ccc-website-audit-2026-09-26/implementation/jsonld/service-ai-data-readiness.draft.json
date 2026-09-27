@@ -1,14 +1,15 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.clearconciseconsulting.com/services/salesforce-ai-data-preparation#service",
+  "@id": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment#service",
   "name": "Salesforce AI Data Readiness Assessment",
-  "serviceType": "Salesforce AI data readiness assessment",
-  "description": "A fixed-scope review of the data, permissions, and automation a Salesforce AI feature will depend on, completed before go-live. Covers data quality, field-level access, automation maturity, and integration risk, and produces a documented list of gaps and the order to fix them.",
+  "serviceType": "Salesforce AI data readiness and governance assessment",
+  "description": "A fixed-scope review of the data, permissions, automation, integrations, documentation, and human oversight controls a Salesforce AI or Agentforce initiative will depend on, completed before go-live. Produces a documented list of gaps and the order to fix them.",
   "provider": {
     "@id": "https://www.clearconciseconsulting.com/#organization"
   },
-  "url": "https://www.clearconciseconsulting.com/services/salesforce-ai-data-preparation",
+  "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+  "areaServed": "United States",
   "audience": {
     "@type": "BusinessAudience",
     "name": "Nonprofit, government, healthcare, and enterprise organizations running Salesforce"

@@ -1,60 +1,69 @@
-# RUN-STATUS: CCC website audit, 2026-09-26
+# RUN-STATUS: CCC website audit, 2026-09-26 (pass 1) and 2026-09-27 (pass 2)
 
 ## Identity
 - Target: https://www.clearconciseconsulting.com/
-- Toolkit: https://github.com/clear-concise-carmona/ccc-geo-SEO-v1, branch claude/ccc-website-seo-geo-audit-a4t65i, commit 383829485f8620e7ca20a333e16db023644f5545 (evidence/toolkit-revision.txt). The fork was used as specified; no upstream update or install script was executed.
-- Mode: AUDIT_AND_DRAFT. No website change was applied. No content was published. No live form, booking, or message was sent.
-- Workspace: /home/user/ccc-website-audit-2026-09-26 (outside the toolkit repo). A copy is committed under audits/ccc-website-audit-2026-09-26/ on the branch above so it survives the ephemeral session; the two were identical at commit time. The toolkit's own code and docs were not modified.
-- Run window (UTC): 2026-09-26 08:59 to about 09:40.
+- Toolkit: https://github.com/clear-concise-carmona/ccc-geo-SEO-v1, branch claude/ccc-website-seo-geo-audit-a4t65i, commit 383829485f8620e7ca20a333e16db023644f5545 (evidence/toolkit-revision.txt), unchanged across both passes. The fork was used as specified; no upstream update or install script was executed; toolkit code, docs, tests, and installers were not modified.
+- Mode: AUDIT_AND_DRAFT. No website change was applied. No content was published. No live form, booking, or message was sent. No test lead was created.
+- Workspace: audits/ccc-website-audit-2026-09-26/ on the branch above. Pass 2 worked directly in this committed copy; the pass-1 copy outside the repo (/home/user/ccc-website-audit-2026-09-26) was not updated and is superseded.
+- Run windows (UTC): pass 1, 2026-09-26 08:59 to about 09:40; pass 2, 2026-09-27 17:27 to about 18:45.
 
 ## Environment and tools
-- Git state at start: clean working tree; branch already existed on origin; HEAD as above.
-- Python 3.11.15; toolkit requirements installed into an isolated venv in the session scratchpad (uv). Toolkit tests: 14 passed (pytest, evidence/toolkit-revision.txt context).
-- Tools used: WebSearch (28 queries, evidence/search-results/), WebFetch (1 success: GitHub README; 12 hosts denied), curl (proxy status, denial confirmation), toolkit fetch_page.py (imported by the crawler; validated on a local fixture only, EV-037).
-- Tools not run against the target: fetch_page.py, citability_scorer.py, brand_scanner.py, llmstxt_generator.py, Playwright rendering, Lighthouse, `/geo audit`. Reason: network policy.
+- Pass 1: WebSearch (28 queries), one WebFetch (GitHub README), curl for proxy status. Target host, Squarespace built-in domain, archive.org, and every corroboration host were denied by the environment network policy (EV-001).
+- Pass 2: the owner changed the environment's network access to Custom allowed domains. Target hosts became reachable (EV-040). pypi.org and files.pythonhosted.org were denied (x-deny-reason: host_not_allowed), so the toolkit requirements were installed offline from the local uv cache into .venv (beautifulsoup4, requests 2.34.2, lxml 6.1.3, playwright 1.63.0 package only; no browser run). Toolkit tests: 14 passed (pytest 9.1.1, also installed offline). web.archive.org: connection reset by the relay twice; not used. www.salesforceben.com: HTTP 403 from the origin; not retried. developers.google.com and schema.org: reachable; used for EV-043.
+- Tools run against the target in pass 2: evidence/tools/ccc_bounded_crawl.py (toolkit fetch_page, fetch_robots_txt, crawl_sitemap); curl HEAD probes (20 URLs); the toolkit's citability_scorer.py run against the saved HTML through a local HTTP server, so no page was fetched twice.
+- Not run: `/geo audit` (skills not installed; the brief bars overwriting Claude skills without approval), Playwright rendering, Lighthouse, brand_scanner.py (Reddit, YouTube, Wikipedia not allowlisted), llmstxt_generator.py (llms.txt already exists and was read directly).
+- Request accounting for pass 2 against CCC-owned hosts: 50 GET (crawler, one per URL, 1.0 s apart) plus 20 HEAD (1 s apart) = 70 requests; sequential; robots.txt honored; no 429 or 503.
 
-## Blocker (unchanged at end of run)
-The environment's network policy denied CONNECT to www.clearconciseconsulting.com and to every archive and corroboration host tried (evidence/network/blocked-hosts-EV-001.md). Nothing in this workspace is a live-site observation. Fix: in the Claude Code environment settings, allow www.clearconciseconsulting.com (and web.archive.org, archive.org, www.salesforceben.com, developers.google.com, schema.org), or raise the network access level. Then run the crawler (below).
+## Blocker status
+- Pass-1 blocker (target host denied) cleared on 2026-09-27.
+- Remaining constraints: (a) the 50-page cap was reached with 74 sitemap URLs unfetched, 10 of them non-blog pages; a second bounded pass needs owner authorization (ISS-035); (b) PyPI is denied, so a fresh container without the uv cache cannot install the requirements until the package-manager default list is re-enabled in the environment; (c) archive and Salesforce Ben corroboration remain impossible from this environment.
 
 ## Completed
-1. Environment and toolkit inspection; docs read (CLAUDE.md, README, geo/SKILL.md, commands reference, scoring methodology, geo-audit, geo-technical, geo-schema, geo-content, geo-citability, geo-crawlers, geo-llmstxt, geo-brand-mentions, geo-platform-optimizer skills; technical agent).
-2. Bounded discovery from the search index: 44 first-party URLs across three hosts (URL-INVENTORY.csv).
-3. Business-claims inventory: 44 claims classified (BUSINESS-CLAIMS-INVENTORY.csv).
-4. Canonical facts register with 27 facts and 8 owner decisions (CANONICAL-BUSINESS-FACTS.md).
-5. Entity map with verified relationships and sameAs target list (ENTITY-MAP.md).
-6. Query-page map, 20 topics (QUERY-PAGE-MAP.csv).
-7. Prioritized backlog, 27 items (PRIORITIZED-BACKLOG.csv).
-8. Five page packages (PAGE-IMPROVEMENTS.md).
-9. Measurement plan and 30/60/90 roadmap (MEASUREMENT-AND-ROADMAP.md).
-10. Implementation drafts: metadata, JSON-LD (syntax-validated), Squarespace instructions, redirects, rollback, form test plan (implementation/).
-11. Evidence folder with search results, network denial log, GitHub fetch, toolkit revision, crawler and fixture test (evidence/).
-12. Audit report (GEO-AUDIT-REPORT.md).
+Pass 1 (2026-09-26): toolkit inspection; index-based discovery (44 URLs); claims inventory (44); facts register (27 facts); entity map; query-page map (20); backlog (27); five page packages; measurement plan; implementation drafts; evidence folder; report.
+
+Pass 2 (2026-09-27):
+13. Live bounded crawl: 50 URLs (38 HTML 200, 2 HTML 404, robots.txt, sitemap.xml, llms.txt, 10 sitemap-discovered posts); EV-038; evidence/crawl/.
+14. HEAD status probes: 20 URLs (non-www, built-in domain, canonical assessment URL, owner-reported redirect sources, /home, llms.txt targets); EV-039, EV-043.
+15. URL-INVENTORY.csv rebuilt: 132 rows (47 FETCHED, 1 FETCHED_VIA_REDIRECT, 1 REDIRECTED_TO_CANONICAL, 2 HTTP_404, 2 REDIRECT_OBSERVED_HEAD, 6 HEAD_ONLY, 73 DISCOVERED_IN_SITEMAP_NOT_FETCHED), with live titles, descriptions, H1s, schema types, indexability signals, and CTAs.
+16. BUSINESS-CLAIMS-INVENTORY.csv: 52 claims (30 rows updated with live evidence; CLM-045 to CLM-052 added).
+17. PRIORITIZED-BACKLOG.csv: 38 items (ISS-027 to ISS-037 added; ISS-010, 013, 014, 017 resolved live; ISS-002, 003 downgraded to monitor; ISS-009, 019 raised to P1).
+18. CANONICAL-BUSINESS-FACTS.md: 31 facts; live verification dates; 9 owner decisions.
+19. ENTITY-MAP.md rebuilt from the deployed JSON-LD (three sameAs arrays, deployed @ids, profile set).
+20. PAGE-IMPROVEMENTS.md, implementation/metadata-drafts.md, MEASUREMENT-AND-ROADMAP.md, QUERY-PAGE-MAP.csv, and every implementation/ file updated to the live state.
+21. Citability heuristic on 45 saved pages (EV-042; evidence/citability/).
+22. Primary-source checks: schema.org type pages; Google Search Central FAQPage and HowTo documentation (EV-043).
+23. GEO-AUDIT-REPORT.md rewritten: 17 findings; five resolved-live items recorded.
 
 ## Not completed (and why)
-- Every live-site check listed in GEO-AUDIT-REPORT.md section 9 (network policy).
-- Composite GEO Score (inputs unavailable; not estimated).
-- Competitor page review beyond snippets (hosts blocked).
-- Brand-mention scan on Reddit/YouTube/Wikipedia (tool requires outbound fetches; not attempted against unverified hosts).
+- 10 non-blog and 64 blog sitemap URLs (50-page cap). Seeds for the second pass: evidence/tools/seeds-run2-priority.txt. Highest-value gap: /services/ai-governance (probable home of the $8,000 governance-assessment text) and the mirror homepage canonical.
+- Composite GEO Score (pipeline not run; not estimated; component observations in the report, section 4).
+- Rendering, Core Web Vitals, Lighthouse (no Playwright pass).
+- Built-in domain canonicals and content (HEAD only).
+- Third-party corroboration (Salesforce Ben, archive, Trailhead, NYU, BBB, LinkedIn).
+- Competitor page review beyond snippets; brand-mention scan.
 - Baseline analytics (no access provided).
 
 ## Assumptions recorded for owner review
-- A1: Business goals as stated in the brief (paid assessment inquiries primary; scorecard engagement secondary) are working assumptions.
-- A2: The CMS is Squarespace 7.1 (owner documentation, EV-032), not verified from HTML.
-- A3: /services/salesforce-ai-data-preparation is the most likely landing page for the paid assessment; unconfirmed.
-- A4: Owner-authored strategy documents (positioning, conversion, audience, Squarespace skills) represent current intent as of April to May 2026.
-- A5: Search-index titles reflect SEO titles at last crawl; snippets are weaker evidence and may blend sources.
-- A6: Committing a copy of the workspace to the toolkit fork's feature branch is acceptable for persistence and review; the owner may move it elsewhere.
+- A1: Business goals as stated in the brief (paid assessment inquiries primary; scorecard engagement secondary) remain working assumptions.
+- A2: RESOLVED. The CMS is Squarespace: `Server: Squarespace` response header, Squarespace robots.txt banner, squarespace-cdn asset hosts (EV-038).
+- A3: RESOLVED. The assessment landing page is https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment; the pass-1 candidate URL 301s to it.
+- A4: Owner strategy documents represent intent as of April to May 2026. Where they conflict with the live site (assessment price $8,000 vs $9,500), the live site is treated as current and the conflict is reported for decision.
+- A5: REVISED. Search-index titles lagged the live site by weeks; they are treated as historical observations, not current state.
+- A6: Committing the workspace to the toolkit fork's feature branch is acceptable for persistence and review; the owner may move it elsewhere.
+- A7: The 30-question scorecard text (CLM-012) was a search-tool artifact or a retired version; it appears on none of the 45 crawled pages.
+- A8: The suite-numbered Park Avenue South address published in the footer and schema reads like a mail-handling address. This is a hypothesis for the owner to confirm, not a finding.
 
 ## Approvals and decisions still required
-See CANONICAL-BUSINESS-FACTS.md "Owner decisions required" (8 items) and PRIORITIZED-BACKLOG.csv approval_status column. No change ID has been approved. IMPLEMENT_APPROVED_LOCALLY is not applicable (no website source files exist; Squarespace edits are made in the CMS).
+CANONICAL-BUSINESS-FACTS.md "Owner decisions required": 9 items. No change ID has been approved. IMPLEMENT_APPROVED_LOCALLY does not apply (no website source files; Squarespace edits are made in the CMS; the scorecard instrument lives in the owner's ccc-artifacts GitHub Pages repository, which was not modified).
+
+Two backlog items need no decision and can be fixed on sight: ISS-027 (six placeholder links on /terms-conditions) and the dated line in ISS-031 (/contact "Currently booking for Q3 2026").
 
 ## Resumable next action
-1. Owner: allow the host in the environment network settings (or run the crawler from a machine that can reach the site).
-2. Implementer: from the toolkit repo with requirements installed:
+1. Owner: authorize a second bounded pass of 10 pages (exceeds the 50-page audit cap by design; same limits otherwise), or accept the gap. Command from the toolkit repo root with the venv active:
    ```
-   cut -d, -f1 audits/ccc-website-audit-2026-09-26/URL-INVENTORY.csv | tail -n +2 | tr -d '"' | grep '^https://www' > seeds.txt
-   python3 audits/ccc-website-audit-2026-09-26/evidence/tools/ccc_bounded_crawl.py --toolkit . --seeds seeds.txt --out audits/ccc-website-audit-2026-09-26/evidence/crawl
+   python3 audits/ccc-website-audit-2026-09-26/evidence/tools/ccc_bounded_crawl.py --toolkit . --seeds audits/ccc-website-audit-2026-09-26/evidence/tools/seeds-run2-priority.txt --out audits/ccc-website-audit-2026-09-26/evidence/crawl-run2 --max-pages 10
    ```
-   Then: replace URL-INVENTORY.csv rows with evidence/crawl/url-inventory-observed.csv values; re-run the findings that depend on HTML (F-02 attribution, F-03 status codes, F-04 live title, F-06 deployed schema, ISS-024 robots); run citability_scorer.py on the five package pages; run `/geo audit` if the skill is installed.
-3. Owner: make the 8 decisions; update the register; move HOLD facts to APPROVED or withhold them.
-4. Then, and only then, publish metadata and copy from PAGE-IMPROVEMENTS.md in the roadmap order.
+   Then merge the 10 rows into URL-INVENTORY.csv and re-score ISS-006 (with /services/ai-governance) and ISS-036 (/home canonical). If the owner also authorizes one GET on the mirror homepage, re-score ISS-001.
+2. Owner: make the 9 decisions in CANONICAL-BUSINESS-FACTS.md; fix ISS-027 and the dated line in ISS-031.
+3. Implementer: publish metadata and copy from PAGE-IMPROVEMENTS.md and implementation/metadata-drafts.md in the roadmap order (MEASUREMENT-AND-ROADMAP.md section 8), after the baseline export (ISS-026).
+4. Re-run the crawler after publishing to refresh the before/after record.

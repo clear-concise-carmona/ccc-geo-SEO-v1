@@ -1,0 +1,191 @@
+{
+ "url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "64358",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:41 GMT",
+  "Etag": "W/\"7a7813e80f39de8d9154dc2d6b31daff\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "Vf3VHVhY/MjXnYVbq",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce CPQ and DocuSign Case Study | CCC | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+  "og:type": "website",
+  "og:description": "A Salesforce enterprise case study focused on CPQ, DocuSign CLM, integrations, quoting workflows, and process standardization.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578c29bbeeb1bb619a8fa/1779792066634/case-study-enterprise-cpq.jpg?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "1006",
+  "twitter:title": "Salesforce CPQ and DocuSign Case Study | CCC | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578c29bbeeb1bb619a8fa/1779792066634/case-study-enterprise-cpq.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+  "twitter:card": "summary",
+  "twitter:description": "A Salesforce enterprise case study focused on CPQ, DocuSign CLM, integrations, quoting workflows, and process standardization.",
+  "description": "A Salesforce enterprise case study focused on CPQ, DocuSign CLM, integrations, quoting workflows, and process standardization.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce CPQ and DocuSign Case Study | CCC | Clear Concise Consulting",
+ "description": "A Salesforce enterprise case study focused on CPQ, DocuSign CLM, integrations, quoting workflows, and process standardization.",
+ "canonical": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+ "h1_tags": [
+  "Quote-to-contract time cut by 40% across 30 regions."
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Quote-to-contract time cut by 40% across 30 regions."
+  },
+  {
+   "level": 2,
+   "text": "Key Takeaways"
+  },
+  {
+   "level": 2,
+   "text": "At a Glance"
+  },
+  {
+   "level": 2,
+   "text": "The Situation"
+  },
+  {
+   "level": 2,
+   "text": "What CCC Did"
+  },
+  {
+   "level": 2,
+   "text": "Before and After"
+  },
+  {
+   "level": 2,
+   "text": "Integrations Managed"
+  },
+  {
+   "level": 2,
+   "text": "Ready to see what CCC can do for your org?"
+  }
+ ],
+ "word_count": 776,
+ "text_content": "Salesforce CPQ and DocuSign Case Study | CCC | Clear Concise Consulting 0 Enterprise \u00b7 CPQ & DocuSign Quote-to-contract time cut by 40% across 30 regions. Global Services Company \u00b7 Salesforce CPQ \u00b7 DocuSign CLM \u00b7 Multi-Region Standardization \u00b7 5 Platform Integrations 40% Faster Quote-to-Contract 30+ Regions Standardized 5 Platform Integrations 1 Architect Managing All Integrations Key Takeaways A global services company operated 30+ regional offices with no standardized quoting process. Some used spreadsheets. Some used email templates. Generating a quote took 2 to 5 days; contract execution added another week. CCC implemented Salesforce CPQ with DocuSign CLM and managed five platform integrations with a single architect. Quote-to-contract time dropped by 40%, from 2-5 days plus one week to under 3 days end-to-end. Finance gained real-time pipeline visibility for the first time. New hires in any region can now generate a compliant quote on day one. At a Glance Industry: Global Services (Enterprise) Platform: Salesforce CPQ, DocuSign CLM, DocuSign eSignature, Certinia, Outreach, HubSpot Scope: CPQ implementation, contract lifecycle automation, and global process standardization Quote-to-Contract Improvement: 40% faster (from 2-5 days + 1 week to under 3 days end-to-end) Regions Standardized: 30+ Platform Integrations: 5 (all managed by 1 architect) Previous State: Each region used different quoting processes, no pipeline visibility for finance Key Outcome: New hires in any region can generate a compliant quote on day one The Situation A global services company operated Salesforce across 30+ regional offices. Each region had its own quoting process. Some used spreadsheets. Some used email templates. A few used Salesforce, but with inconsistent configurations. There was no standard. Generating a quote took between 2 and 5 days depending on the region. Contract execution added another week. The sales team spent more time assembling documents than selling. Finance had no visibility into the pipeline because quote data lived in spreadsheets, not Salesforce. The company had evaluated two consulting firms for a CPQ implementation. Both proposed a 4-month timeline with a team of five: a project manager, a solutions architect, two developers, and a QA resource. The company wanted a faster path with less coordination overhead. What CCC Did 1 CPQ Architecture and Product Catalog CCC designed the CPQ data model: product catalog, price books, pricing rules, and discount schedules. The catalog was built to handle regional pricing variations without creating separate products for each region. One product, multiple price book entries, region-specific discount rules. 2 DocuSign CLM Integration CCC integrated DocuSign CLM with Salesforce CPQ so that approved quotes automatically generated contracts with the correct terms, regional clauses, and signature routing. Sales reps no longer assembled contracts manually. The system pulled the right template, populated the fields, and routed for signature. 3 Five Platform Integrations The CPQ system needed to talk to five other platforms: DocuSign eSignature, DocuSign CLM, Certinia (FinancialForce) for revenue recognition, Outreach for sales engagement tracking, and HubSpot for marketing attribution. CCC managed all five integrations, testing data flow end-to-end before each sprint review. 4 Global Process Standardization CCC standardized the quoting process across all 30+ regions. Every office now follows the same workflow: create Opportunity, generate Quote from the product catalog, apply regional pricing, route for approval, generate contract via DocuSign, collect signature. The process that used to vary by region now takes the same steps everywhere. The Result Quote-to-contract cycle time dropped by 40%. A process that took 2 to 5 days for the quote and another week for the contract now completes in under 3 days end-to-end. Finance gained real-time pipeline visibility for the first time. All quote data now lives in Salesforce, not spreadsheets. The 30+ regional offices follow one process. New hires in any region can generate a compliant quote on their first day because the system enforces the rules, not tribal knowledge. Before and After Metric Before CCC After CCC Quote generation time 2-5 days (varies by region) Same day Contract execution time 1 additional week Automated via DocuSign CLM Quote-to-contract total 9-12 days Under 3 days Quoting process Different in each of 30+ regions Standardized across all regions Pipeline visibility for finance None (data in spreadsheets) Real-time in Salesforce Platform integrations managed Fragmented, no central ownership 5 integrations, 1 architect New hire quoting capability Weeks of tribal knowledge transfer Day one Quote data location Spreadsheets and email templates Salesforce CPQ Integrations Managed Platform Ecosystem Salesforce CPQ Quote generation DocuSign eSignature Contract signing DocuSign CLM Contract lifecycle Certinia (FinancialForce) Revenue recognition Outreach Sales engagement HubSpot Marketing attribution Ready to see what CCC can do for your org? Take the Scorecard to see where you stand, or request a scoping call to discuss your project. Take the Scorecard Request a Scoping Call",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Request a Scoping Call"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "CaseStudy",
+   "@id": "https://www.clearconciseconsulting.com/case-studies/enterprise#case-study",
+   "url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+   "name": "Salesforce CPQ and DocuSign Case Study | CCC",
+   "about": {
+    "@type": "Thing",
+    "name": "Enterprise Salesforce implementation"
+   },
+   "publisher": {
+    "@id": "https://www.clearconciseconsulting.com/#organization"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

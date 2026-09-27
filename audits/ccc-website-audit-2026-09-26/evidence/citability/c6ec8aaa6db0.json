@@ -1,0 +1,321 @@
+{
+ "url": "http://127.0.0.1:8765/c6ec8aaa6db0.html",
+ "total_blocks_analyzed": 10,
+ "average_citability_score": 55.3,
+ "optimal_length_passages": 2,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 7,
+  "D": 0,
+  "F": 2
+ },
+ "top_5_citable": [
+  {
+   "heading": "Checkpoint 1: Data Readiness",
+   "word_count": 182,
+   "total_score": 74,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 16,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: data quality score 7 of 10 or higher across the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed. What happened in the engagement: the org's initial data..."
+  },
+  {
+   "heading": "Checkpoint 3: Design Review",
+   "word_count": 250,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 16,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: use case risk classified per the Article 6 framework. Human oversight defined per Article 3. Documentation drafted per the Article 4 four-audience standard. Accountability assigned per Article 5...."
+  },
+  {
+   "heading": "Checkpoint 5: Pre-Production Validation",
+   "word_count": 279,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: bias and fairness testing conducted on a representative sample. Rollback drill executed in a Full sandbox per the Article 7 framework. Pilot testing with at least three clinical..."
+  },
+  {
+   "heading": "Checkpoint 6: Post-Launch Governance",
+   "word_count": 165,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 25,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: 30-day review scheduled. Drift indicators baselined. Incident response runbook published. Quarterly review cadence committed. What happened: this checkpoint is ongoing. The agent went live in week 11. The..."
+  },
+  {
+   "heading": "What provides governance checkpoints from request through execution?",
+   "word_count": 114,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A documented AI governance lifecycle provides checkpoints from request through execution. CCC uses six pass/fail gates so an engagement cannot move from intake to production without evidence that its data,..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "What This Engagement Cost",
+   "word_count": 95,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "11 weeks. Eight of them governance work. Three of them configuration. The configuration could have shipped in three weeks alone. It would have shipped with a System Administrator integration user,..."
+  },
+  {
+   "heading": "Checkpoint 2: Permission and Access",
+   "word_count": 247,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: field-level security verified on every object the agent touches. Trust Layer configured. Integration user permission set audited and least-privilege confirmed. What happened: the integration user the agent would..."
+  },
+  {
+   "heading": "The Six Governance Checkpoints: A Real Engagement, Walked Through",
+   "word_count": 145,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is the eighth article in the May 2026 AI CoE series. The previous seven covered the principles. This one is the application. A regional healthcare nonprofit engaged CCC last..."
+  },
+  {
+   "heading": "What provides governance checkpoints from request through execution?",
+   "word_count": 114,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A documented AI governance lifecycle provides checkpoints from request through execution. CCC uses six pass/fail gates so an engagement cannot move from intake to production without evidence that its data,..."
+  },
+  {
+   "heading": "Checkpoint 4: Agentic Governance Review",
+   "word_count": 274,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: agent action boundaries documented and tested. Session Tracing enabled. Topic restrictions configured. Tool authorization scoped. Behavior governance written into the agent's system prompt. What happened: this is the..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The Six Governance Checkpoints: A Real Engagement, Walked Through",
+   "word_count": 145,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is the eighth article in the May 2026 AI CoE series. The previous seven covered the principles. This one is the application. A regional healthcare nonprofit engaged CCC last..."
+  },
+  {
+   "heading": "What provides governance checkpoints from request through execution?",
+   "word_count": 114,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A documented AI governance lifecycle provides checkpoints from request through execution. CCC uses six pass/fail gates so an engagement cannot move from intake to production without evidence that its data,..."
+  },
+  {
+   "heading": "Checkpoint 1: Data Readiness",
+   "word_count": 182,
+   "total_score": 74,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 16,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: data quality score 7 of 10 or higher across the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed. What happened in the engagement: the org's initial data..."
+  },
+  {
+   "heading": "Checkpoint 2: Permission and Access",
+   "word_count": 247,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: field-level security verified on every object the agent touches. Trust Layer configured. Integration user permission set audited and least-privilege confirmed. What happened: the integration user the agent would..."
+  },
+  {
+   "heading": "Checkpoint 3: Design Review",
+   "word_count": 250,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 16,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: use case risk classified per the Article 6 framework. Human oversight defined per Article 3. Documentation drafted per the Article 4 four-audience standard. Accountability assigned per Article 5...."
+  },
+  {
+   "heading": "Checkpoint 4: Agentic Governance Review",
+   "word_count": 274,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: agent action boundaries documented and tested. Session Tracing enabled. Topic restrictions configured. Tool authorization scoped. Behavior governance written into the agent's system prompt. What happened: this is the..."
+  },
+  {
+   "heading": "Checkpoint 5: Pre-Production Validation",
+   "word_count": 279,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: bias and fairness testing conducted on a representative sample. Rollback drill executed in a Full sandbox per the Article 7 framework. Pilot testing with at least three clinical..."
+  },
+  {
+   "heading": "Checkpoint 6: Post-Launch Governance",
+   "word_count": 165,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 25,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Gate criteria: 30-day review scheduled. Drift indicators baselined. Incident response runbook published. Quarterly review cadence committed. What happened: this checkpoint is ongoing. The agent went live in week 11. The..."
+  },
+  {
+   "heading": "What This Engagement Cost",
+   "word_count": 95,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "11 weeks. Eight of them governance work. Three of them configuration. The configuration could have shipped in three weeks alone. It would have shipped with a System Administrator integration user,..."
+  },
+  {
+   "heading": "What This Series Was",
+   "word_count": 197,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Eight articles. One per principle. One per the wrap. The structure that holds them: Six Governance Checkpoints. Pass/fail. Documented. Reviewable. The CCC AI Center of Excellence is published in full..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

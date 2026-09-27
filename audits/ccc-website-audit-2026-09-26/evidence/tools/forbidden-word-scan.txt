@@ -1,10 +1,5 @@
-Scan of proposed copy and report prose; lines quoting current/observed site text excluded. Owner forbidden-word list (167 items) applied in full in the session; this file records the residual check.
-PAGE-IMPROVEMENTS.md: residual hits = none; em dash in proposed/prose lines = False
-implementation/metadata-drafts.md: residual hits = none; em dash in proposed/prose lines = False
-implementation/jsonld/organization-person.reconciliation.json: residual hits = none; em dash in proposed/prose lines = False
-implementation/jsonld/service-ai-data-readiness.draft.json: residual hits = none; em dash in proposed/prose lines = False
-GEO-AUDIT-REPORT.md: residual hits = none; em dash in proposed/prose lines = False
-MEASUREMENT-AND-ROADMAP.md: residual hits = none; em dash in proposed/prose lines = False
-CANONICAL-BUSINESS-FACTS.md: residual hits = none; em dash in proposed/prose lines = False
-ENTITY-MAP.md: residual hits = none; em dash in proposed/prose lines = False
-RUN-STATUS.md: residual hits = none; em dash in proposed/prose lines = False
+Forbidden-word and em-dash scan, re-run 2026-09-27 after the live-crawl update.
+Method: owner forbidden-word list (167 items) as whole-word and phrase matches over every .md, .csv, and .json deliverable outside evidence/; em dash (U+2014) checked separately. Matches inside double-quoted spans are observed site text (titles, descriptions, H1s, body quotes) and are reported as QUOTED, not as prose.
+Result: prose hits = 2 (the two remaining word-level hits are live site strings in table cells of implementation/metadata-drafts.md, "Tailored" and "Ensure", quoted as current values, not proposed copy); quoted hits = 29; em dash in prose = 0; em dash in quoted site text = 1.
+Connector words the owner allows sparingly ("because", "while"): 0 in prose after edits.
+Proposed metadata strings: every description 160 characters or fewer; every proposed title 70 or fewer (NO_CHANGE rows keep live values; one live title is 71).

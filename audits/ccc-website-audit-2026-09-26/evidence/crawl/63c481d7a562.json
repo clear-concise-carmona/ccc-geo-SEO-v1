@@ -1,0 +1,280 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:07 GMT",
+  "Etag": "W/\"1176c892f3f835eaaa5ad948929b700a--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "pyi9jDQD/gFt59liJ",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Security Guide: Profiles, Permissions, and Sharing | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+  "og:type": "article",
+  "og:description": "Master Salesforce security fundamentals. Configure profiles, permission sets, sharing rules, and field-level security correctly. No-nonsense guide for admins.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69af8b1735be43475f07f227/1773112087698/21_salesforce_security.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "1500",
+  "twitter:title": "Salesforce Security Guide: Profiles, Permissions, and Sharing | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69af8b1735be43475f07f227/1773112087698/21_salesforce_security.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+  "twitter:card": "summary",
+  "twitter:description": "Master Salesforce security fundamentals. Configure profiles, permission sets, sharing rules, and field-level security correctly. No-nonsense guide for admins.",
+  "description": "Master Salesforce security fundamentals. Configure profiles, permission sets, sharing rules, and field-level security correctly. No-nonsense guide for admins.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Security Guide: Profiles, Permissions, and Sharing | Clear Concise Consulting",
+ "description": "Master Salesforce security fundamentals. Configure profiles, permission sets, sharing rules, and field-level security correctly. No-nonsense guide for admins.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+ "h1_tags": [
+  "Mastering Salesforce Security: A No-Nonsense Guide for Admins",
+  "Why Salesforce Security Matters (Even When It's a Pain)"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Mastering Salesforce Security: A No-Nonsense Guide for Admins"
+  },
+  {
+   "level": 1,
+   "text": "Why Salesforce Security Matters (Even When It's a Pain)"
+  },
+  {
+   "level": 2,
+   "text": "The Building Blocks of Solid Salesforce Security"
+  },
+  {
+   "level": 2,
+   "text": "Taking Your Security Game to the Next Level"
+  },
+  {
+   "level": 2,
+   "text": "Creating a Culture of Security"
+  },
+  {
+   "level": 2,
+   "text": "Taking Action: Your Salesforce Security Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Need More Help?"
+  },
+  {
+   "level": 2,
+   "text": "Avoid Salesforce Mistakes That Cost Donations on Giving Tuesday"
+  },
+  {
+   "level": 2,
+   "text": "5 Critical Templates Every Salesforce Admin\u00a0Need"
+  },
+  {
+   "level": 3,
+   "text": "Profiles: Your First Line of Defense"
+  },
+  {
+   "level": 3,
+   "text": "Permission Sets: The Swiss Army Knife of Access Control"
+  },
+  {
+   "level": 3,
+   "text": "Sharing Settings: Building Your Security Fence"
+  },
+  {
+   "level": 3,
+   "text": "Role Hierarchies: Who Sees What"
+  },
+  {
+   "level": 3,
+   "text": "Login Security: Locking Your Digital Doors"
+  },
+  {
+   "level": 3,
+   "text": "Regular Security Health Checks: Your Security Physical"
+  },
+  {
+   "level": 4,
+   "text": "Login Must-Haves:"
+  },
+  {
+   "level": 4,
+   "text": "Health Check Routine:"
+  },
+  {
+   "level": 4,
+   "text": "Building Your Security Culture:"
+  }
+ ],
+ "word_count": 1005,
+ "text_content": "Salesforce Security Guide: Profiles, Permissions, and Sharing | Clear Concise Consulting 0 Mastering Salesforce Security: A No-Nonsense Guide for Admins Jul 6 Written By Jeremy Carmona Let's be honest, when someone mentions \"Salesforce security,\" most admins either get a headache or start reaching for more coffee. But securing your Salesforce instance doesn't have to feel like deciphering ancient hieroglyphics. As someone who's spent years helping organizations lock down their Salesforce environments (and cleaning up after those who didn't), I'm going to walk you through the essentials without the technical jargon overload. Why Salesforce Security Matters (Even When It's a Pain) Your Salesforce org is like a digital vault. It holds customer data, financial records, and probably a few secrets your CEO would rather keep under wraps. A security breach isn't just embarrassing. It can cost your company serious money and trust. Think of it this way: Would you leave your front door unlocked just because installing a deadbolt takes effort? Probably not. The same principle applies to your Salesforce instance. The Building Blocks of Solid Salesforce Security Profiles: Your First Line of Defense Profiles in Salesforce work like hotel key cards as they determine which doors your users can open. Every user needs one, but not everyone needs access to the presidential suite. Quick Profile Tips: Start with standard profiles, then customize for specific roles Follow the \"minimum necessary access\" rule and give users only what they need Regularly audit profiles to remove unnecessary permissions Remember when I first started at the Environmental Defense Fund? We had one profile for everyone. It was like giving the master key to the intern (not a great security strategy)! Permission Sets: The Swiss Army Knife of Access Control When someone needs temporary superpowers or special access, permission sets are your best friend. They let you extend permissions without creating endless profiles. Making Permission Sets Work: Name them clearly (e.g., \"Marketing_Campaign_Manager\" not \"Set_12\") Use them for exceptions, not as the rule Group related permissions to simplify management I once worked with a nonprofit that had 47 nearly identical profiles with minor permission differences. We consolidated to 5 profiles with permission sets for specific needs, and their admin finally stopped having nightmares about user management. Sharing Settings: Building Your Security Fence Sharing settings control which records users can see and modify. Think of them as the fence around your property\u2014you need to decide how high to build it and where to put the gates. Sharing Best Practices: Start with stricter organization-wide defaults (OWDs) Use sharing rules to grant additional access where needed Remember that sharing only gets more permissive as you go up the chain Taking Your Security Game to the Next Level Role Hierarchies: Who Sees What A well-designed role hierarchy ensures managers can see their team's data without allowing everyone to see everything. It's one-way visibility, like a manager having a window into their team's workspace, but the team can't peek into the manager's office. Hierarchy Tips: Mirror your actual organizational structure Keep it as shallow as possible\u2014deep hierarchies get confusing Remember that access flows upward, not downward Login Security: Locking Your Digital Doors Even with perfect internal security, you're vulnerable if someone can just walk in the front door. Strong login security is like having both a doorman and a security system. Login Must-Haves: Enforce strong password policies Implement Multi-Factor Authentication (MFA)\u2014this is non-negotiable! Set session timeout limits Restrict login hours if appropriate Consider IP restrictions for highly sensitive orgs When a client complained about \"annoying\" MFA requirements, I reminded them that the average data breach costs $4.45 million. Suddenly, that extra 10 seconds at login didn't seem so bad! Regular Security Health Checks: Your Security Physical Just like you need regular check-ups at the doctor, your Salesforce org needs regular security reviews. Salesforce's built-in Health Check feature scores your security settings and highlights weak points. Health Check Routine: Run monthly security audits Address \"Critical\" and \"High Risk\" findings immediately Document your security decisions Set calendar reminders for reviews Creating a Culture of Security The best security setup in the world won't help if your users are writing passwords on sticky notes or sharing logins. Technical solutions must be paired with human awareness. Building Your Security Culture: Train users on basic security principles Make security part of your onboarding process Recognize and reward good security habits Create clear procedures for reporting security concerns During my time teaching Salesforce at NYU, I found that the most successful organizations weren't just the ones with the fanciest security settings\u2014they were the ones where everyone understood why security mattered. Taking Action: Your Salesforce Security Checklist Ready to level up your Salesforce security? Here's your starter checklist: Run a Salesforce Health Check today Review all profiles and permission sets for the principle of least privilege Verify your sharing model aligns with business needs Enable MFA for all users Implement a regular security review process Create a basic security training module for users Need More Help? Securing Salesforce can feel overwhelming, but you don't have to tackle it alone. Our Salesforce Security Starter Pack includes templates, checklists, and step-by-step guides to help you implement these best practices. Or if you're ready for a professional assessment, check out our Salesforce Security Audit service\u2014we'll identify your vulnerabilities and create a roadmap to fix them. Remember, good security isn't about perfection, it's about continuous improvement. Start where you are, use what you have, and build from there. Want to chat about your specific Salesforce security challenges? Reach out at contact@clearconciseconsulting.com . Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Avoid Salesforce Mistakes That Cost Donations on Giving Tuesday Next Next 5 Critical Templates Every Salesforce Admin\u00a0Need",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-security-starter-pack",
+   "text": "Salesforce Security Starter Pack"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-security-audit",
+   "text": "Salesforce Security Audit"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofits-lose-donations-giving-tuesday",
+   "text": "PreviousPreviousAvoid Salesforce Mistakes That Cost Donations on Giving Tuesday"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-templates-efficiency",
+   "text": "NextNext5 Critical Templates Every Salesforce Admin\u00a0Need"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/72a2fba0-73cf-486b-9188-ee22ac90c7ea/Mastering+Salesforce+Security",
+   "alt": "",
+   "width": "1080",
+   "height": "1080",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Security Guide: Profiles, Permissions, and Sharing | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+   "datePublished": "2025-07-06T12:10:04-0400",
+   "dateModified": "2026-03-28T09:43:01-0400",
+   "headline": "Mastering Salesforce Security: A No-Nonsense Guide for Admins",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69af8b1735be43475f07f227/1773112087698/21_salesforce_security.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

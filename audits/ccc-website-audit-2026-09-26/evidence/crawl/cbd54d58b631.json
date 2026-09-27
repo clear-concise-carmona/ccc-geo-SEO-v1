@@ -1,0 +1,167 @@
+{
+ "url": "https://www.clearconciseconsulting.com/policies-commitments",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:46 GMT",
+  "Etag": "W/\"db3b60dfc5ed1173d453b308b0765648--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "skk6zvbV/PI5b3JHr",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Policies & Commitments \u2014 Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/policies-commitments",
+  "og:type": "website",
+  "og:description": "Explore Clear Concise Consulting\u2019s commitments to ethical business practices, including our Diversity & Inclusion and Environmental Policies.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd39075b6cca5ecf84a59e/1775057159550/policies_and_commitments.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Policies & Commitments  | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd39075b6cca5ecf84a59e/1775057159550/policies_and_commitments.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/policies-commitments",
+  "twitter:card": "summary",
+  "twitter:description": "Explore Clear Concise Consulting\u2019s commitments to ethical business practices, including our Diversity & Inclusion and Environmental Policies. Learn how we promote equity, sustainability, and compliance.",
+  "description": "Explore Clear Concise Consulting\u2019s commitments to ethical business practices, including our Diversity & Inclusion and Environmental Policies. Learn how we promote equity, sustainability, and compliance.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D",
+  "title": "Policies & Commitments \u2014 Clear Concise Consulting",
+  "robots": "index, follow"
+ },
+ "title": "Policies & Commitments  | Clear Concise Consulting",
+ "description": "Explore Clear Concise Consulting\u2019s commitments to ethical business practices, including our Diversity & Inclusion and Environmental Policies. Learn how we promote equity, sustainability, and compliance.",
+ "canonical": "https://www.clearconciseconsulting.com/policies-commitments",
+ "h1_tags": [
+  "Policies & Commitments"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Policies & Commitments"
+  },
+  {
+   "level": 2,
+   "text": "Our Commitments"
+  },
+  {
+   "level": 2,
+   "text": "Policies & Commitments"
+  },
+  {
+   "level": 3,
+   "text": "\ud83e\udd1d Diversity, Equity & Inclusion (DEI) Statement"
+  },
+  {
+   "level": 3,
+   "text": "\ud83c\udf0d Environmental Commitment"
+  },
+  {
+   "level": 3,
+   "text": "Editorial Standards"
+  }
+ ],
+ "word_count": 339,
+ "text_content": "Policies & Commitments  | Clear Concise Consulting 0 Policies & Commitments Our Commitments These Terms and Conditions (\"Terms\") govern your use of the Clear Concise Consulting website ( https://www.clearconciseconsulting.com ) and the services offered through our platform. By accessing our website or using our services, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use our website or services. Policies & Commitments Welcome to Clear Concise Consulting\u2019s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u2019ll find a summary of our guiding policies that reflect our dedication to ethical business practices and positive impact. \ud83e\udd1d Diversity, Equity & Inclusion (DEI) Statement Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access to opportunity, respect, and growth. Our DEI Principles: Fair, bias-free hiring and promotion practices Ongoing training on inclusive behaviors and unconscious bias Active engagement with diverse suppliers and partners We welcome individuals from all backgrounds and perspectives. For a full copy of our Diversity, Equity & Inclusion Policy, please contact us . \ud83c\udf0d Environmental Commitment At Clear Concise Consulting, we take our environmental responsibility seriously. While we are a service-based organization, we understand that every business leaves a footprint\u2014and we\u2019re committed to minimizing ours. Our Environmental Goals: Reduce energy use and operate digitally wherever possible Limit travel through virtual client collaboration Work with vendors that prioritize sustainability For a complete version of our Environmental Policy, you can request a copy. Editorial Standards All content published by Clear Concise Consulting is written or reviewed by Jeremy Carmona, a 13x certified Salesforce Architect with expertise in data governance, data quality, and AI governance. Technical articles are based on direct implementation experience and verified against current Salesforce documentation. We do not publish sponsored content. We correct errors promptly and note corrections when made. Blog content is updated when platform changes affect accuracy.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

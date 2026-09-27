@@ -1,95 +1,95 @@
 # Entity Map: Clear Concise Consulting
 
-Workspace: ccc-website-audit-2026-09-26 | Evidence basis: search-index observations, one direct first-party fetch (GitHub README, EV-007), owner-authored strategy documents (EV-032 to EV-035). No live-site HTML or deployed JSON-LD was observable this run (EV-001).
+Workspace: ccc-website-audit-2026-09-26 | Evidence basis: deployed JSON-LD and page content fetched 2026-09-27 (EV-038), HEAD probes (EV-039, EV-043), the 2026-09-26 index sample (EV-002 to EV-031), one direct GitHub fetch (EV-007), owner strategy documents (EV-032 to EV-035).
 
-## 1. Core entities
+## 1. Core entities (as deployed)
 
-| Entity | Type (schema.org) | Proposed @id | Observed names | Status |
+| Entity | Type deployed | @id deployed | Observed names | Status |
 |---|---|---|---|---|
-| Clear Concise Consulting | Organization (ProfessionalService is acceptable; LocalBusiness only if a customer-facing location is confirmed, ISS-015) | https://www.clearconciseconsulting.com/#organization | "Clear Concise Consulting", "CCC", "Clear Concise Consulting LLC" (BBB, EV-025) | Legal name vs brand name: use legalName "Clear Concise Consulting LLC" only after owner confirms |
-| Jeremy Carmona | Person | https://www.clearconciseconsulting.com/about#person | "Jeremy Carmona", "Jeremy A. Carmona" (LinkedIn slug jeremy-a-carmona), "Carmona" (Salesforce Ben author page title) | Consistent; use "Jeremy Carmona" everywhere |
+| Clear Concise Consulting | Organization + ProfessionalService (custom block, every page); Organization and LocalBusiness (Squarespace-native blocks, every page); WebSite (native) | https://www.clearconciseconsulting.com/#organization (custom block); native blocks have no @id | "Clear Concise Consulting", "CCC", "Clear Concise Consulting, LLC" (footer), "Clear Concise Consulting LLC" (BBB) | Three organization descriptions per page (F-06, F-12). Use one. LocalBusiness only if a customer-facing location and real hours are confirmed (FACT-25) |
+| Jeremy Carmona | Person (/about), referenced as founder from the custom Organization block; mainEntity of an AboutPage node | https://www.clearconciseconsulting.com/about#jeremy-carmona | "Jeremy Carmona", "Jeremy A. Carmona" (LinkedIn slug), jobTitle "Salesforce Architect and Founder" | Consistent. The pass-1 proposal of /about#person is withdrawn; drafts now use the deployed @id |
 
-## 2. Verified relationships (observed in at least one first-party and one independent surface)
+## 2. Deployed structured data inventory (EV-038)
+
+| Block | Where | Key properties observed | Notes |
+|---|---|---|---|
+| WebSite (native) | every page | url, name, empty description, logo image | fine |
+| Organization (native) | every page | address "228 Park Avenue South, New York, NY, 10003", telephone, email j.carmona@, sameAs x6 (Medium, LinkedIn company, GitHub, Instagram, Facebook, YouTube) | derives from Squarespace Business Information; duplicates the custom block with a different sameAs set |
+| LocalBusiness (native) | every page | address, image, openingHours "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , " | trailing empty items; hours unverified; decision FACT-25 |
+| Organization + ProfessionalService (custom) | every page | @id #organization, url, description, telephone, PostalAddress (streetAddress "228 Park Ave S #871721"), founder -> /about#jeremy-carmona, sameAs x7 (LinkedIn company, GitHub, Instagram, Facebook, YouTube, Medium, Gumroad) | the block to keep; reconcile sameAs |
+| FAQPage | /, /faqs (27 questions), /services/data-governance, three Headless 360 posts, Pardot beginners post | on / the block appears twice, identical | remove one source on / (ISS-028) |
+| Service | four service pages and the assessment page | assessment: @id .../salesforce-ai-data-readiness-assessment#service, name "Salesforce AI Data Readiness Assessment", serviceType, provider -> #organization, areaServed "United States", no offers | offers block only after FACT-15 |
+| BreadcrumbList | /services/data-governance, /services/salesforce-implementation, /services/salesforce-training, /services/salesforce-nonprofit-consulting | | missing on the assessment page and case study |
+| Person + AboutPage | /about | Person sameAs x4 (LinkedIn personal, Trailblazer salesforce.com/trailblazer/jeremy-carmona, Medium, Salesforce Ben author); AboutPage mainEntity -> Person | good; extend sameAs to the agreed set |
+| Article | all 26 fetched posts | author "Jeremy Carmona", datePublished, dateModified, publisher, image on every post | complete; BlogPosting duplicated on 3 posts |
+| CaseStudy | /case-studies/enterprise | | not a schema.org type (schema.org/CaseStudy returns 404, EV-043); use Article |
+| HowTo | /blog/salesforce-validation-rules-guide | | valid type; rich result retired; harmless |
+
+## 3. Verified relationships (observed on the live site and at least one independent or linked surface)
 
 | Relationship | Evidence | Confidence |
 |---|---|---|
-| Jeremy Carmona founded and leads Clear Concise Consulting | EV-006, EV-007, EV-025 | high |
-| Jeremy Carmona is the author of Salesforce Ben articles (author page + one article URL indexed) | EV-005, EV-018 | high (URLs indexed; pages not fetched) |
-| Jeremy Carmona publishes on Medium (@jcarmona86) and Salesforce Break (author page) | EV-005, EV-017 | high (indexed) |
-| Clear Concise Consulting maintains open-source Salesforce tools on GitHub (org clear-concise-carmona) | EV-007 (direct fetch) | high |
-| Clear Concise Consulting has a LinkedIn company page and a BBB profile (Brooklyn, NY) | EV-025 | high (indexed) |
-| Jeremy Carmona has a LinkedIn profile linked from the GitHub README | EV-007 | high |
+| Jeremy Carmona founded and leads Clear Concise Consulting | / and /about text; custom Organization founder property; EV-007; EV-025 | high |
+| Jeremy Carmona is the author of Salesforce Ben articles | /about links three salesforceben.com URLs and displays the published title of one; author page indexed (EV-005, EV-018); article pages not read (origin 403) | high |
+| Jeremy Carmona publishes on Medium (@jcarmona86) | linked from /about, native and custom sameAs, Person sameAs; indexed | high |
+| Clear Concise Consulting maintains open-source Salesforce tools on GitHub (clear-concise-carmona) | linked from / and /about; sameAs; EV-007 direct fetch | high |
+| LinkedIn company page and personal profile | company page linked from / and /about and in sameAs; personal profile in Person sameAs and llms.txt | high |
+| Trailhead credential profile | "Verify on Trailhead" link on /about; Person sameAs; llms.txt (different URL form) | high that it is linked; credentials not read (host not allowlisted) |
+| Instagram, Facebook, YouTube, Gumroad accounts | deployed in native and custom sameAs (EV-038) | owner-asserted; not fetched |
+| BBB profile (Brooklyn, NY) | indexed (EV-025); not linked from the site | medium |
 
-## 3. First-party-only relationships (published by CCC; independent corroboration not obtained this run)
+## 4. First-party-only relationships (published by CCC; independent corroboration not obtained)
 
-| Relationship | Evidence | What would corroborate |
+| Relationship | Where published | What would corroborate |
 |---|---|---|
-| Jeremy Carmona holds 13 Salesforce certifications, including Application Architect, Data Architecture and Management Designer, Sharing and Visibility Designer, Nonprofit Cloud Consultant | EV-005, EV-007, EV-031 | Trailhead credential verification page |
-| Jeremy Carmona taught Salesforce Administration at NYU Tandon | EV-007, EV-017 | NYU program page naming the instructor (host blocked) |
-| CCC worked with USCIS, EDF, UnitedHealth Group, HRSA, NYU | EV-011, EV-023 | Owner documentation of relationship type and permission |
-| CCC delivered the enterprise CPQ engagement (40% cycle reduction) | EV-010, EV-027 | Client confirmation or measurement note |
-| CCC founded in 2018 | EV-025, EV-028 | State registration record or BBB "in business since" |
+| 13 Salesforce certifications (three tracks listed) | /about, / | the Trailhead page linked from /about |
+| Taught Salesforce Administration at NYU Tandon; 160+ students; 80% placement | /about, /services | NYU listing; cohort records; placement method |
+| Work involving USCIS, EDF, UnitedHealth Group, HRSA, NYU; GovCloud implementation for USCIS in 8 weeks | /services, /faqs (text and schema), /who-we-help | owner documentation of relationship type and permission |
+| Testimonial from a named USCIS staff member | /contact, /about | written permission |
+| Enterprise CPQ engagement (40% across 30 regions) | /case-studies/enterprise H1 | client confirmation or measurement note |
+| Founded 2018 | footer copyright line | registration record |
 
-## 4. Services and assets (as observed)
+## 5. Public profiles for sameAs (target list)
 
-| Offer / asset | URL observed | Entity role | Notes |
-|---|---|---|---|
-| Salesforce implementation | /services/salesforce-implementation | Service | Price range consistent (FACT-10) |
-| Data governance | /services/data-governance | Service | Timeline claims qualified (FACT-18) |
-| AI data preparation | /services/salesforce-ai-data-preparation | Service; candidate landing page for the paid assessment | Offer name unresolved (FACT-15) |
-| Training and documentation | /services/salesforce-training | Service | |
-| Administration retainer; ad hoc support | non-www /services/salesforce-administration; /services/ad-hoc-support | Service (index state unclear, ISS-002) | |
-| Architecture advisory retainer | described on /faqs | Service | |
-| Workshops (AI readiness, training) | described on /faqs and built-in-domain /ai-services | Service | |
-| AI Readiness Scorecard (free) | /scorecard | Lead asset | Method statement unresolved (FACT-16) |
-| Digital products | Gumroad (two handles observed, CLM-040) | Product catalog | Canonical URL decision needed |
-| Open-source tools | github.com/clear-concise-carmona | Software / credibility asset | Ten tools listed (EV-007) |
-| Case study: enterprise CPQ | /case-studies/enterprise | CreativeWork (case study) | Only case-study URL indexed |
-| Governance narratives | /blog/six-governance-checkpoints-engagement; /blog/ai-reversibility-rollback-plan | Article | Anonymized; labeling needed (FACT-23) |
-| Methodologies | pre-Agentforce data checklist; six governance checkpoints; org health 30-60-90 roadmap; scorecard categories | First-party frameworks | Good candidates for definitional passages and internal links |
+Deployed today in three different arrays (EV-038):
+- Native Organization (6): Medium, LinkedIn company, GitHub, Instagram (clearconcisecarmona), Facebook (profile.php?id=61565894325721), YouTube (@clearconciseconsulting)
+- Custom Organization (7): the six above plus https://jeremycarmona.gumroad.com/
+- Person on /about (4): https://www.linkedin.com/in/jeremy-a-carmona/, https://www.salesforce.com/trailblazer/jeremy-carmona, Medium, https://www.salesforceben.com/author/jeremy-carmona/
 
-## 5. Verified public profiles for sameAs (target list)
+Also in /llms.txt: LinkedIn company with a trailing slash, https://trailblazer.me/id/jcarmona86, Instagram (rubberduckconfessions).
 
-Core set (observed as indexed or directly fetched; owner to confirm each is official):
-- https://www.linkedin.com/in/jeremy-a-carmona/ (Person; linked from GitHub README, EV-007)
-- https://www.linkedin.com/company/clear-concise-consulting (Organization; EV-025)
-- https://www.salesforceben.com/author/jeremy-carmona/ (Person; EV-005, EV-018)
-- https://medium.com/@jcarmona86 (Person; EV-005, EV-018)
-- https://salesforcebreak.com/author/cccjeremycarmona/ (Person; EV-005)
-- https://github.com/clear-concise-carmona (Organization; EV-007)
+Target (implementation/jsonld/sameas-target-list.json): one combined array on every block. Core set (verified as indexed or directly fetched, and deployed): LinkedIn personal, LinkedIn company, Salesforce Ben author, Medium, Salesforce Break author (indexed, EV-005; not deployed today), GitHub. Owner-deployed set to carry over once one URL form is chosen for each: Instagram (business account), YouTube, Facebook, Gumroad, Trailblazer. Exclude the personal-brand Instagram from the Organization and Person blocks unless the owner wants it as an identity anchor; exclude BBB unless wanted.
 
-Candidates pending owner confirmation:
-- Gumroad: https://jeremycarmona.gumroad.com OR https://gumroad.com/clearconciseconsulting (CLM-040)
-- Facebook: https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/ (EV-025; confirm official and active)
-- BBB profile (EV-025): include only if the owner wants it as an identity anchor
+Owner rule (EV-032): every deployed sameAs array must be identical. Today they are not.
 
-Owner rule (EV-032): every deployed sameAs array must be identical. The reconciliation file is implementation/jsonld/sameas-target-list.json.
-
-## 6. Inconsistencies and gaps
+## 6. Inconsistencies and gaps (live)
 
 | Item | Detail | Related |
 |---|---|---|
-| Positioning drift across surfaces | Current pages: AI governance for four verticals. Legacy: "Small Business" (/who-we-help), "Tailored Salesforce Solutions" (/new-clients), "growing businesses" (built-in domain FAQ), BBB description (admin, migration, project management) | CLM-029 to CLM-033; ISS-009, ISS-001 |
-| Homepage title variants | Local-consultant framing vs AI governance framing both indexed | CLM-038; ISS-004 |
-| Team description | "leads every engagement" vs "backed by a network of administrators, developers and trainers" (stale surface) | CLM-027/028 |
-| Offer naming | Free scorecard and a paid tier share the name "AI Readiness Scorecard" in owner docs; the brief's offer name is absent from the site | CLM-015, CLM-016; ISS-006 |
-| Publication title | Working title vs published Salesforce Ben title | CLM-043; ISS-017 |
-| Contact identity | Three emails; two Gumroad handles | CLM-039, CLM-040 |
-| Local entity | NYC in titles and LocalBusiness schema without a verified customer-facing office; national client footprint | CLM-034; ISS-015 |
-| Teaching tense | "teaches" vs "former instructor" | CLM-003 |
+| Three organization blocks per page | native Organization, native LocalBusiness, custom Organization+ProfessionalService, with two address formats and three sameAs sets | ISS-015, ISS-016, ISS-028 |
+| Local entity | LocalBusiness with weekday hours and a suite-numbered Park Avenue South address; national client footprint | FACT-25, CLM-052 |
+| Offer price | $9,500 (assessment page) vs $8,000 (/services, owner docs) vs FAQ that prices only the $5,000 data quality assessment | FACT-15, ISS-006 |
+| Trust Test | appears on one page only | FACT-28 |
+| Positioning drift | /who-we-help (Small Business, career changers, "Tailored"); /llms.txt (omits healthcare and enterprise); mirror host FAQ ("growing businesses", per index) | CLM-030, CLM-051, ISS-009, ISS-023, ISS-001 |
+| Contact identity | five email addresses; three scheduler paths; two Trailblazer URL forms; two Gumroad URL forms | FACT-24, FACT-27 |
+| Teaching tense | past-tense prose, present-tense heading and tile | FACT-05 |
+| Duplicate schema | FAQPage twice on /; Article + BlogPosting on 3 posts; invalid CaseStudy | ISS-028 |
+| Headings | numeric-only H2 tiles on / and /about; 21 H1s on /blog; 2 H1s on the security guide; H1 typo on the nonprofit page | ISS-037, ISS-012, ISS-034 |
 
-## 7. Internal-linking and structured-data opportunities (no fabrication; all targets observed)
+## 7. Internal-linking and structured-data opportunities (all targets live)
 
-- Every blog byline -> /about (Person page), and /about -> /policies-commitments (editorial policy, FACT-20).
-- /blog/salesforce-ai-data-readiness-checklist -> assessment landing page (once named) and /scorecard.
-- /blog/six-governance-checkpoints-engagement and /blog/ai-reversibility-rollback-plan -> assessment landing page; each other.
+- Every blog byline ("Written By Jeremy Carmona") -> /about; /about -> /policies-commitments (editorial policy, FACT-20).
+- /blog/salesforce-ai-data-readiness-checklist, /blog/six-governance-checkpoints-engagement, /blog/ai-reversibility-rollback-plan -> /salesforce-ai-data-readiness-assessment as in-copy text links (today the assessment is reachable from these posts only through the header button).
 - /blog/salesforce-validation-rules-guide, /blog/salesforce-duplicate-management-guide, /blog/salesforce-org-health-roadmap -> /services/data-governance.
-- /about -> GitHub org page (open-source tools) and Salesforce Ben author page (external, sameAs-aligned).
-- Person schema: jobTitle "Salesforce Architect", worksFor -> #organization, alumniOf/affiliation for NYU only if the owner confirms current wording; knowsAbout limited to topics with published articles (AI governance, data governance, Salesforce data quality, Nonprofit Cloud).
-- Organization schema: founder -> #person, sameAs core set, contactPoint one address (FACT-24), address only if accurate, no aggregateRating, no review markup, no areaServed beyond the verified footprint.
+- /faqs -> /salesforce-ai-data-readiness-assessment from a new price answer (ISS-006).
+- /about -> the Salesforce Ben author page (today three article links, no author page link).
+- Person schema: keep jobTitle and worksFor; extend sameAs to the agreed array; knowsAbout limited to published topics (AI governance, data governance, Salesforce data quality, Nonprofit Cloud); no awards or affiliations that are not on the page.
+- Organization schema: one block; founder -> /about#jeremy-carmona; agreed sameAs; contactPoint with the chosen address (FACT-24); PostalAddress and LocalBusiness only per FACT-25; no aggregateRating, no review markup, no areaServed beyond the verified footprint (the deployed Service uses "United States", which is defensible).
+- BreadcrumbList on the assessment page and the case study to match the four service pages.
 
 ## 8. Cautions
 
-- Do not infer a customer-facing office from the BBB Brooklyn listing or a mailing address.
-- Do not add Wikipedia/Wikidata sameAs entries: none exist for CCC or Jeremy Carmona in observed results, and creating them is out of scope for this audit.
+- Do not infer a customer-facing office from the published address, the BBB listing, or the native LocalBusiness block.
+- Do not add Wikipedia or Wikidata sameAs entries: none exist for CCC or Jeremy Carmona in observed results, and creating them is out of scope.
 - Do not present the toolkit's or SEOmator's heuristic scores as evidence of AI visibility.
+- Client-side suppression scripts do not change what crawlers receive; validate the raw HTML.

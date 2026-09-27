@@ -1,0 +1,306 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "55640",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 15:33:45 GMT",
+  "Etag": "W/\"7945095367ce365cf6b62e5984010aec--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "uMGKmt5j/XNwCCF7e",
+  "X-Frame-Options": "SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Headless 360 Data Governance: What Admins Must Know | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+  "og:type": "article",
+  "og:description": "When AI agents enter data through APIs at batch scale, your data governance becomes infrastructure. Here is what changes and what to fix first.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e51f160d7cda50fe2c794a/1776623382290/article-04-data-governance-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Headless 360 Data Governance: What Admins Must Know | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e51f160d7cda50fe2c794a/1776623382290/article-04-data-governance-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+  "twitter:card": "summary",
+  "twitter:description": "When AI agents enter data through APIs at batch scale, your data governance becomes infrastructure. Here is what changes and what to fix first.",
+  "description": "When AI agents enter data through APIs at batch scale, your data governance becomes infrastructure. Here is what changes and what to fix first.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Headless 360 Data Governance: What Admins Must Know | Clear Concise Consulting",
+ "description": "When AI agents enter data through APIs at batch scale, your data governance becomes infrastructure. Here is what changes and what to fix first.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+ "h1_tags": [
+  "Headless 360 Data Governance: What Changes for Your Org"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Headless 360 Data Governance: What Changes for Your Org"
+  },
+  {
+   "level": 2,
+   "text": "Why Data Governance Became Infrastructure"
+  },
+  {
+   "level": 2,
+   "text": "The Four Pillars of Agent-Ready Data Governance"
+  },
+  {
+   "level": 2,
+   "text": "The Data 360 Connection"
+  },
+  {
+   "level": 2,
+   "text": "What This Looks Like in Practice"
+  },
+  {
+   "level": 2,
+   "text": "Key Takeaways"
+  },
+  {
+   "level": 2,
+   "text": "Headless 360 for Nonprofits: What Your ED Needs to Know"
+  },
+  {
+   "level": 2,
+   "text": "Auditing Your Salesforce Org for Agentic Readiness"
+  },
+  {
+   "level": 3,
+   "text": "1. Field Format Standardization"
+  },
+  {
+   "level": 3,
+   "text": "2. Picklist Hygiene"
+  },
+  {
+   "level": 3,
+   "text": "3. Validation Rules Designed for APIs"
+  },
+  {
+   "level": 3,
+   "text": "4. Field Descriptions as Agent Documentation"
+  }
+ ],
+ "word_count": 1050,
+ "text_content": "Headless 360 Data Governance: What Admins Must Know | Clear Concise Consulting 0 Headless 360 Data Governance: What Changes for Your Org Data Governance Apr 23 Written By Jeremy Carmona Every Salesforce org has a junk drawer. Fields nobody standardized, picklist values nobody consolidated, validation rules nobody documented. Humans worked around the mess. Agents will not. They will copy it, at scale, through the API, before your morning coffee. I have been applying AP Style data standardization to Salesforce orgs since 2012. State formats, salutations, phone formatting, address conventions. The approach comes from nonprofit fundraising, where inconsistent data directly blocks donor outreach. You cannot merge-mail a gift acknowledgment when half your addresses use \"NY\" and the other half use \"New York.\" That was a nuisance when one admin entered data at a time. Headless 360 made it a structural risk. Why Data Governance Became Infrastructure When a human enters a record through the Salesforce UI, the page layout guides them. Required fields have red asterisks. Picklists constrain choices. Help text explains conventions. Error messages say \"please\" and point to the problem. When an agent enters a record through the API, none of that exists. No page layout. No red asterisks. No help text. The agent sees the field API name, the field type, and whatever validation rules fire on save. That is the entire guardrail. If your data governance standards are not encoded into your schema (validation rules, picklist values, field-level defaults), they are not governance. They are suggestions that only work when a human is looking at the screen. The Four Pillars of Agent-Ready Data Governance 1. Field Format Standardization Pick one format for every formatted field and enforce it with a validation rule. Field Standard Enforcement State Two-letter abbreviation (NY, CA, TX) Validation rule with picklist or REGEX Phone (XXX) XXX-XXXX Validation rule with REGEX pattern Zip Code 5-digit or 5+4 (XXXXX or XXXXX-XXXX) Validation rule with REGEX Salutation Controlled picklist (Mr., Ms., Dr., Mx.) Picklist field, no free text Do this before any agent touches your org. An agent that creates 10,000 Contact records with inconsistent state values will take weeks to clean up. 2. Picklist Hygiene Deactivate unused values. Consolidate duplicates. Use Global Value Sets where the same values appear on multiple objects. An agent presented with a picklist containing \"Active,\" \"active,\" and \"ACTIVE\" will pick one at random or fail silently. 3. Validation Rules Designed for APIs Your existing validation rules probably work. They fire on API saves. But the error messages were written for humans. Review every error message and ask: if an API call receives this error, can a developer parse it to identify the failing field and the required format? If the answer is \"the error message says 'please enter a valid value,'\" that is not parseable. Add a structured identifier (VR-OBJ-001) and name the specific field and expected format. 4. Field Descriptions as Agent Documentation Every field on every object that an agent will read or write should have a populated Description. This description is what agent developers reference when building API interactions. It should state: what the field is for, what format is expected, and any business rules that apply. If your field descriptions are blank (most orgs), an agent developer has to guess. The agent inherits the guess. The Data 360 Connection Salesforce's Data 360 Governance framework provides Attribute-Based Access Control (ABAC) including object, field, and row-level security. For orgs activating Headless 360, one technical detail matters: new organizations are created with a \"Day 0 Allow All\" policy by default. This policy must be manually deleted to enable granular governance. If you are running a new org or sandbox, check this before connecting any agent. What This Looks Like in Practice I ran a data quality audit last month for a nonprofit. 40% of their Contact records had no salutation, no phone format consistency, and three different abbreviations for the same state. The org had been in production for six years. Every admin who touched it had their own formatting preference, and nobody wrote it down. That was manageable when two people entered data. In a Headless 360 world where an agent can create records at API batch scale, those three state abbreviations would multiply into thousands of inconsistent records within days. We standardized before activation. Validation rules for phone and state formats. Global Value Set for salutations. Field descriptions populated on every Contact and Account field. Total effort: about two weeks. Cost of not doing it: every downstream report, every donor outreach, every data export broken by inconsistency. Key Takeaways Data governance is no longer a cleanup task. In a Headless 360 environment, it is the infrastructure that determines whether agents produce clean records or multiply existing problems at API batch scale (hundreds or thousands of records per operation). Standardize field formats (state: two-letter abbreviation, phone: (XXX) XXX-XXXX, zip: 5-digit or 5+4, salutation: controlled picklist) before any agent activation. Enforce with validation rules using REGEX patterns. Clean up picklist values: deactivate unused values, consolidate duplicates, and use Global Value Sets where the same values appear on multiple objects. An agent presented with \"Active,\" \"active,\" and \"ACTIVE\" will not know which is correct. Rewrite validation rule error messages for API consumption: structured identifiers (VR-CON-001), specific field names, expected formats. The 255-character Salesforce error message limit is sufficient for structured errors. Populate field descriptions on every field agents will read or write. In a recent nonprofit org audit, zero out of 47 custom fields on the Contact object had populated descriptions. New orgs include a \"Day 0 Allow All\" Data 360 policy by default. Delete this policy manually to enable granular governance before connecting any agent. Start with the AI Readiness Scorecard to baseline your data quality across five categories and 15 weighted questions. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Headless 360 for Nonprofits: What Your ED Needs to Know Next Next Auditing Your Salesforce Org for Agentic Readiness",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/headless-360-nonprofits",
+   "text": "PreviousPreviousHeadless 360 for Nonprofits: What Your ED Needs to Know"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentic-readiness-audit",
+   "text": "NextNextAuditing Your Salesforce Org for Agentic Readiness"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://clearconciseconsulting.com/about",
+   "text": "AP Style data standardization"
+  },
+  {
+   "url": "http:///blog/headless-360-vs-agentforce",
+   "text": "Headless 360"
+  },
+  {
+   "url": "http:///blog/validation-rules-ai-agents",
+   "text": "validation rules"
+  },
+  {
+   "url": "https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/",
+   "text": "Data 360 Governance framework"
+  },
+  {
+   "url": "http:///blog/salesforce-agentic-readiness-audit",
+   "text": "audit"
+  },
+  {
+   "url": "https://clearconciseconsulting.com/scorecard",
+   "text": "AI Readiness Scorecard"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/f8b349a1-b9dd-4b5f-89b0-5f572274b34e/article-04-data-governance-featured.png",
+   "alt": "Abstract illustration of data governance filtering: clean structured data passes through while inconsistent data is caught",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Headless 360 Data Governance: What Admins Must Know | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/headless-360-data-governance",
+   "datePublished": "2026-04-23T10:00:28-0400",
+   "dateModified": "2026-04-23T10:00:56-0400",
+   "headline": "Headless 360 Data Governance: What Changes for Your Org",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e51f160d7cda50fe2c794a/1776623382290/article-04-data-governance-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How does Salesforce Headless 360 affect data governance?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Headless 360 allows AI agents to create and modify records through APIs at batch scale without a UI. Data governance standards (field formatting, picklist values, validation rules) become the primary enforcement layer because agents do not see page layouts, field labels, or help text that guide human data entry."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What data standards should be in place before activating Agentforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At minimum: standardized state abbreviations, consistent phone formatting, controlled picklist values, populated field descriptions, active validation rules that return structured API errors, and documented data governance conventions accessible to agent developers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do AI agents follow Salesforce validation rules?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, validation rules fire on API-initiated record saves. However, they do not fire on workflow field updates or some lead-conversion tasks. Validation rule error messages should be designed for API consumption (structured, specific) rather than only for human UI display."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,366 @@
+{
+ "url": "http://127.0.0.1:8765/b539dbc600a3.html",
+ "total_blocks_analyzed": 13,
+ "average_citability_score": 34.8,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 1,
+  "D": 4,
+  "F": 8
+ },
+ "top_5_citable": [
+  {
+   "heading": "Diversity, Equity & Inclusion",
+   "word_count": 107,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access..."
+  },
+  {
+   "heading": "\u00f0\u009f\u008c\u008dEnvironmental Responsibility",
+   "word_count": 234,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "As a digital-first Salesforce consulting firm, we're uniquely positioned to create positive environmental impact while delivering exceptional business results for our clients. 95% paperless operationsachieved and maintained100% carbon offsetfor all..."
+  },
+  {
+   "heading": "Data Security & Privacy",
+   "word_count": 171,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Protecting your data is our highest priority. We implement enterprise-grade security measures and follow Salesforce best practices to safeguard your information. Salesforce Best Practices:All implementations follow official Salesforce security guidelinesData..."
+  },
+  {
+   "heading": "Intellectual Property & Knowledge Sharing",
+   "word_count": 77,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Client Ownership:All custom Salesforce solutions developed for clients remain their intellectual property upon project completion and final payment. Training Materials:Our educational content, templates, and methodologies are proprietary but designed to..."
+  },
+  {
+   "heading": "Service Quality Guarantee",
+   "word_count": 120,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our Promise:We stand behind our work with comprehensive quality assurances and clear project commitments. 30-day satisfaction guaranteeon all consulting deliverablesClear project scopingwith defined success criteria and regular milestone reviewsTransparent communicationabout..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Professional Standards & Certifications",
+   "word_count": 90,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "13+ Salesforce certificationsincluding advanced architect-level credentialsNYU Partnership:Official instructor for Salesforce Administration Certificate programContinuous Learning:Ongoing education on latest Salesforce features and best practicesCommunity Leadership:Active participation in Salesforce Trailblazer Community 13+ Salesforce..."
+  },
+  {
+   "heading": "Policy Updates & Transparency",
+   "word_count": 105,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Regular Review:All policies reviewed annually and updated based on: Industry best practices and regulatory changesClient feedback and business evolutionEnvironmental and social impact opportunitiesTechnology advances and security requirements Industry best practices..."
+  },
+  {
+   "heading": "Terms and Conditions",
+   "word_count": 38,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Welcome to Clear Concise Consulting\u00e2\u0080\u0099s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u00e2\u0080\u0099ll find a summary of our guiding policies that reflect our..."
+  },
+  {
+   "heading": "Our Mission & Values",
+   "word_count": 101,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Mission:We empower organizations to maximize their Salesforce investment through clear, actionable solutions that drive measurable results while creating positive social and environmental impact. Clarity:Making complex Salesforce concepts accessible to everyoneIntegrity:Operating..."
+  },
+  {
+   "heading": "Terms & Conditions",
+   "word_count": 157,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 25,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "These Terms govern your use of Clear Concise Consulting's website and services. Key provisions include: Clear Scope Definition:All projects include detailed statements of workPayment Terms:Net 15 for consulting projects; immediate..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Terms and Conditions",
+   "word_count": 38,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Welcome to Clear Concise Consulting\u00e2\u0080\u0099s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u00e2\u0080\u0099ll find a summary of our guiding policies that reflect our..."
+  },
+  {
+   "heading": "Policies & Commitments",
+   "word_count": 40,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Building Trust Through Transparency and Action At Clear Concise Consulting, we believe great partnerships start with clear values and demonstrated commitments. Our policies reflect our dedication to ethical business practices,..."
+  },
+  {
+   "heading": "Our Mission & Values",
+   "word_count": 101,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Mission:We empower organizations to maximize their Salesforce investment through clear, actionable solutions that drive measurable results while creating positive social and environmental impact. Clarity:Making complex Salesforce concepts accessible to everyoneIntegrity:Operating..."
+  },
+  {
+   "heading": "Diversity, Equity & Inclusion",
+   "word_count": 107,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access..."
+  },
+  {
+   "heading": "\u00f0\u009f\u008c\u008dEnvironmental Responsibility",
+   "word_count": 234,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "As a digital-first Salesforce consulting firm, we're uniquely positioned to create positive environmental impact while delivering exceptional business results for our clients. 95% paperless operationsachieved and maintained100% carbon offsetfor all..."
+  },
+  {
+   "heading": "Data Security & Privacy",
+   "word_count": 171,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Protecting your data is our highest priority. We implement enterprise-grade security measures and follow Salesforce best practices to safeguard your information. Salesforce Best Practices:All implementations follow official Salesforce security guidelinesData..."
+  },
+  {
+   "heading": "Intellectual Property & Knowledge Sharing",
+   "word_count": 77,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Client Ownership:All custom Salesforce solutions developed for clients remain their intellectual property upon project completion and final payment. Training Materials:Our educational content, templates, and methodologies are proprietary but designed to..."
+  },
+  {
+   "heading": "Service Quality Guarantee",
+   "word_count": 120,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our Promise:We stand behind our work with comprehensive quality assurances and clear project commitments. 30-day satisfaction guaranteeon all consulting deliverablesClear project scopingwith defined success criteria and regular milestone reviewsTransparent communicationabout..."
+  },
+  {
+   "heading": "Professional Standards & Certifications",
+   "word_count": 90,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "13+ Salesforce certificationsincluding advanced architect-level credentialsNYU Partnership:Official instructor for Salesforce Administration Certificate programContinuous Learning:Ongoing education on latest Salesforce features and best practicesCommunity Leadership:Active participation in Salesforce Trailblazer Community 13+ Salesforce..."
+  },
+  {
+   "heading": "Terms & Conditions",
+   "word_count": 157,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 25,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "These Terms govern your use of Clear Concise Consulting's website and services. Key provisions include: Clear Scope Definition:All projects include detailed statements of workPayment Terms:Net 15 for consulting projects; immediate..."
+  },
+  {
+   "heading": "Questions or Concerns?",
+   "word_count": 35,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We're committed to transparency and responsive communication. Contact us for any policy questions or clarifications: General Inquiries:info@clearconciseconsulting.comPolicy Questions:policies@clearconciseconsulting.comEnvironmental Partnerships:sustainability@clearconciseconsulting.comDEI Initiatives:inclusion@clearconciseconsulting.com Response Commitment:All policy inquiries answered within 2 business days. Schedule..."
+  },
+  {
+   "heading": "Policy Updates & Transparency",
+   "word_count": 105,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Regular Review:All policies reviewed annually and updated based on: Industry best practices and regulatory changesClient feedback and business evolutionEnvironmental and social impact opportunitiesTechnology advances and security requirements Industry best practices..."
+  },
+  {
+   "heading": "Ready to Work With a Partner You Can Trust?",
+   "word_count": 56,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our policies aren't just documents\u00e2\u0080\u0094they're commitments that guide how we work and the value we deliver. Schedule a Discovery Call|View Our Services These policies reflect our ongoing commitment to ethical..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/terms-conditions",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

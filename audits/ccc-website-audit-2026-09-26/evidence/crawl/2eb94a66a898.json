@@ -1,0 +1,267 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:11 GMT",
+  "Etag": "W/\"e9258dfb29e510472ff91772fd160913--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "5Kwe060M/P0I9xSl1",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+  "og:type": "article",
+  "og:description": "Copy-paste JD templates for Admin, Consultant, Developer, and Architect. Common JD mistakes that lose candidates and how to fix them. Free templates.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69c3a82ab6f8f134b0103c68/1774430250890/10_job_description_templates.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69c3a82ab6f8f134b0103c68/1774430250890/10_job_description_templates.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+  "twitter:card": "summary",
+  "twitter:description": "Copy-paste JD templates for Admin, Consultant, Developer, and Architect. Common JD mistakes that lose candidates and how to fix them. Free templates.",
+  "description": "Copy-paste JD templates for Admin, Consultant, Developer, and Architect. Common JD mistakes that lose candidates and how to fix them. Free templates.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+ "description": "Copy-paste JD templates for Admin, Consultant, Developer, and Architect. Common JD mistakes that lose candidates and how to fix them. Free templates.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+ "h1_tags": [
+  "Salesforce Job Description Templates: Stop Losing Qualified Candidates"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Job Description Templates: Stop Losing Qualified Candidates"
+  },
+  {
+   "level": 2,
+   "text": "What to Reference in Each Role's JD"
+  },
+  {
+   "level": 2,
+   "text": "Template 1: Salesforce Administrator"
+  },
+  {
+   "level": 2,
+   "text": "Template 2: Salesforce [Cloud] Consultant"
+  },
+  {
+   "level": 2,
+   "text": "Template 3: Salesforce Developer"
+  },
+  {
+   "level": 2,
+   "text": "Template 4: Salesforce [Solutions/Technical] Architect"
+  },
+  {
+   "level": 2,
+   "text": "Match JD Complexity to the Right Role"
+  },
+  {
+   "level": 2,
+   "text": "Common Mistakes That Lose Candidates"
+  },
+  {
+   "level": 2,
+   "text": "How to Tell If a Resume Is Overstating Experience"
+  },
+  {
+   "level": 2,
+   "text": "JD Audit Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Building a Data Governance Framework for Salesforce"
+  },
+  {
+   "level": 2,
+   "text": "The Admin's Guide to Salesforce Duplicate Management"
+  }
+ ],
+ "word_count": 1074,
+ "text_content": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting 0 Salesforce Job Description Templates: Stop Losing Qualified Candidates Career Development Mar 25 Written By Jeremy Carmona \"Must know Apex, Flows, AND Lightning Web Components.\" Respectfully: that sentence describes three different people at three different skill levels at three different bill rates. Apex is a programming language for developers. Flows are visual automations for admins. Lightning Web Components are a front-end framework for a different kind of developer. If your JD asks for all three, you have not written a job description. You have written a wish list. Qualified Salesforce candidates see JDs like this and close the tab. They do not apply. They do not respond to your InMail. Your client blames the talent market. The market is fine. The JD is the problem. Here are four templates you can copy, paste, and use today. What to Reference in Each Role's JD Role Mention These Do NOT Mention Admin Flows, Reports, Dashboards, Permission Sets, Data Loader, Validation Rules Apex, LWC, API integrations, system architecture Developer Apex, LWC, Visualforce, SOQL, REST/SOAP APIs, Salesforce DX, Test Classes User management, report building, page layout configuration Consultant Requirements gathering, solution design, UAT, stakeholder management Specific code languages, detailed admin tasks Architect Data modeling, integration patterns, security architecture, governance, ERDs Day-to-day admin tasks, basic reporting, user support Template 1: Salesforce Administrator Experience: 2-5 years of Salesforce administration Certifications: Salesforce Administrator required. Advanced Admin or Platform App Builder preferred. Core Responsibilities: Manage user setup, profiles, permission sets, and security settings Build and maintain reports, dashboards, and automated workflows (Flows) Configure custom objects, fields, page layouts, and record types Support data quality through validation rules, duplicate management, and import processes Serve as first point of contact for user questions and system issues Do not include: Apex or custom code requirements (developer work). \"Lightning experience\" as a separate requirement (everyone uses Lightning). Multiple Cloud certifications (admins specialize). Template 2: Salesforce [Cloud] Consultant Experience: 3-7 years of Salesforce implementation experience with at least 2 full lifecycle implementations Certifications: [Cloud]-specific Consultant certification required. Administrator certification preferred. Core Responsibilities: Gather business requirements from stakeholders and document functional specifications Design Salesforce solutions that align with client business processes Lead or support implementations from discovery through deployment Configure Salesforce to meet documented requirements (declarative preferred) Manage user acceptance testing and training Replace [Cloud] with the specific Cloud: Sales Cloud Consultant, Service Cloud Consultant, etc. Template 3: Salesforce Developer Experience: 3-6 years of Salesforce development experience Certifications: Platform Developer I required. Platform Developer II preferred. Core Responsibilities: Develop custom solutions using Apex, Lightning Web Components, and Visualforce Build and maintain integrations with external systems via REST/SOAP APIs Write and maintain unit tests with adequate code coverage Participate in code reviews and follow development best practices Deploy code through CI/CD pipelines using Salesforce DX or similar tools Template 4: Salesforce [Solutions/Technical] Architect Experience: 7+ years of Salesforce experience with at least 3 years in architecture or technical leadership roles Certifications: Data Architect or Application Architect required. System Architect preferred. Core Responsibilities: Design scalable data models, integration architecture, and security frameworks Lead technical design sessions and provide governance across implementations Evaluate and recommend solutions considering platform limits, performance, and maintainability Mentor administrators and developers on best practices Document technical architecture decisions and maintain system design records Match JD Complexity to the Right Role If the JD says... This is actually... Hire this role \"Build reports and manage users\" Beginner admin work Junior Admin ($70-85K) \"Build Flows and approval processes\" Intermediate admin work Mid Admin ($85-110K) \"Gather requirements and lead implementations\" Consultant work Consultant ($100-140K) \"Write Apex triggers and build LWC components\" Developer work Developer ($100-150K) \"Design data models and integration architecture\" Architect work Architect ($140-200K+) \"Build Flows AND write Apex AND design architecture\" Three different people Split into separate roles Common Mistakes That Lose Candidates \"10+ years of Salesforce experience required.\" The platform has changed so dramatically in the past 5 years that someone with 5 years of current experience often outperforms someone with 10 years of outdated knowledge. \"5+ years with recent implementation experience\" is a better filter. \"Salesforce certification required\" without specifying which one. There are 30+ certifications. Name the one you need: \"Salesforce Administrator certification required\" or \"Sales Cloud Consultant certification required.\" \"Experience with Salesforce Classic and Lightning.\" Classic has been deprecated for years. Requiring it signals your JD is outdated. Remove it. How to Tell If a Resume Is Overstating Experience Resume says \"Led Salesforce implementation\" but the candidate was an admin. Ask: \"What was your specific role? Who else was on the team?\" Real leads describe team structure, their deliverables, and the project timeline. \"Led\" is the most inflated word on Salesforce resumes. Resume lists 6 Clouds of experience across 3 years. Possible if they worked at a consultancy rotating across projects. Ask for project-specific details per Cloud. If all the \"experience\" came from Trailhead modules, that is not the same thing. Resume says \"Architected Salesforce solutions\" with no Architect certifications. Possible without the cert. Ask them to describe a specific architecture decision and its trade-offs. If they can articulate the reasoning, the experience is real. If they use \"architected\" to mean \"built\" or \"configured,\" that is a different thing entirely. JD Audit Checklist Before posting any Salesforce JD, run through this: Does it specify which Cloud? Does it mix admin and developer skills? Does it require impossible experience levels? Does it list \"Lightning experience\"? Does it name specific certifications? Does it mention deprecated tools (Workflow Rules, Process Builder, Classic)? Is the salary aligned with the role tier? Does it describe one role or three? One JD, one role. If you need two roles, write two JDs. Part 10 of a 10-part series . Previously: Certification Decoder . Full series: Salesforce for Recruiters Jeremy Carmona is a 13x Salesforce certified architect, founder of Clear Concise Consulting, and adjunct instructor at NYU Tandon School of Engineering. Free Download: Salesforce Job Description Templates Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Building a Data Governance Framework for Salesforce Next Next The Admin's Guide to Salesforce Duplicate Management",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Career+Development",
+   "text": "Career Development"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog",
+   "text": "10-part series"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-certification-decoder-for-recruiters",
+   "text": "Certification Decoder"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-terminology-for-recruiters",
+   "text": "Salesforce for Recruiters"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/s/Guide_10_Salesforce_Job_Description_Templates.pdf",
+   "text": "Salesforce Job Description Templates"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-governance-framework",
+   "text": "PreviousPreviousBuilding a Data Governance Framework for Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+   "text": "NextNextThe Admin's Guide to Salesforce Duplicate Management"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/a2cdae2e-7f2a-4701-958d-cf76d257e461/10_job_description_templates.png",
+   "alt": "Salesforce Job Description Templates showing four role templates with common mistakes highlighted and correction guidance for recruiters",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates",
+   "datePublished": "2026-03-25T05:22:13-0400",
+   "dateModified": "2026-04-01T11:36:14-0400",
+   "headline": "Salesforce Job Description Templates: Stop Losing Qualified Candidates",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69c3a82ab6f8f134b0103c68/1774430250890/10_job_description_templates.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

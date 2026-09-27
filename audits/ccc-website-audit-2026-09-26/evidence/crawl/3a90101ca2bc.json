@@ -1,0 +1,460 @@
+{
+ "url": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:14 GMT",
+  "Etag": "W/\"f01760960f9be38d943338b355a7f128--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "6FTzZ46B/rEOd64Er",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Nonprofit Consulting | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting",
+  "og:type": "website",
+  "og:description": "Salesforce consulting for nonprofits covering NPSP, Agentforce Nonprofit, donor data, grants tracking, migration, and governance.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd38a019a7c865b5063c09/1775057056411/nonprofit_services.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Salesforce Nonprofit Consulting | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd38a019a7c865b5063c09/1775057056411/nonprofit_services.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting",
+  "twitter:card": "summary",
+  "twitter:description": "Salesforce consulting for nonprofits covering NPSP, Agentforce Nonprofit, donor data, grants tracking, migration, and governance.",
+  "description": "Salesforce consulting for nonprofits covering NPSP, Agentforce Nonprofit, donor data, grants tracking, migration, and governance.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Nonprofit Consulting | Clear Concise Consulting",
+ "description": "Salesforce consulting for nonprofits covering NPSP, Agentforce Nonprofit, donor data, grants tracking, migration, and governance.",
+ "canonical": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting",
+ "h1_tags": [
+  "Salesforce Consulting forNonprofits"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Consulting forNonprofits"
+  },
+  {
+   "level": 2,
+   "text": "NPSP or Nonprofit Cloud? The Decision That Shapes Everything"
+  },
+  {
+   "level": 2,
+   "text": "NPSP vs Nonprofit Cloud: An Honest Comparison"
+  },
+  {
+   "level": 2,
+   "text": "The Hidden Cost Nobody Mentions"
+  },
+  {
+   "level": 2,
+   "text": "Problems We Solve Every Day"
+  },
+  {
+   "level": 2,
+   "text": "Discovery"
+  },
+  {
+   "level": 2,
+   "text": "Build for Sustainability"
+  },
+  {
+   "level": 2,
+   "text": "Data Quality as Foundation"
+  },
+  {
+   "level": 2,
+   "text": "NPSP Implementation"
+  },
+  {
+   "level": 2,
+   "text": "Nonprofit Cloud Implementation"
+  },
+  {
+   "level": 2,
+   "text": "NPSP to Nonprofit Cloud Migration"
+  },
+  {
+   "level": 2,
+   "text": "Data Quality Remediation"
+  },
+  {
+   "level": 2,
+   "text": "Grants Management"
+  },
+  {
+   "level": 2,
+   "text": "Program Management"
+  },
+  {
+   "level": 2,
+   "text": "Integration Architecture"
+  },
+  {
+   "level": 2,
+   "text": "Staff Training and Adoption"
+  },
+  {
+   "level": 2,
+   "text": "Why Nonprofits Choose Clear Concise Consulting"
+  },
+  {
+   "level": 2,
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "level": 2,
+   "text": "Nonprofit Salesforce guides, free to use"
+  },
+  {
+   "level": 2,
+   "text": "Open-source tools"
+  },
+  {
+   "level": 2,
+   "text": "Data Governance"
+  },
+  {
+   "level": 2,
+   "text": "Data Migration"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Training"
+  },
+  {
+   "level": 3,
+   "text": "Clear Concise Consulting provides Salesforce consulting for nonprofits, including NPSP implementation, Agentforce Nonprofit (formerly Nonprofit Cloud) migration, donor data management, and grants tracking. CCC holds the Nonprofit Cloud Consultant certification and has 14 years of nonprofit Salesforce experience."
+  },
+  {
+   "level": 3,
+   "text": "Implementation Costs"
+  },
+  {
+   "level": 3,
+   "text": "Technical Expertise Gap"
+  },
+  {
+   "level": 3,
+   "text": "Data Cleanup Before Go-Live"
+  },
+  {
+   "level": 3,
+   "text": "Third-Party Apps"
+  },
+  {
+   "level": 3,
+   "text": "Staff Time and Training"
+  },
+  {
+   "level": 3,
+   "text": "Understanding the Power of Us Program"
+  },
+  {
+   "level": 3,
+   "text": "Ready to Put Your CRM to Work for Your Mission?"
+  },
+  {
+   "level": 4,
+   "text": "Factor"
+  },
+  {
+   "level": 4,
+   "text": "NPSP"
+  },
+  {
+   "level": 4,
+   "text": "Nonprofit Cloud"
+  },
+  {
+   "level": 4,
+   "text": "Duplicate Contacts Splitting Donation Histories"
+  },
+  {
+   "level": 4,
+   "text": "Data Silos Across Fundraising, Events, and Programs"
+  },
+  {
+   "level": 4,
+   "text": "Reports That Don't Match Finance"
+  },
+  {
+   "level": 4,
+   "text": "Payment Processing Gaps"
+  },
+  {
+   "level": 4,
+   "text": "Person Accounts Mistakes"
+  },
+  {
+   "level": 4,
+   "text": "Recurring Donation Tracking"
+  },
+  {
+   "level": 4,
+   "text": "Should we stay on NPSP or move to Nonprofit Cloud?"
+  },
+  {
+   "level": 4,
+   "text": "How long does a typical NPSP implementation take?"
+  },
+  {
+   "level": 4,
+   "text": "What happens to our data when we migrate from our current system?"
+  },
+  {
+   "level": 4,
+   "text": "Do you work with organizations outside New York?"
+  },
+  {
+   "level": 4,
+   "text": "What if we already have Salesforce but it's not working for us?"
+  },
+  {
+   "level": 4,
+   "text": "Can you help us integrate Salesforce with our email marketing platform?"
+  },
+  {
+   "level": 4,
+   "text": "What does ongoing support look like after implementation?"
+  },
+  {
+   "level": 4,
+   "text": "How do you handle payment processing since it's not native to Salesforce?"
+  },
+  {
+   "level": 4,
+   "text": "What's the difference between Household Accounts and Person Accounts?"
+  },
+  {
+   "level": 4,
+   "text": "Do you offer nonprofit discounts?"
+  }
+ ],
+ "word_count": 1698,
+ "text_content": "Salesforce Nonprofit Consulting | Clear Concise Consulting 0 Salesforce Consulting for Nonprofits Clear Concise Consulting provides Salesforce consulting for nonprofits, including NPSP implementation, Agentforce Nonprofit (formerly Nonprofit Cloud) migration, donor data management, and grants tracking. CCC holds the Nonprofit Cloud Consultant certification and has 14 years of nonprofit Salesforce experience. Nonprofits lose up to 30% of potential revenue due to bad data. Duplicate contacts split donation histories. Obsolete emails compromise campaigns. Program management lives in spreadsheets while your CRM collects dust. Your mission deserves better. NPSP or Nonprofit Cloud? The Decision That Shapes Everything If you're researching Salesforce for your nonprofit, you've hit the fork in the road: stick with the Nonprofit Success Pack (NPSP) that over 56,000 organizations trust, or migrate to the newer Nonprofit Cloud (NPC) that Salesforce is pushing as the future. Here's what nobody tells you upfront: there is no automatic upgrade path . Moving from NPSP to Nonprofit Cloud requires a full reimplementation. That means months of data migration, potential downtime, and staff retraining. This isn't a software update. It's a strategic decision that affects your budget, your team, and your ability to serve your mission. NPSP vs Nonprofit Cloud: An Honest Comparison Factor Data Model Complexity Best For NPSP Nonprofit Cloud Cost Contact Salesforce for current pricing Contact Salesforce for current pricing Extensive AppExchange support $60/user/month Free Licences Third Party Apps 10 Sales and Service Enterprise licenses Small to mid-sized nonprofits 10 Agentforce Nonprofit Enterprise licenses Household Model Person Accounts $60/user/month Limited compatibility (growing) Large organizations with technical staff The Hidden Cost Nobody Mentions Those \"10 free licenses\" are just the beginning. Here's what our nonprofit clients typically discover: Implementation Costs $7,000 to $30,000 Covering consulting, data migration, integrations, and configuration. Technical Expertise Gap Most nonprofits lack in-house Salesforce expertise. That means ongoing consultant fees for changes, fixes, and training. Data Cleanup Before Go-Live Migrating dirty data just moves problems to a new system. Plan for deduplication, standardization, and validation work. Third-Party Apps Payment processing, event registration, volunteer management, email marketing: none of these are native to Salesforce. Budget for AppExchange solutions. Staff Time and Training Your team will spend weeks learning the new system. Factor in productivity loss during the transition. Problems We Solve Every Day Duplicate Contacts Splitting Donation Histories When the same donor appears twice (or five times), their giving history fragments. Annual reports undercount loyal supporters. Acknowledgment letters go to wrong addresses. We implement matching rules, merge strategies, and ongoing governance to consolidate your records and keep them clean. Data Silos Across Fundraising, Events, and Programs Your development team uses one system, events uses another, and program staff manage participants in spreadsheets. We unify these into a single source of truth so every team sees the complete constituent picture. Reports That Don't Match Finance When your Salesforce donation totals don't match your accounting system, nobody trusts either one. We configure proper opportunity stages, payment mappings, and reconciliation processes so your numbers align. Payment Processing Gaps Neither NPSP nor Nonprofit Cloud includes native payment processing. We integrate third-party solutions like Stripe, PosiPay, or Classy so you can accept donations without leaving Salesforce. Person Accounts Mistakes Some consultants enable Person Accounts for nonprofits without understanding the consequences. It's a one-way decision that breaks NPSP compatibility. We help you choose the right data model from the start. Recurring Donation Tracking Managing monthly donors shouldn't require spreadsheets. We configure Enhanced Recurring Donations, payment processor integrations, and automated receipting so sustainer programs run themselves. How We Work With Nonprofits Discovery First We audit your current systems, data quality, and processes before recommending solutions. No generic implementations. Your org structure, funding model, and program delivery shape every decision. Build for Sustainability Your team will maintain this system long after we're gone. We prioritize clicks over code, train your staff thoroughly, and document everything so future admins aren't starting from scratch. Data Quality as Foundation Clean data isn't optional. We establish governance frameworks, duplicate rules, and validation processes during implementation because retrofitting these later costs three times as much. Nonprofit Salesforce Services NPSP Implementation Full configuration of the Nonprofit Success Pack for organizations new to Salesforce. Includes data migration, user training, and 90-day post-launch support. Nonprofit Cloud Implementation For organizations ready for Salesforce's next-generation platform. Includes OmniStudio configuration, Person Account setup, and Business Rules Engine automation. NPSP to Nonprofit Cloud Migration Strategic planning and execution for organizations making the transition. Data mapping, parallel testing, and phased rollout to minimize disruption. Data Quality Remediation Deduplication, standardization, and governance framework implementation for existing Salesforce orgs. Turn unreliable data into a trusted asset. Grants Management Outbound Funds Module configuration for foundations and grantseeking organizations. Track applications, awards, disbursements, and reporting requirements. Program Management Track participants, outcomes, and impact using Salesforce's native program management tools. Replace spreadsheets with real-time dashboards. Integration Architecture Connect Salesforce to your email marketing, event platforms, payment processors, and accounting systems. Build a unified technology ecosystem. Staff Training and Adoption Role-based training for fundraisers, program staff, and administrators. Live workshops, recorded sessions, and documentation your team will actually use. Understanding the Power of Us Program Eligible organizations may select 10 donated Agentforce Nonprofit Enterprise licenses or 10 Sales and Service Enterprise licenses through Salesforce's Power of Us Program . NPSP is a managed-package suite that can be installed on the Sales and Service option; it is not a license type. What's included: 10 user licenses Standard data storage allocation Access to the Trailblazer Community for Nonprofits What's not included: Implementation services Data migration Training Third-party apps Additional storage or licenses beyond 10 Many organizations assume \"free\" means zero cost. In practice, you'll need implementation support, data cleanup, and potentially additional tools. Budget accordingly. Why Nonprofits Choose Clear Concise Consulting Nonprofit Cloud Consultant Certified One of the few consultants with the Nonprofit Cloud Consultant certification, demonstrating specialized expertise beyond generic Salesforce knowledge. 13x Salesforce Certified Architect Technical depth to solve complex problems, not just follow templates. Integration architecture, security design, and performance optimization when you need them. 80% Job Placement Rate Teaching Salesforce at NYU If we can train career changers to pass certification exams and land jobs, we can train your team to actually use your system. Journalism Background Complex systems explained in language your board and staff will understand. Documentation that gets read. Training that sticks. Frequently Asked Questions Should we stay on NPSP or move to Nonprofit Cloud? It depends on your organization's size, technical capacity, and growth plans. NPSP remains fully supported and works well for small to mid-sized nonprofits. Nonprofit Cloud offers more advanced features but requires more technical expertise and budget. We recommend a discovery session to assess your specific situation before making this decision. How long does a typical NPSP implementation take? For a basic implementation with data migration, 6-10 weeks. Complex implementations with multiple integrations, custom automation, and large data volumes may take 12-16 weeks. We provide realistic timelines during discovery, not sales pitches. What happens to our data when we migrate from our current system? We extract data from your existing system, clean and transform it to match Salesforce's data model, and load it in the correct sequence. Relationships between records (like contacts and donations) are preserved. We run parallel testing to validate accuracy before go-live. Do you work with organizations outside New York? Yes. While Clear Concise Consulting is based in Manhattan, we work with nonprofits across the United States. Most implementation work happens remotely, with optional on-site training sessions. What if we already have Salesforce but it's not working for us? This is common. We offer health checks to assess your current configuration, identify problems, and create a remediation roadmap. Sometimes a few targeted fixes dramatically improve usability. Other times, a more significant reconfiguration makes sense. Can you help us integrate Salesforce with our email marketing platform? Yes. We build integrations with Mailchimp, Constant Contact, Pardot, Marketing Cloud, and other platforms. The right integration depends on your email volume, segmentation needs, and budget. What does ongoing support look like after implementation? We offer retainer-based support for organizations needing regular assistance, as well as ad-hoc consulting for occasional needs. All implementations include documentation and training so your team can handle day-to-day administration independently. How do you handle payment processing since it's not native to Salesforce? We integrate third-party payment solutions like Stripe, Classy, or PosiPay. The right choice depends on your donation page needs, transaction volume, and existing infrastructure. We configure the integration so payments flow into Salesforce as donations automatically. What's the difference between Household Accounts and Person Accounts? Household Accounts (used by NPSP) create an Account record for each household with related Contact records for individuals. Person Accounts (used by Nonprofit Cloud) combine Account and Contact into a single record per individual. This is a fundamental architecture choice that affects how you track relationships, households, and organizational affiliations. Do you offer nonprofit discounts? Our rates reflect the specialized expertise required for nonprofit implementations. We work with organizations to scope projects appropriately for their budgets, whether that means a phased approach or focusing on highest-impact features first. Nonprofit Salesforce guides, free to use \u200d  \u200d NPSP vs Nonprofit Cloud: which one fits your org The data quality risks nonprofits carry into AI Validation rules for nonprofit Salesforce orgs A flow governance checklist for nonprofit teams Why nonprofits lose donations on Giving Tuesday Open-source tools We publish some of our NPSP-to-Nonprofit-Cloud migration work as open-source repos: NPSP to Nonprofit Cloud Field Map : a source-cited, field-level crosswalk between NPSP and Nonprofit Cloud objects, with every entry tagged by confidence. NPSP Migration Readiness Scanner : an sf CLI plugin that scores your org's migration readiness from 0-100 and lists the specific blockers. Ready to Put Your CRM to Work for Your Mission? Schedule a free 30-minute consultation to discuss your nonprofit's Salesforce needs. Book Your Consultation Related Services Data Governance Clean data drives accurate reporting and AI readiness. Establish governance frameworks that protect your constituent information. Data Governance Services Data Migration Moving from another CRM? We handle extraction, transformation, and loading with validation at every step. Data Migration Services Salesforce Training Role-based training for fundraisers, program staff, and administrators. Make adoption stick. Learn More Salesforce Training Services",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/npsp-vs-nonprofit-cloud",
+   "text": "NPSP vs Nonprofit Cloud: which one fits your org"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-data-quality-risks",
+   "text": "The data quality risks nonprofits carry into AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-salesforce-validation-rules",
+   "text": "Validation rules for nonprofit Salesforce orgs"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-salesforce-flow-governance-checklist",
+   "text": "A flow governance checklist for nonprofit teams"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofits-lose-donations-giving-tuesday",
+   "text": "Why nonprofits lose donations on Giving Tuesday"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book Your Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance",
+   "text": "Data Governance Services"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance#data-migration-services",
+   "text": "Data Migration Services"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training",
+   "text": "Learn More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training",
+   "text": "Salesforce Training Services"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://www.salesforce.com/company/power-of-us/",
+   "text": "Salesforce's Power of Us Program"
+  },
+  {
+   "url": "https://github.com/clear-concise-carmona/npsp-to-nonprofit-cloud-field-map",
+   "text": "NPSP to Nonprofit Cloud Field Map"
+  },
+  {
+   "url": "https://github.com/clear-concise-carmona/npsp-migration-readiness-scanner",
+   "text": "NPSP Migration Readiness Scanner"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c8b4b43f-01f7-4ca2-a4f7-1137d1db3de7/01_hero_community_network.jpg",
+   "alt": "",
+   "width": "2500",
+   "height": "1395",
+   "loading": "eager"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/926660f0-9f0a-4d5b-8918-ca443ad00ec6/02_npsp_vs_npc_comparison.png",
+   "alt": "Diagram comparing a structured grid labeled NPSP on the left to an enhanced modular structure labeled NONPROFIT CLOUD on the right, showing a transformation from a uniform arrangement of blue cubes to an interconnected, modular network of varying blue shapes.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Connected community network representing nonprofit constituents, donors, and programs",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/96b7b400-0219-4c4c-83e2-05b3e70cb553/04_services_pathway.jpg",
+   "alt": "",
+   "width": "2500",
+   "height": "1395",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "name": "Nonprofit Salesforce Consulting",
+   "description": "NPSP and Nonprofit Cloud implementation from a Nonprofit Cloud Consultant certified architect. 14 years of nonprofit Salesforce experience starting at Environmental Defense Fund. Donor management, grant tracking, and data governance.",
+   "provider": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com"
+   },
+   "serviceType": "Nonprofit Salesforce Consulting",
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.clearconciseconsulting.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Services",
+     "item": "https://www.clearconciseconsulting.com/services"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Nonprofit Consulting",
+     "item": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

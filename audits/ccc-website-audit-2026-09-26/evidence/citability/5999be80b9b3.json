@@ -1,0 +1,381 @@
+{
+ "url": "http://127.0.0.1:8765/5999be80b9b3.html",
+ "total_blocks_analyzed": 14,
+ "average_citability_score": 41.7,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 2,
+  "D": 7,
+  "F": 4
+ },
+ "top_5_citable": [
+  {
+   "heading": "The problem",
+   "word_count": 193,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "CCC's Salesforce training is built for people who weren't born speaking tech. Career changers, nonprofit staff assigned to a Salesforce role they didn't apply for, and teams with low adoption..."
+  },
+  {
+   "heading": "What the certification exam tests. What CCC actually teaches.",
+   "word_count": 222,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "The exam asks what a validation rule does. CCC teaches you to write one for a nonprofit that needs to prevent gift entries over $100,000 from saving without manager approval...."
+  },
+  {
+   "heading": "I've tried learning Salesforce before and got stuck. How is your training different?",
+   "word_count": 58,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Our approach is specifically designed for people who've struggled with traditional Salesforce training. We break complex concepts into digestible pieces, use relatable examples instead of technical jargon, and provide hands-on..."
+  },
+  {
+   "heading": "Documentation",
+   "word_count": 173,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Documentation that outlives the admin who built the system. Admin runbook.Step-by-step instructions for every recurring admin task: user onboarding, data imports, report modifications, Flow updates, sandbox refreshes, and deployment procedures...."
+  },
+  {
+   "heading": "Do I need technical experience to learn Salesforce?",
+   "word_count": 51,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of life master the platform. Our training starts..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Admin training",
+   "word_count": 23,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Setup navigation, object management, Flow building, report and dashboard creation, user management, data import/export, and security configuration. Hands-on exercises in sandbox, not slides."
+  },
+  {
+   "heading": "Ad hoc support",
+   "word_count": 92,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every organization needs a full training program or a documentation overhaul. Sometimes you need someone to fix the thing that broke on Tuesday. On-demand support.Troubleshooting, configuration changes, report modifications,..."
+  },
+  {
+   "heading": "End user training",
+   "word_count": 39,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Role-specific sessions for sales, service, marketing, and operations teams. How to create records, run reports, use dashboards, and follow business processes in Salesforce. Designed for non-technical staff who didn't choose..."
+  },
+  {
+   "heading": "Leadership training",
+   "word_count": 32,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "How to read dashboards, interpret pipeline reports, and ask the right questions about data quality. What leadership should expect from Salesforce reporting and what to do when the numbers don't..."
+  },
+  {
+   "heading": "FAQs",
+   "word_count": 314,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 3
+   },
+   "preview": "Do I need technical experience to learn Salesforce?Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The problem",
+   "word_count": 193,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "CCC's Salesforce training is built for people who weren't born speaking tech. Career changers, nonprofit staff assigned to a Salesforce role they didn't apply for, and teams with low adoption..."
+  },
+  {
+   "heading": "Admin training",
+   "word_count": 23,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Setup navigation, object management, Flow building, report and dashboard creation, user management, data import/export, and security configuration. Hands-on exercises in sandbox, not slides."
+  },
+  {
+   "heading": "End user training",
+   "word_count": 39,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Role-specific sessions for sales, service, marketing, and operations teams. How to create records, run reports, use dashboards, and follow business processes in Salesforce. Designed for non-technical staff who didn't choose..."
+  },
+  {
+   "heading": "Leadership training",
+   "word_count": 32,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "How to read dashboards, interpret pipeline reports, and ask the right questions about data quality. What leadership should expect from Salesforce reporting and what to do when the numbers don't..."
+  },
+  {
+   "heading": "Certification prep",
+   "word_count": 31,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Structured study plan for the Salesforce Administrator certification exam. Covers every exam objective: data management, security, automation, customization, reports, and analytics. The same program that produced 80% job placement at..."
+  },
+  {
+   "heading": "What the certification exam tests. What CCC actually teaches.",
+   "word_count": 222,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "The exam asks what a validation rule does. CCC teaches you to write one for a nonprofit that needs to prevent gift entries over $100,000 from saving without manager approval...."
+  },
+  {
+   "heading": "Documentation",
+   "word_count": 173,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Documentation that outlives the admin who built the system. Admin runbook.Step-by-step instructions for every recurring admin task: user onboarding, data imports, report modifications, Flow updates, sandbox refreshes, and deployment procedures...."
+  },
+  {
+   "heading": "Ad hoc support",
+   "word_count": 92,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every organization needs a full training program or a documentation overhaul. Sometimes you need someone to fix the thing that broke on Tuesday. On-demand support.Troubleshooting, configuration changes, report modifications,..."
+  },
+  {
+   "heading": "FAQs",
+   "word_count": 314,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 3
+   },
+   "preview": "Do I need technical experience to learn Salesforce?Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of..."
+  },
+  {
+   "heading": "Do I need technical experience to learn Salesforce?",
+   "word_count": 51,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of life master the platform. Our training starts..."
+  },
+  {
+   "heading": "How long will it take me to learn Salesforce?",
+   "word_count": 58,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The timeline varies based on your goals and learning pace. For basic user skills, most people become comfortable within 1-2 weeks of training. For administrator skills, expect 4-8 weeks to..."
+  },
+  {
+   "heading": "Can you train our entire team with different skill levels?",
+   "word_count": 59,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes, we specialize in mixed-skill training environments. We begin with a skills assessment to understand each team member's current abilities and learning goals. Then we create a training program that..."
+  },
+  {
+   "heading": "I've tried learning Salesforce before and got stuck. How is your training different?",
+   "word_count": 58,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Our approach is specifically designed for people who've struggled with traditional Salesforce training. We break complex concepts into digestible pieces, use relatable examples instead of technical jargon, and provide hands-on..."
+  },
+  {
+   "heading": "Do you offer ongoing support after the training?",
+   "word_count": 49,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Absolutely. Learning doesn't stop when training ends. All our training packages include post-training support options, from Q&A sessions to office hours and reference materials. We also offer advanced training paths..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/services/salesforce-training",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

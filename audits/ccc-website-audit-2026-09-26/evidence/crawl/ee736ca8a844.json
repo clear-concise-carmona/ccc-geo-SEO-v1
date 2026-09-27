@@ -1,0 +1,606 @@
+{
+ "url": "https://www.clearconciseconsulting.com/faqs",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:40 GMT",
+  "Etag": "W/\"f759fbbd71ce422a64122bc5866dd03b--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "B1gAOtdp/YGOxfWvW",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Consulting FAQs | CCC | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/faqs",
+  "og:type": "website",
+  "og:description": "Answers about CCC\u2019s Salesforce assessments, implementation approach, data governance, AI readiness, engagement process, and next steps.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd395ba33c0a35dabd22ff/1775057243920/faqs.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Salesforce Consulting FAQs | CCC | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd395ba33c0a35dabd22ff/1775057243920/faqs.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/faqs",
+  "twitter:card": "summary",
+  "twitter:description": "Answers about CCC\u2019s Salesforce assessments, implementation approach, data governance, AI readiness, engagement process, and next steps.",
+  "description": "Answers about CCC\u2019s Salesforce assessments, implementation approach, data governance, AI readiness, engagement process, and next steps.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Consulting FAQs | CCC | Clear Concise Consulting",
+ "description": "Answers about CCC\u2019s Salesforce assessments, implementation approach, data governance, AI readiness, engagement process, and next steps.",
+ "canonical": "https://www.clearconciseconsulting.com/faqs",
+ "h1_tags": [
+  "Frequently Asked Questions"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "level": 2,
+   "text": "About CCC"
+  },
+  {
+   "level": 2,
+   "text": "Pricing & Process"
+  },
+  {
+   "level": 2,
+   "text": "Services & Implementation"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce & Technical"
+  },
+  {
+   "level": 2,
+   "text": "Training & Certification"
+  },
+  {
+   "level": 2,
+   "text": "Templates & Resources"
+  },
+  {
+   "level": 2,
+   "text": "Logistics"
+  },
+  {
+   "level": 2,
+   "text": "Still have questions?"
+  },
+  {
+   "level": 3,
+   "text": "What makes CCC different from a large consulting firm?"
+  },
+  {
+   "level": 3,
+   "text": "Who is behind CCC?"
+  },
+  {
+   "level": 3,
+   "text": "What does Clear Concise Consulting do?"
+  },
+  {
+   "level": 3,
+   "text": "What industries do you specialize in?"
+  },
+  {
+   "level": 3,
+   "text": "How much does a typical engagement cost?"
+  },
+  {
+   "level": 3,
+   "text": "How are your services priced?"
+  },
+  {
+   "level": 3,
+   "text": "Do you offer nonprofit discounts?"
+  },
+  {
+   "level": 3,
+   "text": "Do you require a deposit?"
+  },
+  {
+   "level": 3,
+   "text": "How do I get started?"
+  },
+  {
+   "level": 3,
+   "text": "What consulting services do you offer?"
+  },
+  {
+   "level": 3,
+   "text": "What is your typical project timeline?"
+  },
+  {
+   "level": 3,
+   "text": "Do you provide post-project support?"
+  },
+  {
+   "level": 3,
+   "text": "What tools do you use for collaboration?"
+  },
+  {
+   "level": 3,
+   "text": "What is a Salesforce data migration?"
+  },
+  {
+   "level": 3,
+   "text": "How do I know if my Salesforce org needs an audit?"
+  },
+  {
+   "level": 3,
+   "text": "What is the Salesforce Trust Layer and why does it matter for AI?"
+  },
+  {
+   "level": 3,
+   "text": "When should I use Flow vs. Apex for AI agent triggers?"
+  },
+  {
+   "level": 3,
+   "text": "What should I include in a Salesforce RFP for a consultant?"
+  },
+  {
+   "level": 3,
+   "text": "How long does it take to learn Salesforce Administration?"
+  },
+  {
+   "level": 3,
+   "text": "Do you offer Salesforce training?"
+  },
+  {
+   "level": 3,
+   "text": "Can you help me prepare for Salesforce certifications?"
+  },
+  {
+   "level": 3,
+   "text": "Do I need technical experience to learn Salesforce?"
+  },
+  {
+   "level": 3,
+   "text": "What free resources do you offer?"
+  },
+  {
+   "level": 3,
+   "text": "Do you sell digital products?"
+  },
+  {
+   "level": 3,
+   "text": "Do you work with organizations outside New York?"
+  },
+  {
+   "level": 3,
+   "text": "Where are you located?"
+  },
+  {
+   "level": 3,
+   "text": "How do I contact CCC?"
+  },
+  {
+   "level": 3,
+   "text": "How do you handle confidentiality?"
+  },
+  {
+   "level": 3,
+   "text": "What if I'm not sure what I need?"
+  }
+ ],
+ "word_count": 2306,
+ "text_content": "Salesforce Consulting FAQs | CCC | Clear Concise Consulting 0 Frequently Asked Questions Common questions about working with CCC, pricing, process, and what to expect. About CCC What makes CCC different from a large consulting firm? Speed and accountability. At a large firm, a solutions architect designs the system, hands it to a technical lead, who hands it to a developer, who hands it to a tester. At CCC, one person does all of that. The result: implementations in 8-12 weeks instead of 6 months, and documentation that reflects what was actually built because the person who built it wrote the documentation. Who is behind CCC? CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect and former journalist. Jeremy works directly with every client. The person in your discovery meeting is the same person configuring your org, writing your documentation, and training your team. When a project requires specialized skills outside Jeremy's scope, he brings in vetted subcontractors who are bound by confidentiality agreements and work under CCC's supervision. The architecture, communication, and accountability stay with one person. What does Clear Concise Consulting do? CCC provides Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. The focus is practical: architecture that scales, documentation that non-technical leadership can read, and governance that prevents the problems most orgs discover too late. Every engagement is led by a 13x certified Salesforce Architect with 14 years in the ecosystem. What industries do you specialize in? Government (FedRAMP, GovCloud, compliance documentation), nonprofit (NPSP, Nonprofit Cloud, donor management), healthcare (Health Cloud, HIPAA compliance), and enterprise (multi-Cloud, large user bases, complex integrations). CCC has worked with USCIS, Environmental Defense Fund, UnitedHealth Group, HRSA, and NYU. Pricing & Process How much does a typical engagement cost? It depends on scope. A data quality assessment starts at $5,000. A full Salesforce implementation ranges from $15,000 to $75,000 depending on complexity. Training workshops range from $2,500 (half-day) to $15,000 (executive session). Every engagement begins with a free consultation to determine scope, timeline, and fixed pricing. No hourly billing surprises. How are your services priced? Most projects are fixed-price based on a scoping document you approve before work begins. You know the total cost before the first configuration starts. For ongoing administration support, CCC offers monthly retainers starting at $3,000/month (15 hours, 24-hour response time, 3-month minimum). Ad hoc support is available at $175/hour for one-off requests. Do you offer nonprofit discounts? CCC's pricing already reflects the realities of nonprofit budgets. Registered nonprofits receive a discount on service rates. CCC also provides a limited number of pro bono hours annually to causes aligned with its values. Discuss your budget during the free consultation and we'll find a scope that works. Do you require a deposit? For project engagements, a 30-50% deposit is standard to secure scheduling and begin work. The remainder is invoiced at project milestones. For monthly retainers, invoicing is monthly in advance. For ad hoc support, invoicing is monthly in arrears. How do I get started? Three steps. First: take the AI Readiness Scorecard (2 minutes, free). Second: book a 15-minute call to walk through your results. Third: receive a scoping document with timeline, deliverables, and fixed pricing. No pitch decks. No sales scripts. Services & Implementation What consulting services do you offer? CCC offers five core services: Salesforce Implementation (architecture, configuration, go-live), AI Governance (review cycles, ownership, human oversight), Data Governance and Migration (deduplication, standardization, migration planning), Training and Documentation (admin training, certification prep, admin runbooks), and ongoing Administration Support (retainer-based or on-demand). Full details on each service are on the Services page. What is your typical project timeline? Small implementations (single Cloud, under 50 users): 6-8 weeks. Medium implementations (multi-Cloud, 50-200 users): 8-12 weeks. Complex implementations (GovCloud, multi-department, integrations): 10-16 weeks. Data quality assessments: 1-2 weeks. Data migrations: 2-8 weeks depending on volume. We provide a detailed timeline with milestones before starting. Do you provide post-project support? Every implementation includes 30 days of support after go-live: bug fixes, configuration adjustments, and questions handled by the same person who built the system. For ongoing support beyond 30 days, clients can purchase a monthly retainer or use ad hoc support at $175/hour. What tools do you use for collaboration? Zoom for meetings. Confluence for project documentation and knowledge bases. Google Drive for shared files. Salesforce sandboxes for development and testing. Jira for task tracking when needed. You'll have visibility into project progress at every stage. Salesforce & Technical What is a Salesforce data migration? A data migration moves records from an existing system (spreadsheets, legacy CRM, another database) into Salesforce. The process has five stages: data extraction from the source system, field mapping (matching source columns to Salesforce fields), data cleaning (standardizing formats, removing duplicates, filling gaps), test loading into a Salesforce sandbox, and production loading with validation. Most migration problems happen before the data reaches Salesforce. Duplicate records, inconsistent formatting (e.g., \"NY\" vs \"New York\" vs \"new york\"), and missing required fields cause the majority of post-migration issues. CCC addresses these in the cleaning stage, not after go-live. Migration timelines vary by volume: under 10,000 records typically takes 1-2 weeks; 10,000 to 100,000 records takes 3-5 weeks; over 100,000 records takes 6-8 weeks. These timelines include testing and validation, not just the data load itself. How do I know if my Salesforce org needs an audit? Five signs indicate an org audit is overdue. First, reports show data that leadership questions (\"these numbers can't be right\"). Second, automations fire at unexpected times or produce duplicate records. Third, new hires take more than two weeks to learn the system. Fourth, nobody can explain what a specific Flow or Process Builder automation does. Fifth, your org has more than 20 custom objects and no data dictionary. A Salesforce org audit reviews five areas: data quality (duplicate rates, field completeness, validation rule coverage), automation health (Flow logic, trigger conflicts, governor limit proximity), security model (profile and permission set configuration, field-level security gaps, sharing rule accuracy), technical debt (unused fields, deprecated automations, sandbox drift), and documentation gaps. CCC's audits take 1-2 weeks and produce a prioritized action plan, not a 100-page report. The deliverable tells you what to fix first, what can wait, and what to stop doing. What is the Salesforce Trust Layer and why does it matter for AI? The Salesforce Trust Layer is a set of security c ontrols that sit between Salesforce data and external AI models. When Einstein, Copilot, or Agentforce sends data to an LLM for processing, the Trust Layer handles three phases. In the Prompt Journey, the system retrieves relev ant CRM context (dynamic grounding) and then masks sensitive data: PII, payment card numbers, and protected fields are replaced with placeholders before anything leaves Salesforce. During Response Generation, the masked prompt reaches the LLM through a unified gateway. Salesforce maintains zero data retention agreements with providers like OpenAI and Azure, meaning the provider cannot store your prompt data or use it for training. In the Response Journey, the AI output passes through toxicity detection (which assigns a confidence score logged to an audit trail) and then de-masking (where original data replaces the placeholders). The Trust Layer matters bec ause Salesforce AI fea tures send your data to external systems for processing. Without these controls, a user asking Copilot to \"summarize this account's history\" could inadvertently send Social Security numbers or health records to a third-party model. The critical distinction: t he Trust Layer prevent s data leaks. It does not prevent bad decisions. Your organization still needs governance to decide who can use AI features, which objects AI can access, and what happens when AI produces incorrect results. When should I use Flow vs. Apex for AI agent triggers? This is a design decision that depends on complexity, volume, and maintenance requirements. Use Flow when: the automation involves standard CRUD operations (create, read, update, delete), the logic has fewer than 10 decision branches, the team maintaining the org does not include developers, and the trigger volume is moderate (under 10,000 records per batch). Flows are declarative, meaning admins can read and modify them without writing code. For AI agent triggers specifically, Flow is appropriate when the agent performs simple record lookups, field updates, or notification sends. Use Apex when: the logic requires complex data transformations, the trigger handles high-volume operations (over 10,000 records), the automation needs precise error handling beyond Flow's fault connectors, or the agent trigger interacts with external APIs that require custom authentication. Apex gives you direct control over governor limit consumption and transaction management. The wrong answer is \"always use Flow because it's no-code.\" A Flow that handles a complex multi-object transaction with nested loops and subflows can be harder to debug and maintain than the equivalent Apex class. The right answer depends on who will maintain it and how complex the logic is. CCC's rule of thumb: if the automation takes more than 15 minutes to explain to a senior admin using the Flow canvas, it probably belongs in Apex. What should I include in a Salesforce RFP for a consultant? A complete Salesforce RFP should cover eight areas: current state (what systems you use today, how many users, what works and what doesn't), desired outcomes (what \"done\" looks like in business terms, not technical specifications), scope boundaries (what is included and what is explicitly excluded), timeline expectations (hard deadlines, soft preferences, dependencies on other projects), budget range (a range is better than no number, because it helps consultants self-select), evaluation criteria (how you will compare proposals, weighted by priority), required deliverables (documentation, training, post-launch support expectations), and team availability (who from your side will participate and how many hours per week). The most common RFP mistake is specifying solutions instead of problems. \"We need a Flow that sends emails when opportunities close\" is a solution. \"Sales reps don't follow up after deals close, and we lose 20% of upsell opportunities\" is a problem. The second version gives the consultant room to recommend the right approach, which may not be the one you assumed. How long does it take to learn Salesforce Administration? For someone with no technical background, reaching job-ready competence in Salesforce Administration takes 8 to 12 weeks of focused study (15-20 hours per week). This covers the Salesforce Administrator certification exam objectives: data management, security and access, automation, customization, reports and dashboards, and app deployment. CCC's training program at NYU Tandon School of Engineering follows this timeline and has achieved an 80% job placement rate across 160+ students. The program is designed for career changers and non-technical staff who need practical skills, not academic theory. The Salesforce Administrator certification exam itself requires understanding of approximately 65 topics across 7 domains. Pass rates for first-time test takers average 60-65% according to community surveys. With structured preparation, that rate rises to 80%+. The most effective study approach: hands-on practice in a free Salesforce Developer Edition org, Trailhead modules for concept learning, and practice exams for test readiness. Reading documentation alone is not sufficient. Salesforce is a hands-on skill. Training & Certification Do you offer Salesforce training? Yes. CCC's training program is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin training, end user training, leadership training, and certification exam prep. Formats range from half-day workshops ($2,500) to executive sessions ($15,000). All training uses hands-on sandbox exercises, not slides. Can you help me prepare for Salesforce certifications? Yes. CCC's certification prep covers every exam objective for the Salesforce Administrator certification: data management, security, automation, customization, reports, and analytics. The program includes a structured study plan, exam guide breakdowns, and practice scenarios. The same program produced 80% job placement at NYU. Do I need technical experience to learn Salesforce? No. CCC's training is designed for people who weren't born speaking tech. Career changers, non-technical staff assigned to Salesforce roles, and teams with low user adoption are the most common training clients. Every concept is explained in plain language with hands-on exercises in a sandbox environment. Templates & Resources What free resources do you offer? CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10 free guides with companion templates) are available at clearconciseconsulting.com/blog . The AI Readiness Scorecard is free at clearconciseconsulting.com/scorecard . Do you sell digital products? Yes. Premium templates, governance kits, and training resources are available on Gumroad at gumroad.com/clearconciseconsulting . Categories include Salesforce Architecture, AI Governance, Training and Career, and Nonprofit Tools. Every paid resource includes lifetime updates. Logistics Do you work with organizations outside New York? Yes. CCC works remotely with organizations across the US. Past clients include teams in New York, Washington DC, and distributed organizations with staff in multiple states. Most work is done via video calls and shared project tools. In-person workshops can be arranged for larger engagements. Where are you located? Clear Concise Consulting, 228 Park Ave S #871721, New York, NY 10003. How do I contact CCC? Email: j.carmona@clearconciseconsulting.com . Or use the contact form at clearconciseconsulting.com/contact . Active clients receive direct access for project-related communication. How do you handle confidentiality? CCC signs mutual non-disclosure agreements and follows best practices for access control. All subcontractors are bound by confidentiality agreements. CCC never shares client data with third parties. Separate sandboxes and two-factor authentication are standard for all sensitive work. What if I'm not sure what I need? Start with the scorecard. It takes 2 minutes and gives you a clear picture of where your org stands across five categories. From there, we can have an informed conversation about what's working, what's not, and whether CCC is the right fit. Still have questions? Book a 15-minute call. No sales pitch. Just answers. Book a Call",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+   "text": "Salesforce Trust Layer"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+   "text": "is a set of security c"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+   "text": "system retrieves relev"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+   "text": "ause Salesforce AI fea"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+   "text": "he Trust Layer prevent"
+  },
+  {
+   "url": "https://trailhead.salesforce.com/",
+   "text": "Trailhead"
+  },
+  {
+   "url": "http://clearconciseconsulting.com/blog",
+   "text": "clearconciseconsulting.com/blog"
+  },
+  {
+   "url": "http://clearconciseconsulting.com/scorecard",
+   "text": "clearconciseconsulting.com/scorecard"
+  },
+  {
+   "url": "https://jeremycarmona.gumroad.com/",
+   "text": "gumroad.com/clearconciseconsulting"
+  },
+  {
+   "url": "http://clearconciseconsulting.com/contact",
+   "text": "clearconciseconsulting.com/contact"
+  },
+  {
+   "url": "https://scheduler.zoom.us/jeremy-carmona/free-consultation",
+   "text": "Book a Call"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Decorative wall art featuring interconnected geometric shapes like circles, squares, and hexagons, connected by blue lines on a beige background.",
+   "width": "2752",
+   "height": "1536",
+   "loading": null
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Decorative wall art made of wooden shapes and blue lines arranged in a branching pattern on a beige background.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Wooden wall art connected with blue lines, featuring circles, squares, and hexagons, resembling a network or tree diagram, mounted on a beige wall.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Wooden wall art connected with blue lines, featuring circles, squares, and hexagons, resembling a network or tree diagram, mounted on a beige wall.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Wooden wall art depicting a branching hierarchy or organizational chart with circles and squares connected by blue lines, mounted on a light-colored wall.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Wall-mounted wooden pegboard with interconnected geometric shapes on a light beige wall.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/d5b2e415-a523-4c42-96c8-2448cd62866f/05_organizational_structure.png",
+   "alt": "Wooden wall decor with interconnected geometric shapes including circles, squares, and hexagons connected by thin lines, arranged in a branching pattern on a light beige wall.",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What makes CCC different from a large consulting firm?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Speed and accountability. At a large firm, a solutions architect designs the system, hands it to a technical lead, who hands it to a developer, who hands it to a tester. At CCC, one person does all of that. The result: implementations in 8-12 weeks instead of 6 months, and documentation that reflects what was actually built because the person who built it wrote the documentation."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who is behind CCC?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect and former journalist. Jeremy works directly with every client. The person in your discovery meeting is the same person configuring your org, writing your documentation, and training your team."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does Clear Concise Consulting do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC provides Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. Every engagement is led by a 13x certified Salesforce Architect with 14 years in the ecosystem."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What industries do you specialize in?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Government (FedRAMP, GovCloud, compliance documentation), nonprofit (NPSP, Nonprofit Cloud, donor management), healthcare (Health Cloud, HIPAA compliance), and enterprise (multi-Cloud, large user bases, complex integrations). CCC has worked with USCIS, Environmental Defense Fund, UnitedHealth Group, HRSA, and NYU."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does a typical engagement cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It depends on scope. A data quality assessment starts at $5,000. A full Salesforce implementation ranges from $15,000 to $75,000 depending on complexity. Training workshops range from $2,500 (half-day) to $15,000 (executive session). Every engagement begins with a free consultation to determine scope, timeline, and fixed pricing. No hourly billing surprises."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How are your services priced?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Most projects are fixed-price based on a scoping document you approve before work begins. For ongoing administration support, CCC offers monthly retainers starting at $3,000/month. Ad hoc support is available at $175/hour for one-off requests."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer nonprofit discounts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC pricing already reflects the realities of nonprofit budgets. Registered nonprofits receive a discount on service rates. CCC also provides a limited number of pro bono hours annually to causes aligned with its values."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get started?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Three steps. First: take the AI Readiness Scorecard (2 minutes, free). Second: book a 15-minute call to walk through your results. Third: receive a scoping document with timeline, deliverables, and fixed pricing. No pitch decks. No sales scripts."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What consulting services do you offer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC offers five core services: Salesforce Implementation, AI Governance, Data Governance and Migration, Training and Documentation, and ongoing Administration Support. Full details on each service are on the Services page."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is your typical project timeline?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Small implementations (single Cloud, under 50 users): 6-8 weeks. Medium implementations (multi-Cloud, 50-200 users): 8-12 weeks. Complex implementations (GovCloud, multi-department, integrations): 10-16 weeks. Data quality assessments: 1-2 weeks. Data migrations: 2-8 weeks depending on volume."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide post-project support?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every implementation includes 30 days of support after go-live: bug fixes, configuration adjustments, and questions handled by the same person who built the system. For ongoing support beyond 30 days, clients can purchase a monthly retainer or use ad hoc support at $175/hour."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer Salesforce training?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC training is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin training, end user training, leadership training, and certification exam prep. Formats range from half-day workshops ($2,500) to executive sessions ($15,000). All training uses hands-on sandbox exercises, not slides."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you help me prepare for Salesforce certifications?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC certification prep covers every exam objective for the Salesforce Administrator certification. The program includes a structured study plan, exam guide breakdowns, and practice scenarios. The same program produced 80% job placement at NYU."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need technical experience to learn Salesforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. CCC training is designed for people who were not born speaking tech. Career changers, non-technical staff assigned to Salesforce roles, and teams with low user adoption are the most common training clients. Every concept is explained in plain language with hands-on exercises in a sandbox environment."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What free resources do you offer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10 free guides with companion templates) are available at clearconciseconsulting.com/blog. The AI Readiness Scorecard is free at clearconciseconsulting.com/scorecard."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you sell digital products?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Premium templates, governance kits, and training resources are available on Gumroad. Categories include Salesforce Architecture, AI Governance, Training and Career, and Nonprofit Tools. Every paid resource includes lifetime updates."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a Salesforce data migration?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A data migration moves records from an existing system into Salesforce through five stages: data extraction, field mapping, data cleaning, sandbox test loading, and production loading with validation. Timelines vary by volume: under 10,000 records takes 1-2 weeks, 10,000 to 100,000 takes 3-5 weeks, over 100,000 takes 6-8 weeks including testing."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I know if my Salesforce org needs an audit?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Five signs indicate an audit is overdue: reports show data leadership questions, automations fire unexpectedly, new hires take over two weeks to learn the system, nobody can explain what specific automations do, or you have 20+ custom objects with no data dictionary. An org audit reviews data quality, automation health, security model, technical debt, and documentation gaps."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between Salesforce Flows and Process Builder?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Process Builder is a retired Salesforce automation tool. Salesforce Flow is the current platform, supporting screen flows, record-triggered flows, scheduled flows, and autolaunched flows. Flows handle decision logic, loops, batch operations, and error handling. Salesforce recommends migrating all Process Builder automations to Flows."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I measure data quality in Salesforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Data quality is measured across five dimensions: completeness (percentage of records with required fields populated, target 95%+), accuracy (verified against source documents, under 5% error rate), consistency (standardized formats across picklist and free-text fields), timeliness (records modified within 18 months), and uniqueness (duplicate records identified via shared identifiers). Each dimension can be tracked using native Salesforce reports. Data quality assessment is a prerequisite for AI feature activation."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the Salesforce Trust Layer and why does it matter for AI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The Trust Layer is a three-phase security architecture between Salesforce data and external AI models. In the Prompt Journey, it performs dynamic grounding and data masking. During Response Generation, masked prompts reach the LLM under zero data retention agreements. In the Response Journey, outputs pass through toxicity detection and de-masking. It prevents data leaks but does not validate AI accuracy, which requires a separate governance framework."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are Salesforce governor limits?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Governor limits are hard ceilings on Salesforce's multi-tenant architecture. Synchronous transactions allow 100 SOQL queries, 150 DML statements, and 10 seconds of CPU time. Asynchronous transactions (Batch Apex) reset these limits per chunk with 60 seconds of CPU time. The most common violations come from non-bulkified code and Flows that query inside loops."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is data skew in Salesforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Data skew occurs when record distribution is heavily imbalanced: one user owns millions of records (ownership skew), one Account has thousands of child records (parent-child skew), or one lookup value is referenced disproportionately (lookup skew). Skew causes record locking failures and timeout errors. Fixes include redistributing records, restructuring data models, and reducing transaction times on parent objects."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is Zero Copy architecture in Salesforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Zero Copy allows Salesforce to read and write data from external warehouses (Snowflake, BigQuery, Databricks) without physically copying data into the CRM. Data stays in the warehouse and is queried in real time through federated connections. This eliminates ETL pipelines, reduces storage costs, and simplifies compliance by keeping data under its original access controls."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "When should I use Flow vs Apex for AI agent triggers?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Use Flow when automation involves standard CRUD operations, has fewer than 10 decision branches, and will be maintained by admins. Use Apex when logic requires complex data transformations, handles over 10,000 records, needs precise error handling, or interacts with external APIs. If the automation takes more than 15 minutes to explain on the Flow canvas, it probably belongs in Apex."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to learn Salesforce Administration?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Reaching job-ready competence takes 8 to 12 weeks of focused study at 15-20 hours per week, covering all Salesforce Administrator certification exam objectives. CCC's training program at NYU Tandon School of Engineering follows this timeline with an 80% job placement rate across 160+ students."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is Salesforce Einstein and how does it work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Einstein is the AI layer built into Salesforce, including predictive scoring, natural language processing, recommendation engines, and generative AI (Copilot and Agentforce). Predictions require historical data: at least 400 closed-won and 400 closed-lost opportunities for opportunity scoring, or 1,000 leads with conversion data for lead scoring. Data governance is a prerequisite for accurate AI predictions."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,261 @@
+{
+ "url": "http://127.0.0.1:8765/a9a26ef12a5a.html",
+ "total_blocks_analyzed": 6,
+ "average_citability_score": 51.7,
+ "optimal_length_passages": 3,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 4,
+  "D": 2,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "How to Know If Your Candidate Actually Knows Nonprofit Cloud",
+   "word_count": 145,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Recruiter: \"We need someone with Nonprofit Cloud experience.\" Me: \"Does your client use Nonprofit Cloud or NPSP?\" Recruiter: \"What is the difference?\" They are two different products. NPSP (Nonprofit Success..."
+  },
+  {
+   "heading": "Five Screening Questions",
+   "word_count": 167,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. \"Explain the Household Account model.\"Strong: Describes Household grouping related Contacts. Soft credits, naming conventions, address management. Red flag: Does not know what the Household model is. This is the..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying",
+   "word_count": 176,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "\"A donor gave $10,000 but wants $7,000 to the scholarship fund and $3,000 unrestricted. How do you record this?\"Real: One Opportunity for $10,000. Two GAU Allocations: $7,000 to Scholarship GAU,..."
+  },
+  {
+   "heading": "Job Description Mistakes",
+   "word_count": 146,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you see:\"Nonprofit Cloud experience required\" when the org uses NPSPChange to:Ask the client which product they run. Specify accordingly. If you see:\"5 years Salesforce experience\" without mentioning NPSPChange to:\"3+..."
+  },
+  {
+   "heading": "Core Objects (NPSP)",
+   "word_count": 123,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "NPSP modifies standard Salesforce with nonprofit-specific logic: Household Account:Groups related Contacts (family members) for donation tracking. Household naming, address management, and soft credits all run through this model. If a..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Experience Tiers",
+   "word_count": 107,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "Beginner:Enter and manage donor records. Run gift reports. Configure NPSP page layouts. Process batch entries. Intermediate:Configure recurring donation schedules. Set up GAU allocations for fund tracking. Build Flows for donor..."
+  },
+  {
+   "heading": "Core Objects (NPSP)",
+   "word_count": 123,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "NPSP modifies standard Salesforce with nonprofit-specific logic: Household Account:Groups related Contacts (family members) for donation tracking. Household naming, address management, and soft credits all run through this model. If a..."
+  },
+  {
+   "heading": "Job Description Mistakes",
+   "word_count": 146,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you see:\"Nonprofit Cloud experience required\" when the org uses NPSPChange to:Ask the client which product they run. Specify accordingly. If you see:\"5 years Salesforce experience\" without mentioning NPSPChange to:\"3+..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying",
+   "word_count": 176,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "\"A donor gave $10,000 but wants $7,000 to the scholarship fund and $3,000 unrestricted. How do you record this?\"Real: One Opportunity for $10,000. Two GAU Allocations: $7,000 to Scholarship GAU,..."
+  },
+  {
+   "heading": "Five Screening Questions",
+   "word_count": 167,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. \"Explain the Household Account model.\"Strong: Describes Household grouping related Contacts. Soft credits, naming conventions, address management. Red flag: Does not know what the Household model is. This is the..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "How to Know If Your Candidate Actually Knows Nonprofit Cloud",
+   "word_count": 145,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Recruiter: \"We need someone with Nonprofit Cloud experience.\" Me: \"Does your client use Nonprofit Cloud or NPSP?\" Recruiter: \"What is the difference?\" They are two different products. NPSP (Nonprofit Success..."
+  },
+  {
+   "heading": "Core Objects (NPSP)",
+   "word_count": 123,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "NPSP modifies standard Salesforce with nonprofit-specific logic: Household Account:Groups related Contacts (family members) for donation tracking. Household naming, address management, and soft credits all run through this model. If a..."
+  },
+  {
+   "heading": "Experience Tiers",
+   "word_count": 107,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "Beginner:Enter and manage donor records. Run gift reports. Configure NPSP page layouts. Process batch entries. Intermediate:Configure recurring donation schedules. Set up GAU allocations for fund tracking. Build Flows for donor..."
+  },
+  {
+   "heading": "Five Screening Questions",
+   "word_count": 167,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. \"Explain the Household Account model.\"Strong: Describes Household grouping related Contacts. Soft credits, naming conventions, address management. Red flag: Does not know what the Household model is. This is the..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying",
+   "word_count": 176,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "\"A donor gave $10,000 but wants $7,000 to the scholarship fund and $3,000 unrestricted. How do you record this?\"Real: One Opportunity for $10,000. Two GAU Allocations: $7,000 to Scholarship GAU,..."
+  },
+  {
+   "heading": "Job Description Mistakes",
+   "word_count": 146,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you see:\"Nonprofit Cloud experience required\" when the org uses NPSPChange to:Ask the client which product they run. Specify accordingly. If you see:\"5 years Salesforce experience\" without mentioning NPSPChange to:\"3+..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

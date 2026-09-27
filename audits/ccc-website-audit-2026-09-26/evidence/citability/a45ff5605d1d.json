@@ -1,0 +1,471 @@
+{
+ "url": "http://127.0.0.1:8765/a45ff5605d1d.html",
+ "total_blocks_analyzed": 20,
+ "average_citability_score": 35.3,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 2,
+  "D": 5,
+  "F": 12
+ },
+ "top_5_citable": [
+  {
+   "heading": "Next Steps",
+   "word_count": 172,
+   "total_score": 74,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 16,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Activate standard matching and duplicate rules (they're off by default) 2. Run duplicate detection reports on your highest-value objects 3. Merge the worst offenders first 4. Establish a weekly..."
+  },
+  {
+   "heading": "The Admin's Guide to Salesforce Duplicate Management",
+   "word_count": 124,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "How to find, merge, and prevent duplicate records before they wreck your data Three overlapping geometric circles consolidating into single circle, navy blue on beige The report said we had..."
+  },
+  {
+   "heading": "Duplicates from Integrations",
+   "word_count": 30,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Integrations are often the biggest duplicate source. Prevent by: \u00e2\u0080\u00a2 Requiring External ID matching before creating records \u00e2\u0080\u00a2 Upsert operations instead of insert \u00e2\u0080\u00a2 Syncing with duplicate detection before commit"
+  },
+  {
+   "heading": "Building a Duplicate Management Routine",
+   "word_count": 103,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Duplicate management isn't a one-time project. Build it into your regular admin work: \u00e2\u0080\u00a2 Review Duplicate Record Sets created in the past week \u00e2\u0080\u00a2 Merge high-priority duplicates (Accounts, key Contacts)..."
+  },
+  {
+   "heading": "Bulk Merging",
+   "word_count": 71,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Native Salesforce limits you to merging 3 records at a time. For large duplicate sets, use: Account master = [SELECT Id FROM Account WHERE Id = :masterId];List<Account> duplicates = [SELECT..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Intentional Duplicates",
+   "word_count": 46,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 Same person, different roles at different companies \u00e2\u0080\u00a2 Parent/child Account with same name \u00e2\u0080\u00a2 Contact who moved companies but you want history at both \u00e2\u0080\u00a2 Custom fields to flag..."
+  },
+  {
+   "heading": "The Checklist",
+   "word_count": 99,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before you consider duplicate management \"done\": \u00e2\u0080\u00a2 [ ] Matching rules configured for Leads, Contacts, Accounts \u00e2\u0080\u00a2 [ ] Duplicate rules active with appropriate actions \u00e2\u0080\u00a2 [ ] Users trained..."
+  },
+  {
+   "heading": "Third-Party Detection Tools",
+   "word_count": 40,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "For large orgs or complex matching, consider AppExchange tools: \u00e2\u0080\u00a2Cloudingo:Mass deduplication with advanced matching \u00e2\u0080\u00a2Duplicate Check (Plauti):Real-time and batch duplicate management These tools offer matching algorithms more sophisticated than native..."
+  },
+  {
+   "heading": "Native Detection: Duplicate Record Sets",
+   "word_count": 64,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When duplicate rules run and find matches, they create Duplicate Record Sets. Review these regularly: Navigate to: Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Duplicate Record Sets This shows every duplicate pair..."
+  },
+  {
+   "heading": "The Three-Part Duplicate Strategy",
+   "word_count": 38,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Effective duplicate management has three components: 1.Prevention:Stop new duplicates from being created 3.Resolution:Merge or manage duplicate records Most organizations jump to resolution (cleaning up the mess) without addressing prevention (stopping..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The Admin's Guide to Salesforce Duplicate Management",
+   "word_count": 124,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "How to find, merge, and prevent duplicate records before they wreck your data Three overlapping geometric circles consolidating into single circle, navy blue on beige The report said we had..."
+  },
+  {
+   "heading": "Why Duplicates Happen",
+   "word_count": 110,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Understanding the sources helps you prevent future problems: User creates a Contact without searching first. Same person, different spelling (\"John\" vs \"Jon\"), different company. Now you have two records. Lead..."
+  },
+  {
+   "heading": "The Three-Part Duplicate Strategy",
+   "word_count": 38,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Effective duplicate management has three components: 1.Prevention:Stop new duplicates from being created 3.Resolution:Merge or manage duplicate records Most organizations jump to resolution (cleaning up the mess) without addressing prevention (stopping..."
+  },
+  {
+   "heading": "Part 1: Prevention with Duplicate Rules",
+   "word_count": 43,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce's native Duplicate Management uses two components: Matching Rules:Define what \"duplicate\" means for each object. Which fields should match? How fuzzy should the matching be? Duplicate Rules:Define what happens when..."
+  },
+  {
+   "heading": "Setting Up Matching Rules",
+   "word_count": 82,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Navigate to: Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Matching Rules Standard matching rules exist for Leads, Contacts, and Accounts. They're decent starting points but often need customization. First Name | Fuzzy:..."
+  },
+  {
+   "heading": "Setting Up Duplicate Rules",
+   "word_count": 58,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Navigate to: Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Duplicate Rules When does the rule run? \u00e2\u0080\u00a2 On create and edit \u00e2\u0080\u00a2 Allow with alert (user sees warning, can save anyway) \u00e2\u0080\u00a2..."
+  },
+  {
+   "heading": "My Recommended Configuration",
+   "word_count": 85,
+   "total_score": 25,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 Matching: Email exact OR (First Name fuzzy + Last Name fuzzy + Company fuzzy) \u00e2\u0080\u00a2 Action: Alert on create, allow save \u00e2\u0080\u00a2 Matching: Email exact OR (First Name fuzzy..."
+  },
+  {
+   "heading": "Native Detection: Duplicate Record Sets",
+   "word_count": 64,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When duplicate rules run and find matches, they create Duplicate Record Sets. Review these regularly: Navigate to: Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Duplicate Record Sets This shows every duplicate pair..."
+  },
+  {
+   "heading": "Report-Based Detection",
+   "word_count": 54,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Create reports to find potential duplicates your rules might miss: Object: ContactsColumns: Email, Name, Account, Created DateFilter: Email is not blankGroup By: EmailShow CountFilter Groups: Count > 1 Object: AccountsColumns:..."
+  },
+  {
+   "heading": "Third-Party Detection Tools",
+   "word_count": 40,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "For large orgs or complex matching, consider AppExchange tools: \u00e2\u0080\u00a2Cloudingo:Mass deduplication with advanced matching \u00e2\u0080\u00a2Duplicate Check (Plauti):Real-time and batch duplicate management These tools offer matching algorithms more sophisticated than native..."
+  },
+  {
+   "heading": "Manual Merging: The Native Approach",
+   "word_count": 73,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 9,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Go to the Account you want to keep (the \"master\") 2. Click \"Merge Accounts\" from the action menu 3. Search for duplicate Accounts 4. Select which fields to keep..."
+  },
+  {
+   "heading": "Merge Considerations",
+   "word_count": 72,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When merging, you're choosing which record becomes the \"master\" and which values survive: Keep the most complete record.The record with more populated fields usually becomes master. Keep the oldest record.Preserves..."
+  },
+  {
+   "heading": "Bulk Merging",
+   "word_count": 71,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Native Salesforce limits you to merging 3 records at a time. For large duplicate sets, use: Account master = [SELECT Id FROM Account WHERE Id = :masterId];List<Account> duplicates = [SELECT..."
+  },
+  {
+   "heading": "Building a Duplicate Management Routine",
+   "word_count": 103,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Duplicate management isn't a one-time project. Build it into your regular admin work: \u00e2\u0080\u00a2 Review Duplicate Record Sets created in the past week \u00e2\u0080\u00a2 Merge high-priority duplicates (Accounts, key Contacts)..."
+  },
+  {
+   "heading": "Duplicates Across Objects",
+   "word_count": 42,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Lead-to-Contact duplicates are common. A Lead converts, but a Contact with the same email already exists. Prevention: Check for existing Contacts before Lead conversion Detection: Cross-object reports comparing Lead and..."
+  },
+  {
+   "heading": "Intentional Duplicates",
+   "word_count": 46,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 Same person, different roles at different companies \u00e2\u0080\u00a2 Parent/child Account with same name \u00e2\u0080\u00a2 Contact who moved companies but you want history at both \u00e2\u0080\u00a2 Custom fields to flag..."
+  },
+  {
+   "heading": "Duplicates from Integrations",
+   "word_count": 30,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Integrations are often the biggest duplicate source. Prevent by: \u00e2\u0080\u00a2 Requiring External ID matching before creating records \u00e2\u0080\u00a2 Upsert operations instead of insert \u00e2\u0080\u00a2 Syncing with duplicate detection before commit"
+  },
+  {
+   "heading": "Measuring Success",
+   "word_count": 50,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 New duplicate record sets per week \u00e2\u0080\u00a2 Trend should decline after implementing prevention \u00e2\u0080\u00a2 Should decrease over time \u00e2\u0080\u00a2 Duplicates merged per week \u00e2\u0080\u00a2 Should exceed creation rate \u00e2\u0080\u00a2..."
+  },
+  {
+   "heading": "The Checklist",
+   "word_count": 99,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before you consider duplicate management \"done\": \u00e2\u0080\u00a2 [ ] Matching rules configured for Leads, Contacts, Accounts \u00e2\u0080\u00a2 [ ] Duplicate rules active with appropriate actions \u00e2\u0080\u00a2 [ ] Users trained..."
+  },
+  {
+   "heading": "Next Steps",
+   "word_count": 172,
+   "total_score": 74,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 16,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Activate standard matching and duplicate rules (they're off by default) 2. Run duplicate detection reports on your highest-value objects 3. Merge the worst offenders first 4. Establish a weekly..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-management-guide",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

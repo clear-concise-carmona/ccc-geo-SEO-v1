@@ -1,0 +1,243 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:28 GMT",
+  "Etag": "W/\"c07318ddc6eb1cef27ffed6608b8deff--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "oyypqh6t/Rn5wfHP8",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Nonprofit Cloud Screening Guide: Questions Recruiters Should Ask | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+  "og:type": "article",
+  "og:description": "NPSP and Nonprofit Cloud are different products. Screen nonprofit Salesforce candidates on Household model, recurring donations, GAUs, and fund accounting.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69bd369cd921183011614db4/1774007964349/07_nonprofit_cloud_screening.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Nonprofit Cloud Screening Guide: Questions Recruiters Should Ask | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69bd369cd921183011614db4/1774007964349/07_nonprofit_cloud_screening.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+  "twitter:card": "summary",
+  "twitter:description": "NPSP and Nonprofit Cloud are different products. Screen nonprofit Salesforce candidates on Household model, recurring donations, GAUs, and fund accounting.",
+  "description": "NPSP and Nonprofit Cloud are different products. Screen nonprofit Salesforce candidates on Household model, recurring donations, GAUs, and fund accounting.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Nonprofit Cloud Screening Guide: Questions Recruiters Should Ask | Clear Concise Consulting",
+ "description": "NPSP and Nonprofit Cloud are different products. Screen nonprofit Salesforce candidates on Household model, recurring donations, GAUs, and fund accounting.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+ "h1_tags": [
+  "How to Know If Your Candidate Actually Knows Nonprofit Cloud"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "How to Know If Your Candidate Actually Knows Nonprofit Cloud"
+  },
+  {
+   "level": 2,
+   "text": "Core Objects (NPSP)"
+  },
+  {
+   "level": 2,
+   "text": "Experience Tiers"
+  },
+  {
+   "level": 2,
+   "text": "Five Screening Questions"
+  },
+  {
+   "level": 2,
+   "text": "How to Tell If Someone Is Lying"
+  },
+  {
+   "level": 2,
+   "text": "Job Description Mistakes"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know"
+  },
+  {
+   "level": 2,
+   "text": "How to Know If Your Candidate Actually Knows Data Cloud"
+  }
+ ],
+ "word_count": 975,
+ "text_content": "Nonprofit Cloud Screening Guide: Questions Recruiters Should Ask | Clear Concise Consulting 0 How to Know If Your Candidate Actually Knows Nonprofit Cloud Career Development Mar 20 Written By Jeremy Carmona Recruiter: \"We need someone with Nonprofit Cloud experience.\" Me: \"Does your client use Nonprofit Cloud or NPSP?\" Recruiter: \"What is the difference?\" They are two different products. NPSP (Nonprofit Success Pack) is the original open-source package built on Sales Cloud. It has been the standard for over a decade. Nonprofit Cloud is the newer Salesforce-native replacement with a different data model and different features. Most nonprofit orgs are still running NPSP. Listing the wrong one in your JD filters out the exact candidates you want and attracts the ones who cannot help. Ask the client which product they use before you start sourcing. I have 6+ years of nonprofit Salesforce implementation experience across Environmental Defense Fund, New York Academy of Medicine, and dozens of organizations through Clear Concise Consulting. This is the screening guide I wish existed when recruiters started reaching out for nonprofit roles. Core Objects (NPSP) NPSP modifies standard Salesforce with nonprofit-specific logic: Household Account: Groups related Contacts (family members) for donation tracking. Household naming, address management, and soft credits all run through this model. If a candidate does not know the Household model, they have not worked with NPSP. Opportunity (as Donation): Individual gifts and pledges. Record Types distinguish between donations, grants, and pledges. Recurring Donation: Ongoing gift schedules with installment tracking. Legacy vs. Enhanced Recurring Donations (the NPSP feature) is a common configuration question. General Accounting Unit (GAU): Fund and program tracking. Separates restricted from unrestricted gifts. Nonprofits have legal obligations around restricted funds. GAU Allocation: Links donations to specific funds. A $10,000 gift can be split: $7,000 to scholarship, $3,000 unrestricted. Campaign: Fundraising appeals and events. Campaign hierarchies for annual giving programs. Affiliation: Contact-to-organization relationships. Engagement Plan: Multi-step stewardship workflows. Experience Tiers Beginner: Enter and manage donor records. Run gift reports. Configure NPSP page layouts. Process batch entries. Intermediate: Configure recurring donation schedules. Set up GAU allocations for fund tracking. Build Flows for donor acknowledgment emails. Design donor segmentation strategy. Configure campaign hierarchies. Advanced: Complex Flows for year-end giving campaigns. Matching gift logic. Data migration from legacy systems (Raiser's Edge, Donor Perfect). Troubleshoot NPSP rollup calculations. Architect multi-program fund accounting. Lead NPSP-to-Nonprofit Cloud migration. One note on salary: nonprofit Salesforce salaries typically run 10-20% below commercial sector equivalents. A nonprofit admin at $75K and a commercial admin at $95K may have equivalent skills. Set expectations early with candidates coming from commercial Salesforce. Five Screening Questions 1. \"Explain the Household Account model.\" Strong: Describes Household grouping related Contacts. Soft credits, naming conventions, address management. Red flag: Does not know what the Household model is. This is the single most fundamental NPSP concept. 2. \"How have you handled recurring donations?\" Strong: Schedules, installments, payment tracking, retention reporting. Mentions legacy vs. Enhanced Recurring donations. Red flag: Has never configured recurring donations. Core nonprofit function. 3. \"How do you track grant funding and restricted gifts?\" Strong: GAUs for fund tracking, restrictions, reporting on restricted vs. unrestricted. Red flag: Does not understand fund accounting. Nonprofits have legal obligations here. 4. \"What integrations have you built for nonprofit clients?\" Strong: Names specific tools: Classy, Formstack, GiveLively, Donor Perfect, payment processors. Red flag: Only has commercial integration experience (HubSpot, Marketo). Different vendor ecosystem. 5. \"What is the difference between NPSP and Nonprofit Cloud?\" Strong: NPSP is original (free, open-source, on Sales Cloud). Nonprofit Cloud is newer with a different data model. Can articulate migration considerations. Red flag: Does not know there are two products. How to Tell If Someone Is Lying \"A donor gave $10,000 but wants $7,000 to the scholarship fund and $3,000 unrestricted. How do you record this?\" Real: One Opportunity for $10,000. Two GAU Allocations: $7,000 to Scholarship GAU, $3,000 to General Fund. Allocations must total the Opportunity amount. Fabricated: \"I would create two separate donations.\" Wrong approach. Fundamental misunderstanding of NPSP fund accounting. Split gifts are handled through allocations, not duplicate records. \"Your client says Household naming is wrong after a data import. What happened?\" Real: NPSP auto-generates Household names from Contact names. A bad import that didn't link Contacts to Households correctly produces wrong names. Describes Household Naming Settings and batch recalculation. Fabricated: \"I would manually rename the accounts.\" NPSP naming is configuration-driven, not manual. \"How do you report on donor retention year over year?\" Real: Uses NPSP rollup fields (Total Gifts Last Year, Total Gifts This Year) or custom report types comparing giving by fiscal year. May reference LYBUNT/SYBUNT methodology (Last/Some Year But Unfortunately Not This Year) for lapsed donor identification. Fabricated: \"I would build a report\" without specific rollup fields or retention methodology. Job Description Mistakes If you see: \"Nonprofit Cloud experience required\" when the org uses NPSP Change to: Ask the client which product they run. Specify accordingly. If you see: \"5 years Salesforce experience\" without mentioning NPSP Change to: \"3+ years Salesforce experience with NPSP or Nonprofit Cloud for donor-facing organizations.\" Free Download Guide: Nonprofit Cloud/NPSP Guide Part 7 of a 10-part series. Previously: Data Cloud Screening Guide . Next: Admin vs. Consultant vs. Architect Jeremy Carmona is a 13x Salesforce certified architect, founder of Clear Concise Consulting, and adjunct instructor at NYU Tandon School of Engineering. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know Next Next How to Know If Your Candidate Actually Knows Data Cloud",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Career+Development",
+   "text": "Career Development"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/s/Guide_07_Nonprofit_Cloud_Screening_Guide.pdf",
+   "text": "Nonprofit Cloud/NPSP Guide"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/how-to-know-if-your-candidate-actually-knows-marketing-cloud",
+   "text": "Data Cloud Screening Guide"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+   "text": "PreviousPreviousSalesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/how-to-know-if-your-candidate-actually-knows-data-cloud",
+   "text": "NextNextHow to Know If Your Candidate Actually Knows Data Cloud"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/348625f1-4f64-4cb3-a445-c3c878a92549/07_nonprofit_cloud_screening.png",
+   "alt": "NPSP vs Nonprofit Cloud side-by-side with not-equal symbol",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Nonprofit Cloud Screening Guide: Questions Recruiters Should Ask | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-cloud-screening-guide-for-recruiters",
+   "datePublished": "2026-03-20T08:00:22-0400",
+   "dateModified": "2026-04-01T11:37:08-0400",
+   "headline": "How to Know If Your Candidate Actually Knows Nonprofit Cloud",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69bd369cd921183011614db4/1774007964349/07_nonprofit_cloud_screening.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

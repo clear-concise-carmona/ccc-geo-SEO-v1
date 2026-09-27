@@ -1,0 +1,269 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "67339",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:20 GMT",
+  "Etag": "W/\"7dfde45c150b7df5a096f99207064900\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "wCJE3zvA/4AIjaUBU",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "What AI-Ready Data Means in Salesforce | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+  "og:type": "article",
+  "og:description": "AI-ready data is not a feeling. Learn the 10-metric standard for measuring Salesforce data quality before activating AI features.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/6a87427d497fa522beae7ddc/1787741022209/CCC_CleanDataForAI_Part01_Featured_Refined_20260818.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "844",
+  "twitter:title": "What AI-Ready Data Means in Salesforce | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/6a87427d497fa522beae7ddc/1787741022209/CCC_CleanDataForAI_Part01_Featured_Refined_20260818.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+  "twitter:card": "summary",
+  "twitter:description": "AI-ready data is not a feeling. Learn the 10-metric standard for measuring Salesforce data quality before activating AI features.",
+  "description": "AI-ready data is not a feeling. Learn the 10-metric standard for measuring Salesforce data quality before activating AI features.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "What AI-Ready Data Means in Salesforce | Clear Concise Consulting",
+ "description": "AI-ready data is not a feeling. Learn the 10-metric standard for measuring Salesforce data quality before activating AI features.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+ "h1_tags": [
+  "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+  },
+  {
+   "level": 2,
+   "text": "What \"AI-Ready\" Actually Means"
+  },
+  {
+   "level": 2,
+   "text": "How to Measure It Yourself in Two Hours"
+  },
+  {
+   "level": 2,
+   "text": "Common Mistakes in the Audit"
+  },
+  {
+   "level": 2,
+   "text": "What Salesforce Should Prevent Going Forward"
+  },
+  {
+   "level": 2,
+   "text": "The Governance Decision Organizations Skip"
+  },
+  {
+   "level": 2,
+   "text": "What to Do This Week"
+  },
+  {
+   "level": 2,
+   "text": "Two open-source tools for NPSP-to-Nonprofit-Cloud migrations"
+  },
+  {
+   "level": 2,
+   "text": "The AI Queries in My Search Console"
+  }
+ ],
+ "word_count": 1469,
+ "text_content": "What AI-Ready Data Means in Salesforce | Clear Concise Consulting 0 What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It) AI Governance Aug 26 Written By Jeremy Carmona The measurable standard most organizations skip before activating AI features Part 1 of the Clean Data for AI series Every organization says it wants AI-ready data. Almost none can define what that means in measurable terms. \"Clean up the data\" has been on the project list for years. Leadership keeps saying it. The admin keeps nodding. Nothing changes because there is no standard to change toward. No threshold. No metric that separates \"safe to deploy\" from \"this will create problems in production.\" That gap is about to cost real money. Salesforce is pushing Agentforce, Einstein, and Data Cloud into every renewal conversation. Organizations are evaluating AI features with no way to assess whether their data can support them. The question is no longer \"should we adopt AI?\" The question is: \"Can our data survive it?\" I have run over 30 Salesforce data quality assessments for organizations considering AI features. The median score across those assessments is 58 out of 100. Most organizations are surprised by their number. A few are relieved. None had measured it before. One organization I assessed was confident enough to schedule their Agentforce pilot before the results came back. Their score was 44 out of 100. Field completeness was the biggest factor: 35% of Contact records had no email, no phone, or both. The AI features they planned to activate would have been grounding recommendations on records that were missing the most basic identifiers. The pilot got postponed. The data cleanup that followed took three weeks of focused admin work. The two-hour measurement that would have surfaced the problem before the pilot was ever scheduled had never been run. What \"AI-Ready\" Actually Means AI-ready data meets a measurable standard across ten dimensions. These are not theoretical. They come from field assessments where the score predicted whether the AI deployment went smoothly or generated complaints. The ten metrics: Contact uniqueness rate (unique contacts vs. total, accounting for email duplicates) Phone format consistency (percentage following a single format standard) State/province field standardization (percentage matching approved abbreviations) Account name duplicate rate Records not modified in 24+ months (staleness) Records owned by inactive users Lead required-field completion rate Email bounce rate (percentage flagged as bounced or invalid) Records without activity in 12+ months Sharing model exceptions (profiles with broad access beyond business need) Each metric scores 1-10. The maximum is 100. Based on 30+ assessments, I set the threshold at 70. Below that number, AI features create more problems than they solve. Gartner predicts 60% of AI projects will be abandoned due to data quality issues. In my experience, that failure starts below 70. Why these ten and not others? Because they are the ones that consistently predicted deployment outcomes. An organization scoring 72 can activate Agentforce with confidence. An organization scoring 48 will generate outputs that erode trust in the pilot within the first week. The metrics were not chosen by theory. They were chosen by pattern. How to Measure It Yourself in Two Hours You do not need a consultant for the first pass. You need a data export and Excel. Step 1: Export your Contact records. Include fields: Email, Phone, MailingState, LastModifiedDate, OwnerId, and any fields you consider decision-critical. Step 2: Profile field completeness. Use COUNTIF to count non-blank values: =COUNTIF(B2:B5000,\"<>\"&\"\")/COUNTA(A2:A5000) This formula divides the count of non-blank values in the Email column by the total record count. Repeat for each critical field. The result is your field completeness percentage. A field showing 100% completion is not automatically healthy. If 30% of your Industry values say \"Other,\" the field is 100% complete and 30% useless. Completion and accuracy are different measurements. Part 3 of this series covers placeholder values in detail. Step 3: Profile format consistency. For the State field, run a Pivot Table on the column. Sort by count. If you see \"NY,\" \"New York,\" \"new york,\" and \"N.Y.\" as separate entries, your standardization score drops. Count the distinct variations. More than two variations per intended value is a problem. Part 4 covers standardization. Step 4: Check staleness. Add a helper column: =TODAY()-DATEVALUE(LEFT(G2,10)) Adjust the column reference and date format to match your export. Filter for values over 730 (two years). Count the percentage. This is your stale-record rate. The red flag threshold in the AI Readiness Checklist is 40% of records not updated in a year. Part 5 covers staleness and ownership. Step 5: Check owner status. Export your user list. Filter for inactive users. Match against the OwnerId column in your Contact export using XLOOKUP or VLOOKUP. Any match is a record owned by someone who can no longer maintain it. Records with inactive owners do not trigger alerts. They sit in active views, aging silently, and AI agents treat them the same as records updated yesterday. One nonprofit I assessed had an AI agent send a fundraising email to a donor's widow because the donor record was still active two years after his death. Nobody owned the record. Nobody reviewed it. The agent did what agents do: it acted on the data it was given. Common Mistakes in the Audit The most common mistake is treating 100% field completion as proof of quality. If 30% of your Industry values are \"Other,\" the field is 100% complete and 30% useless. Completion is not the same as accuracy. The second mistake is running the audit on one object. Contact completeness tells you one story. If your Opportunity records have stale stages, your pipeline is also unreliable. Run the same profiling on Account, Opportunity, and Lead. The third mistake is treating the audit as a one-time event. Data quality degrades the moment you stop measuring it. The score you get today is accurate today. In six months, without a governance cadence, it will be lower. The audit is only useful if it repeats. What Salesforce Should Prevent Going Forward The audit finds the current state. Prevention handles the future. For field completeness, the Salesforce control is a validation rule that rejects blank values on decision-critical fields. For format consistency, the control is a restricted picklist or a Flow-based normalization that runs on record save. For staleness, the control is a report-and-review cadence with a named data steward who owns the quarterly check. These are not complex configurations. Most Salesforce orgs have the tools already installed and turned off, or set to defaults that accomplish nothing. The difference between an org scoring 48 and an org scoring 78 is rarely a technology gap. It is a governance gap: nobody decided what \"good\" looks like, and nobody checks. The full prevention architecture is covered in Parts 2 through 6 of this series. The Governance Decision Organizations Skip Who sets the threshold? Who reviews the scores? Who decides whether the organization meets the standard before AI activation? That decision is not technical. It is organizational. Someone with authority must own the quality standard, review it quarterly, and be accountable for the result. In the organizations where I have seen this work, that person is usually the senior admin or the data steward, not the executive sponsor. The executive sets the priority. The steward enforces the standard. Without that decision, the audit is a one-time project. With it, the audit is a governance system. The difference is whether your data quality score is still accurate six months after you measure it. What to Do This Week Export your Contact records Run the COUNTIF completeness check on five critical fields Run the Pivot Table standardization check on one picklist field Calculate your stale-record percentage Write down the score. Show it to someone who makes decisions about AI. The number will tell you more about AI readiness than any product demo. Related CCC resources: AI Readiness Scorecard (free, 2-minute self-assessment) Salesforce AI Data Readiness Assessment (full review) Data First: Why Clean Data Is a Prerequisite for Salesforce AI Sources: Salesforce Help: Data Quality documentation (help.salesforce.com) Salesforce Summer '26 Release Notes CCC assessment methodology (30+ field assessments, 2024-2026) This article is Part 1 of the Clean Data for AI series. Part 2 covers duplicates and identity resolution . Last updated: 8-20-2026. If you find an error, contact contact@clearconciseconsulting.com . Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Two open-source tools for NPSP-to-Nonprofit-Cloud migrations Next Next The AI Queries in My Search Console",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "Salesforce AI Data Readiness Assessment"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-records-ai-data-cleanup",
+   "text": "duplicates and identity resolution"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/npsp-to-nonprofit-cloud-migration-tools",
+   "text": "PreviousPreviousTwo open-source tools for NPSP-to-Nonprofit-Cloud migrations"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "text": "NextNextThe AI Queries in My Search Console"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/2c890aca-24c6-4abc-89be-e5b0f53d5cfc/CCC_CleanDataForAI_Part01_Featured_Refined_20260818.png",
+   "alt": "Unmarked beige ruler lying over raised and outlined navy data cells.",
+   "width": "1500",
+   "height": "844",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/fa16742a-54c7-47c3-8aa3-c0a9473ca92e/CCC_CleanDataForAI_Part01_Diagnostic_Refined_20260818.png",
+   "alt": "Measuring panel with five height bars and one dashed threshold.",
+   "width": "1200",
+   "height": "600",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/e423d476-49d9-4b78-b824-3a62e906bfb6/CCC_CleanDataForAI_Part01_Prevention_Refined_20260818.png",
+   "alt": "Measurement gate with a pass token above and fail token below the bar.",
+   "width": "1200",
+   "height": "600",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "What AI-Ready Data Means in Salesforce | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+   "datePublished": "2026-08-26T06:43:42-0400",
+   "dateModified": "2026-08-26T06:43:42-0400",
+   "headline": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/6a87427d497fa522beae7ddc/1787741022209/CCC_CleanDataForAI_Part01_Featured_Refined_20260818.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

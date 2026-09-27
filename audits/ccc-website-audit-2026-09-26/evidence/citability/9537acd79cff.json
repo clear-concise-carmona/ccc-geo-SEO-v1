@@ -1,0 +1,246 @@
+{
+ "url": "http://127.0.0.1:8765/9537acd79cff.html",
+ "total_blocks_analyzed": 5,
+ "average_citability_score": 43.0,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 2,
+  "F": 1
+ },
+ "top_5_citable": [
+  {
+   "heading": "What CCC Did",
+   "word_count": 253,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "CCC designed the CPQ data model: product catalog, price books, pricing rules, and discount schedules. The catalog was built to handle regional pricing variations without creating separate products for each..."
+  },
+  {
+   "heading": "Key Takeaways",
+   "word_count": 88,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "A global services company operated 30+ regional offices with no standardized quoting process. Some used spreadsheets. Some used email templates. Generating a quote took 2 to 5 days; contract execution..."
+  },
+  {
+   "heading": "The Situation",
+   "word_count": 122,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A global services company operated Salesforce across 30+ regional offices. Each region had its own quoting process. Some used spreadsheets. Some used email templates. A few used Salesforce, but with..."
+  },
+  {
+   "heading": "At a Glance",
+   "word_count": 71,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Platform: Salesforce CPQ, DocuSign CLM, DocuSign eSignature, Certinia, Outreach, HubSpot Scope: CPQ implementation, contract lifecycle automation, and global process standardization Quote-to-Contract Improvement: 40% faster (from 2-5 days + 1 week..."
+  },
+  {
+   "heading": "Before and After",
+   "word_count": 60,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "MetricBefore CCCAfter CCCQuote generation time2-5 days (varies by region)Same dayContract execution time1 additional weekAutomated via DocuSign CLMQuote-to-contract total9-12 daysUnder 3 daysQuoting processDifferent in each of 30+ regionsStandardized across all regionsPipeline..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Before and After",
+   "word_count": 60,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "MetricBefore CCCAfter CCCQuote generation time2-5 days (varies by region)Same dayContract execution time1 additional weekAutomated via DocuSign CLMQuote-to-contract total9-12 daysUnder 3 daysQuoting processDifferent in each of 30+ regionsStandardized across all regionsPipeline..."
+  },
+  {
+   "heading": "At a Glance",
+   "word_count": 71,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Platform: Salesforce CPQ, DocuSign CLM, DocuSign eSignature, Certinia, Outreach, HubSpot Scope: CPQ implementation, contract lifecycle automation, and global process standardization Quote-to-Contract Improvement: 40% faster (from 2-5 days + 1 week..."
+  },
+  {
+   "heading": "The Situation",
+   "word_count": 122,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A global services company operated Salesforce across 30+ regional offices. Each region had its own quoting process. Some used spreadsheets. Some used email templates. A few used Salesforce, but with..."
+  },
+  {
+   "heading": "Key Takeaways",
+   "word_count": 88,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "A global services company operated 30+ regional offices with no standardized quoting process. Some used spreadsheets. Some used email templates. Generating a quote took 2 to 5 days; contract execution..."
+  },
+  {
+   "heading": "What CCC Did",
+   "word_count": 253,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "CCC designed the CPQ data model: product catalog, price books, pricing rules, and discount schedules. The catalog was built to handle regional pricing variations without creating separate products for each..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Key Takeaways",
+   "word_count": 88,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "A global services company operated 30+ regional offices with no standardized quoting process. Some used spreadsheets. Some used email templates. Generating a quote took 2 to 5 days; contract execution..."
+  },
+  {
+   "heading": "At a Glance",
+   "word_count": 71,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Platform: Salesforce CPQ, DocuSign CLM, DocuSign eSignature, Certinia, Outreach, HubSpot Scope: CPQ implementation, contract lifecycle automation, and global process standardization Quote-to-Contract Improvement: 40% faster (from 2-5 days + 1 week..."
+  },
+  {
+   "heading": "The Situation",
+   "word_count": 122,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A global services company operated Salesforce across 30+ regional offices. Each region had its own quoting process. Some used spreadsheets. Some used email templates. A few used Salesforce, but with..."
+  },
+  {
+   "heading": "What CCC Did",
+   "word_count": 253,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "CCC designed the CPQ data model: product catalog, price books, pricing rules, and discount schedules. The catalog was built to handle regional pricing variations without creating separate products for each..."
+  },
+  {
+   "heading": "Before and After",
+   "word_count": 60,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "MetricBefore CCCAfter CCCQuote generation time2-5 days (varies by region)Same dayContract execution time1 additional weekAutomated via DocuSign CLMQuote-to-contract total9-12 daysUnder 3 daysQuoting processDifferent in each of 30+ regionsStandardized across all regionsPipeline..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

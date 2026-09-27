@@ -1,0 +1,342 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:27 GMT",
+  "Etag": "W/\"1753896cc0213ecb5a887cba614c5046--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "6TdWylTW/V8fhDH2H",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "CCC AI Center of Excellence | Salesforce AI Governance | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+  "og:type": "article",
+  "og:description": "Clear Concise Consulting launches the AI Center of Excellence: governance-first Salesforce AI advisory aligned to NIST, ISO 42001, and Trusted AI.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69f7ea8e74e1ce4c39b6b084/1780777433990/ccc-may-2026-article-1-ai-coe-featured.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "CCC AI Center of Excellence | Salesforce AI Governance | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69f7ea8e74e1ce4c39b6b084/1780777433990/ccc-may-2026-article-1-ai-coe-featured.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+  "twitter:card": "summary",
+  "twitter:description": "Clear Concise Consulting launches the AI Center of Excellence: governance-first Salesforce AI advisory aligned to NIST, ISO 42001, and Trusted AI.",
+  "description": "Clear Concise Consulting launches the AI Center of Excellence: governance-first Salesforce AI advisory aligned to NIST, ISO 42001, and Trusted AI.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "CCC AI Center of Excellence | Salesforce AI Governance | Clear Concise Consulting",
+ "description": "Clear Concise Consulting launches the AI Center of Excellence: governance-first Salesforce AI advisory aligned to NIST, ISO 42001, and Trusted AI.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+ "h1_tags": [
+  "Introducing the CCC AI Center of Excellence"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Introducing the CCC AI Center of Excellence"
+  },
+  {
+   "level": 2,
+   "text": "What the AI CoE Is"
+  },
+  {
+   "level": 2,
+   "text": "Why Now"
+  },
+  {
+   "level": 2,
+   "text": "The Six Guiding Principles"
+  },
+  {
+   "level": 2,
+   "text": "Six Governance Checkpoints"
+  },
+  {
+   "level": 2,
+   "text": "What This Means for Your Org"
+  },
+  {
+   "level": 2,
+   "text": "What's Next in This Series"
+  },
+  {
+   "level": 2,
+   "text": "The Integration Built on Prayer: What Happens When Nobody Documents the API"
+  },
+  {
+   "level": 2,
+   "text": "The Sharing Model Nobody Designed: The Most Ignored Architecture Decision in Salesforce"
+  }
+ ],
+ "word_count": 1246,
+ "text_content": "CCC AI Center of Excellence | Salesforce AI Governance | Clear Concise Consulting 0 Introducing the CCC AI Center of Excellence AI Governance May 4 Written By Jeremy Carmona A nonprofit director called me last fall. She had just been told by her board that her organization needed an \"AI strategy\" by the end of the quarter. She had three months, no budget for new hires, and a Salesforce org with 70,000 contact records that hadn't been audited in two years. Her question was simple. \"Where do I even start?\" I told her the truth. The AI strategy was the easy part. The hard part was that her data wasn't ready, her team didn't have a governance framework, and nobody on the board was prepared to be accountable when the AI got something wrong. Adding AI to that org would have made every existing problem worse and faster. That conversation is the reason I built the CCC AI Center of Excellence . What the AI CoE Is The CCC AI Center of Excellence is a structured advisory practice for organizations running Salesforce who need to deploy AI responsibly. It packages the governance frameworks, assessment tools , and documentation standards I've been developing for two years into one operating model. It is not a tech stack. It is not a software product. It is a way of approaching AI deployment that puts data quality, human oversight , and accountability ahead of feature activation. The CoE is aligned to three authoritative frameworks: NIST AI Risk Management Framework 1.0 (Govern, Map, Measure, Manage) ISO 42001 controls for AI management systems Salesforce Trusted AI principles It addresses a documented gap in the market. As of early 2026, 82% of nonprofits are using AI tools in some form. Fewer than 10% have written governance policies. Federal agencies are now subject to OMB M-25-21 compliance requirements for high-impact AI. Healthcare organizations face HIPAA obligations for any AI system handling protected health information. The volume of AI activity has outpaced the volume of governance. Most organizations I talk to don't need more AI. They need better guardrails for the AI they already have. Why Now Two events in April 2026 made the timing of this announcement obvious. First, Salesforce announced Headless 360 at TDX. Every platform capability is now exposed as an API, MCP tool, or CLI command. AI agents can create records, trigger Flows, modify data, and orchestrate cross-system workflows without a browser. This is an architectural shift, not a feature release. The platform is now designed for machine consumption, not just human navigation. For organizations that haven't audited their data, their permission model, or their integration users in years, this is a crisis waiting to happen. An agent operating at machine speed against bad data can corrupt thousands of records before a human notices. Second, I attended Agentforce World Tour NYC at Javits Center on April 29. The keynote and breakouts were about agents, deployment velocity, and customer outcomes. The governance conversation barely registered. There were 130 sessions. I counted three that touched on data readiness or human oversight as deployment prerequisites. The Salesforce ecosystem is moving fast on AI. The governance conversation is not keeping pace. That gap is where things go wrong, and that gap is where the CoE operates. The Six Guiding Principles The CoE runs on six principles drawn from NIST AI RMF trustworthiness characteristics. Each one becomes a working article in this series over the next four weeks. Data First. No AI feature is activated until data quality is assessed . Clean data is a prerequisite, not a parallel workstream. Human Oversight. Every AI-assisted decision has a documented human review gate. Automated actions are bounded by explicit scope limits. Transparency. AI governance documentation is written in plain language for four audiences: executives, project managers, technical teams, and end users. Accountability. Every AI deployment has a named human owner responsible for outcomes. AI does not make consequential decisions without human authorization. Proportionality. Governance controls are proportional to risk . Low-risk automations receive lighter review. High-impact AI decisions receive mandatory multi-step validation. Reversibility. Every AI deployment includes a documented rollback procedure . If something goes wrong, the system returns to its pre-AI state within a defined timeframe. These are not new ideas. They are the same governance principles that show up in NIST publications, ISO standards, and academic papers on responsible AI. What's new is applying them inside a Salesforce org, with concrete checkpoints and documentation that a nonprofit director with no engineering background can actually use. Six Governance Checkpoints Every CoE engagement runs through six mandatory checkpoints. Each is pass/fail. Engagements do not proceed until gate criteria are met. The checkpoints map to NIST functions: Data Readiness (MAP). Data quality score 7/10 or higher. Sharing model audited. Permission and Access (GOVERN). Field-level security verified. Trust Layer configured. Design Review (MAP + GOVERN). Use case risk classified. Human oversight defined. Agentic Governance Review (GOVERN + MAP). Agent boundaries set. Session Tracing on. Pre-Production Validation (MEASURE). Bias checks done. Rollback tested. Post-Launch Governance (MANAGE). 30-day review. Drift indicators baselined. The eighth article in this series walks through all six checkpoints with a real engagement example. What This Means for Your Org If you're a nonprofit, government agency, healthcare org, or enterprise running Salesforce, the practical question is whether your org is ready to deploy AI responsibly. The CCC AI Readiness Scorecard answers that question in 15 weighted questions across five categories. It produces a numerical baseline (0-100) that identifies gaps before AI features are activated. It is free and takes about ten minutes. If your score lands below 70, you're in the same position as that nonprofit director from last fall. You have time, but not unlimited time, and you need to fix the foundations before you build on top of them. If your score lands above 70, you're in better shape than most. The CoE engagements then focus on the specific checkpoint where you're weakest, not on rebuilding everything. Either way, the path is the same. Data first. Then permissions. Then human oversight. Then deployment. What's Next in This Series Over the next four weeks, I will publish seven follow-up articles. One per Guiding Principle, plus a deep dive on the Six Governance Checkpoints. Each article includes a concrete example, a one-page framework you can use, and the mistakes I see most often in client engagements. The goal is to make responsible AI adoption practical, measurable, and sustainable. Not theoretical. Not aspirational. Practical. If you have a specific AI deployment you're considering, or a board mandate you need to satisfy, the AI Readiness Scorecard is the right starting point. If you want to talk through the results, my Zoom scheduler is open. Responsible AI is not a tech problem. It is a governance problem. The good news: governance is solvable. AI Center of Excellence AI Governance NIST AI RMF Salesforce AI Trusted AI Headless 360 Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Integration Built on Prayer: What Happens When Nobody Documents the API Next Next The Sharing Model Nobody Designed: The Most Ignored Architecture Decision in Salesforce",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "CCC AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "assessment tools"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/transparency-ai-governance-documentation",
+   "text": "documentation standards"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": "human oversight"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/accountability-named-human-owner-ai-deployment",
+   "text": "accountability"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": "six principles drawn from NIST AI RMF"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": "No AI feature is activated until data quality is assessed"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/proportional-ai-governance-risk-tiers",
+   "text": "proportional to risk"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "text": "documented rollback procedure"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Center+of+Excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/NIST+AI+RMF",
+   "text": "NIST AI RMF"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Salesforce+AI",
+   "text": "Salesforce AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Trusted+AI",
+   "text": "Trusted AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Headless+360",
+   "text": "Headless 360"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-integration-documentation",
+   "text": "PreviousPreviousThe Integration Built on Prayer: What Happens When Nobody Documents the API"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-sharing-model-architecture",
+   "text": "NextNextThe Sharing Model Nobody Designed: The Most Ignored Architecture Decision in Salesforce"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/5ba70cdc-f57c-4e5a-9b30-fff39d8d9df4/ccc-may-2026-article-1-ai-coe-inline.png",
+   "alt": "Geometric minimal illustration in CCC navy and beige showing six interlocking governance principles around a central Salesforce cloud icon",
+   "width": "2528",
+   "height": "1696",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "CCC AI Center of Excellence | Salesforce AI Governance | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+   "datePublished": "2026-05-04T08:00:57-0400",
+   "dateModified": "2026-06-06T16:23:53-0400",
+   "headline": "Introducing the CCC AI Center of Excellence",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/67a46dd3a36686146265918c/69f7ea8e74e1ce4c39b6b084/1780777433990/ccc-may-2026-article-1-ai-coe-featured.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BlogPosting",
+   "@id": "https://www.clearconciseconsulting.com/blog/introducing-ccc-ai-center-of-excellence#article",
+   "headline": "Introducing the CCC AI Center of Excellence",
+   "description": "Clear Concise Consulting launches the AI Center of Excellence: governance-first Salesforce AI advisory aligned to NIST, ISO 42001, and Trusted AI.",
+   "datePublished": "2026-05-04",
+   "dateModified": "2026-05-04",
+   "author": {
+    "@type": "Person",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about",
+    "jobTitle": "Salesforce Architect",
+    "sameAs": [
+     "https://www.linkedin.com/in/jeremy-a-carmona"
+    ]
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com",
+    "@id": "https://www.clearconciseconsulting.com/#organization"
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.clearconciseconsulting.com/blog/introducing-ccc-ai-center-of-excellence"
+   },
+   "keywords": [
+    "AI governance",
+    "Salesforce AI",
+    "AI Center of Excellence",
+    "NIST AI RMF",
+    "ISO 42001"
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

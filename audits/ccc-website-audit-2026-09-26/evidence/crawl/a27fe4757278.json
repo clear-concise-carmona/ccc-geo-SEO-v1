@@ -1,0 +1,157 @@
+{
+ "url": "https://www.clearconciseconsulting.com/who-we-help",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:42 GMT",
+  "Etag": "W/\"f10938c47f33525e9a4242a061a2e41a--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "iellepxu/eBTipw5i",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce for Nonprofits, Small Business & Enterprise Teams | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/who-we-help",
+  "og:type": "website",
+  "og:description": "Tailored Salesforce solutions for nonprofits, small businesses, enterprise teams, and career changers. Industry-specific expertise that delivers results.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d44960ea56e8724331ebb0/1775520096055/X+%28400x400%29.png?format=1500w",
+  "og:image:width": "400",
+  "og:image:height": "400",
+  "twitter:title": "Salesforce for Nonprofits, Small Business & Enterprise Teams | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d44960ea56e8724331ebb0/1775520096055/X+%28400x400%29.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/who-we-help",
+  "twitter:card": "summary",
+  "twitter:description": "Tailored Salesforce solutions for nonprofits, small businesses, enterprise teams, and career changers. Industry-specific expertise that delivers results.",
+  "description": "Tailored Salesforce solutions for nonprofits, small businesses, enterprise teams, and career changers. Industry-specific expertise that delivers results.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce for Nonprofits, Small Business & Enterprise Teams | Clear Concise Consulting",
+ "description": "Tailored Salesforce solutions for nonprofits, small businesses, enterprise teams, and career changers. Industry-specific expertise that delivers results.",
+ "canonical": "https://www.clearconciseconsulting.com/who-we-help",
+ "h1_tags": [
+  "Who We Work With"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Who We Work With"
+  },
+  {
+   "level": 2,
+   "text": "Government"
+  },
+  {
+   "level": 2,
+   "text": "Nonprofit"
+  },
+  {
+   "level": 2,
+   "text": "Healthcare"
+  },
+  {
+   "level": 2,
+   "text": "Enterprise"
+  }
+ ],
+ "word_count": 354,
+ "text_content": "Salesforce for Nonprofits, Small Business & Enterprise Teams | Clear Concise Consulting 0 Who We Work With CCC works with organizations where Salesforce is critical infrastructure and the cost of getting it wrong shows up in compliance exposure, lost funding, or decisions made on bad data. Government Your problem: Federal compliance requirements, FedRAMP, GovCloud, and documentation standards that leave zero room for ambiguity. You need an architect who understands security clearance workflows, approval chains, and the pace of government procurement. How CCC helps: CCC delivered a GovCloud implementation for USCIS in 8 weeks: environment management, CI/CD pipeline support, and security documentation. Government work requires precision. It also requires patience with multi-office stakeholder alignment. CCC understands both. Nonprofit Your problem: You need enterprise-quality Salesforce tools on a nonprofit budget. Your donor data is messy, your NPSP is misconfigured, and you're hearing about Nonprofit Cloud without knowing whether to migrate or wait. How CCC helps: CCC started at Environmental Defense Fund in 2012. Since then: NPSP implementations, Nonprofit Cloud migrations, donor management, grant tracking, and data governance for organizations that answer to donors, boards, and the public. CCC holds a Nonprofit Cloud Consultant certification. Healthcare Your problem: Patient data integrity isn't optional. HIPAA compliance adds a layer of complexity to every Salesforce decision. You need an architect who doesn't treat healthcare data like commercial CRM data. How CCC helps: CCC supported Health Cloud implementations at KVORTEX (HRSA contractor), resolving 5,000+ end-user issues and conducting data analysis for health-focused operations. Healthcare Salesforce implementations require understanding of compliance regulations, patient data sensitivity, and the specific ways healthcare workflows differ from standard CRM processes. Enterprise Your problem: Multiple Clouds, hundreds of users, custom integrations, and architectural decisions that need to scale. You've been burned by a consulting firm that staffed your project with junior developers after the architect left. How CCC helps: CCC has worked with UnitedHealth Group on Salesforce architecture, managed configurations for 1,000+ users at Compass, and led platform strategy at A Place for Mom across Service Cloud and Experience Cloud. One architect. No rotation. The person in your kickoff meeting is the person in your go-live.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

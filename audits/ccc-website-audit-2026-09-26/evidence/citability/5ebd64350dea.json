@@ -1,0 +1,321 @@
+{
+ "url": "http://127.0.0.1:8765/5ebd64350dea.html",
+ "total_blocks_analyzed": 10,
+ "average_citability_score": 25.8,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 0,
+  "D": 2,
+  "F": 8
+ },
+ "top_5_citable": [
+  {
+   "heading": "The Clear Concise Approach to Privacy Policy",
+   "word_count": 38,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting (\"CCC,\" \"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you interact..."
+  },
+  {
+   "heading": "Data Security",
+   "word_count": 35,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "We implement appropriate technical and organizational measures to protect your information, including: Encryption protocolsSecure data storageAccess controlsRegular security assessments No method of transmission over the internet is 100% secure, and..."
+  },
+  {
+   "heading": "Cookie Policy",
+   "word_count": 23,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We use cookies and similar technologies to: Improve website functionalityAnalyze usage patternsProvide personalized content You can control cookie preferences through your browser settings."
+  },
+  {
+   "heading": "Your Rights",
+   "word_count": 41,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "You have the right to: Access your personal informationCorrect inaccurate dataRequest deletion of your dataOpt out of marketing communicationsWithdraw consent (where applicable) Request deletion of your data Opt out of..."
+  },
+  {
+   "heading": "Questions or Concerns",
+   "word_count": 20,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 10,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you have questions about this Privacy Policy or our practices, please contact us at: Clear Concise Consulting, LLCcontact@clearconciseconsulting.com(917) 719-4629"
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Information We Collect",
+   "word_count": 39,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We collect information that you voluntarily provide to us, including: Name and contact informationBusiness and professional detailsSalesforce instance informationPayment informationCommunication preferences When you visit our website, we automatically collect: Device..."
+  },
+  {
+   "heading": "Legal Requirements",
+   "word_count": 27,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may disclose your information if required by law or to: Protect our rights and propertyPrevent fraud or abuseComply with legal proceedings Protect our rights and property"
+  },
+  {
+   "heading": "Legal Requirements",
+   "word_count": 27,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may disclose your information if required by law or to: Protect our rights and propertyPrevent fraud or abuseComply with legal proceedings Protect our rights and property"
+  },
+  {
+   "heading": "How We Use Your Information",
+   "word_count": 59,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We use the collected information to: Provide and improve our consulting servicesProcess payments and transactionsCommunicate with you about our servicesSend relevant marketing communications (with your consent)Analyze and improve our website..."
+  },
+  {
+   "heading": "Changes to This Policy",
+   "word_count": 24,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 10,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may update this Privacy Policy periodically. We will notify you of significant changes by posting updates on our website or sending email notifications."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The Clear Concise Approach to Privacy Policy",
+   "word_count": 38,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting (\"CCC,\" \"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you interact..."
+  },
+  {
+   "heading": "Information We Collect",
+   "word_count": 39,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We collect information that you voluntarily provide to us, including: Name and contact informationBusiness and professional detailsSalesforce instance informationPayment informationCommunication preferences When you visit our website, we automatically collect: Device..."
+  },
+  {
+   "heading": "Legal Requirements",
+   "word_count": 27,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may disclose your information if required by law or to: Protect our rights and propertyPrevent fraud or abuseComply with legal proceedings Protect our rights and property"
+  },
+  {
+   "heading": "How We Use Your Information",
+   "word_count": 59,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We use the collected information to: Provide and improve our consulting servicesProcess payments and transactionsCommunicate with you about our servicesSend relevant marketing communications (with your consent)Analyze and improve our website..."
+  },
+  {
+   "heading": "Legal Requirements",
+   "word_count": 27,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may disclose your information if required by law or to: Protect our rights and propertyPrevent fraud or abuseComply with legal proceedings Protect our rights and property"
+  },
+  {
+   "heading": "Data Security",
+   "word_count": 35,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "We implement appropriate technical and organizational measures to protect your information, including: Encryption protocolsSecure data storageAccess controlsRegular security assessments No method of transmission over the internet is 100% secure, and..."
+  },
+  {
+   "heading": "Your Rights",
+   "word_count": 41,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "You have the right to: Access your personal informationCorrect inaccurate dataRequest deletion of your dataOpt out of marketing communicationsWithdraw consent (where applicable) Request deletion of your data Opt out of..."
+  },
+  {
+   "heading": "Cookie Policy",
+   "word_count": 23,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We use cookies and similar technologies to: Improve website functionalityAnalyze usage patternsProvide personalized content You can control cookie preferences through your browser settings."
+  },
+  {
+   "heading": "Changes to This Policy",
+   "word_count": 24,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 10,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We may update this Privacy Policy periodically. We will notify you of significant changes by posting updates on our website or sending email notifications."
+  },
+  {
+   "heading": "Questions or Concerns",
+   "word_count": 20,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 10,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you have questions about this Privacy Policy or our practices, please contact us at: Clear Concise Consulting, LLCcontact@clearconciseconsulting.com(917) 719-4629"
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/privacy-policy",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

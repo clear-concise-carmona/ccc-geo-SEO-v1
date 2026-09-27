@@ -1,0 +1,366 @@
+{
+ "url": "http://127.0.0.1:8765/7ab82318207b.html",
+ "total_blocks_analyzed": 13,
+ "average_citability_score": 45.2,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 3,
+  "D": 6,
+  "F": 3
+ },
+ "top_5_citable": [
+  {
+   "heading": "FAQs",
+   "word_count": 211,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "How quickly can we see results from implementing data governance?Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes..."
+  },
+  {
+   "heading": "How do you maintain data governance after the initial implementation?",
+   "word_count": 43,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Sustainability is built into our approach. We establish clearly documented processes, train your team thoroughly, and implement automated quality checks. We also offer flexible ongoing support options, from regular audits..."
+  },
+  {
+   "heading": "The problem nobody addresses until it's expensive",
+   "word_count": 232,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "A client migrated tens of thousands of records from their legacy system. They skipped deduplication because 'we'll clean it up after' and skipped field-mapping validation because 'the fields are the..."
+  },
+  {
+   "heading": "How quickly can we see results from implementing data governance?",
+   "word_count": 45,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes usually takes 1-3 months, depending on your data complexity...."
+  },
+  {
+   "heading": "Data Governance and Migration",
+   "word_count": 32,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce data governance is the framework that keeps your CRM data accurate, secure, and usable. CCC provides data quality assessments, deduplication, field standardization, and ongoing governance rules to prevent costly..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Data quality assessment",
+   "word_count": 50,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's 10-metric assessment measures the metrics that matter: owner population, field completeness, duplicate rate, data freshness, picklist hygiene, and format consistency. Each metric includes a pre-written SOQL query, a benchmark..."
+  },
+  {
+   "heading": "Field standardization",
+   "word_count": 40,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AP Style conventions applied to text fields. Phone number, address, and company name formatting standardized. Picklist values consolidated (variants like \"Question,\" \"question,\" \"QUESTION,\" and \"Other\" cleaned to meaningful, consistent values)...."
+  },
+  {
+   "heading": "Deduplication",
+   "word_count": 42,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Duplicate identification using Salesforce native matching rules and third-party tools for fuzzy matching. Merge strategy that preserves the most complete record. Post-merge validation to confirm data integrity. Prevention rules (Duplicate..."
+  },
+  {
+   "heading": "Our Salesforce data is a complete mess. Is it too late for data governance?",
+   "word_count": 46,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "It's never too late. In fact, some of our most successful projects started with severely compromised data. We've helped organizations recover from years of poor data practices, turning chaotic Salesforce..."
+  },
+  {
+   "heading": "Ongoing governance",
+   "word_count": 41,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Monthly data quality dashboard review. Quarterly deduplication check. Ownership reassignment workflow (automatic notification when a user is deactivated). Validation rules on stage progression (required fields at each Opportunity stage). Documentation..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Data Governance and Migration",
+   "word_count": 32,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce data governance is the framework that keeps your CRM data accurate, secure, and usable. CCC provides data quality assessments, deduplication, field standardization, and ongoing governance rules to prevent costly..."
+  },
+  {
+   "heading": "The problem nobody addresses until it's expensive",
+   "word_count": 232,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "A client migrated tens of thousands of records from their legacy system. They skipped deduplication because 'we'll clean it up after' and skipped field-mapping validation because 'the fields are the..."
+  },
+  {
+   "heading": "Data quality assessment",
+   "word_count": 50,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's 10-metric assessment measures the metrics that matter: owner population, field completeness, duplicate rate, data freshness, picklist hygiene, and format consistency. Each metric includes a pre-written SOQL query, a benchmark..."
+  },
+  {
+   "heading": "Deduplication",
+   "word_count": 42,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Duplicate identification using Salesforce native matching rules and third-party tools for fuzzy matching. Merge strategy that preserves the most complete record. Post-merge validation to confirm data integrity. Prevention rules (Duplicate..."
+  },
+  {
+   "heading": "Field standardization",
+   "word_count": 40,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AP Style conventions applied to text fields. Phone number, address, and company name formatting standardized. Picklist values consolidated (variants like \"Question,\" \"question,\" \"QUESTION,\" and \"Other\" cleaned to meaningful, consistent values)...."
+  },
+  {
+   "heading": "Ongoing governance",
+   "word_count": 41,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Monthly data quality dashboard review. Quarterly deduplication check. Ownership reassignment workflow (automatic notification when a user is deactivated). Validation rules on stage progression (required fields at each Opportunity stage). Documentation..."
+  },
+  {
+   "heading": "Data migration services",
+   "word_count": 129,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Pre-migration assessment.Source data profiled for quality, format, and deduplication needs before any records are loaded. Field mapping documented with transformation rules (data types, units, formats). External ID fields created for..."
+  },
+  {
+   "heading": "Proof",
+   "word_count": 70,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC holds aData Architect certification.Data governance has been the focus of every CCC engagement since founding at Environmental Defense Fund in 2012, where donor record management across 70,000+ records was..."
+  },
+  {
+   "heading": "FAQs",
+   "word_count": 211,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "How quickly can we see results from implementing data governance?Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes..."
+  },
+  {
+   "heading": "How quickly can we see results from implementing data governance?",
+   "word_count": 45,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes usually takes 1-3 months, depending on your data complexity...."
+  },
+  {
+   "heading": "Our Salesforce data is a complete mess. Is it too late for data governance?",
+   "word_count": 46,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "It's never too late. In fact, some of our most successful projects started with severely compromised data. We've helped organizations recover from years of poor data practices, turning chaotic Salesforce..."
+  },
+  {
+   "heading": "Do we need to pause our operations during data governance implementation?",
+   "word_count": 39,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Our approach is designed to work alongside your ongoing operations. We implement changes incrementally, with careful testing at each stage to ensure business continuity. We schedule any potential disruptions..."
+  },
+  {
+   "heading": "How do you maintain data governance after the initial implementation?",
+   "word_count": 43,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Sustainability is built into our approach. We establish clearly documented processes, train your team thoroughly, and implement automated quality checks. We also offer flexible ongoing support options, from regular audits..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/services/data-governance",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

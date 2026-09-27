@@ -1,0 +1,151 @@
+{
+ "url": "https://www.clearconciseconsulting.com/scorecard",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "49196",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:39 GMT",
+  "Etag": "W/\"5a7586c3085ff3e7e45ab3d492debc73\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "QJR34IJb/mtHB7whW",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/scorecard",
+  "og:type": "website",
+  "og:description": "Take the free Salesforce AI Readiness Scorecard. 15 questions. 2 minutes. Get a personalized report across Data Quality, Governance, Automation, AI Preparedness, and Documentation Health.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69c7c065c2f49f1bfc837c96/1774698597825/scorecard_og_image.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69c7c065c2f49f1bfc837c96/1774698597825/scorecard_og_image.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/scorecard",
+  "twitter:card": "summary",
+  "twitter:description": "Take the free Salesforce AI Readiness Scorecard. 15 questions. 2 minutes. Get a personalized report across Data Quality, Governance, Automation, AI Preparedness, and Documentation Health.",
+  "description": "Take the free Salesforce AI Readiness Scorecard. 15 questions. 2 minutes. Get a personalized report across Data Quality, Governance, Automation, AI Preparedness, and Documentation Health.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting",
+ "description": "Take the free Salesforce AI Readiness Scorecard. 15 questions. 2 minutes. Get a personalized report across Data Quality, Governance, Automation, AI Preparedness, and Documentation Health.",
+ "canonical": "https://www.clearconciseconsulting.com/scorecard",
+ "h1_tags": [
+  "How Ready Is Your Salesforce Org for AI?"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "How Ready Is Your Salesforce Org for AI?"
+  },
+  {
+   "level": 2,
+   "text": "What Does the AI Readiness Scorecard Measure?"
+  },
+  {
+   "level": 2,
+   "text": "How Is the Score Calculated?"
+  }
+ ],
+ "word_count": 188,
+ "text_content": "Salesforce AI Readiness Scorecard | Free 2-Minute Assessment | Clear Concise Consulting 0 How Ready Is Your Salesforce Org for AI? This free 15-question assessment measures your Salesforce org's readiness for AI across five categories: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. The result is a weighted readiness score with a category breakdown and a priority finding. What Does the AI Readiness Scorecard Measure? Five categories of Salesforce AI readiness: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. Each category is assessed through three questions on a 1-to-5 maturity scale. Category scores are normalized to a 0-to-100 scale. Governance Readiness and AI Preparedness receive a 1.25x weight in the overall score. How Is the Score Calculated? Fifteen questions, three per category, are scored on a 1-to-5 maturity scale. Each category is normalized to 0 to 100, and the weighted overall score has a maximum of 100. Scores of 80 to 100 are Ready, 60 to 79 are Caution, 40 to 59 are At Risk, and 0 to 39 are Not Ready. The scorecard produces a category breakdown and a priority finding.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": false,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": [
+  "Possible client-side only rendering detected: #spark-app has minimal server-rendered content (188 words on page)"
+ ]
+}

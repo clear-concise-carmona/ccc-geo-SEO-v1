@@ -1,6 +1,6 @@
 # Measurement Plan and 30/60/90 Roadmap
 
-Workspace: ccc-website-audit-2026-09-26 | Status: DRAFT (no analytics access this run)
+Workspace: ccc-website-audit-2026-09-26 | Status: DRAFT (no analytics access; live technical baseline captured 2026-09-27, EV-038)
 
 ## 1. Baseline availability
 
@@ -10,23 +10,23 @@ Workspace: ccc-website-audit-2026-09-26 | Status: DRAFT (no analytics access thi
 | Organic impressions and clicks (Bing) | unavailable | Bing Webmaster Tools | IndexNow is owner-reported as deployed (EV-032) |
 | Branded vs non-branded discovery | unavailable | GSC query export with a brand regex (clear concise, ccc salesforce, jeremy carmona) | |
 | Priority landing-page activity (/, assessment page, /scorecard, /about, /faqs) | unavailable | GA4 pages report | |
-| Scorecard starts and completions | unavailable | scorecard tool events or GA4 custom events | Tool that runs the scorecard not identified this run |
+| Scorecard starts and completions | unavailable | events sent from inside the scorecard iframe (its own GA4 tag) or relayed to the parent page with postMessage | The instrument is a cross-origin iframe served from clear-concise-carmona.github.io/ccc-artifacts/ (EV-038); a tag on the Squarespace page cannot see clicks inside it |
 | Assessment CTA clicks | unavailable | GA4 click events | |
 | Form starts and successful submissions | unavailable | Squarespace form analytics or GA4 events | |
 | Call bookings | unavailable | Zoom Scheduler (scheduler.zoom.us/jeremy-carmona) exports or outbound click events | |
 | Qualified inquiries | unavailable | owner CRM or inbox tagging against the definition in section 4 | |
 | AI referrals | unavailable | GA4 session source contains chatgpt.com, perplexity.ai, copilot.microsoft.com, gemini.google.com, claude.ai | Low volume expected; report counts, not rates |
-| Live-site technical baseline | unavailable | evidence/tools/ccc_bounded_crawl.py after ISS-000 | Captures HTML, headers, JSON-LD, titles, canonicals before any change |
+| Live-site technical baseline | captured 2026-09-27 (evidence/crawl/, EV-038; 50 URLs) | re-run evidence/tools/ccc_bounded_crawl.py before publishing to refresh the before-state | HTML, headers, JSON-LD, titles, canonicals, robots.txt, sitemap.xml, llms.txt |
 
 Missing measurements are recorded as unavailable, not zero.
 
 ## 2. Instrumentation plan (inspect existing tracking first)
 
-Before adding anything: export the current GA4 event list, check whether Squarespace's built-in analytics or a GA4 tag is present, and confirm the consent mechanism (a GDPR cookie tool is referenced in owner context). Do not put names, emails, or free-text form content into event parameters.
+Before adding anything: export the current GA4 event list. A GA4 gtag.js tag and an app.sparkplugin.com script were observed on /scorecard (EV-038); confirm what the second script does, and confirm the consent mechanism (a GDPR cookie tool is referenced in owner context). Do not put names, emails, or free-text form content into event parameters.
 
 | Event | Trigger | Success condition | Destination | Dedup | QA |
 |---|---|---|---|---|---|
-| scorecard_start | first question answered or "Start" clicked on /scorecard | event count = 1 per session on /scorecard | GA4 | once per session (session-scoped flag) | GA4 DebugView on desktop and mobile |
+| scorecard_start | first question answered inside the iframe (the event must originate in the iframe page or be relayed by postMessage) | event count = 1 per session on /scorecard | GA4 | once per session (session-scoped flag) | GA4 DebugView on desktop and mobile |
 | scorecard_complete | results screen rendered | one per completion; parameter score_band (low/mid/high), no raw PII | GA4 (mark as key event) | once per completion id if the tool exposes one | complete a test run; confirm one event |
 | assessment_cta_click | click on any CTA whose destination is the assessment page or an assessment inquiry | parameter cta_location (hero, footer, article, scorecard_results) | GA4 | none (clicks are countable) | click each CTA; verify parameter |
 | form_start | first field focus on /contact form | one per session | GA4 | session-scoped | focus a field; verify |
@@ -89,27 +89,27 @@ For each check record: platform; date; exact prompt; settings (web search on/off
 **Days 0 to 30: unblock, baseline, decide**
 | Step | Owner | Dependency | Approval | Review point |
 |---|---|---|---|---|
-| Allow the target host in the environment; run the bounded crawler; convert URL-INVENTORY rows to observed (ISS-000) | Jeremy or implementer | none | environment settings only | crawl output reviewed; findings re-scored where HTML contradicts the index |
+| DONE 2026-09-27: host allowed, crawler run, inventory converted, findings re-scored (ISS-000). Remaining: authorize the second bounded pass for 10 non-blog pages (ISS-035) | Jeremy | none | authorization to exceed 50 pages in this audit | the 10 rows land in url-inventory-observed.csv |
 | Export GSC, Bing, GA4 baselines; save to evidence/baseline/ (ISS-026) | Jeremy | account access | none | baseline saved before any publish |
 | Owner decisions 1 to 8 in CANONICAL-BUSINESS-FACTS.md | Jeremy | none | these are the approvals | register updated; HOLD facts move to APPROVED or are withheld |
-| Verify built-in domain and non-www redirects; fix /cart indexing (ISS-001, 002, 003) | implementer | crawl | Squarespace settings changes: owner approval | status codes confirmed |
-| Deploy the three owner-confirmed 301s and the og:description update (ISS-013, 014) | implementer | none | already owner-confirmed per EV-032; confirm still wanted | curl checks |
+| Built-in domain: fix domain settings or confirm mirror canonicals (ISS-001). Non-www redirects and /cart noindex are verified live; no action (ISS-002, 003) | Jeremy | none | domain settings: owner | mirror URLs 301 or carry canonicals to www |
+| Fix the six placeholder links on /terms-conditions and the dated "booking for Q3 2026" line on /contact (ISS-027, ISS-031). The three 301s and the og:description are already live (ISS-013, ISS-014 resolved) | Jeremy | none | copy only | recrawl shows no claude.ai hrefs and no past quarter |
 
 **Days 31 to 60: truth and entity fixes**
 | Step | Owner | Dependency | Approval |
 |---|---|---|---|
 | Publish homepage title/description and og tags (PKG-HOME, ISS-004) | implementer | decisions 1, 5 | metadata approval |
-| Scorecard method statement (PKG-SCORECARD, ISS-005) | Jeremy | decision 2 | copy approval |
+| Scorecard: add the professional-judgment label and a server-rendered results block (PKG-SCORECARD, ISS-005, ISS-033) | Jeremy | decision 2 | copy approval |
 | FAQ corrections including client-name permissions (PKG-FAQS, ISS-018) | Jeremy | decision 3 | copy approval |
 | About page corrections (PKG-ABOUT, ISS-017) | Jeremy | decisions 4 | copy approval |
-| Schema reconciliation: sameAs parity, contactPoint, LocalBusiness decision (ISS-015, 016) | implementer | decisions 5, 7; crawl of deployed JSON | schema approval; validate on live URL |
-| Custom SEO titles on the nine default-pattern pages (ISS-010) | implementer | none | metadata approval |
+| Schema reconciliation against the deployed blocks in evidence/crawl: sameAs parity, contactPoint, LocalBusiness and native-block decision (ISS-015, 016) | implementer | decisions 5, 7 | schema approval; validate the raw HTML on the live URL |
+| Title length and brand: homepage title, post-suffix decision (ISS-004, ISS-030); duplicate schema cleanup (ISS-028) | implementer | none | metadata and schema approval |
 
 **Days 61 to 90: discovery and conversion**
 | Step | Owner | Dependency | Approval |
 |---|---|---|---|
-| Assessment landing page (PKG-ASSESS, ISS-006) with Service schema | Jeremy + implementer | decision 1; deliverables list | copy, price, schema approval |
-| Internal links from QUERY-PAGE-MAP.csv INTERNAL_LINK rows | implementer | assessment page live | none beyond copy |
+| Assessment price reconciliation across the assessment page, /services, /services/ai-governance, and a new FAQ answer; offers block in the deployed Service schema (PKG-ASSESS, ISS-006) | Jeremy + implementer | decision 1 | copy, price, schema approval |
+| Internal links from QUERY-PAGE-MAP.csv INTERNAL_LINK rows | implementer | none (the assessment page is live) | none beyond copy |
 | Trust Layer articles decision (ISS-011, EXP-2) | Jeremy | GSC data | editorial |
 | Legacy pages decision (ISS-009, EXP-4) | Jeremy | GSC/GA4 data | redirect approval |
 | First AI visibility observation log; first 12-week read scheduled | Jeremy | baseline | none |

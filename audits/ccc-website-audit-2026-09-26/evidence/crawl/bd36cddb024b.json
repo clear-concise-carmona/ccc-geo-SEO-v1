@@ -1,0 +1,391 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:55 GMT",
+  "Etag": "W/\"9ae0d666f092bbfc352c6c942e2e5604--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "LkWSXboJ/BsadG0qE",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+  "og:type": "article",
+  "og:description": "A Salesforce architect's checklist for data readiness before Agentforce or Einstein goes live. Covers data quality, permissions, automation maturity, and integration risk.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b0497abff5380000ae3875/1773160826503/08_ai_readiness_checklist.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b0497abff5380000ae3875/1773160826503/08_ai_readiness_checklist.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+  "twitter:card": "summary",
+  "twitter:description": "A Salesforce architect's checklist for data readiness before Agentforce or Einstein goes live. Covers data quality, permissions, automation maturity, and integration risk.",
+  "description": "A Salesforce architect's checklist for data readiness before Agentforce or Einstein goes live. Covers data quality, permissions, automation maturity, and integration risk.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+ "description": "A Salesforce architect's checklist for data readiness before Agentforce or Einstein goes live. Covers data quality, permissions, automation maturity, and integration risk.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+ "h1_tags": [
+  "Preparing Your Salesforce Org for AI: A Data Readiness Checklist"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Section 1: Data Quality Assessment"
+  },
+  {
+   "level": 2,
+   "text": "Section 2: Security and Access Configuration"
+  },
+  {
+   "level": 2,
+   "text": "Section 3: Technical Readiness"
+  },
+  {
+   "level": 2,
+   "text": "Section 4: Governance Framework"
+  },
+  {
+   "level": 2,
+   "text": "Section 5: Organizational Readiness"
+  },
+  {
+   "level": 2,
+   "text": "Section 6: Rollout Plan"
+  },
+  {
+   "level": 2,
+   "text": "The 30-60-90 Day Plan"
+  },
+  {
+   "level": 2,
+   "text": "Red Flags That Should Pause AI Enablement"
+  },
+  {
+   "level": 2,
+   "text": "The Readiness Score"
+  },
+  {
+   "level": 2,
+   "text": "Next Steps"
+  },
+  {
+   "level": 2,
+   "text": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org"
+  },
+  {
+   "level": 2,
+   "text": "The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)"
+  },
+  {
+   "level": 3,
+   "text": "1.1 Completeness Audit"
+  },
+  {
+   "level": 3,
+   "text": "1.2 Accuracy Audit"
+  },
+  {
+   "level": 3,
+   "text": "1.3 Consistency Audit"
+  },
+  {
+   "level": 3,
+   "text": "1.4 Timeliness Audit"
+  },
+  {
+   "level": 3,
+   "text": "1.5 Duplicate Assessment"
+  },
+  {
+   "level": 3,
+   "text": "2.1 Sharing Model Verification"
+  },
+  {
+   "level": 3,
+   "text": "2.2 Field-Level Security"
+  },
+  {
+   "level": 3,
+   "text": "2.3 Object Permissions"
+  },
+  {
+   "level": 3,
+   "text": "2.4 Trust Layer Configuration"
+  },
+  {
+   "level": 3,
+   "text": "3.1 License Requirements"
+  },
+  {
+   "level": 3,
+   "text": "3.2 Feature Enablement"
+  },
+  {
+   "level": 3,
+   "text": "3.3 Integration Considerations"
+  },
+  {
+   "level": 3,
+   "text": "3.4 Testing Environment"
+  },
+  {
+   "level": 3,
+   "text": "4.1 Ownership"
+  },
+  {
+   "level": 3,
+   "text": "4.2 Policies"
+  },
+  {
+   "level": 3,
+   "text": "4.3 Monitoring"
+  },
+  {
+   "level": 3,
+   "text": "4.4 Documentation"
+  },
+  {
+   "level": 3,
+   "text": "5.1 Stakeholder Alignment"
+  },
+  {
+   "level": 3,
+   "text": "5.2 Change Management"
+  },
+  {
+   "level": 3,
+   "text": "5.3 Risk Assessment"
+  },
+  {
+   "level": 3,
+   "text": "5.4 Legal and Compliance"
+  },
+  {
+   "level": 3,
+   "text": "6.1 Phased Approach"
+  },
+  {
+   "level": 3,
+   "text": "6.2 Pilot Configuration"
+  },
+  {
+   "level": 3,
+   "text": "6.3 Go/No-Go Criteria"
+  },
+  {
+   "level": 3,
+   "text": "6.4 Launch Readiness"
+  },
+  {
+   "level": 3,
+   "text": "Days 1-30: Foundation"
+  },
+  {
+   "level": 3,
+   "text": "Days 31-60: Configuration and Testing"
+  },
+  {
+   "level": 3,
+   "text": "Days 61-90: Pilot and Expansion"
+  }
+ ],
+ "word_count": 1444,
+ "text_content": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting 0 Preparing Your Salesforce Org for AI: A Data Readiness Checklist Data Governance May 14 Written By Jeremy Carmona The pre-flight inspection that determines whether your AI takes off or crashes The pattern repeats across every failed AI implementation I've seen: Organization gets excited about AI capabilities Team enables the feature quickly to show progress AI produces embarrassing, inaccurate, or unusable results Users lose trust and stop using the feature Investment is wasted The cause is almost always the same: the org wasn't ready . Not technically, not from a data quality perspective, not organizationally. This checklist captures everything I check before enabling any AI feature in Salesforce. Use it to identify gaps before they become failures. Section 1: Data Quality Assessment AI accuracy depends entirely on data quality . Garbage in, garbage out. 1.1 Completeness Audit For every object the AI will access: Contact Records: Email populated on 90%+ of records Title populated on 80%+ of records Account relationship exists for 95%+ of records Phone populated on 70%+ of records Account Records: Industry populated on 85%+ of records Address fields populated on 80%+ of records Website populated on 60%+ of records Employee count or size indicator on 50%+ of records Opportunity Records: Amount populated on 95%+ of records Close Date populated on 100% of records Stage reflects actual status Primary Contact identified on 90%+ of records Custom Objects: Identified critical fields for AI use Measured completeness for critical fields Gaps documented with cleanup plan 1.2 Accuracy Audit Sample 50-100 records per object: Contact job titles match LinkedIn/company websites Account industry classifications are correct Phone numbers are valid and current Email addresses are deliverable Address data matches actual locations Accuracy Threshold: 85%+ accuracy on critical fields before enabling AI 1.3 Consistency Audit Check for standardization: State fields use consistent format (all 2-letter abbreviations or all spelled out) Phone numbers use consistent format Industry values follow single taxonomy (no overlapping categories) Title formatting is standardized (VP vs Vice President) Date fields use actual date type, not text Run these reports: Group by State, count variations Group by Industry, identify duplicative categories Group by Title, identify similar titles with different formatting 1.4 Timeliness Audit 80%+ of Contact records updated in past 12 months 90%+ of Account records updated in past 12 months Activity data exists for recent time periods Opportunity stages reflect current reality (no stale \"In Progress\" opps) Run this report: Records where Last Modified Date < TODAY() - 365 If more than 20% of records are over a year old, implement a refresh process before AI. 1.5 Duplicate Assessment Duplicate rules are active for Contacts, Leads, Accounts Historical duplicates have been merged Duplicate Record Sets are reviewed weekly Duplicate rate is below 5% Check: Setup \u2192 Duplicate Management \u2192 Duplicate Record Sets If significant duplicates exist, clean before enabling AI. Section 2: Security and Access Configuration AI must respect your security model. 2.1 Sharing Model Verification Organization-Wide Defaults are correctly configured Role Hierarchy reflects actual organizational structure Sharing rules cover necessary scenarios AI features will only access appropriate data Test: For each AI feature, test with users at different levels. Verify they only see appropriate data. 2.2 Field-Level Security Sensitive fields identified (SSN, salary, health info, etc.) Sensitive fields have appropriate FLS restrictions AI features cannot access restricted fields inappropriately Trust Layer masking configured for sensitive fields 2.3 Object Permissions AI actions respect user object permissions AI cannot create/update/delete records users shouldn't modify CRUD permissions are appropriate for each AI use case 2.4 Trust Layer Configuration Trust Layer settings reviewed Data masking configured for PII Guardrails defined (topics AI shouldn't discuss) Audit logging enabled Section 3: Technical Readiness 3.1 License Requirements Appropriate Einstein/Agentforce licenses available Licenses assigned to users who will use AI features License count sufficient for planned rollout 3.2 Feature Enablement Required features enabled in Setup Einstein features activated where needed Agentforce components configured Data Cloud connected (if required) 3.3 Integration Considerations AI features compatible with existing integrations External data sources accessible to AI where needed Integration users have appropriate permissions API limits sufficient for AI workload 3.4 Testing Environment Sandbox available for AI testing Sandbox has representative data (not production, but realistic) Test users configured with various permission levels Testing plan documented Section 4: Governance Framework 4.1 Ownership Data Owner assigned for each AI-accessed object AI Feature Owner assigned (who's responsible for the AI?) Escalation path defined for AI issues Executive sponsor identified 4.2 Policies AI use cases documented Data quality standards defined for AI-critical fields AI guardrails documented Exception handling process exists 4.3 Monitoring AI performance metrics defined Dashboard created for AI monitoring Alert thresholds configured Review cadence established (weekly for new AI, monthly ongoing) 4.4 Documentation AI features documented for users Training materials available Known limitations documented FAQ prepared for common questions Section 5: Organizational Readiness 5.1 Stakeholder Alignment Business stakeholders understand AI capabilities Realistic expectations set (AI augments, doesn't replace) Success criteria defined Failure scenarios discussed 5.2 Change Management Communication plan for AI launch Training schedule established Super users identified for support Feedback mechanism in place 5.3 Risk Assessment Potential AI failure scenarios identified Impact of each scenario assessed Mitigation strategies defined Rollback procedure tested 5.4 Legal and Compliance Legal review completed for AI use cases Compliance requirements identified (GDPR, HIPAA, etc.) Data Processing Addendums reviewed Customer communication required? Prepared? Section 6: Rollout Plan 6.1 Phased Approach Pilot group identified (small, lower-risk use case) Success criteria for pilot defined Expansion criteria established Timeline for each phase 6.2 Pilot Configuration AI features configured for pilot scope Pilot users have appropriate access Monitoring active for pilot Feedback collection mechanism ready 6.3 Go/No-Go Criteria Data quality thresholds met Security configuration verified Governance framework in place Stakeholder approval obtained 6.4 Launch Readiness Training completed for pilot users Support resources available Known issues documented Day-1 monitoring plan active The 30-60-90 Day Plan Days 1-30: Foundation Week 1: Run data quality audit Document gaps and issues Prioritize cleanup work Week 2-3: Execute high-priority data cleanup Implement validation rules for critical fields Configure duplicate management Week 4: Verify security configuration Configure Trust Layer Prepare sandbox for testing Days 31-60: Configuration and Testing Week 5-6: Configure AI features in sandbox Test with users at different permission levels Document findings and adjust Week 7-8: Run pilot in sandbox with real scenarios Collect feedback and iterate Finalize configuration Days 61-90: Pilot and Expansion Week 9-10: Launch pilot in production Monitor closely Support pilot users Week 11-12: Evaluate pilot results Adjust based on feedback Plan expansion if pilot successful Red Flags That Should Pause AI Enablement Stop and address these before proceeding: Data Quality: More than 30% of critical fields are blank Accuracy audit shows less than 70% correct data More than 15% of records are duplicates More than 40% of records haven't been updated in a year Security: No one can explain the current sharing model Sensitive data is accessible to too many users Trust Layer hasn't been configured Organizational: No clear owner for the AI initiative Stakeholders expect AI to \"just work\" without data prep No budget for data cleanup No plan for handling AI failures If any of these are true, fix them before enabling AI. Otherwise, you're setting up for failure. The Readiness Score Score each section: 0: Not started 1: Partially complete 2: Mostly complete 3: Fully complete Section Scores: Data Quality (1.1-1.5): ___ / 15 Security (2.1-2.4): ___ / 12 Technical (3.1-3.4): ___ / 12 Governance (4.1-4.4): ___ / 12 Organizational (5.1-5.4): ___ / 12 Rollout Plan (6.1-6.4): ___ / 12 Total: ___ / 75 Interpretation: 60-75: Ready for AI pilot 45-59: Address gaps before proceeding Below 45: Significant work needed; don't enable AI yet Next Steps Print this checklist Score your current state honestly Identify the biggest gaps Create a remediation plan with timeline Don't enable AI until you've addressed critical gaps If you're planning an Agentforce implementation and want help assessing your readiness, Clear Concise Consulting offers AI readiness assessments . We'll identify gaps, prioritize remediation, and help you build the foundation AI requires. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org Next Next The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-standardization-guide",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "the org wasn't ready"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-quality-ai-bottleneck",
+   "text": "AI accuracy depends entirely on data quality"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-standardization-guide",
+   "text": "State fields use consistent format"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "Governance framework in place"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "AI readiness assessments"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-health-roadmap",
+   "text": "PreviousPreviousThe Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+   "text": "NextNextThe Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/8c398081-f52c-4234-b616-6b39883e2526/08_ai_readiness_checklist.png",
+   "alt": "",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce AI Readiness: Your Pre-Agentforce Data Checklist | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+   "datePublished": "2026-05-14T19:45:00-0400",
+   "dateModified": "2026-06-06T15:55:13-0400",
+   "headline": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b0497abff5380000ae3875/1773160826503/08_ai_readiness_checklist.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

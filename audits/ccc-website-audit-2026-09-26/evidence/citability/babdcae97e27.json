@@ -1,0 +1,486 @@
+{
+ "url": "http://127.0.0.1:8765/babdcae97e27.html",
+ "total_blocks_analyzed": 21,
+ "average_citability_score": 38.8,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 3,
+  "D": 10,
+  "F": 8
+ },
+ "top_5_citable": [
+  {
+   "heading": "Download the Org Health Roadmap Template",
+   "word_count": 138,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Org Health Roadmap Template is an editable document with the 30-60-90 day framework pre-built: assessment activities by week, fix activities by priority, governance rules by category, and the ongoing..."
+  },
+  {
+   "heading": "Week 2: Data Quality and Sharing Model",
+   "word_count": 64,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 10,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run the Data Quality Assessment from Article 4. Complete the Sharing Model Assessment from Article 6. 10-metric data quality scorecardCurrent OWD settings for all objectsRole hierarchy mapSharing rule inventoryPermission set..."
+  },
+  {
+   "heading": "The Ongoing Cadence",
+   "word_count": 73,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "After the initial 90-day engagement, org health maintenance follows a recurring schedule: FrequencyActivityTime InvestmentWeeklyCheck automation error logs15 minutesMonthlyData quality dashboard review30 minutesMonthlyIntegration health check30 minutesQuarterlyFlow audit2-4 hoursQuarterlyGhost object check1-2 hoursQuarterlyCredential..."
+  },
+  {
+   "heading": "Week 3: Integration and Sandbox Review",
+   "word_count": 61,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Complete the Integration Inventory from Article 7. Review sandbox architecture and refresh history from Article 5. Complete integration catalog (every system connected to Salesforce)Credential ownership map (whose credentials are used..."
+  },
+  {
+   "heading": "What This Costs (and What It Saves)",
+   "word_count": 74,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "InvestmentCostTimeOrg health assessment$5,000-$15,0002-4 weeksTypical cleanup project$20,000-$60,0008-12 weeksOngoing governance4-6 hours/monthContinuous Cost of InactionImpactStale pipeline dataBudget and hiring decisions made on inflated numbersSharing model exposureCompliance violation riskSilent integration failureWeeks of missing or..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Object Model Governance",
+   "word_count": 35,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Quarterly ghost object audit:Check for objects with zero records for 2+ consecutive quartersObject creation approval:New custom objects require business justification and architect approvalAnnual object consolidation review:Identify dormant objects that can..."
+  },
+  {
+   "heading": "Sharing Model Governance",
+   "word_count": 33,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Annual sharing model review:Compare OWD settings and role hierarchy against current org structureNew employee access verification:Confirm role, permission sets, and public groups before granting accessQuarterly compliance checkpoint:For regulated industries, verify..."
+  },
+  {
+   "heading": "Week 4: Compile and Prioritize",
+   "word_count": 245,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 14,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Take all findings from Weeks 1-3 and organize them into a prioritized action plan. The priority framework: Priority 1: Security and Compliance (fix immediately) These create legal, regulatory, or reputational..."
+  },
+  {
+   "heading": "Days 61-90: Govern So It Doesn't Come Back",
+   "word_count": 20,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 7,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The cleanup is temporary if you don't put governance in place. Every problem in this series recurs without ongoing discipline."
+  },
+  {
+   "heading": "Flow Consolidation (Weeks 6-8)",
+   "word_count": 70,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Consolidate the conflicting Flows identified in the assessment: Map the logic from each conflicting FlowDesign a consolidated Flow with Decision elements for each scenarioBuild in sandbox, test with sample dataDeploy..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org",
+   "word_count": 181,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org I've spent 9 posts telling you what's wrong with your Salesforce org. Here's the part I actually care..."
+  },
+  {
+   "heading": "We inherited a Salesforce org with years of undocumented changes. Where do we start?",
+   "word_count": 80,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Start by documenting before deleting. Inventory automations, objects, integrations, permissions, and data quality; map dependencies and owners; then prioritize the work by business risk. Remove or consolidate only after testing..."
+  },
+  {
+   "heading": "Days 1-30: Assess Everything Before Fixing Anything",
+   "word_count": 33,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 9,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is the hardest discipline for most admins and architects. The instinct is to start fixing as soon as you find a problem. Resist it. Document everything first. Understand the..."
+  },
+  {
+   "heading": "Week 1: Automation and Object Audit",
+   "word_count": 74,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 2,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run the Org Health Checklist from Article 1. Complete the Flow Audit from Article 3 and the Custom Object Audit from Article 2. Total active Flow count with per-object breakdownFlow..."
+  },
+  {
+   "heading": "Week 2: Data Quality and Sharing Model",
+   "word_count": 64,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 10,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run the Data Quality Assessment from Article 4. Complete the Sharing Model Assessment from Article 6. 10-metric data quality scorecardCurrent OWD settings for all objectsRole hierarchy mapSharing rule inventoryPermission set..."
+  },
+  {
+   "heading": "Week 3: Integration and Sandbox Review",
+   "word_count": 61,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Complete the Integration Inventory from Article 7. Review sandbox architecture and refresh history from Article 5. Complete integration catalog (every system connected to Salesforce)Credential ownership map (whose credentials are used..."
+  },
+  {
+   "heading": "Week 4: Compile and Prioritize",
+   "word_count": 245,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 4,
+    "self_containment": 14,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Take all findings from Weeks 1-3 and organize them into a prioritized action plan. The priority framework: Priority 1: Security and Compliance (fix immediately) These create legal, regulatory, or reputational..."
+  },
+  {
+   "heading": "Presenting the Assessment to Leadership",
+   "word_count": 115,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "The assessment produces a document that leadership needs to see. The format: Current org health score (from the checklist)Top 3 risks (specific, with business impact stated in dollars or productivity..."
+  },
+  {
+   "heading": "Security and Sharing Model (Weeks 5-8)",
+   "word_count": 83,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 16,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Follow the sharing model fix process from Article 6: Design the target state OWD settingsBuild the role hierarchy changes in sandboxCreate sharing rules for cross-department access needsConfigure permission sets for..."
+  },
+  {
+   "heading": "Integration Remediation (Weeks 5-6)",
+   "word_count": 58,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fix the immediate integration risks: Replace personal credentials with service accountsReactivate silently failing integrationsAdd error notification to every integrationCreate the one-page documentation for each integration (Article 7) At the nonprofit:..."
+  },
+  {
+   "heading": "Flow Consolidation (Weeks 6-8)",
+   "word_count": 70,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Consolidate the conflicting Flows identified in the assessment: Map the logic from each conflicting FlowDesign a consolidated Flow with Decision elements for each scenarioBuild in sandbox, test with sample dataDeploy..."
+  },
+  {
+   "heading": "Data Quality Cleanup (Weeks 5-8, ongoing)",
+   "word_count": 73,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Execute the data fixes in priority order from Article 4: Reassign orphaned records to active ownersClose stale Opportunities (past close date, still open)Populate missing required fields (send lists to record..."
+  },
+  {
+   "heading": "Days 61-90: Govern So It Doesn't Come Back",
+   "word_count": 20,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 7,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The cleanup is temporary if you don't put governance in place. Every problem in this series recurs without ongoing discipline."
+  },
+  {
+   "heading": "Automation Governance",
+   "word_count": 47,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Naming convention enforced:[Object][Action][Type] for all new FlowsDescription required:Every Flow must have a description before activationQuarterly Flow audit:Export active Flow list, verify descriptions, check for conflictsMaximum 3 Record-Triggered Flows per object:If..."
+  },
+  {
+   "heading": "Data Quality Governance",
+   "word_count": 44,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Monthly data quality dashboard review:The 4-component dashboard from Article 4, reviewed on the first Monday of every monthValidation rules on stage progression:Required fields enforced at each Opportunity stageOwnership reassignment Flow:Automated..."
+  },
+  {
+   "heading": "Integration Governance",
+   "word_count": 42,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Quarterly credential review:Verify all service accounts are active and credentials aren't expiredMonthly health check:Confirm each integration synced successfully in the last 30 daysIntegration documentation update:When any integration changes, the one-page..."
+  },
+  {
+   "heading": "Sharing Model Governance",
+   "word_count": 33,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Annual sharing model review:Compare OWD settings and role hierarchy against current org structureNew employee access verification:Confirm role, permission sets, and public groups before granting accessQuarterly compliance checkpoint:For regulated industries, verify..."
+  },
+  {
+   "heading": "Object Model Governance",
+   "word_count": 35,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Quarterly ghost object audit:Check for objects with zero records for 2+ consecutive quartersObject creation approval:New custom objects require business justification and architect approvalAnnual object consolidation review:Identify dormant objects that can..."
+  },
+  {
+   "heading": "The Ongoing Cadence",
+   "word_count": 73,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "After the initial 90-day engagement, org health maintenance follows a recurring schedule: FrequencyActivityTime InvestmentWeeklyCheck automation error logs15 minutesMonthlyData quality dashboard review30 minutesMonthlyIntegration health check30 minutesQuarterlyFlow audit2-4 hoursQuarterlyGhost object check1-2 hoursQuarterlyCredential..."
+  },
+  {
+   "heading": "What This Costs (and What It Saves)",
+   "word_count": 74,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "InvestmentCostTimeOrg health assessment$5,000-$15,0002-4 weeksTypical cleanup project$20,000-$60,0008-12 weeksOngoing governance4-6 hours/monthContinuous Cost of InactionImpactStale pipeline dataBudget and hiring decisions made on inflated numbersSharing model exposureCompliance violation riskSilent integration failureWeeks of missing or..."
+  },
+  {
+   "heading": "Download the Org Health Roadmap Template",
+   "word_count": 138,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Org Health Roadmap Template is an editable document with the 30-60-90 day framework pre-built: assessment activities by week, fix activities by priority, governance rules by category, and the ongoing..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-org-health-roadmap",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

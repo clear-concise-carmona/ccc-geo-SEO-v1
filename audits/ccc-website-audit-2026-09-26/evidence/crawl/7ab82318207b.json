@@ -1,0 +1,346 @@
+{
+ "url": "https://www.clearconciseconsulting.com/services/data-governance",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:35 GMT",
+  "Etag": "W/\"43668510c295b1b0c764685bc3945927--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "JBL4x9hk/JHu7uGS7",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Data Governance | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/services/data-governance",
+  "og:type": "website",
+  "og:description": "Data governance consulting from a Salesforce Ben contributor. Audits, cleanup, standardization, automation. AP Style approach to data quality. Free assessment.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd36c319a7c865b50639fe/1775056579637/og_service_data_governance.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Salesforce Data Governance | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd36c319a7c865b50639fe/1775056579637/og_service_data_governance.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/services/data-governance",
+  "twitter:card": "summary",
+  "twitter:description": "Data governance consulting from a Salesforce Ben contributor. Audits, cleanup, standardization, automation. AP Style approach to data quality. Free assessment.",
+  "description": "Data governance consulting from a Salesforce Ben contributor. Audits, cleanup, standardization, automation. AP Style approach to data quality. Free assessment.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Data Governance | Clear Concise Consulting",
+ "description": "Data governance consulting from a Salesforce Ben contributor. Audits, cleanup, standardization, automation. AP Style approach to data quality. Free assessment.",
+ "canonical": "https://www.clearconciseconsulting.com/services/data-governance",
+ "h1_tags": [
+  "Data Governance and Migration"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Data Governance and Migration"
+  },
+  {
+   "level": 2,
+   "text": "The problem nobody addresses until it's expensive"
+  },
+  {
+   "level": 2,
+   "text": "Data quality assessment"
+  },
+  {
+   "level": 2,
+   "text": "Deduplication"
+  },
+  {
+   "level": 2,
+   "text": "Field standardization"
+  },
+  {
+   "level": 2,
+   "text": "Ongoing governance"
+  },
+  {
+   "level": 2,
+   "text": "Data migration services"
+  },
+  {
+   "level": 2,
+   "text": "Proof"
+  },
+  {
+   "level": 2,
+   "text": "Timeline and investment"
+  },
+  {
+   "level": 2,
+   "text": "FAQs"
+  },
+  {
+   "level": 3,
+   "text": "How quickly can we see results from implementing data governance?"
+  },
+  {
+   "level": 3,
+   "text": "Our Salesforce data is a complete mess. Is it too late for data governance?"
+  },
+  {
+   "level": 3,
+   "text": "Do we need to pause our operations during data governance implementation?"
+  },
+  {
+   "level": 3,
+   "text": "How do you maintain data governance after the initial implementation?"
+  }
+ ],
+ "word_count": 763,
+ "text_content": "Salesforce Data Governance | Clear Concise Consulting 0 Data Governance and Migration Salesforce data governance is the framework that keeps your CRM data accurate, secure, and usable. CCC provides data quality assessments, deduplication, field standardization, and ongoing governance rules to prevent costly reporting errors. Book a Free Consultation The problem nobody addresses until it's expensive A client migrated tens of thousands of records from their legacy system. They skipped deduplication because 'we'll clean it up after' and skipped field-mapping validation because 'the fields are the same.' The result: duplicate accounts, orphaned contacts, and a pipeline dashboard leadership could not trust, with cents loaded as dollars. The cleanup cost more than the original migration.\" Data governance services Data quality assessment CCC's 10-metric assessment measures the metrics that matter: owner population, field completeness, duplicate rate, data freshness, picklist hygiene, and format consistency. Each metric includes a pre-written SOQL query, a benchmark target, and a score. The assessment takes 4-6 hours and tells you more about your org's health than any dashboard. Deduplication Duplicate identification using Salesforce native matching rules and third-party tools for fuzzy matching. Merge strategy that preserves the most complete record. Post-merge validation to confirm data integrity. Prevention rules (Duplicate Rules and Matching Rules) configured to stop new duplicates from being created. Field standardization AP Style conventions applied to text fields. Phone number, address, and company name formatting standardized. Picklist values consolidated (variants like \"Question,\" \"question,\" \"QUESTION,\" and \"Other\" cleaned to meaningful, consistent values). Validation rules configured to prevent non-standard data entry going forward. Ongoing governance Monthly data quality dashboard review. Quarterly deduplication check. Ownership reassignment workflow (automatic notification when a user is deactivated). Validation rules on stage progression (required fields at each Opportunity stage). Documentation of all governance rules in a format non-technical stakeholders can read. Data migration services Pre-migration assessment. Source data profiled for quality, format, and deduplication needs before any records are loaded. Field mapping documented with transformation rules (data types, units, formats). External ID fields created for lookup resolution. Migration execution. Test loads with 100 records reviewed by business users (not just the admin). Batch processing in increments of 5,000-10,000 records. Automations disabled during load and re-enabled after validation. Error logs reviewed after every batch. Post-migration validation. Record count validation (source count = target count). Sample records spot-checked by business users. Lookup relationships verified. Currency and date fields confirmed. Business user sign-off received before legacy system is decommissioned. Legacy system transition. Legacy system kept accessible in read-only mode for 90 days after migration. Discrepancies investigated and resolved during this window. Full decommission only after sign-off from all stakeholder teams. Proof CCC holds a Data Architect certification. Data governance has been the focus of every CCC engagement since founding at Environmental Defense Fund in 2012, where donor record management across 70,000+ records was the daily work. Published in Salesforce Ben: \"How Salesforce Admins Can Apply Data Governance to Einstein.\" Free data governance guides available on the CCC blog: duplicate management, validation rules, AI readiness assessment, data quality assessment templates, and migration pre-flight checklists. Timeline and investment Service Timeline Investment Data quality assessment 1-2 weeks $5,000-$8,000 Deduplication project 2-4 weeks $8,000-$15,000 Data migration (under 50K records) 2-4 weeks $10,000-$20,000 Data migration (50K-500K records) 4-8 weeks $20,000-$40,000 Ongoing governance (monthly retainer) Continuous $1,500-$3,000/month FAQs How quickly can we see results from implementing data governance? Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes usually takes 1-3 months, depending on your data complexity. We focus on quick wins first to demonstrate value while building toward long-term data quality. Our Salesforce data is a complete mess. Is it too late for data governance? It's never too late. In fact, some of our most successful projects started with severely compromised data. We've helped organizations recover from years of poor data practices, turning chaotic Salesforce instances into reliable, actionable systems. Our phased approach makes even the most daunting data cleanup manageable. Do we need to pause our operations during data governance implementation? No. Our approach is designed to work alongside your ongoing operations. We implement changes incrementally, with careful testing at each stage to ensure business continuity. We schedule any potential disruptions during off-hours and provide clear communication throughout the process. How do you maintain data governance after the initial implementation? Sustainability is built into our approach. We establish clearly documented processes, train your team thoroughly, and implement automated quality checks. We also offer flexible ongoing support options, from regular audits to on-call assistance, ensuring your data governance strategy evolves with your business needs.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Free Consultation"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/7d3ee6ae-a710-4410-ab8f-ac56ef068cbf/2025-03_Badge_SF-Certified_Plat-Data-Arch_High-Res.png",
+   "alt": "Certifications badge for platform data architect with a blue cloud icon at the top.",
+   "width": "1893",
+   "height": "1856",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "name": "Salesforce Data Governance and Migration",
+   "description": "Data quality assessment, deduplication, field standardization, migration planning, and ongoing governance. Data Architect certified. 70,000+ records managed since 2012.",
+   "provider": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com"
+   },
+   "serviceType": "Data Governance and Migration",
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Data Governance Services",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "name": "Data Quality Assessment",
+      "description": "10-metric assessment measuring owner population, field completeness, duplicate rate, data freshness, picklist hygiene, and format consistency. Includes pre-written SOQL queries and benchmark targets.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "5000",
+       "maxPrice": "8000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Deduplication Project",
+      "description": "Duplicate identification using Salesforce native matching rules and third-party tools. Merge strategy, post-merge validation, and prevention rules configured.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "8000",
+       "maxPrice": "15000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Data Migration (Under 50K Records)",
+      "description": "Source data profiling, deduplication, field mapping, test loads, business user sign-off, and post-migration validation.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "10000",
+       "maxPrice": "20000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Data Migration (50K-500K Records)",
+      "description": "Large-scale data migration with batch processing, automation suppression, error log review, and legacy system transition planning.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "20000",
+       "maxPrice": "40000",
+       "priceCurrency": "USD"
+      }
+     },
+     {
+      "@type": "Offer",
+      "name": "Ongoing Governance (Monthly Retainer)",
+      "description": "Monthly data quality dashboard review, quarterly deduplication check, ownership reassignment workflow, and validation rule management.",
+      "priceSpecification": {
+       "@type": "PriceSpecification",
+       "price": "1500",
+       "maxPrice": "3000",
+       "priceCurrency": "USD",
+       "unitText": "MONTH"
+      }
+     }
+    ]
+   },
+   "url": "https://www.clearconciseconsulting.com/services/data-governance"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://www.clearconciseconsulting.com"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Services",
+     "item": "https://www.clearconciseconsulting.com/services"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Data Governance",
+     "item": "https://www.clearconciseconsulting.com/services/data-governance"
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How quickly can we see results from implementing data governance?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Many clients see immediate improvements after our initial data cleansing phase, typically within 2-4 weeks. The full implementation of governance processes usually takes 1-3 months, depending on your data complexity. We focus on quick wins first to demonstrate value while building toward long-term data quality."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Our Salesforce data is a complete mess. Is it too late for data governance?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It's never too late. In fact, some of our most successful projects started with severely compromised data. We've helped organizations recover from years of poor data practices, turning chaotic Salesforce instances into reliable, actionable systems. Our phased approach makes even the most daunting data cleanup manageable."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do we need to pause our operations during data governance implementation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Our approach is designed to work alongside your ongoing operations. We implement changes incrementally, with careful testing at each stage to ensure business continuity. We schedule any potential disruptions during off-hours and provide clear communication throughout the process."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do you maintain data governance after the initial implementation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sustainability is built into our approach. We establish clearly documented processes, train your team thoroughly, and implement automated quality checks. We also offer flexible ongoing support options, from regular audits to on-call assistance, ensuring your data governance strategy evolves with your business needs."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

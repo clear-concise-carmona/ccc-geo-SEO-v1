@@ -1,0 +1,246 @@
+{
+ "url": "http://127.0.0.1:8765/59df73eabecb.html",
+ "total_blocks_analyzed": 5,
+ "average_citability_score": 33.8,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 1,
+  "D": 1,
+  "F": 3
+ },
+ "top_5_citable": [
+  {
+   "heading": "The problem with most Salesforce implementations",
+   "word_count": 95,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A solutions architect runs your discovery meeting. A technical lead writes the requirements. A developer builds the configuration. A different developer finishes when the first one gets reassigned. A project..."
+  },
+  {
+   "heading": "Ongoing administration",
+   "word_count": 75,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every organization needs a full-time Salesforce admin. CCC offers ongoing administration support on a flexible schedule: weekly, biweekly, or on-demand. What ongoing support covers:System maintenance and release updates. User..."
+  },
+  {
+   "heading": "What a CCC implementation includes",
+   "word_count": 184,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Discovery and scoping.Requirements gathering with stakeholders, data model design, and a scoping document with timeline, deliverables, and fixed pricing. You approve the plan before any configuration starts. Architecture and configuration.Custom..."
+  },
+  {
+   "heading": "Investment",
+   "word_count": 22,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Small (single Cloud, under 50 users) Fixed pricing. No hourly billing surprises. Every engagement begins with a free consultation to determine scope."
+  },
+  {
+   "heading": "Proof",
+   "word_count": 21,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC supported a Salesforce Government Cloud implementation with documented security and delivery requirements. Experience across nonprofit, government, healthcare, and enterprise organizations."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Proof",
+   "word_count": 21,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC supported a Salesforce Government Cloud implementation with documented security and delivery requirements. Experience across nonprofit, government, healthcare, and enterprise organizations."
+  },
+  {
+   "heading": "Investment",
+   "word_count": 22,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Small (single Cloud, under 50 users) Fixed pricing. No hourly billing surprises. Every engagement begins with a free consultation to determine scope."
+  },
+  {
+   "heading": "What a CCC implementation includes",
+   "word_count": 184,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Discovery and scoping.Requirements gathering with stakeholders, data model design, and a scoping document with timeline, deliverables, and fixed pricing. You approve the plan before any configuration starts. Architecture and configuration.Custom..."
+  },
+  {
+   "heading": "Ongoing administration",
+   "word_count": 75,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every organization needs a full-time Salesforce admin. CCC offers ongoing administration support on a flexible schedule: weekly, biweekly, or on-demand. What ongoing support covers:System maintenance and release updates. User..."
+  },
+  {
+   "heading": "The problem with most Salesforce implementations",
+   "word_count": 95,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A solutions architect runs your discovery meeting. A technical lead writes the requirements. A developer builds the configuration. A different developer finishes when the first one gets reassigned. A project..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "The problem with most Salesforce implementations",
+   "word_count": 95,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A solutions architect runs your discovery meeting. A technical lead writes the requirements. A developer builds the configuration. A different developer finishes when the first one gets reassigned. A project..."
+  },
+  {
+   "heading": "What a CCC implementation includes",
+   "word_count": 184,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Discovery and scoping.Requirements gathering with stakeholders, data model design, and a scoping document with timeline, deliverables, and fixed pricing. You approve the plan before any configuration starts. Architecture and configuration.Custom..."
+  },
+  {
+   "heading": "Proof",
+   "word_count": 21,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC supported a Salesforce Government Cloud implementation with documented security and delivery requirements. Experience across nonprofit, government, healthcare, and enterprise organizations."
+  },
+  {
+   "heading": "Ongoing administration",
+   "word_count": 75,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not every organization needs a full-time Salesforce admin. CCC offers ongoing administration support on a flexible schedule: weekly, biweekly, or on-demand. What ongoing support covers:System maintenance and release updates. User..."
+  },
+  {
+   "heading": "Investment",
+   "word_count": 22,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Small (single Cloud, under 50 users) Fixed pricing. No hourly billing surprises. Every engagement begins with a free consultation to determine scope."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}
