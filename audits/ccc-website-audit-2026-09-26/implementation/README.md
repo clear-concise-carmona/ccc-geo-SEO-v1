@@ -25,3 +25,7 @@ Approval model:
 Two items need no decision and can be fixed on sight: the six placeholder links on /terms-conditions (ISS-027) and the dated "Currently booking for Q3 2026" line on /contact (ISS-031).
 
 IMPLEMENT_APPROVED_LOCALLY does not apply to this site: there are no website source files in this repository. Squarespace changes are made in the CMS by the owner or an authorized implementer, after approval of specific ISS IDs. Approval to edit does not authorize domain, DNS, or billing changes.
+
+## Change pack
+
+change-pack-2026-09-27.md is the paste-ready view of the approved backlog: for each edit, the page or control, the live string as captured (EV-038, EV-047), the replacement string built from APPROVED or DECIDED facts, and the schema snippet where one changes. Brackets mark the facts the owner still supplies. Work it in batch order; it is the file an implementer opens first.
