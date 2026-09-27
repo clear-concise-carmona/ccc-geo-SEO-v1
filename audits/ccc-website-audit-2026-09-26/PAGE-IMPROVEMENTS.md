@@ -59,13 +59,13 @@ Note: the live description is kept. If the owner decides NYC is a target market 
 
 **JSON-LD (deployed, EV-038):** six blocks in the raw HTML: native WebSite; native Organization (address, telephone, j.carmona@ email, six sameAs); native LocalBusiness (address, opening hours Monday to Friday 08:00-17:00 with trailing empty items); FAQPage twice (identical); the custom Organization+ProfessionalService block (@id #organization, PostalAddress, founder -> /about#jeremy-carmona, seven sameAs). Actions: remove the duplicate FAQPage source (ISS-028); reconcile sameAs (ISS-016); decide LocalBusiness, hours, and address (ISS-015); one contactPoint (FACT-24). Target: implementation/jsonld/organization-person.reconciliation.json.
 
-**Evidence:** EV-038, EV-042, EV-006, EV-014, EV-028, EV-032, EV-033. **Unresolved:** FACT-15 (price), FACT-21, FACT-25. **Publication status:** DRAFT / APPROVAL_REQUIRED (title change; the heading restructure is optional).
+**Evidence:** EV-038, EV-042, EV-006, EV-014, EV-028, EV-032, EV-033. **Unresolved:** FACT-21, FACT-25 (FACT-15 decided in canon: from $9,500; strings need owner approval). **Publication status:** DRAFT / APPROVAL_REQUIRED (title change; the heading restructure is optional).
 
 ---
 
 ## PKG-ASSESS: https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment (live; the former /services/salesforce-ai-data-preparation URL 301s here)
 
-**Precondition (revised 2026-09-27):** the page exists and carries the offer name in its title, Service schema, header navigation, and homepage CTA (EV-038). No URL change is needed. The open item is price: this page says "Starting at $9,500"; /services says $8,000 for "the governance assessment"; /faqs prices only a $5,000 data quality assessment and never names this offer. Nothing below that touches price is publishable until FACT-15 is resolved.
+**Precondition (revised 2026-09-27):** the page exists and carries the offer name in its title, Service schema, header navigation, and homepage CTA (EV-038). No URL change is needed. The open item is price: this page says "Starting at $9,500"; /services says $8,000 for "the governance assessment"; /faqs prices only a $5,000 data quality assessment and never names this offer. Confluence settles the price: the Positioning Canvas v2.2 (129826843, canonical) sets $9,500 and retires the $5,000 to $8,000 range, so the live page is correct and /services and /faqs are the pages to edit (EV-045). Price copy below is publishable once the owner approves the strings.
 
 **Audience:** operations and IT leaders about to enable Agentforce, Einstein, or Data Cloud; compliance officers in healthcare and government.
 **Search intent:** commercial ("Salesforce AI readiness assessment", "Agentforce data readiness assessment").
@@ -86,7 +86,7 @@ Live structure (EV-038): H1 "AI Does Not Fix a Messy Salesforce Org. It Exposes 
 - H2: "Who this assessment is for" (situations, not titles: an Agentforce or Einstein rollout is planned; a pilot produced results nobody trusts; a compliance review asked what the AI can see)
 - H2: "What the assessment covers" (data quality, permissions and field-level security, automation maturity, integration risk; mirrors the published checklist article, EV-015)
 - H2 "What You Receive": live; no hold
-- H2 "Investment": live ("Starting at $9,500", three to four weeks, Trust Test from $2,500). Figures stay HOLD until FACT-15 reconciles /services and /faqs
+- H2 "Investment": live ("Starting at $9,500", three to four weeks, Trust Test from $2,500), and matches canon (FACT-15, FACT-28). No hold
 - H2: "What happens after" (fixed-price scoping for remediation, or nothing: the assessment stands alone)
 - H2: "Who does the work" (Jeremy Carmona, one architect end to end; link to /about)
 - H2: "Not ready for an assessment?" (scorecard)
@@ -113,7 +113,7 @@ Live structure (EV-038): H1 "AI Does Not Fix a Messy Salesforce Org. It Exposes 
 
 **JSON-LD (deployed, EV-038):** Service with @id .../salesforce-ai-data-readiness-assessment#service, name "Salesforce AI Data Readiness Assessment", provider -> #organization, areaServed "United States", no offers. The draft at implementation/jsonld/service-ai-data-readiness.draft.json is now a diff against this block (description wording, optional audience); add offers only after FACT-15; add a BreadcrumbList to match the four service pages.
 
-**Evidence:** EV-038, EV-039, EV-042, EV-004, EV-015, EV-030, EV-033, EV-034. **Unresolved:** FACT-15 (price). **Publication status:** metadata NO_CHANGE; copy deltas DRAFT; price OWNER_DECISION_REQUIRED.
+**Evidence:** EV-038, EV-039, EV-042, EV-004, EV-015, EV-030, EV-033, EV-034. **Unresolved:** none (FACT-15 decided in canon: from $9,500, EV-045). **Publication status:** metadata NO_CHANGE; copy deltas DRAFT; price COPY_APPROVAL_REQUIRED.
 
 ---
 
@@ -146,7 +146,7 @@ Live structure (EV-038): H1 "How Ready Is Your Salesforce Org for AI?"; a method
 
 **CTAs**
 - Primary: "Start the scorecard"
-- Post-results: whatever the iframe shows after completion was not observable in the HTML. Add a server-rendered "After your results" block on the Squarespace page: "Book a 15-minute results call" -> scheduler [HOLD: FACT-09 wording] and "Read about the full assessment" -> /salesforce-ai-data-readiness-assessment (ISS-033).
+- Post-results: whatever the iframe shows after completion was not observable in the HTML. Add a server-rendered "After your results" block on the Squarespace page: "Book a 15-minute results call" -> scheduler (FACT-09 decided in canon: 15 minutes, qualification only) and "Read about the full assessment" -> /salesforce-ai-data-readiness-assessment (ISS-033).
 
 **Internal links**
 - /scorecard -> /blog/salesforce-ai-data-readiness-checklist, anchor "the checklist behind these questions"
@@ -155,7 +155,7 @@ Live structure (EV-038): H1 "How Ready Is Your Salesforce Org for AI?"; a method
 
 **JSON-LD:** no change recommended. No schema type gives this page an eligible enhancement, and Quiz or FAQPage markup here would be decoration. WebPage inherited from the site-wide WebSite block is sufficient. Live: site-wide blocks only, as expected (EV-038).
 
-**Evidence:** EV-038, EV-042, EV-003, EV-014, EV-034. **Unresolved:** FACT-09 (call wording). **Publication status:** metadata DRAFT; method label DRAFT; results block DRAFT. Instrumentation note: events must originate inside the iframe (MEASUREMENT-AND-ROADMAP.md section 2).
+**Evidence:** EV-038, EV-042, EV-003, EV-014, EV-034. **Unresolved:** none (FACT-09 decided in canon: 15-minute fit call, qualification only, EV-045). **Publication status:** metadata DRAFT; method label DRAFT; results block DRAFT. Instrumentation note: events must originate inside the iframe (MEASUREMENT-AND-ROADMAP.md section 2).
 
 ---
 
@@ -191,13 +191,13 @@ Live structure (EV-038): H1 "13x Certified Salesforce Architect"; H2 stat tiles 
 **Corrections to make on this page**
 - Salesforce Ben is already cited by its displayed title with three linked pieces (ISS-017 resolved). Add the author page link.
 - Replace the "14 Years in Salesforce Ecosystem" tile with "Since 2012" so it stops aging (FACT-04).
-- Resolve teaching tense (FACT-05); the sentence "taught the first Salesforce Administration at NYU Tandon" is missing the word "course".
+- Teaching tense is settled in canon: "Former NYU Tandon Salesforce instructor" (Positioning Canvas v2.2), 2022 to 2023 per Resume Variants (FACT-05). Change the heading "NYU Tandon Salesforce Instructor" to "Former NYU Tandon Salesforce Instructor" and fix the sentence "taught the first Salesforce Administration at NYU Tandon", which is missing the word "course".
 - The "80% Student Job Placement Rate" and "160+ Students Trained" tiles are live, twice each. Document the method and denominator or take them down (CLM-004, ISS-019, ISS-037).
 - The "What Clients Say" testimonial names a USCIS staff member: confirm written permission or anonymize to role (CLM-049, ISS-031).
 - If the page lists all 13 certifications, keep the list but lead with the 3 to 5 relevant to governance and data architecture (owner proof-architecture rule, EV-033).
 
 **CTAs**
-- Primary: live "Schedule a Consultation" -> /contact, with copy "Schedule a free 30-minute consultation". Keep the destination; align the duration wording with FACT-09.
+- Primary: live "Schedule a Consultation" -> /contact, with copy "Schedule a free 30-minute consultation". Keep the destination; change the copy to the canonical 15-minute fit call (FACT-09).
 - Secondary: "Read the AI governance articles" -> /blog (or a governance category page if one exists).
 
 **Internal links**
@@ -229,20 +229,21 @@ Live structure (EV-038): H1 "13x Certified Salesforce Architect"; H2 stat tiles 
 Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27 question pairs, including the $5,000 answer and the client list; visible answers: data quality assessment from $5,000, implementation $15,000 to $75,000, workshops $2,500 to $15,000, retainers from $3,000/month, ad hoc $175/hour; "book a 15-minute call" twice; "Book a Call" -> scheduler.zoom.us/jeremy-carmona/free-consultation; "How do I contact CCC? Email: j.carmona@...". No mention of the AI Data Readiness Assessment or the Trust Test. Citability heuristic 53.9 (34 blocks, 4 optimal-length passages: the best-structured commercial page) (EV-042).
 
 **Content corrections (targeted, not a rewrite)**
-1. Assessment answer: add one answer with the offer name, starting price, and timeline [HOLD: FACT-15 price], linking to /salesforce-ai-data-readiness-assessment, and one line on the Trust Test (FACT-28); keep the $5,000 to $8,000 data quality assessment as a separate line (FACT-14).
+1. Assessment answer: rewrite FAQ 2 with the offer name, "from $9,500", three to four weeks, a line on the Trust Test from $2,500, and a link to /salesforce-ai-data-readiness-assessment (FACT-15, FACT-28, decided in canon). Remove the "$5,000" data quality line or label it historical (FACT-14 retired). Update the FAQPage schema in the same edit.
 2. Retainers: one sentence distinguishing the administration retainer from the architecture advisory retainer (FACT-12/13).
 3. Workshops: define the $15,000 tier once (FACT-11).
-4. Consultation: state duration and purpose, and whether the 15-minute results call is a different thing (FACT-09).
-5. Client names: keep only names with confirmed relationship type and permission; otherwise use the categorical wording in CLM-007 (FACT-22). This is the highest-liability edit in the workspace.
+4. Consultation: one 15-minute fit call, qualification only, no free technical scoping (FACT-09, decided in canon). The FAQ already says 15 minutes; add the qualification-only purpose in one clause.
+5. Client names: the relationship type is settled (Jeremy's career experience, not CCC engagements, FACT-22). Change "CCC has worked with" to "Jeremy's experience includes" in the visible answer and the FAQPage schema; keep only names with permission; otherwise use categorical wording. This is the highest-liability edit in the workspace.
 6. Add one FAQ: "Who does the work?" answered with FACT-02 (including the delivery-partner caveat already published on the homepage).
 7. Contact answer: the FAQ gives j.carmona@; the footer and /privacy-policy give contact@ (FACT-24); use the chosen address. Update the FAQPage schema in step with every visible edit; it currently repeats the $5,000 answer and the client names.
+8. Gumroad answer: the anchor text reads gumroad.com/clearconciseconsulting (a 404) and the href points at https://jeremycarmona.gumroad.com/ (EV-038, EV-045). Change the anchor text to jeremycarmona.gumroad.com so text and link agree. Safe now, independent of Roadmap Decision P1 (ISS-022).
 
 **Direct-answer passage (for the pricing section):**
 
-"Most Clear Concise Consulting projects are fixed price. The price comes from a scoping document you approve before work begins. Architect-led implementations range from $15,000 to $75,000 depending on complexity. Workshops run from $2,500 for a half day to $15,000. Every engagement begins with a free consultation to confirm scope and fit." (FACT-08, FACT-10, FACT-11 [HOLD tier wording], FACT-09.)
+"Most Clear Concise Consulting projects are fixed price. The price comes from a scoping document you approve before work begins. Architect-led implementations range from $15,000 to $75,000 depending on complexity. Workshops run from $2,500 for a half day to $15,000 for two days plus follow-up. Every engagement begins with a free 15-minute fit call; technical analysis starts in paid work." (FACT-08, FACT-10, FACT-11, FACT-09; all decided in canon, EV-045.)
 
 **CTAs**
-- Primary: "Book a free consultation" -> scheduler or /contact [HOLD: FACT-09/24].
+- Primary: "Book a 15-minute fit call" -> scheduler (FACT-09 decided in canon) [HOLD: FACT-24 for the contact address on the page].
 - Secondary: none above the fold; bottom link to /scorecard for the undecided.
 
 **Internal links**
@@ -251,6 +252,6 @@ Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27
 - /faqs -> /blog/how-much-does-a-salesforce-implementation-cost-in-2026, anchor "implementation cost guide"
 - /blog/how-much-does-a-salesforce-implementation-cost-in-2026 -> /faqs, anchor "our published price ranges"
 
-**JSON-LD (deployed, EV-038):** FAQPage with 27 questions, live. Keep, but only for questions whose visible answers match the register; the pairs containing the $5,000 price and the client names are HOLD until FACT-14 and FACT-22 resolve. Do not expect FAQ rich results: Google's documentation states the feature is shown only for well-known, authoritative government and health websites (checked 2026-09-27, EV-043). Validate on the live URL after edits.
+**JSON-LD (deployed, EV-038):** FAQPage with 27 questions, live. Keep, but only for questions whose visible answers match the register; the pairs containing the $5,000 price and the client names are decided in canon (FACT-14 retired; FACT-22 career experience, not CCC clients) and wait only on string approval and the permission check for named organizations. Do not expect FAQ rich results: Google's documentation states the feature is shown only for well-known, authoritative government and health websites (checked 2026-09-27, EV-043). Validate on the live URL after edits.
 
-**Evidence:** EV-038, EV-042, EV-043, EV-010, EV-011, EV-022. **Unresolved:** FACT-09, FACT-11, FACT-12, FACT-15, FACT-22, FACT-24. **Publication status:** metadata NO_CHANGE; copy DRAFT / OWNER_DECISION_REQUIRED.
+**Evidence:** EV-038, EV-042, EV-043, EV-010, EV-011, EV-022. **Unresolved:** FACT-24 (contact address) and the permission check behind FACT-22. FACT-09, FACT-11, FACT-12, FACT-15, and FACT-22 are decided in canon (EV-045); their strings need owner approval. **Publication status:** metadata NO_CHANGE; copy DRAFT / COPY_APPROVAL_REQUIRED; Gumroad anchor text FIX_ON_SIGHT.

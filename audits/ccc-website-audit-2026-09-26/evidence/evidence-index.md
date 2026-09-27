@@ -1,6 +1,6 @@
 # Evidence index
 
-Two passes: 2026-09-26 (index-only; EV-001 to EV-037) and 2026-09-27 (live crawl after the allowlist change; EV-038 to EV-043). Times UTC.
+Two passes: 2026-09-26 (index-only; EV-001 to EV-037) and 2026-09-27 (live crawl after the allowlist change; EV-038 to EV-043), and pass 3 the same day (owner documents and Confluence; EV-044 to EV-046). Times UTC.
 
 | ID | File | Method | Collected (UTC) | Notes |
 |---|---|---|---|---|
@@ -19,5 +19,8 @@ Two passes: 2026-09-26 (index-only; EV-001 to EV-037) and 2026-09-27 (live crawl
 | EV-041 | sitemap-analysis-EV-041.md; tools/seeds-run2-priority.txt | parse of the fetched sitemap.xml | 17:40 | 116 URLs; 74 not fetched (10 non-blog); lastmod near-uniform |
 | EV-042 | citability/*.json; citability/citability-summary.csv | toolkit citability_scorer.py run against the saved EV-038 HTML through a local HTTP server (no refetch) | 17:45 | 45 pages; heuristic passage scores, not a citation measure |
 | EV-043 | network/docs-corroboration-EV-043.md | HEAD probes for owner-reported redirect sources; schema.org type pages; Google Search Central FAQPage and HowTo docs | 17:50 | primary-source checks that were blocked on 2026-09-26 |
+| EV-044 | owner/sow-record-EV-044.md | owner-provided contract and SOW (facts only; document not stored) | 2026-09-27 | 2025 curriculum-development engagement; confidentiality clauses noted |
+| EV-045 | confluence/confluence-reads-EV-045.md | Atlassian connector reads of 11 CCC Confluence pages (IDs, versions, dates) | 2026-09-27 19:00 to 19:30 | canonical positions on price, fit call, NYU wording, storefront, tiers; client roster; schema history |
+| EV-046 | owner/course-overview-EV-046.md | owner-pasted course overview, summarized | 2026-09-27 | corroborates curriculum-development scope |
 
 Owner skill files are not copied into this workspace (they live in the owner's Claude skills directory); their relevant statements are quoted in the claims inventory with the EV ID.

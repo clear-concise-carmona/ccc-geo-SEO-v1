@@ -22,7 +22,7 @@
   "owner_decisions_before_deploy": {
     "trailblazer_url_form": ["https://www.salesforce.com/trailblazer/jeremy-carmona (deployed on /about)", "https://trailblazer.me/id/jcarmona86 (in llms.txt)"],
     "facebook_url_form": ["https://www.facebook.com/profile.php?id=61565894325721 (deployed)", "https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/ (indexed, EV-025)"],
-    "gumroad_url_form": ["https://jeremycarmona.gumroad.com/ (deployed)", "https://gumroad.com/clearconciseconsulting (index snippet; not observed live)"],
+    "gumroad_url_form": ["https://jeremycarmona.gumroad.com/ (deployed)", "https://gumroad.com/clearconciseconsulting (404 per Product Roadmap 178028545; shown live only as anchor text on /faqs, whose href points at jeremycarmona.gumroad.com)"],
     "personal_brand_instagram": "https://www.instagram.com/rubberduckconfessions/ is listed in llms.txt; excluded from the combined array unless the owner wants it as an identity anchor",
     "bbb": "https://www.bbb.org/us/ny/brooklyn/profile/business-consultant/clear-concise-consulting-llc-0121-87143876 excluded unless wanted"
   },

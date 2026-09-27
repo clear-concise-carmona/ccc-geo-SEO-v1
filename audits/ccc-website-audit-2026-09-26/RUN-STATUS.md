@@ -1,18 +1,19 @@
-# RUN-STATUS: CCC website audit, 2026-09-26 (pass 1) and 2026-09-27 (pass 2)
+# RUN-STATUS: CCC website audit, 2026-09-26 (pass 1), 2026-09-27 (pass 2, live crawl), 2026-09-27 (pass 3, Confluence and owner documents)
 
 ## Identity
 - Target: https://www.clearconciseconsulting.com/
 - Toolkit: https://github.com/clear-concise-carmona/ccc-geo-SEO-v1, branch claude/ccc-website-seo-geo-audit-a4t65i, commit 383829485f8620e7ca20a333e16db023644f5545 (evidence/toolkit-revision.txt), unchanged across both passes. The fork was used as specified; no upstream update or install script was executed; toolkit code, docs, tests, and installers were not modified.
 - Mode: AUDIT_AND_DRAFT. No website change was applied. No content was published. No live form, booking, or message was sent. No test lead was created.
 - Workspace: audits/ccc-website-audit-2026-09-26/ on the branch above. Pass 2 worked directly in this committed copy; the pass-1 copy outside the repo (/home/user/ccc-website-audit-2026-09-26) was not updated and is superseded.
-- Run windows (UTC): pass 1, 2026-09-26 08:59 to about 09:40; pass 2, 2026-09-27 17:27 to about 18:45.
+- Run windows (UTC): pass 1, 2026-09-26 08:59 to about 09:40; pass 2, 2026-09-27 17:27 to about 18:45; pass 3, 2026-09-27 18:50 to about 19:40.
 
 ## Environment and tools
 - Pass 1: WebSearch (28 queries), one WebFetch (GitHub README), curl for proxy status. Target host, Squarespace built-in domain, archive.org, and every corroboration host were denied by the environment network policy (EV-001).
 - Pass 2: the owner changed the environment's network access to Custom allowed domains. Target hosts became reachable (EV-040). pypi.org and files.pythonhosted.org were denied (x-deny-reason: host_not_allowed), so the toolkit requirements were installed offline from the local uv cache into .venv (beautifulsoup4, requests 2.34.2, lxml 6.1.3, playwright 1.63.0 package only; no browser run). Toolkit tests: 14 passed (pytest 9.1.1, also installed offline). web.archive.org: connection reset by the relay twice; not used. www.salesforceben.com: HTTP 403 from the origin; not retried. developers.google.com and schema.org: reachable; used for EV-043.
 - Tools run against the target in pass 2: evidence/tools/ccc_bounded_crawl.py (toolkit fetch_page, fetch_robots_txt, crawl_sitemap); curl HEAD probes (20 URLs); the toolkit's citability_scorer.py run against the saved HTML through a local HTTP server, so no page was fetched twice.
 - Not run: `/geo audit` (skills not installed; the brief bars overwriting Claude skills without approval), Playwright rendering, Lighthouse, brand_scanner.py (Reddit, YouTube, Wikipedia not allowlisted), llmstxt_generator.py (llms.txt already exists and was read directly).
-- Request accounting for pass 2 against CCC-owned hosts: 50 GET (crawler, one per URL, 1.0 s apart) plus 20 HEAD (1 s apart) = 70 requests; sequential; robots.txt honored; no 429 or 503.
+- Request accounting for pass 2 against CCC-owned hosts: 50 GET (crawler, one per URL, 1.0 s apart) plus 20 HEAD (1 s apart) = 70 requests; sequential; robots.txt honored; no 429 or 503. Pass 3 added 2 HEAD probes (the two slugs Confluence listed as 404 in June; both 200), total 72.
+- Pass 3 tools: Atlassian connector (read-only; 11 Confluence pages, 8 CQL searches; EV-045); LibreOffice was unavailable for the PDF, so the owner's contract was decoded with a small local parser in the scratchpad and read there; only facts were recorded (EV-044) and the file was not copied into the workspace.
 
 ## Blocker status
 - Pass-1 blocker (target host denied) cleared on 2026-09-27.
@@ -34,6 +35,12 @@ Pass 2 (2026-09-27):
 22. Primary-source checks: schema.org type pages; Google Search Central FAQPage and HowTo documentation (EV-043).
 23. GEO-AUDIT-REPORT.md rewritten: 17 findings; five resolved-live items recorded.
 
+Pass 3 (2026-09-27, Confluence and owner documents):
+24. Read the CCC Source-of-Truth Map and the canonical pages it names for positioning and offers, client routing, products, website operations, and the operating model, plus five lessons and tracker pages (EV-045).
+25. Resolved in canon: assessment price and ladder, fit-call length, NYU wording, workshop and advisory tiers, hourly rate, storefront URL to use pending Decision P1; settled the client relationship type (career experience, not CCC clients). Report section 11; facts register decisions A to D.
+26. Recorded the owner's 2025 course-development contract as a credential candidate (EV-044) and the course overview (EV-046); added FACT-32, FACT-33, CLM-053, CLM-054.
+27. Backlog re-scored: ISS-006 and ISS-007 decided in canon; ISS-012 accepted limitation; ISS-009, 015, 016, 018, 019, 022, 005, 023, 028, 036 annotated with canon.
+
 ## Not completed (and why)
 - 10 non-blog and 64 blog sitemap URLs (50-page cap). Seeds for the second pass: evidence/tools/seeds-run2-priority.txt. Highest-value gap: /services/ai-governance (probable home of the $8,000 governance-assessment text) and the mirror homepage canonical.
 - Composite GEO Score (pipeline not run; not estimated; component observations in the report, section 4).
@@ -47,14 +54,14 @@ Pass 2 (2026-09-27):
 - A1: Business goals as stated in the brief (paid assessment inquiries primary; scorecard engagement secondary) remain working assumptions.
 - A2: RESOLVED. The CMS is Squarespace: `Server: Squarespace` response header, Squarespace robots.txt banner, squarespace-cdn asset hosts (EV-038).
 - A3: RESOLVED. The assessment landing page is https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment; the pass-1 candidate URL 301s to it.
-- A4: Owner strategy documents represent intent as of April to May 2026. Where they conflict with the live site (assessment price $8,000 vs $9,500), the live site is treated as current and the conflict is reported for decision.
+- A4: REVISED. Owner strategy documents from April to May 2026 are superseded where the Confluence canon (Positioning and Offers, 129826843 v2.2, EV-045) rules: the assessment is from $9,500 and the live site matches. The Source-of-Truth Map rule applies: Confluence wins unless a page is marked outdated or superseded; conflicts are flagged, not resolved silently.
 - A5: REVISED. Search-index titles lagged the live site by weeks; they are treated as historical observations, not current state.
 - A6: Committing the workspace to the toolkit fork's feature branch is acceptable for persistence and review; the owner may move it elsewhere.
 - A7: The 30-question scorecard text (CLM-012) was a search-tool artifact or a retired version; it appears on none of the 45 crawled pages.
 - A8: The suite-numbered Park Avenue South address published in the footer and schema reads like a mail-handling address. This is a hypothesis for the owner to confirm, not a finding.
 
 ## Approvals and decisions still required
-CANONICAL-BUSINESS-FACTS.md "Owner decisions required": 9 items. No change ID has been approved. IMPLEMENT_APPROVED_LOCALLY does not apply (no website source files; Squarespace edits are made in the CMS; the scorecard instrument lives in the owner's ccc-artifacts GitHub Pages repository, which was not modified).
+CANONICAL-BUSINESS-FACTS.md "Owner decisions required": four items decided in Confluence that need string approval (A to D) and nine open items. No change ID has been approved. IMPLEMENT_APPROVED_LOCALLY does not apply (no website source files; Squarespace edits are made in the CMS; the scorecard instrument lives in the owner's ccc-artifacts GitHub Pages repository, which was not modified).
 
 Two backlog items need no decision and can be fixed on sight: ISS-027 (six placeholder links on /terms-conditions) and the dated line in ISS-031 (/contact "Currently booking for Q3 2026").
 
