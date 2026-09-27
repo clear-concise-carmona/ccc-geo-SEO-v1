@@ -2,7 +2,10 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "ProfessionalService"],
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
       "@id": "https://www.clearconciseconsulting.com/#organization",
       "name": "Clear Concise Consulting",
       "url": "https://www.clearconciseconsulting.com/",
@@ -29,6 +32,16 @@
         "Salesforce data quality",
         "Salesforce Nonprofit Cloud",
         "Salesforce implementation architecture"
+      ],
+      "email": "contact@clearconciseconsulting.com",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "contact@clearconciseconsulting.com",
+          "url": "https://www.clearconciseconsulting.com/contact",
+          "availableLanguage": "en"
+        }
       ]
     },
     {
@@ -69,5 +82,6 @@
         "@id": "https://www.clearconciseconsulting.com/#organization"
       }
     }
-  ]
+  ],
+  "_decisions_2026_09_27": "EV-048: contact@clearconciseconsulting.com is the one public inquiry address (email and contactPoint set on the Organization); LocalBusiness and openingHours are removed, PostalAddress stays on the Organization; sameAs uses the decided set in sameas-target-list.json (no X/Twitter)."
 }

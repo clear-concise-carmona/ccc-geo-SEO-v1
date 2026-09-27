@@ -1,0 +1,396 @@
+{
+  "url": "http://127.0.0.1:8766/48af47101e70.html",
+  "total_blocks_analyzed": 15,
+  "average_citability_score": 32.5,
+  "optimal_length_passages": 1,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "D": 5,
+    "F": 9
+  },
+  "top_5_citable": [
+    {
+      "heading": "Fixed-scope engagements. No hourly surprises.",
+      "word_count": 138,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 18,
+        "self_containment": 25,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Every engagement is scoped before it starts. You know the deliverable, the timeline, and the cost before signing. ServiceWhat's IncludedWho It's ForInvestmentAI Readiness ScorecardFree self-assessment, five-category weighted reportAny org exploring..."
+    },
+    {
+      "heading": "Nonprofit",
+      "word_count": 25,
+      "total_score": 47,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Donor data, grant reporting, and constituent outreach all carry trust obligations. AI without governance is a compliance and reputational risk, not just a technical one."
+    },
+    {
+      "heading": "Six gates. Fifteen cells. One operational reference.",
+      "word_count": 45,
+      "total_score": 45,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 17,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "The gates above are six checkpoints mapped to NIST AI RMF. The full practice has fifteen cells across three layers and seven roles. Click any cell to see the deliverable,..."
+    },
+    {
+      "heading": "74% of nonprofits are using AI. Formal governance still lags.",
+      "word_count": 43,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Adoption alone does not establish readiness. Wrong donor data can distort predictions, generated grant language can contradict program reality, and automated outreach can bypass consent records. These are foreseeable failure..."
+    },
+    {
+      "heading": "Illustrative healthcare AI governance scenario.",
+      "word_count": 57,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Consider a Service Cloud org where AI-generated case summaries reach agents without defined human review or override records. A billing discrepancy could become difficult to trace when the recommendation, approval,..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "Government",
+      "word_count": 24,
+      "total_score": 14,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 3,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "OMB M-25-21 governs federal AI use and public trust, while M-25-22 addresses AI acquisition. GovCloud implementations need governance documentation that holds up to audit."
+    },
+    {
+      "heading": "Data Readiness",
+      "word_count": 20,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 2,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Data quality score of 7 of 10 or higher on the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed."
+    },
+    {
+      "heading": "AI Readiness Scorecard",
+      "word_count": 23,
+      "total_score": 21,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 4,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "15 questions. Five categories. A weighted score in under 2 minutes. Evaluates Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health."
+    },
+    {
+      "heading": "Human Validation Framework",
+      "word_count": 26,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 7,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Human review gates before AI outputs reach production. Defines who reviews, what escalation looks like, and how overrides get recorded. No handwave governance, no checkbox compliance."
+    },
+    {
+      "heading": "Enterprise",
+      "word_count": 50,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 14,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Large orgs with multiple Salesforce clouds and AI features activated across business units need a governance layer that works at scale, not just in a single sandbox. NIST AI RMFAI..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "AI governance for organizations that can't afford to guess.",
+      "word_count": 40,
+      "total_score": 40,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Most Salesforce orgs are adding AI before they're ready. The problems don't show up in the demo. They show up in production, in audit, and in board meetings. CCC's AI..."
+    },
+    {
+      "heading": "74% of nonprofits are using AI. Formal governance still lags.",
+      "word_count": 43,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Adoption alone does not establish readiness. Wrong donor data can distort predictions, generated grant language can contradict program reality, and automated outreach can bypass consent records. These are foreseeable failure..."
+    },
+    {
+      "heading": "AI Readiness Scorecard",
+      "word_count": 23,
+      "total_score": 21,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 4,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "15 questions. Five categories. A weighted score in under 2 minutes. Evaluates Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health."
+    },
+    {
+      "heading": "Human Validation Framework",
+      "word_count": 26,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 7,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Human review gates before AI outputs reach production. Defines who reviews, what escalation looks like, and how overrides get recorded. No handwave governance, no checkbox compliance."
+    },
+    {
+      "heading": "AI Decision Log",
+      "word_count": 32,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 11,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A Salesforce-native custom object designed to record defined AI-assisted decisions, confidence scores, human review status, and override history. It supports audit, compliance, and board reporting when included in the approved..."
+    },
+    {
+      "heading": "Nonprofit",
+      "word_count": 25,
+      "total_score": 47,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Donor data, grant reporting, and constituent outreach all carry trust obligations. AI without governance is a compliance and reputational risk, not just a technical one."
+    },
+    {
+      "heading": "Government",
+      "word_count": 24,
+      "total_score": 14,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 3,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "OMB M-25-21 governs federal AI use and public trust, while M-25-22 addresses AI acquisition. GovCloud implementations need governance documentation that holds up to audit."
+    },
+    {
+      "heading": "Healthcare",
+      "word_count": 22,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 7,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Patient data, clinical workflows, and billing systems are high-stakes. AI outputs touching these areas require human review gates and documented override protocols."
+    },
+    {
+      "heading": "Enterprise",
+      "word_count": 50,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 14,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Large orgs with multiple Salesforce clouds and AI features activated across business units need a governance layer that works at scale, not just in a single sandbox. NIST AI RMFAI..."
+    },
+    {
+      "heading": "CCC's Six Salesforce AI Governance Gates, Mapped to NIST AI RMF.",
+      "word_count": 25,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 7,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "The NIST AI RMF functions are adaptable governance functions, not a mandatory linear checklist. CCC maps them to six Salesforce delivery gates for operational use."
+    },
+    {
+      "heading": "Data Readiness",
+      "word_count": 20,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 2,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Data quality score of 7 of 10 or higher on the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed."
+    },
+    {
+      "heading": "Pre-Production Validation",
+      "word_count": 20,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 7,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Bias and fairness testing on a representative sample. Rollback drill executed in a Full sandbox. Pilot testing with named reviewers."
+    },
+    {
+      "heading": "Six gates. Fifteen cells. One operational reference.",
+      "word_count": 45,
+      "total_score": 45,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 17,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "The gates above are six checkpoints mapped to NIST AI RMF. The full practice has fifteen cells across three layers and seven roles. Click any cell to see the deliverable,..."
+    },
+    {
+      "heading": "Illustrative healthcare AI governance scenario.",
+      "word_count": 57,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Consider a Service Cloud org where AI-generated case summaries reach agents without defined human review or override records. A billing discrepancy could become difficult to trace when the recommendation, approval,..."
+    },
+    {
+      "heading": "Fixed-scope engagements. No hourly surprises.",
+      "word_count": 138,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 18,
+        "self_containment": 25,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Every engagement is scoped before it starts. You know the deliverable, the timeline, and the cost before signing. ServiceWhat's IncludedWho It's ForInvestmentAI Readiness ScorecardFree self-assessment, five-category weighted reportAny org exploring..."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

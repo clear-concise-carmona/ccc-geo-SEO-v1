@@ -1,0 +1,333 @@
+{
+  "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "103728",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:35:01 GMT",
+    "Etag": "W/\"9652298894cbdc68d1c1c9228704a533\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "XJKvu3ws/Q5PKxNQl",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": " Salesforce AI Data Readiness Assessment | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+    "og:type": "website",
+    "og:description": "Find the data quality, governance, security, automation, and documentation gaps that could put your Salesforce AI or Agentforce initiative at risk.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a5bc30fb545114fe3843d89/1784398607354/AI+Data+Readiness+Assessment.png?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "792",
+    "twitter:title": " Salesforce AI Data Readiness Assessment | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a5bc30fb545114fe3843d89/1784398607354/AI+Data+Readiness+Assessment.png?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+    "twitter:card": "summary",
+    "twitter:description": "Find the data quality, governance, security, automation, and documentation gaps that could put your Salesforce AI or Agentforce initiative at risk.",
+    "description": "Find the data quality, governance, security, automation, and documentation gaps that could put your Salesforce AI or Agentforce initiative at risk.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce AI Data Readiness Assessment | Clear Concise Consulting",
+  "description": "Find the data quality, governance, security, automation, and documentation gaps that could put your Salesforce AI or Agentforce initiative at risk.",
+  "canonical": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+  "h1_tags": [
+    "AI Does Not Fix a Messy Salesforce Org. It Exposes It."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "AI Does Not Fix a Messy Salesforce Org. It Exposes It."
+    },
+    {
+      "level": 2,
+      "text": "Trusted Salesforce Architecture Without the Consulting-Firm Handoffs"
+    },
+    {
+      "level": 2,
+      "text": "Your AI Initiative Is Only as Reliable as the Salesforce Environment Behind It"
+    },
+    {
+      "level": 2,
+      "text": "Before You Activate AI in Salesforce, You Need Clear Answers"
+    },
+    {
+      "level": 2,
+      "text": "What the Assessment Reviews"
+    },
+    {
+      "level": 2,
+      "text": "What You Receive"
+    },
+    {
+      "level": 2,
+      "text": "How the Assessment Works"
+    },
+    {
+      "level": 2,
+      "text": "This Assessment Is a Strong Fit When Your Organization"
+    },
+    {
+      "level": 2,
+      "text": "This Assessment Is Not a Strong Fit When Your Organization"
+    },
+    {
+      "level": 2,
+      "text": "Investment"
+    },
+    {
+      "level": 2,
+      "text": "Not Ready for the Full Assessment?"
+    },
+    {
+      "level": 2,
+      "text": "Why Clear Concise Consulting"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    },
+    {
+      "level": 2,
+      "text": "Do Not Wait Until the Pilot Fails to Ask Whether the Foundation Was Ready"
+    },
+    {
+      "level": 2,
+      "text": "Send Us a Note"
+    },
+    {
+      "level": 3,
+      "text": "Typical Timeline Most Salesforce AI Data Readiness Assessments are completed in approximately three to four weeks after scope, access, and stakeholder availability are confirmed.The timeline depends on stakeholder availability, Salesforce access, documentation availability, number of environments, data volume, number of proposed AI use cases, and integration scope."
+    },
+    {
+      "level": 3,
+      "text": "Salesforce AI Data Readiness AssessmentStarting at $9,500"
+    },
+    {
+      "level": 3,
+      "text": "Start With the Salesforce AI Trust Test"
+    },
+    {
+      "level": 4,
+      "text": "1. Business Goals and AI Use Cases."
+    },
+    {
+      "level": 4,
+      "text": "2. Data Quality."
+    },
+    {
+      "level": 4,
+      "text": "3. Data Governance and Ownership."
+    },
+    {
+      "level": 4,
+      "text": "4. Security, Permissions, and Access."
+    },
+    {
+      "level": 4,
+      "text": "5. Automation and Integration Risk."
+    },
+    {
+      "level": 4,
+      "text": "6. Documentation and Operational Readiness."
+    },
+    {
+      "level": 4,
+      "text": "7. Human Review and Escalation Controls."
+    },
+    {
+      "level": 4,
+      "text": "Is this an Agentforce implementation?"
+    },
+    {
+      "level": 4,
+      "text": "Does the assessment guarantee accurate AI results?"
+    },
+    {
+      "level": 4,
+      "text": "Do you need access to our Salesforce production environment?"
+    },
+    {
+      "level": 4,
+      "text": "Will you review our actual data?"
+    },
+    {
+      "level": 4,
+      "text": "Is this a security audit?"
+    },
+    {
+      "level": 4,
+      "text": "Is this only for organizations using Agentforce?"
+    },
+    {
+      "level": 4,
+      "text": "Can this be used before purchasing Agentforce?"
+    },
+    {
+      "level": 4,
+      "text": "What happens after the assessment?"
+    },
+    {
+      "level": 4,
+      "text": "Does CCC work with nonprofit organizations?"
+    },
+    {
+      "level": 4,
+      "text": "How quickly can the assessment begin?"
+    }
+  ],
+  "word_count": 1878,
+  "text_content": "Salesforce AI Data Readiness Assessment | Clear Concise Consulting 0 AI Does Not Fix a Messy Salesforce Org. It Exposes It. Find out whether your Salesforce environment is ready to support AI and Agentforce before unreliable data, weak governance, or hidden automation problems become expensive failures. The Salesforce AI Data Readiness Assessment gives your leadership team a clear, evidence-based view of the risks, gaps, and decisions that must be addressed before expanding AI across your Salesforce environment. You receive a prioritized roadmap covering data quality, governance, permissions, automation, integrations, documentation, and human oversight. Starting at $9,500 Most assessments are completed in approximately three to four weeks after scope, access, and stakeholder availability are confirmed. Request an Assessment Take the Free AI Readiness Scorecard Trusted Salesforce Architecture Without the Consulting-Firm Handoffs Clear Concise Consulting is led by Jeremy Carmona, a 13x Salesforce-certified architect and former NYU Tandon Salesforce instructor who taught more than 160 students, with approximately 80% moving into Salesforce-related roles. His consulting work spans nonprofit, healthcare, government, and enterprise organizations. The senior architect who evaluates your environment is the same person responsible for the findings, recommendations, and executive presentation. One architect. Zero handoffs. Your AI Initiative Is Only as Reliable as the Salesforce Environment Behind It Agentforce and other AI capabilities depend on Salesforce data, automation, permissions, integrations, and business rules. When those foundations are inconsistent, AI can produce unreliable answers, expose restricted information, trigger incorrect processes, or amplify data problems at a speed your team cannot easily control. ‍ Common warning signs include: duplicate or incomplete records, unclear field ownership, inconsistent data-entry standards, excessive administrator permissions, undocumented Flows, conflicting validation rules , integration users with broad access, reports that teams do not trust, missing approval or escalation controls, limited process documentation, no formal review of AI-generated actions, or an Agentforce pilot planned before data readiness has been assessed. ‍ These issues already affect reporting, adoption, and decision-making. AI does not make them disappear. It gives them a larger audience. Before You Activate AI in Salesforce, You Need Clear Answers Can we trust the Salesforce data that AI will use? Which objects, fields, and processes create the highest risk? Could users or AI agents access information they should not see? Are current Flows, integrations, and validation rules ready for AI-driven activity? Who owns the data and governance decisions? Where must human review remain mandatory? What must be corrected before an Agentforce pilot? Which improvements can wait until a later phase? What level of investment will remediation require? Are we ready to proceed, proceed with conditions, or pause? You leave with a decision framework, not another collection of vague recommendations involving words like transformation and innovation. What the Assessment Reviews 1. Business Goals and AI Use Cases. Proposed AI and Agentforce use cases, target users, expected decisions or actions, business-critical processes, risk tolerance, executive success criteria. The goal is connecting technical readiness to an actual business outcome rather than reviewing Salesforce in a vacuum. 2. Data Quality. Duplicate records, missing values, inconsistent formats, picklist quality, record ownership, reporting reliability across the objects your AI use cases touch. 3. Data Governance and Ownership. Data and field ownership, decision authority, data definitions, naming conventions, change approval, exception handling. 4. Security, Permissions, and Access. Profiles, Permission Sets and Permission Set Groups, role hierarchy, sharing rules, integration users, sensitive-field access, least-privilege practices. This is an architecture and risk review. It is not a legal compliance certification. 5. Automation and Integration Risk. Flows, Apex automation, validation rules, approval processes, scheduled jobs, external integrations and their error handling. The Einstein Trust Layer governs model intera ctions; this section covers everything feeding it. 6. Documentation and Operational Readiness. Data dictionaries, automation documentation, architecture diagrams, runbooks, decision logs, release procedures. 7. Human Review and Escalation Controls. High-risk actions, customer-facing communication, financial or eligibility decisions, override procedures, escalation paths, AI-output validation. The same checkpoints covered in CCC's AI governance framework . What You Receive Executive AI Readiness Brief. A leadership-level summary of current readiness, major risks, business impact, and the recommended decision. Readiness Score by Category. Scores across data quality, governance, security and access, automation, integrations, documentation, and human oversight. Findings and Risk Register. Each material finding includes description, business impact, risk level, affected area, supporting evidence, recommended response, and suggested owner. Prioritized Remediation Roadmap. Actions grouped: fix before pilot, fix before broader rollout, address during implementation, monitor after launch, defer. Executive Decision Recommendation. Proceed, proceed with conditions, or pause and remediate, with reasoning, required conditions, and next actions. Final Readout Session. Findings presented to leadership and Salesforce stakeholders, questions answered, next step confirmed. How the Assessment Works Qualification and Scope Confirmation: use cases, environment, priorities, stakeholders, access, boundaries. Discovery and Evidence Collection: documentation, stakeholder input, configuration, reports, exports, approved evidence. Analysis and Risk Review: findings evaluated across all seven scope areas. Roadmap Development: findings converted into a prioritized, sequenced remediation plan. Executive Readout: final report, recommendation, and next-step options. Typical Timeline Most Salesforce AI Data Readiness Assessments are completed in approximately three to four weeks after scope, access, and stakeholder availability are confirmed. The timeline depends on stakeholder availability, Salesforce access, documentation availability, number of environments, data volume, number of proposed AI use cases, and integration scope. This Assessment Is a Strong Fit When Your Organization Is preparing for Agentforce or another Salesforce AI capability Has approved or proposed an AI pilot Does not fully trust its Salesforce data Has undocumented automation or integrations Has experienced implementation or reporting problems Needs an independent review before approving further investment Operates in a regulated or high-accountability environment Needs executive clarity before a go or no-go decision Wants a prioritized plan rather than a broad technical audit Values direct access to a senior Salesforce architect This Assessment Is Not a Strong Fit When Your Organization Wants immediate AI deployment without addressing data or governance Is seeking the lowest-cost Salesforce administrator Cannot provide access to decision-makers or system stakeholders Wants legal or regulatory certification Expects AI accuracy to be guaranteed Needs a large implementation team to begin work immediately Is unwilling to document decisions or assign business ownership Wants detailed architecture or remediation work during a free sales call Investment Salesforce AI Data Readiness Assessment Starting at $9,500 Standard pricing covers one Salesforce production environment, a defined set of proposed AI use cases, stakeholder discovery, technical review, an executive report, a remediation roadmap, and a final readout. Larger environments may require adjusted pricing based on: multiple Salesforce orgs, several business units, high data volume, numerous integrations, complex security models, multiple AI use cases, additional stakeholder groups, or compressed timelines. Service Timeline Investment Salesforce AI Trust Test ~5 business days Starting at $2,500 Salesforce AI Data Readiness Assessment 3-4 weeks Starting at $9,500 Remediation and implementation Scoped after assessment $15,000-$75,000 Deduplication project 2-4 weeks $8,000-$15,000 Data migration (under 50K records) 2-4 weeks $10,000-$20,000 Data migration (50K-500K records) 4-8 weeks $20,000-$40,000 Retained Advisory Continuous, 3-month minimum $3,000 or $5,000/month Trust Test timelines run from confirmed access and scope. Full assessments run approximately three to four weeks after scope, access, and stakeholder availability are confirmed. The Trust Test fee may be applied to a full assessment started within 30 days, subject to scope. Not Ready for the Full Assessment? Start With the Salesforce AI Trust Test The Salesforce AI Trust Test is a focused review for organizations that need a faster initial view of their most immediate Salesforce AI risks. The Trust Test may review: one proposed AI use case, a limited set of objects and fields, core data-quality concerns, permissions and access, key automation, governance ownership, and human approval needs. Starting at $2,500 Typically completed within five business days after access and scope are confirmed Organizations that move from the Trust Test into the full AI Data Readiness Assessment within 30 days may apply the Trust Test fee to the assessment, subject to scope. Request an Assessment Take the Free AI Readiness Scorecard Why Clear Concise Consulting Senior Architecture From Start to Finish. The person who scopes the engagement is the person who reviews the system, interprets the risks, and presents the findings. Salesforce and Governance Expertise. Architecture, data quality, data governance, AI readiness, documentation, and business analysis in one reviewer. Clear Executive Communication. Technical findings translated into business impact, decision points, ownership, and next actions. Documentation Built for Use. Reports and roadmaps written so leadership, administrators, consultants, and future team members can act on them. Independent Judgment. CCC does not need to sell your organization an AI license, a large implementation team, or a predetermined technical solution. The assessment exists so leadership can make a defensible decision. FAQs Is this an Agentforce implementation? No. The assessment reviews whether your Salesforce environment is ready to support Agentforce or other AI use cases. Implementation and remediation may be proposed as a separate engagement after the assessment. Does the assessment guarantee accurate AI results? No. No consultant can guarantee the accuracy of AI output. The assessment identifies conditions that may improve reliability, governance, security, and human oversight. Do you need access to our Salesforce production environment? Most assessments require approved access to Salesforce configuration, documentation, reports, exports, or a combination of those sources. The access method is confirmed before work begins. Will you review our actual data? Yes, when the agreed scope includes data profiling and the organization provides approved access or extracts. CCC follows the agreed data-handling and confidentiality requirements. Is this a security audit? It includes a review of Salesforce access, permissions, sharing, and related risks within the agreed scope. It is not a penetration test, legal audit, or formal compliance certification. Is this only for organizations using Agentforce? No. The assessment can support other Salesforce AI initiatives, advanced automation, data-intensive projects, or leadership teams that need to evaluate whether their Salesforce environment is ready for increased automation. Can this be used before purchasing Agentforce? Yes. A readiness assessment before purchasing or expanding AI capabilities may help leadership avoid spending money before the required data, governance, and security foundations are in place. What happens after the assessment? Your organization may: complete remediation internally, engage an existing Salesforce partner, ask CCC to deliver an AI-Ready Governance Sprint, request implementation recovery, establish ongoing Retained Advisory support, or pause the initiative until required conditions are met. There is no obligation to hire CCC for follow-on work. Does CCC work with nonprofit organizations? Yes. CCC has Salesforce experience supporting nonprofit and mission-driven organizations, including data governance, migration, documentation, implementation, and Nonprofit Cloud-related work. How quickly can the assessment begin? Start dates depend on current availability, agreement completion, payment, stakeholder access, and the organization's ability to provide the required evidence. Do Not Wait Until the Pilot Fails to Ask Whether the Foundation Was Ready A Salesforce AI initiative should begin with evidence, ownership, governance, and a clear view of risk. The Salesforce AI Data Readiness Assessment gives your leadership team the information needed to proceed responsibly, correct critical gaps, or pause before preventable problems become expensive. Starting at $9,500 Approximately three to four weeks Led directly by Jeremy Carmona Request an Assessment Take the Free AI Readiness Scorecard. Send Us a Note Have questions about Clear Concise Consulting and how we can help? Fill out the form to the left or shoot us an email here: info@clearconciseconsulting.com",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment#application-form",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Free AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+      "text": "validation rules"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+      "text": ","
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+      "text": "Einstein Trust Layer"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+      "text": "governs model intera"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+      "text": "AI governance framework"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment#application-form",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "text": "Take the Free AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment#application-form",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Free AI Readiness Scorecard."
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment#service",
+      "name": "Salesforce AI Data Readiness Assessment",
+      "serviceType": "Salesforce AI data readiness and governance assessment",
+      "provider": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "areaServed": "United States",
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "description": "Evidence-based assessment of Salesforce data quality, governance, security, automation, integration, documentation, and human oversight readiness for AI and Agentforce initiatives."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

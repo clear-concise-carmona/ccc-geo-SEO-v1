@@ -1,0 +1,186 @@
+{
+  "url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "68878",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:57 GMT",
+    "Etag": "W/\"cc86fa0a41f91c2488bd3f2e0556c133\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "yPo7gUpr/G2xIxjWV",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce Nonprofit Data Migration Case Study | CCC | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+    "og:type": "website",
+    "og:description": "A nonprofit Salesforce case study focused on data migration, deduplication, currency validation, governance rules, and reporting quality.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578b39bbeeb1bb619a8e5/1779792051381/case-study-nonprofit-data-cleanup.jpg?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "1006",
+    "twitter:title": "Salesforce Nonprofit Data Migration Case Study | CCC | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578b39bbeeb1bb619a8e5/1779792051381/case-study-nonprofit-data-cleanup.jpg?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+    "twitter:card": "summary",
+    "twitter:description": "A nonprofit Salesforce case study focused on data migration, deduplication, currency validation, governance rules, and reporting quality.",
+    "description": "A nonprofit Salesforce case study focused on data migration, deduplication, currency validation, governance rules, and reporting quality.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce Nonprofit Data Migration Case Study | CCC | Clear Concise Consulting",
+  "description": "A nonprofit Salesforce case study focused on data migration, deduplication, currency validation, governance rules, and reporting quality.",
+  "canonical": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+  "h1_tags": [
+    "Pipeline inflated by 100x. Fixed in 3 weeks."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "Pipeline inflated by 100x. Fixed in 3 weeks."
+    },
+    {
+      "level": 2,
+      "text": "Key Takeaways"
+    },
+    {
+      "level": 2,
+      "text": "At a Glance"
+    },
+    {
+      "level": 2,
+      "text": "The Situation"
+    },
+    {
+      "level": 2,
+      "text": "What CCC Did"
+    },
+    {
+      "level": 2,
+      "text": "Before and After"
+    },
+    {
+      "level": 2,
+      "text": "Ready to see what CCC can do for your org?"
+    }
+  ],
+  "word_count": 875,
+  "text_content": "Salesforce Nonprofit Data Migration Case Study | CCC | Clear Concise Consulting 0 Nonprofit · Data Migration Pipeline inflated by 100x. Fixed in 3 weeks. Environmental Nonprofit · 70,000+ Records · Deduplication · AP Style Standardization · Governance Rules 70K+ Records Cleaned 12,000 Duplicates Merged 100x Pipeline Reporting Error 3 wks Time to Fix Key Takeaways An environmental nonprofit migrated 70,000 donor records without deduplication, field validation, or a test load. A cents-to-dollars conversion error inflated every financial value by 100x. The pipeline dashboard showed $4.2M. The actual pipeline was $42,000. The board approved a hiring plan based on the wrong number. CCC delivered a clean dataset in 3 weeks: 12,000 duplicates consolidated into 5,400 master records, 4,200 currency errors corrected, and governance rules deployed to prevent recurrence. The cleanup cost less than the original migration. A 15-minute test load review by business users would have caught the error before it went live. At a Glance Industry: Environmental Nonprofit Platform: Salesforce (NPSP) Scope: Data quality audit, deduplication, currency correction, AP Style standardization, and governance rules Records Cleaned: 70,000+ Duplicates Merged: 12,000 consolidated into 5,400 master records Orphaned Contacts: 8,000 with no parent Account Pipeline Reporting Error: 100x inflation ($4.2M displayed vs. $42,000 actual) Records with Currency Errors: 4,200 Time to Fix: 3 weeks Root Cause: Migration executed without deduplication, field validation, or test load review Key Lesson: A test load reviewed by business users would have caught the error in 15 minutes The Situation An environmental nonprofit migrated 70,000 donor records from a legacy database to Salesforce. The migration was done by a previous consultant without deduplication, field validation, or a test load reviewed by business users. The immediate result: 12,000 duplicate Account records and 8,000 orphaned Contact records with no parent Account. Donor histories were split across multiple records. Recurring gift data was attached to the wrong Accounts. The more serious problem was invisible for three months. A cents-to-dollars conversion error in the currency field mapping inflated every financial value by 100x. The pipeline dashboard showed $4.2M. The actual pipeline was $42,000. The board of directors approved a hiring plan and a new program budget based on the $4.2M number. When the development director ran a manual spot check before a major donor meeting, she found that a donor listed at $15,000 in Salesforce had actually given $150. She called the previous consultant. The consultant was no longer under contract. The nonprofit called CCC. What CCC Did 1 Data Quality Audit (10 Metrics, SOQL Queries) CCC ran SOQL validation queries against every donor-facing object. The audit quantified the damage: 12,000 duplicates, 8,000 orphans, 4,200 records with currency errors, and 15,000 records with non-standardized name formats (missing salutations, inconsistent capitalization, company names in the last name field). 2 Deduplication and Merge CCC built matching rules and ran them against the full dataset. Each batch of proposed merges was reviewed by the development team before execution. No merge happened without business user sign-off. The 12,000 duplicates were consolidated into 5,400 master records with complete donation histories. 3 Currency Field Correction The field mapping from the legacy system stored amounts in cents. Salesforce currency fields expected dollars. CCC wrote a correction script, validated it against the source system, and ran it with a full audit trail. The pipeline dashboard dropped from $4.2M to $42,000, which matched the development director's manual calculations. 4 AP Style Standardization and Governance Rules CCC applied AP Style standardization to all name and address fields: proper capitalization, standardized salutations, consistent formatting for organizational donors. Validation rules now prevent the same data quality issues from recurring. Duplicate matching rules run on every new record. Currency fields have validation that flags any value over $100,000 for manual review. The Result Clean dataset delivered in 3 weeks. Pipeline reporting was accurate within 48 hours of the correction. Governance rules now prevent the same errors from recurring. The board received a corrected financial report with a full explanation of what happened and what was done to prevent it. The development director now runs a quarterly data quality check using the SOQL queries CCC provided. The cleanup cost less than the original migration. The governance rules cost nothing to maintain. Before and After Metric Before CCC After CCC Pipeline dashboard $4.2M displayed ($42,000 actual) Accurate within 48 hours Duplicate Account records 12,000 Consolidated into 5,400 master records Orphaned Contact records 8,000 (no parent Account) Reconnected to correct Accounts Records with currency errors 4,200 Corrected with full audit trail Name/address standardization 15,000 inconsistent records AP Style applied across all fields Duplicate prevention None Matching rules on every new record Currency validation None Values over $100,000 flagged for review Time to resolution 3 months undiscovered 3 weeks from engagement start The Lesson \"The cleanup cost less than the original migration. It always does.\" A test load reviewed by business users before the full migration would have caught the cents-to-dollars error in 15 minutes. That step was skipped. CCC includes test loads in every migration engagement. No data goes live until business users confirm the numbers match. Ready to see what CCC can do for your org? Take the Scorecard to see where you stand, or request a scoping call to discuss your project. Take the Scorecard Request a Scoping Call",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Request a Scoping Call"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CaseStudy",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/nonprofit#case-study",
+      "url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+      "name": "Salesforce Nonprofit Data Migration Case Study | CCC",
+      "about": {
+        "@type": "Thing",
+        "name": "Nonprofit Salesforce implementation and data migration"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

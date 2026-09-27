@@ -1,0 +1,111 @@
+{
+  "url": "http://127.0.0.1:8766/6ce0217b6917.html",
+  "total_blocks_analyzed": 2,
+  "average_citability_score": 29.5,
+  "optimal_length_passages": 0,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 1,
+    "F": 1
+  },
+  "top_5_citable": [
+    {
+      "heading": "Pipeline inflated by 100x. Fixed in 3 weeks.",
+      "word_count": 22,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 12,
+        "structural_readability": 6,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "70,000 records migrated without deduplication. Dashboard showed $4.2M when the real number was $42,000. Board made budget decisions on the wrong data."
+    },
+    {
+      "heading": "Real projects. Real numbers. Zero handoffs.",
+      "word_count": 23,
+      "total_score": 15,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 4,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 3
+      },
+      "preview": "Every CCC engagement follows the same model: one architect from scoping to documentation. These four projects show what that looks like in practice."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "Real projects. Real numbers. Zero handoffs.",
+      "word_count": 23,
+      "total_score": 15,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 4,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 3
+      },
+      "preview": "Every CCC engagement follows the same model: one architect from scoping to documentation. These four projects show what that looks like in practice."
+    },
+    {
+      "heading": "Pipeline inflated by 100x. Fixed in 3 weeks.",
+      "word_count": 22,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 12,
+        "structural_readability": 6,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "70,000 records migrated without deduplication. Dashboard showed $4.2M when the real number was $42,000. Board made budget decisions on the wrong data."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "Real projects. Real numbers. Zero handoffs.",
+      "word_count": 23,
+      "total_score": 15,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 4,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 3
+      },
+      "preview": "Every CCC engagement follows the same model: one architect from scoping to documentation. These four projects show what that looks like in practice."
+    },
+    {
+      "heading": "Pipeline inflated by 100x. Fixed in 3 weeks.",
+      "word_count": 22,
+      "total_score": 44,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 12,
+        "structural_readability": 6,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "70,000 records migrated without deduplication. Dashboard showed $4.2M when the real number was $42,000. Board made budget decisions on the wrong data."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/case-studies",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

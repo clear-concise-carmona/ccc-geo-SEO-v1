@@ -2,7 +2,7 @@
 
 Purpose: verify conversion elements without creating leads, bookings, or test records the owner did not approve.
 
-What the live HTML shows (2026-09-27, EV-038): /contact has no form element in its HTML; it embeds the Zoom scheduler (scheduler.zoom.us/jeremy-carmona/free-consultation) in an iframe and shows contact@ as a mailto. The assessment page's "Request an Assessment" button targets #application-form; no form element is in the HTML, so the form renders client-side; info@ is the visible fallback. /scorecard loads the instrument from an iframe on clear-concise-carmona.github.io/ccc-artifacts/. GA4 gtag.js and an app.sparkplugin.com script load on /scorecard.
+What the live HTML shows (2026-09-27, EV-038): /contact has no form element in its HTML; it embeds the Zoom scheduler (scheduler.zoom.us/jeremy-carmona/free-consultation) in an iframe and shows contact@ as a mailto. The assessment page's "Request an Assessment" button targets #application-form; no form element is in the HTML, so the form renders client-side; info@ is the visible fallback. /scorecard loads the instrument from an iframe on clear-concise-carmona.github.io/ccc-artifacts/. GA4 gtag.js and an app.sparkplugin.com script load on /scorecard. Decided 2026-09-27 (EV-048): the one public inquiry address is contact@clearconciseconsulting.com, so the assessment page's visible fallback changes from info@ to contact@ before this plan runs, and every mailto on the site points at contact@.
 
 | Element | Test | Method | Pass condition | Do not |
 |---|---|---|---|---|

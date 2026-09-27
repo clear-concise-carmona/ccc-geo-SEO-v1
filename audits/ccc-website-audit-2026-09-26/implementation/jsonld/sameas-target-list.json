@@ -1,10 +1,37 @@
 {
   "_note": "Target sameAs list built from the three arrays deployed on 2026-09-27 (EV-038) plus the indexed Salesforce Break author page. Owner rule (EV-032): every deployed sameAs array must be identical. Deploy ONE combined array on the custom Organization block and the Person block. The native Organization block follows Squarespace Business Information social links and cannot carry this list; that is one more reason to remove the native blocks (ISS-015).",
   "deployed_arrays_observed": {
-    "native_organization": ["https://medium.com/@jcarmona86", "https://www.linkedin.com/company/clear-concise-consulting", "https://github.com/clear-concise-carmona", "https://www.instagram.com/clearconcisecarmona", "https://www.facebook.com/profile.php?id=61565894325721", "https://www.youtube.com/@clearconciseconsulting"],
-    "custom_organization": ["https://www.linkedin.com/company/clear-concise-consulting", "https://github.com/clear-concise-carmona", "https://www.instagram.com/clearconcisecarmona", "https://www.facebook.com/profile.php?id=61565894325721", "https://www.youtube.com/@clearconciseconsulting", "https://medium.com/@jcarmona86", "https://jeremycarmona.gumroad.com/"],
-    "person_about": ["https://www.linkedin.com/in/jeremy-a-carmona/", "https://www.salesforce.com/trailblazer/jeremy-carmona", "https://medium.com/@jcarmona86", "https://www.salesforceben.com/author/jeremy-carmona/"],
-    "llms_txt_profiles": ["https://www.linkedin.com/in/jeremy-a-carmona/", "https://www.linkedin.com/company/clear-concise-consulting/", "https://trailblazer.me/id/jcarmona86", "https://github.com/clear-concise-carmona", "https://www.instagram.com/clearconcisecarmona/", "https://www.instagram.com/rubberduckconfessions/"]
+    "native_organization": [
+      "https://medium.com/@jcarmona86",
+      "https://www.linkedin.com/company/clear-concise-consulting",
+      "https://github.com/clear-concise-carmona",
+      "https://www.instagram.com/clearconcisecarmona",
+      "https://www.facebook.com/profile.php?id=61565894325721",
+      "https://www.youtube.com/@clearconciseconsulting"
+    ],
+    "custom_organization": [
+      "https://www.linkedin.com/company/clear-concise-consulting",
+      "https://github.com/clear-concise-carmona",
+      "https://www.instagram.com/clearconcisecarmona",
+      "https://www.facebook.com/profile.php?id=61565894325721",
+      "https://www.youtube.com/@clearconciseconsulting",
+      "https://medium.com/@jcarmona86",
+      "https://jeremycarmona.gumroad.com/"
+    ],
+    "person_about": [
+      "https://www.linkedin.com/in/jeremy-a-carmona/",
+      "https://www.salesforce.com/trailblazer/jeremy-carmona",
+      "https://medium.com/@jcarmona86",
+      "https://www.salesforceben.com/author/jeremy-carmona/"
+    ],
+    "llms_txt_profiles": [
+      "https://www.linkedin.com/in/jeremy-a-carmona/",
+      "https://www.linkedin.com/company/clear-concise-consulting/",
+      "https://trailblazer.me/id/jcarmona86",
+      "https://github.com/clear-concise-carmona",
+      "https://www.instagram.com/clearconcisecarmona/",
+      "https://www.instagram.com/rubberduckconfessions/"
+    ]
   },
   "combined_array_for_all_blocks": [
     "https://www.linkedin.com/in/jeremy-a-carmona/",
@@ -20,11 +47,37 @@
     "https://www.salesforce.com/trailblazer/jeremy-carmona"
   ],
   "owner_decisions_before_deploy": {
-    "trailblazer_url_form": ["https://www.salesforce.com/trailblazer/jeremy-carmona (deployed on /about)", "https://trailblazer.me/id/jcarmona86 (in llms.txt)"],
-    "facebook_url_form": ["https://www.facebook.com/profile.php?id=61565894325721 (deployed)", "https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/ (indexed, EV-025)"],
-    "gumroad_url_form": ["https://jeremycarmona.gumroad.com/ (deployed)", "https://gumroad.com/clearconciseconsulting (404 per Product Roadmap 178028545; shown live only as anchor text on /faqs, whose href points at jeremycarmona.gumroad.com)"],
+    "trailblazer_url_form": [
+      "https://www.salesforce.com/trailblazer/jeremy-carmona (deployed on /about)",
+      "https://trailblazer.me/id/jcarmona86 (in llms.txt)"
+    ],
+    "facebook_url_form": [
+      "https://www.facebook.com/profile.php?id=61565894325721 (deployed)",
+      "https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/ (indexed, EV-025)"
+    ],
+    "gumroad_url_form": [
+      "https://jeremycarmona.gumroad.com/ (deployed)",
+      "https://gumroad.com/clearconciseconsulting (404 per Product Roadmap 178028545; shown live only as anchor text on /faqs, whose href points at jeremycarmona.gumroad.com)"
+    ],
     "personal_brand_instagram": "https://www.instagram.com/rubberduckconfessions/ is listed in llms.txt; excluded from the combined array unless the owner wants it as an identity anchor",
     "bbb": "https://www.bbb.org/us/ny/brooklyn/profile/business-consultant/clear-concise-consulting-llc-0121-87143876 excluded unless wanted"
   },
-  "evidence": ["EV-038", "EV-005", "EV-007", "EV-018", "EV-024", "EV-025"]
+  "evidence": [
+    "EV-038",
+    "EV-005",
+    "EV-007",
+    "EV-018",
+    "EV-024",
+    "EV-025"
+  ],
+  "owner_decisions_2026_09_27": {
+    "source": "EV-048",
+    "trailblazer_url_form": "https://www.salesforce.com/trailblazer/jeremy-carmona (use; retire trailblazer.me form in llms.txt)",
+    "facebook_url_form": "https://www.facebook.com/profile.php?id=61565894325721 (deployed form kept)",
+    "gumroad_url_form": "https://jeremycarmona.gumroad.com/ (canonical storefront; owner records Decision P1 in the Product Roadmap)",
+    "x_twitter": "out until an active, maintained account exists",
+    "personal_brand_instagram": "out",
+    "bbb": "out",
+    "result": "combined_array_for_all_blocks is final as listed (11 entries)"
+  }
 }

@@ -75,7 +75,7 @@ Traffic volume is unknown; classical A/B tests are not prescribed. Before-and-af
 
 | ID | Hypothesis | Change | Pages | Primary metric | Guardrails | Window | Success | Stop / rollback |
 |---|---|---|---|---|---|---|---|---|
-| EXP-1 (ISS-007) | Naming the call's duration and purpose at every CTA reduces abandonment between CTA click and booking | CTA labels state "15-minute results call" or "30-minute scoping call" consistently | /, /scorecard, /faqs, /contact | call_booking_click to booking ratio (Zoom Scheduler export) | generate_lead count not lower than baseline | 12 weeks | ratio not lower; qualitative confusion reports drop | revert labels via Squarespace edit history |
+| EXP-1 (ISS-007) | Naming the call's duration and purpose at every CTA reduces abandonment between CTA click and booking | CTA labels state "15-minute fit call" consistently (decided 2026-09-27, EV-048) | /, /scorecard, /faqs, /contact | call_booking_click to booking ratio (Zoom Scheduler export) | generate_lead count not lower than baseline | 12 weeks | ratio not lower; qualitative confusion reports drop | revert labels via Squarespace edit history |
 | EXP-2 (ISS-011) | Differentiating the two Trust Layer articles increases combined impressions without cannibalizing | distinct titles, cross-links, one definitional and one configuration-focused | two blog URLs | combined GSC impressions and clicks for the query cluster | neither URL loses more than it gains; no 404s | 8 to 12 weeks | combined clicks not lower; one URL dominates the cluster | restore original titles; no redirects involved unless consolidated |
 | EXP-3 (ISS-023) | llms.txt has no measurable effect on qualified inquiries; it is a consistency artifact | keep llms.txt aligned to the register | /llms.txt | AI referral sessions (count) | none | 12 weeks | any change is reported as observation only | remove file if it drifts from facts |
 | EXP-4 (ISS-009) | Retiring or rewriting legacy pages does not reduce qualified inquiries | 301 or rewrite per owner decision | /new-clients, /who-we-help | qualified inquiries (count); GSC clicks to redirected URLs | no rise in 404s; no drop in brand impressions | 12 weeks | inquiries stable or up | remove redirects, restore pages from Squarespace trash |
@@ -91,7 +91,7 @@ For each check record: platform; date; exact prompt; settings (web search on/off
 |---|---|---|---|---|
 | DONE 2026-09-27: host allowed, crawler run, inventory converted, findings re-scored (ISS-000). Remaining: authorize the second bounded pass for 10 non-blog pages (ISS-035) | Jeremy | none | authorization to exceed 50 pages in this audit | the 10 rows land in url-inventory-observed.csv |
 | Export GSC, Bing, GA4 baselines; save to evidence/baseline/ (ISS-026) | Jeremy | account access | none | baseline saved before any publish |
-| Owner decisions 1 to 8 in CANONICAL-BUSINESS-FACTS.md | Jeremy | none | these are the approvals | register updated; HOLD facts move to APPROVED or are withheld |
+| Owner decisions 1 to 9 in CANONICAL-BUSINESS-FACTS.md | Jeremy | none | DONE 2026-09-27 (EV-048); eight owner-supplied facts remain (method texts, labels, counts, gate status, confidentiality check, canon reconciliation) | register updated; approved items marked READY_FOR_CMS_EDIT |
 | Built-in domain: fix domain settings or confirm mirror canonicals (ISS-001). Non-www redirects and /cart noindex are verified live; no action (ISS-002, 003) | Jeremy | none | domain settings: owner | mirror URLs 301 or carry canonicals to www |
 | Fix the six placeholder links on /terms-conditions and the dated "booking for Q3 2026" line on /contact (ISS-027, ISS-031). The three 301s and the og:description are already live (ISS-013, ISS-014 resolved) | Jeremy | none | copy only | recrawl shows no claude.ai hrefs and no past quarter |
 
@@ -102,7 +102,7 @@ For each check record: platform; date; exact prompt; settings (web search on/off
 | Scorecard: add the professional-judgment label and a server-rendered results block (PKG-SCORECARD, ISS-005, ISS-033) | Jeremy | decision 2 | copy approval |
 | FAQ corrections including client-name permissions (PKG-FAQS, ISS-018) | Jeremy | decision 3 | copy approval |
 | About page corrections (PKG-ABOUT, ISS-017) | Jeremy | decisions 4 | copy approval |
-| Schema reconciliation against the deployed blocks in evidence/crawl: sameAs parity, contactPoint, LocalBusiness and native-block decision (ISS-015, 016) | implementer | decisions 5, 7 | schema approval; validate the raw HTML on the live URL |
+| Schema reconciliation against the deployed blocks in evidence/crawl: sameAs parity, contactPoint, LocalBusiness and native-block decision (ISS-015, 016; decided 2026-09-27: remove LocalBusiness and hours, one combined sameAs array, contact@ contactPoint) | implementer | none outstanding | schema approval; validate the raw HTML on the live URL |
 | Title length and brand: homepage title, post-suffix decision (ISS-004, ISS-030); duplicate schema cleanup (ISS-028) | implementer | none | metadata and schema approval |
 
 **Days 61 to 90: discovery and conversion**

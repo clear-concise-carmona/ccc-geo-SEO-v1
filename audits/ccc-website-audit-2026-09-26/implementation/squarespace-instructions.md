@@ -1,5 +1,19 @@
 # Squarespace implementation instructions (platform verified from live responses; controls verified where marked)
 
+## 0. Approved change set (owner decisions of 2026-09-27, EV-048), in execution order
+
+Nothing below is published by this workspace. Each line names the backlog item, the page or control, and the source of the approved string. Work top to bottom; export the analytics baseline (ISS-026) before the first content edit.
+
+1. **Fix on sight (no strings to approve).** ISS-027: replace the six claude.ai/chat/ placeholder links on /terms-conditions with their real targets or remove them. ISS-031: replace "Currently booking for Q3 2026" on /contact with an undated availability statement ("Response within 24 hours" can stay). ISS-022: on /faqs change the Gumroad anchor text to jeremycarmona.gumroad.com so it matches the href.
+2. **Price ladder (decision A).** ISS-006: /services anecdote restated at $9,500 or labeled historical; /faqs FAQ 2 rewritten with the assessment, the Trust Test, and the link (PAGE-IMPROVEMENTS.md PKG-FAQS item 1); /services/data-governance table. ISS-038: /services/ai-governance pricing paragraph (CLM-055 wording) and its Service OfferCatalog (CLM-056). ISS-041: /org-health "$12,000" line labeled or restated. Update each page's FAQPage or Service JSON-LD in the same edit.
+3. **Intake and credential (decisions B and C).** ISS-007: "free 30-minute consultation" on /about and /services/salesforce-nonprofit-consulting becomes the 15-minute fit call; one scheduler path everywhere. FACT-05: "Former NYU Tandon Salesforce instructor (2022 to 2023)" on /about (heading, tile, truncated sentence) and /org-health.
+4. **Attribution (decision D; permissions asserted).** ISS-018: "CCC has worked with" and "CCC delivered ... for USCIS" become "Jeremy's experience includes ..." on /services, /faqs (text and FAQPage schema), /who-we-help. ISS-040: the four case-study pages, once the owner supplies the labels and the 35-documentation-asset attribution (see EV-048 open items). ISS-019: method notes once the owner supplies the texts; "about 80%" now.
+5. **Contact identity (decided: contact@).** ISS-008: footer, /contact plain-text block (ISS-033), /faqs contact answer, assessment page fallback, native Business Information email, custom Organization contactPoint (implementation/jsonld/organization-person.reconciliation.json).
+6. **Schema.** ISS-015: clear opening hours in Business Information; remove the native LocalBusiness output if the platform allows, otherwise document it; keep PostalAddress on the Organization block. ISS-016: one combined sameAs array (implementation/jsonld/sameas-target-list.json, decided set) on the custom Organization and the Person block. ISS-028: one FAQPage source on / and /home; Article replaces CaseStudy on the four case-study pages; one of Article or BlogPosting on posts.
+7. **Metadata and copy packages.** ISS-004 and ISS-030 (homepage title with brand; shorter post suffix); ISS-009 (/who-we-help rewrite); ISS-020, ISS-023 (llms.txt wording), ISS-029 (alt text), ISS-034, ISS-037 (stat tiles), ISS-033 (scorecard and contact server-rendered copy), ISS-005 (scorecard label). Strings: implementation/metadata-drafts.md and PAGE-IMPROVEMENTS.md.
+8. **Held until canon is reconciled.** ISS-039 (AI CoE service ladder) and ISS-042 (remediation price rows): the owner updates Confluence or retires the content; no edit before that.
+9. **After publishing.** Validate each edited page's raw HTML in the Rich Results Test; re-run the bounded crawler on the core pages; record the next EV.
+
 Source for control locations: the owner Squarespace operations document (EV-032). "Verified live" means the state was read from the site on 2026-09-27 (EV-038, EV-039, EV-043). Controls marked [VERIFY] were not confirmed in the account.
 
 | Issue | Change | Squarespace location | Notes |

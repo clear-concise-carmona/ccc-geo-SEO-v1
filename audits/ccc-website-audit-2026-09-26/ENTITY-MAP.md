@@ -60,7 +60,7 @@ Also in /llms.txt: LinkedIn company with a trailing slash, https://trailblazer.m
 
 Target (implementation/jsonld/sameas-target-list.json): one combined array on every block. Core set (verified as indexed or directly fetched, and deployed): LinkedIn personal, LinkedIn company, Salesforce Ben author, Medium, Salesforce Break author (indexed, EV-005; not deployed today), GitHub. Owner-deployed set to carry over once one URL form is chosen for each: Instagram (business account), YouTube, Facebook, Gumroad, Trailblazer. Exclude the personal-brand Instagram from the Organization and Person blocks unless the owner wants it as an identity anchor; exclude BBB unless wanted.
 
-Owner rule (EV-032): every deployed sameAs array must be identical. Today they are not. History (Confluence 147095553, EV-045): in April 2026 the Person block carried 7 entries (with GitHub, X/Twitter, Salesforce Ben) and the Organization 6 (with X/Twitter), both validated in the Rich Results Test; the live arrays have regressed (no X anywhere, no GitHub on the Person). Gumroad: the Product Roadmap (178028545) records the CCC-named storefront as a 404 and jeremycarmona.gumroad.com as live; Decision P1 is open.
+Owner rule (EV-032): every deployed sameAs array must be identical. Today they are not. History (Confluence 147095553, EV-045): in April 2026 the Person block carried 7 entries (with GitHub, X/Twitter, Salesforce Ben) and the Organization 6 (with X/Twitter), both validated in the Rich Results Test; the live arrays have regressed (no X anywhere, no GitHub on the Person). Gumroad: the Product Roadmap (178028545) records the CCC-named storefront as a 404 and jeremycarmona.gumroad.com as live; the owner chose jeremycarmona.gumroad.com on 2026-09-27 (EV-048) and records Decision P1 in Confluence. Decided the same day: X/Twitter stays out until an active account exists; Trailblazer uses www.salesforce.com/trailblazer/jeremy-carmona; Facebook keeps the deployed profile.php form; the personal-brand Instagram and the BBB profile stay out.
 
 ## 6. Inconsistencies and gaps (live)
 
@@ -71,7 +71,7 @@ Owner rule (EV-032): every deployed sameAs array must be identical. Today they a
 | Offer price | $9,500 (assessment page) vs $8,000 (/services, owner docs) vs FAQ that prices only the $5,000 data quality assessment | FACT-15, ISS-006 |
 | Trust Test | appears on one page only | FACT-28 |
 | Positioning drift | /who-we-help (Small Business, career changers, "Tailored"); /llms.txt (omits healthcare and enterprise); mirror host FAQ ("growing businesses", per index) | CLM-030, CLM-051, ISS-009, ISS-023, ISS-001 |
-| Contact identity | five email addresses; three scheduler paths; two Trailblazer URL forms; two Gumroad URL forms; X/Twitter present in April 2026 arrays, absent today | FACT-24, FACT-27 |
+| Contact identity | five email addresses; three scheduler paths; two Trailblazer URL forms; two Gumroad URL forms; X/Twitter present in April 2026 arrays, absent today. DECIDED 2026-09-27 (EV-048): contact@clearconciseconsulting.com everywhere; one scheduler path; one Trailblazer form; jeremycarmona.gumroad.com; no X/Twitter | FACT-24, FACT-27 |
 | Client attribution | live pages attribute USCIS, EDF, UnitedHealth Group, HRSA, and NYU work to CCC; the Client Roster lists none of them and the resume lists them as Jeremy's career experience (EV-045) | FACT-22, ISS-018 |
 | Teaching tense | past-tense prose, present-tense heading and tile | FACT-05 |
 | Duplicate schema | FAQPage twice on /; Article + BlogPosting on 3 posts; invalid CaseStudy | ISS-028 |

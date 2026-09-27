@@ -1,0 +1,190 @@
+{
+  "url": "https://www.clearconciseconsulting.com/case-studies/government",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:55 GMT",
+    "Etag": "W/\"99bb11f0279e18972779f5feb3d0b612--gzip\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "kLpWiV9C/Vk14LJnE",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Transfer-Encoding": "chunked"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce Government Cloud Case Study | CCC | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/case-studies/government",
+    "og:type": "website",
+    "og:description": "A Salesforce Government Cloud case study focused on implementation planning, data migration, access, automation, documentation, and administrator handoff.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578ee3fda827df9cdc2fc/1779792110919/case-study-government-govcloud.jpg?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "1006",
+    "twitter:title": "Salesforce Government Cloud Case Study | CCC | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578ee3fda827df9cdc2fc/1779792110919/case-study-government-govcloud.jpg?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/case-studies/government",
+    "twitter:card": "summary",
+    "twitter:description": "A Salesforce Government Cloud case study focused on implementation planning, data migration, access, automation, documentation, and administrator handoff.",
+    "description": "A Salesforce Government Cloud case study focused on implementation planning, data migration, access, automation, documentation, and administrator handoff.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce Government Cloud Case Study | CCC | Clear Concise Consulting",
+  "description": "A Salesforce Government Cloud case study focused on implementation planning, data migration, access, automation, documentation, and administrator handoff.",
+  "canonical": "https://www.clearconciseconsulting.com/case-studies/government",
+  "h1_tags": [
+    "6-month quoted timeline delivered in 8 weeks."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "6-month quoted timeline delivered in 8 weeks."
+    },
+    {
+      "level": 2,
+      "text": "Key Takeaways"
+    },
+    {
+      "level": 2,
+      "text": "At a Glance"
+    },
+    {
+      "level": 2,
+      "text": "The Situation"
+    },
+    {
+      "level": 2,
+      "text": "What CCC Did Differently"
+    },
+    {
+      "level": 2,
+      "text": "Before and After"
+    },
+    {
+      "level": 2,
+      "text": "Deliverables"
+    },
+    {
+      "level": 2,
+      "text": "Ready to see what CCC can do for your org?"
+    }
+  ],
+  "word_count": 772,
+  "text_content": "Salesforce Government Cloud Case Study | CCC | Clear Concise Consulting 0 Government · GovCloud 6-month quoted timeline delivered in 8 weeks. Federal Agency · GovCloud Salesforce · FedRAMP Compliance · Single Architect Engagement 8 Weeks to Go-Live 35 Documentation Assets 0 Post-Launch Support Calls 1 Architect (Start to Finish) Key Takeaways A federal agency terminated a 3-month engagement with a large consulting firm after zero features were deployed. CCC completed the same scope in 8 weeks with a single architect. The previous firm quoted 6 months with a rotating team of four. CCC delivered 35 documentation assets at handoff, including a data dictionary covering 142 fields and Flow documentation for 12 automations. The incoming Salesforce administrator never called for support. The difference between the two approaches was not skill or budget. It was coordination overhead: zero handoffs, zero knowledge transfer gaps, and zero time re-explaining decisions to new team members. At a Glance Industry: Federal Government Platform: Salesforce GovCloud (FedRAMP Compliant) Scope: Full implementation with data migration, sharing model redesign, Flow automation, and documentation Timeline: 8 weeks (quoted at 6 months by two competing firms) Team Size: 1 architect, start to finish Documentation: 35 assets including admin runbook, data dictionary (142 fields), Flow documentation (12 automations), and user guides for 4 audience levels Post-Launch Support Calls: 0 Previous Attempt: Terminated after 3 months with zero deployed features Key Differentiator: Single architect model eliminated handoff delays and knowledge transfer gaps The Situation A federal agency needed to move their Salesforce instance to GovCloud with full FedRAMP compliance. The project required data migration, sharing model redesign, Flow automation, and a complete documentation package for the incoming admin team. Two large consulting firms submitted proposals. Both quoted 6 months. Both planned to staff with a rotating team: a solutions architect for discovery, a senior developer for the first sprint, then a junior developer for the remaining build. Standard agency model. The agency selected the first firm. After three months, the project had zero deployed features. The solutions architect had rotated off. The junior developer spent six weeks asking the same discovery questions the architect had already answered. Documentation did not exist. The agency terminated the contract and began searching for an alternative. What CCC Did Differently 1 Single Architect, Full Lifecycle The same person who led the discovery sessions configured the org, built the Flows, wrote the Apex validation scripts, and produced the documentation. No handoffs. No ramp-up time for new team members. No information lost between phases. 2 Data Model in Week 1 The data model was designed in the first week and validated with stakeholders in the second. This front-loaded the hardest decisions. By week three, the team was building on a foundation that had already been reviewed and approved. 3 Apex-Validated Flows Before Every Sprint Review Every Flow was tested with Apex validation scripts in Developer Console before being presented to stakeholders. The agency never saw a broken demo. Every sprint review showed working features, not prototypes. 4 35 Documentation Assets at Handoff The documentation package included an admin runbook, data dictionary (142 fields), Flow documentation for 12 automations, Apex validation scripts, user guides for four audience levels, and an architecture overview for leadership. All written in plain language. The Result The implementation went live in 8 weeks. The agency hired a new Salesforce administrator the following Monday. She had the full documentation package on her desk. She never called CCC for help. Not once. The comparable scope at the first consulting firm was quoted at 6 months with a team of four. CCC completed it in 8 weeks with one architect. The difference: zero coordination overhead, zero knowledge transfer gaps, and zero time spent explaining previous decisions to new team members. Before and After Metric Before CCC After CCC Implementation timeline 6 months (quoted by two firms) 8 weeks Deployed features after 3 months 0 Full implementation live Team members on project 4 (rotating: architect, senior dev, junior dev, PM) 1 architect, start to finish Documentation assets at handoff 0 35 Fields in data dictionary 0 142 Automations documented 0 12 Flows with full documentation Post-launch support calls Not applicable (project terminated) 0 Knowledge transfer gaps Multiple (3 handoffs in 3 months) None Deliverables Documentation Package Implementation Guide 28 pages Data Dictionary 142 fields Flow Documentation 12 automations Apex Validation Scripts Full test coverage User Guides 4 audience levels Architecture Overview Leadership-ready Admin Runbook Day-one ready Ready to see what CCC can do for your org? Take the Scorecard to see where you stand, or request a scoping call to discuss your project. Take the Scorecard Request a Scoping Call",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Request a Scoping Call"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CaseStudy",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/government#case-study",
+      "url": "https://www.clearconciseconsulting.com/case-studies/government",
+      "name": "Salesforce Government Cloud Case Study | CCC",
+      "about": {
+        "@type": "Thing",
+        "name": "Salesforce Government Cloud implementation"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

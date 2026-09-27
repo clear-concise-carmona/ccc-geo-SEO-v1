@@ -1,0 +1,621 @@
+{
+  "url": "http://127.0.0.1:8766/9c231a158dbf.html",
+  "total_blocks_analyzed": 30,
+  "average_citability_score": 40.1,
+  "optimal_length_passages": 2,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 7,
+    "D": 13,
+    "F": 10
+  },
+  "top_5_citable": [
+    {
+      "heading": "Trusted Salesforce Architecture Without the Consulting-Firm Handoffs",
+      "word_count": 60,
+      "total_score": 60,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Clear Concise Consulting is led by Jeremy Carmona, a 13x Salesforce-certified architect and former NYU Tandon Salesforce instructor who taught more than 160 students, with approximately 80% moving into Salesforce-related..."
+    },
+    {
+      "heading": "Why Clear Concise Consulting",
+      "word_count": 106,
+      "total_score": 57,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 22,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Senior Architecture From Start to Finish.The person who scopes the engagement is the person who reviews the system, interprets the risks, and presents the findings. Salesforce and Governance Expertise.Architecture, data..."
+    },
+    {
+      "heading": "What the Assessment Reviews",
+      "word_count": 184,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 19,
+        "structural_readability": 6,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "1. Business Goals and AI Use Cases.Proposed AI and Agentforce use cases, target users, expected decisions or actions, business-critical processes, risk tolerance, executive success criteria. The goal is connecting technical..."
+    },
+    {
+      "heading": "Start With the Salesforce AI Trust Test",
+      "word_count": 99,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 16,
+        "structural_readability": 5,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "The Salesforce AI Trust Test is a focused review for organizations that need a faster initial view of their most immediate Salesforce AI risks. The Trust Test may review: one..."
+    },
+    {
+      "heading": "What happens after the assessment?",
+      "word_count": 46,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 28,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Your organization may: complete remediation internally, engage an existing Salesforce partner, ask CCC to deliver an AI-Ready Governance Sprint, request implementation recovery, establish ongoing Retained Advisory support, or pause the..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "5. Automation and Integration Risk.",
+      "word_count": 26,
+      "total_score": 18,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 7,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Flows, Apex automation, validation rules, approval processes, scheduled jobs, external integrations and their error handling. TheEinstein Trust Layergoverns model interactions; this section covers everything feeding it."
+    },
+    {
+      "heading": "7. Human Review and Escalation Controls.",
+      "word_count": 22,
+      "total_score": 20,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 12,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "High-risk actions, customer-facing communication, financial or eligibility decisions, override procedures, escalation paths, AI-output validation. The same checkpoints covered in CCC'sAI governance framework."
+    },
+    {
+      "heading": "This Assessment Is Not a Strong Fit When Your Organization",
+      "word_count": 119,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 22,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Wants immediate AI deployment without addressing data or governanceIs seeking the lowest-cost Salesforce administratorCannot provide access to decision-makers or system stakeholdersWants legal or regulatory certificationExpects AI accuracy to be guaranteedNeeds..."
+    },
+    {
+      "heading": "2. Data Quality.",
+      "word_count": 20,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Duplicate records, missing values, inconsistent formats, picklist quality, record ownership, reporting reliability across the objects your AI use cases touch."
+    },
+    {
+      "heading": "What You Receive",
+      "word_count": 99,
+      "total_score": 27,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 4,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 2,
+        "uniqueness_signals": 0
+      },
+      "preview": "Executive AI Readiness Brief.A leadership-level summary of current readiness, major risks, business impact, and the recommended decision.Readiness Score by Category.Scores across data quality, governance, security and access, automation, integrations, documentation,..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "AI Does Not Fix a Messy Salesforce Org. It Exposes It.",
+      "word_count": 93,
+      "total_score": 51,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "Find out whether your Salesforce environment is ready to support AI and Agentforce before unreliable data, weak governance, or hidden automation problems become expensive failures. The Salesforce AI Data Readiness..."
+    },
+    {
+      "heading": "Trusted Salesforce Architecture Without the Consulting-Firm Handoffs",
+      "word_count": 60,
+      "total_score": 60,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Clear Concise Consulting is led by Jeremy Carmona, a 13x Salesforce-certified architect and former NYU Tandon Salesforce instructor who taught more than 160 students, with approximately 80% moving into Salesforce-related..."
+    },
+    {
+      "heading": "Your AI Initiative Is Only as Reliable as the Salesforce Environment Behind It",
+      "word_count": 121,
+      "total_score": 45,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 20,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Agentforce and other AI capabilities depend on Salesforce data, automation, permissions, integrations, and business rules. When those foundations are inconsistent, AI can produce unreliable answers, expose restricted information, trigger incorrect..."
+    },
+    {
+      "heading": "Before You Activate AI in Salesforce, You Need Clear Answers",
+      "word_count": 183,
+      "total_score": 48,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 19,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Can we trust the Salesforce data that AI will use?Which objects, fields, and processes create the highest risk?Could users or AI agents access information they should not see?Are current Flows,..."
+    },
+    {
+      "heading": "What the Assessment Reviews",
+      "word_count": 184,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 19,
+        "structural_readability": 6,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "1. Business Goals and AI Use Cases.Proposed AI and Agentforce use cases, target users, expected decisions or actions, business-critical processes, risk tolerance, executive success criteria. The goal is connecting technical..."
+    },
+    {
+      "heading": "1. Business Goals and AI Use Cases.",
+      "word_count": 37,
+      "total_score": 46,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Proposed AI and Agentforce use cases, target users, expected decisions or actions, business-critical processes, risk tolerance, executive success criteria. The goal is connecting technical readiness to an actual business outcome..."
+    },
+    {
+      "heading": "2. Data Quality.",
+      "word_count": 20,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Duplicate records, missing values, inconsistent formats, picklist quality, record ownership, reporting reliability across the objects your AI use cases touch."
+    },
+    {
+      "heading": "4. Security, Permissions, and Access.",
+      "word_count": 31,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 9,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Profiles, Permission Sets and Permission Set Groups, role hierarchy, sharing rules, integration users, sensitive-field access, least-privilege practices. This is an architecture and risk review. It is not a legal compliance..."
+    },
+    {
+      "heading": "5. Automation and Integration Risk.",
+      "word_count": 26,
+      "total_score": 18,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 7,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Flows, Apex automation, validation rules, approval processes, scheduled jobs, external integrations and their error handling. TheEinstein Trust Layergoverns model interactions; this section covers everything feeding it."
+    },
+    {
+      "heading": "7. Human Review and Escalation Controls.",
+      "word_count": 22,
+      "total_score": 20,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 12,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "High-risk actions, customer-facing communication, financial or eligibility decisions, override procedures, escalation paths, AI-output validation. The same checkpoints covered in CCC'sAI governance framework."
+    },
+    {
+      "heading": "What You Receive",
+      "word_count": 99,
+      "total_score": 27,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 4,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 2,
+        "uniqueness_signals": 0
+      },
+      "preview": "Executive AI Readiness Brief.A leadership-level summary of current readiness, major risks, business impact, and the recommended decision.Readiness Score by Category.Scores across data quality, governance, security and access, automation, integrations, documentation,..."
+    },
+    {
+      "heading": "How the Assessment Works",
+      "word_count": 90,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 9,
+        "self_containment": 19,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Qualification and Scope Confirmation:use cases, environment, priorities, stakeholders, access, boundaries.Discovery and Evidence Collection:documentation, stakeholder input, configuration, reports, exports, approved evidence.Analysis and Risk Review:findings evaluated across all seven scope areas.Roadmap Development:findings..."
+    },
+    {
+      "heading": "This Assessment Is a Strong Fit When Your Organization",
+      "word_count": 143,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 25,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Is preparing for Agentforce or another Salesforce AI capabilityHas approved or proposed an AI pilotDoes not fully trust its Salesforce dataHas undocumented automation or integrationsHas experienced implementation or reporting problemsNeeds..."
+    },
+    {
+      "heading": "This Assessment Is Not a Strong Fit When Your Organization",
+      "word_count": 119,
+      "total_score": 24,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 22,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Wants immediate AI deployment without addressing data or governanceIs seeking the lowest-cost Salesforce administratorCannot provide access to decision-makers or system stakeholdersWants legal or regulatory certificationExpects AI accuracy to be guaranteedNeeds..."
+    },
+    {
+      "heading": "Salesforce AI Data Readiness AssessmentStarting at $9,500",
+      "word_count": 139,
+      "total_score": 38,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 3,
+        "self_containment": 25,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Standard pricing covers one Salesforce production environment, a defined set of proposed AI use cases, stakeholder discovery, technical review, an executive report, a remediation roadmap, and a final readout. Larger..."
+    },
+    {
+      "heading": "Start With the Salesforce AI Trust Test",
+      "word_count": 99,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 16,
+        "structural_readability": 5,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "The Salesforce AI Trust Test is a focused review for organizations that need a faster initial view of their most immediate Salesforce AI risks. The Trust Test may review: one..."
+    },
+    {
+      "heading": "Why Clear Concise Consulting",
+      "word_count": 106,
+      "total_score": 57,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 22,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Senior Architecture From Start to Finish.The person who scopes the engagement is the person who reviews the system, interprets the risks, and presents the findings. Salesforce and Governance Expertise.Architecture, data..."
+    },
+    {
+      "heading": "FAQs",
+      "word_count": 317,
+      "total_score": 43,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 14,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 2
+      },
+      "preview": "Is this an Agentforce implementation?No. The assessment reviews whether your Salesforce environment is ready to support Agentforce or other AI use cases. Implementation and remediation may be proposed as a..."
+    },
+    {
+      "heading": "Is this an Agentforce implementation?",
+      "word_count": 31,
+      "total_score": 49,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 17,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "No. The assessment reviews whether your Salesforce environment is ready to support Agentforce or other AI use cases. Implementation and remediation may be proposed as a separate engagement after the..."
+    },
+    {
+      "heading": "Does the assessment guarantee accurate AI results?",
+      "word_count": 23,
+      "total_score": 27,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 10,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "No. No consultant can guarantee the accuracy of AI output. The assessment identifies conditions that may improve reliability, governance, security, and human oversight."
+    },
+    {
+      "heading": "Do you need access to our Salesforce production environment?",
+      "word_count": 25,
+      "total_score": 45,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 10,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Most assessments require approved access to Salesforce configuration, documentation, reports, exports, or a combination of those sources. The access method is confirmed before work begins."
+    },
+    {
+      "heading": "Will you review our actual data?",
+      "word_count": 24,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 16,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes, when the agreed scope includes data profiling and the organization provides approved access or extracts. CCC follows the agreed data-handling and confidentiality requirements."
+    },
+    {
+      "heading": "Is this a security audit?",
+      "word_count": 28,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 7,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "It includes a review of Salesforce access, permissions, sharing, and related risks within the agreed scope. It is not a penetration test, legal audit, or formal compliance certification."
+    },
+    {
+      "heading": "Is this only for organizations using Agentforce?",
+      "word_count": 29,
+      "total_score": 37,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 25,
+        "self_containment": 7,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "No. The assessment can support other Salesforce AI initiatives, advanced automation, data-intensive projects, or leadership teams that need to evaluate whether their Salesforce environment is ready for increased automation."
+    },
+    {
+      "heading": "Can this be used before purchasing Agentforce?",
+      "word_count": 27,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 25,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. A readiness assessment before purchasing or expanding AI capabilities may help leadership avoid spending money before the required data, governance, and security foundations are in place."
+    },
+    {
+      "heading": "What happens after the assessment?",
+      "word_count": 46,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 28,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Your organization may: complete remediation internally, engage an existing Salesforce partner, ask CCC to deliver an AI-Ready Governance Sprint, request implementation recovery, establish ongoing Retained Advisory support, or pause the..."
+    },
+    {
+      "heading": "Does CCC work with nonprofit organizations?",
+      "word_count": 20,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 13,
+        "self_containment": 15,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. CCC has Salesforce experience supporting nonprofit and mission-driven organizations, including data governance, migration, documentation, implementation, and Nonprofit Cloud-related work."
+    },
+    {
+      "heading": "How quickly can the assessment begin?",
+      "word_count": 20,
+      "total_score": 35,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Start dates depend on current availability, agreement completion, payment, stakeholder access, and the organization's ability to provide the required evidence."
+    },
+    {
+      "heading": "Do Not Wait Until the Pilot Fails to Ask Whether the Foundation Was Ready",
+      "word_count": 53,
+      "total_score": 51,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 21,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "A Salesforce AI initiative should begin with evidence, ownership, governance, and a clear view of risk. The Salesforce AI Data Readiness Assessment gives your leadership team the information needed to..."
+    },
+    {
+      "heading": "Send Us a Note",
+      "word_count": 24,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 10,
+        "self_containment": 15,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Have questions about Clear Concise Consulting and how we can help? Fill out the form to the left or shoot us an email here:"
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

@@ -1,4 +1,4 @@
-Forbidden-word and em-dash scan, re-run 2026-09-27 after the pass-3 Confluence and owner-document update (also run after the pass-2 live crawl).
+Forbidden-word and em-dash scan, re-run 2026-09-27 after the pass-4 owner-decision and second-crawl update (also run after passes 2 and 3).
 Method: owner forbidden-word list (167 items) as whole-word and phrase matches over every .md, .csv, and .json deliverable outside evidence/; em dash (U+2014) checked separately. Matches inside double-quoted spans are observed site text (titles, descriptions, H1s, body quotes) and are reported as QUOTED, not as prose.
 Result: prose hits = 2 (the two remaining word-level hits are live site strings in table cells of implementation/metadata-drafts.md, "Tailored" and "Ensure", quoted as current values, not proposed copy); quoted hits = 29; em dash in prose = 0; em dash in quoted site text = 1.
 Connector words the owner allows sparingly ("because", "while"): 0 in prose after edits.

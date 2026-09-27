@@ -1,0 +1,272 @@
+{
+  "url": "https://www.clearconciseconsulting.com/org-health",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:53 GMT",
+    "Etag": "W/\"e74e2c2e7b2d40f03f8893bed2f7c9a3--gzip\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "8kIw1obN/M2RnqT9m",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Transfer-Encoding": "chunked"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "What Your Salesforce Org Says About Your Company | 10 Free Guides  | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/org-health",
+    "og:type": "website",
+    "og:description": "10 free Salesforce org health guides with checklists and templates. Data governance, Flow audits, sharing model assessment, AI readiness, and migration planning.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd302acc43b90a506ead32/1775054890131/00_landing_page_hero.png?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "837",
+    "twitter:title": "What Your Salesforce Org Says About Your Company | 10 Free Guides  | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69cd302acc43b90a506ead32/1775054890131/00_landing_page_hero.png?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/org-health",
+    "twitter:card": "summary",
+    "twitter:description": "10 free Salesforce org health guides with checklists and templates. Data governance, Flow audits, sharing model assessment, AI readiness, and migration planning.",
+    "description": "10 free Salesforce org health guides with checklists and templates. Data governance, Flow audits, sharing model assessment, AI readiness, and migration planning.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "What Your Salesforce Org Says About Your Company | 10 Free Guides  | Clear Concise Consulting",
+  "description": "10 free Salesforce org health guides with checklists and templates. Data governance, Flow audits, sharing model assessment, AI readiness, and migration planning.",
+  "canonical": "https://www.clearconciseconsulting.com/org-health",
+  "h1_tags": [
+    "What Your Salesforce Org Says About Your Company"
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "What Your Salesforce Org Says About Your Company"
+    },
+    {
+      "level": 2,
+      "text": "10 free guides. 10 problems I find every time someone hires me to fix their Salesforce."
+    },
+    {
+      "level": 2,
+      "text": "The Series"
+    },
+    {
+      "level": 2,
+      "text": "Who writes these guides"
+    },
+    {
+      "level": 2,
+      "text": "How ready is your Salesforce org for AI?"
+    },
+    {
+      "level": 2,
+      "text": "Get the next guide in your inbox"
+    },
+    {
+      "level": 3,
+      "text": "15 questions. 5 categories. 2 minutes. Free."
+    },
+    {
+      "level": 4,
+      "text": "The Org Autopsy"
+    },
+    {
+      "level": 4,
+      "text": "The 400-Object Org"
+    },
+    {
+      "level": 4,
+      "text": "Flow Spaghetti"
+    },
+    {
+      "level": 4,
+      "text": "The Report Nobody Trusts"
+    },
+    {
+      "level": 4,
+      "text": "The Sandbox That Time Forgot"
+    },
+    {
+      "level": 4,
+      "text": "The Sharing Model Nobody Designed"
+    },
+    {
+      "level": 4,
+      "text": "The Integration Built on Prayer"
+    },
+    {
+      "level": 4,
+      "text": "Your Data Migration Was a Crime Scene"
+    },
+    {
+      "level": 4,
+      "text": "The Governance Gap"
+    },
+    {
+      "level": 4,
+      "text": "The Fix"
+    }
+  ],
+  "word_count": 613,
+  "text_content": "What Your Salesforce Org Says About Your Company | 10 Free Guides  | Clear Concise Consulting 0 What Your Salesforce Org Says About Your Company 10 free guides. 10 problems I find every time someone hires me to fix their Salesforce. Each guide comes with a free checklist or template. No email required. Take the AI Readiness Scorecard The Series Every Salesforce org tells a story. These are the 10 chapters I find in almost every one. The Org Autopsy What I check in the first 30 minutes when a company hires me. 5 questions that tell you more about your org's health than any dashboard. The assessment that costs $12,000 and saves $80,000. Free guide: Org Health Checklist Read the post | Download the checklist The 400-Object Org How custom object sprawl happens one \"quick fix\" at a time. 312 Ghost Objects in a single org. The audit that reveals your Ghost Object Ratio and tells you whether to clean up or rebuild. Free guide: Custom Object Audit Template Read the post | Download the checklist Flow Spaghetti Why your automations are fighting each other. 14 Flows triggered by a single record update. The Spaghetti Test you can run in 30 seconds that reveals your automation debt. Free guide: Flow Audit Checklist Read the post | Download the audit The Report Nobody Trusts Why leadership stopped checking dashboards. $2.4M pipeline that was actually $1.6M. The SOQL query that reveals your ghost pipeline in under 2 minutes. Free guide: Data Quality Assessment Template Read the post | Download the template The Sandbox That Time Forgot What happens when you test in a sandbox that's 11 months stale. 1,200 Account owners changed in 14 seconds. The refresh schedule that prevents Friday night emergencies. Free guide: Sandbox Management Guide Read the post | Download the checklist The Sharing Model Nobody Designed Clinical staff seeing billing records for 4 years because nobody changed the default. The $40K retrofit vs the $5K conversation during implementation. Read the post The Integration Built on Prayer 847 donations without acknowledgment because a former employee's credentials expired. The one-page document that prevents the $18K cleanup. Read the post Your Data Migration Was a Crime Scene \"We'll clean it up after\" is the most expensive sentence in Salesforce. 70,000 records. 12,000 duplicates. $4.2M pipeline that was actually $42,000. Read the post The Governance Gap Why your org isn't ready for Agentforce. A $30K implementation disabled after 2 weeks because the AI surfaced duplicate records to customers. The data quality thresholds that matter. Read the post The Fix It's all fixable. The 30-60-90 day framework for going from assessment to cleanup to governance. Where to start when everything feels broken. Free guide: Org Health Roadmap Template Coming soon Who writes these guides Jeremy Carmona. 13x certified Salesforce Architect. Former journalist. Founder of Clear Concise Consulting. 14 years in the Salesforce ecosystem, starting at Environmental Defense Fund. 30+ implementations across government, nonprofit, healthcare, and enterprise organizations. The problems in this series aren't hypothetical. They come from real assessments, real cleanups, and real invoices. Published in Salesforce Ben on AI governance and data quality. NYU Tandon instructor: 160+ students trained, 80% job placement rate. Book a Free Consultation How ready is your Salesforce org for AI? 15 questions. 5 categories. 2 minutes. Free. Take the Scorecard Get the next guide in your inbox New guides publish twice a week. Each one lands in your inbox the morning it goes live. Newsletter Block This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab. Email Address Subscribe No spam. No sales emails. Just the guides. Thank you!",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-autopsy-assessment-checklist",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/P1_Org_Health_Checklist.pdf",
+      "text": "Download the checklist"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-flow-spaghetti-audit",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/P3_Flow_Audit_Checklist.docx",
+      "text": "Download the checklist"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-flow-spaghetti-audit",
+      "text": "Read the post |"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/P3_Flow_Audit_Checklist.docx",
+      "text": "Download the audit"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-reports-data-quality",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/Salesforce_Data_Quality_Assessment.xlsx",
+      "text": "Download the template"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-sandbox-management",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/P5_Sandbox_Management_Guide.docx",
+      "text": "Download the checklist"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-sharing-model-architecture",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-integration-documentation",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-migration-checklist",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+      "text": "Read the post"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Book a Free Consultation"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

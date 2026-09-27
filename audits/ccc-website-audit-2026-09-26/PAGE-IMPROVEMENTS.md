@@ -1,10 +1,10 @@
 # Page Improvement Packages
 
-Workspace: ccc-website-audit-2026-09-26 | Status of every package: DRAFT. Nothing here is publication-ready until the HOLD facts it depends on are resolved in CANONICAL-BUSINESS-FACTS.md. Live pages were read on 2026-09-27 (EV-038); each package now states what is already live and what remains.
+Workspace: ccc-website-audit-2026-09-26 | Status: the owner approved the strings and decisions on 2026-09-27 (EV-048); packages are READY_FOR_CMS_EDIT except where a line says the owner still supplies a fact (method texts, narrative labels). Nothing is published from this workspace. Live pages were read on 2026-09-27 (EV-038); each package now states what is already live and what remains.
 
 Conventions:
 - "Current (live 2026-09-27)" = the <title>, meta description, and H1 fetched from the live page (EV-038). The 2026-09-26 draft used search-index titles, several of which were stale; those values remain in evidence/search-results/ and are no longer quoted here.
-- "Proposed" wording uses only APPROVED_FOR_DRAFT_USE facts unless marked [HOLD: FACT-xx].
+- "Proposed" wording uses only APPROVED_FOR_DRAFT_USE or DECIDED facts; a bracketed note marks the few places where the owner still supplies a fact.
 - Character counts are in implementation/metadata-drafts.md.
 - No em dashes; owner's forbidden-word list respected in proposed copy.
 - Page selection: homepage and the assessment offer page were required by the brief; /scorecard (secondary goal), /about (entity layer), and /faqs (truth layer, where prices and client names live) were selected from the evidence. Service pages for implementation and data governance were not selected; live checks found only a 164-character description on the implementation page and the $5,000 to $8,000 data quality table on data governance, which PKG-FAQS references.
@@ -36,7 +36,7 @@ Note: the live description is kept. If the owner decides NYC is a target market 
 - H2: "Who this is for" (four verticals, one sentence each, situation-based: an AI feature is planned or live and nobody has reviewed what data it touches)
 - H2: "What Clear Concise Consulting does" (three items: AI governance and data readiness; data governance; implementation architecture)
 - H2: "How an engagement starts" (free consultation, fixed-price scoping document, one architect end to end)
-- H2: "Evidence" (one case metric [HOLD: FACT-21], one credential line FACT-03, one publication line FACT-06)
+- H2: "Evidence" (one case metric with its method note, FACT-21 [owner supplies the note text]; one credential line FACT-03; one publication line FACT-06)
 - H2: "Start here" (primary and secondary CTA)
 
 **Targeted replacement copy (direct-answer passage, for the first section under the H1):**
@@ -57,9 +57,9 @@ Note: the live description is kept. If the owner decides NYC is a target market 
 - / -> /blog/salesforce-ai-data-readiness-checklist, anchor "pre-Agentforce data checklist"
 - / -> /case-studies/enterprise, anchor "enterprise CPQ case study" (metric wording pending FACT-21)
 
-**JSON-LD (deployed, EV-038):** six blocks in the raw HTML: native WebSite; native Organization (address, telephone, j.carmona@ email, six sameAs); native LocalBusiness (address, opening hours Monday to Friday 08:00-17:00 with trailing empty items); FAQPage twice (identical); the custom Organization+ProfessionalService block (@id #organization, PostalAddress, founder -> /about#jeremy-carmona, seven sameAs). Actions: remove the duplicate FAQPage source (ISS-028); reconcile sameAs (ISS-016); decide LocalBusiness, hours, and address (ISS-015); one contactPoint (FACT-24). Target: implementation/jsonld/organization-person.reconciliation.json.
+**JSON-LD (deployed, EV-038):** six blocks in the raw HTML: native WebSite; native Organization (address, telephone, j.carmona@ email, six sameAs); native LocalBusiness (address, opening hours Monday to Friday 08:00-17:00 with trailing empty items); FAQPage twice (identical); the custom Organization+ProfessionalService block (@id #organization, PostalAddress, founder -> /about#jeremy-carmona, seven sameAs). Actions: remove the duplicate FAQPage source (ISS-028); reconcile sameAs (ISS-016); remove LocalBusiness and the hours, keep the address (ISS-015, decided 2026-09-27); contactPoint contact@clearconciseconsulting.com (FACT-24, decided). Target: implementation/jsonld/organization-person.reconciliation.json.
 
-**Evidence:** EV-038, EV-042, EV-006, EV-014, EV-028, EV-032, EV-033. **Unresolved:** FACT-21, FACT-25 (FACT-15 decided in canon: from $9,500; strings need owner approval). **Publication status:** DRAFT / APPROVAL_REQUIRED (title change; the heading restructure is optional).
+**Evidence:** EV-038, EV-042, EV-006, EV-014, EV-028, EV-032, EV-033. **Unresolved:** FACT-21, FACT-25 (FACT-15 decided in canon: from $9,500; strings need owner approval). **Publication status:** APPROVED_BY_OWNER 2026-09-27 (EV-048); READY_FOR_CMS_EDIT (title change; the heading restructure is optional).
 
 ---
 
@@ -113,7 +113,7 @@ Live structure (EV-038): H1 "AI Does Not Fix a Messy Salesforce Org. It Exposes 
 
 **JSON-LD (deployed, EV-038):** Service with @id .../salesforce-ai-data-readiness-assessment#service, name "Salesforce AI Data Readiness Assessment", provider -> #organization, areaServed "United States", no offers. The draft at implementation/jsonld/service-ai-data-readiness.draft.json is now a diff against this block (description wording, optional audience); add offers only after FACT-15; add a BreadcrumbList to match the four service pages.
 
-**Evidence:** EV-038, EV-039, EV-042, EV-004, EV-015, EV-030, EV-033, EV-034. **Unresolved:** none (FACT-15 decided in canon: from $9,500, EV-045). **Publication status:** metadata NO_CHANGE; copy deltas DRAFT; price COPY_APPROVAL_REQUIRED.
+**Evidence:** EV-038, EV-039, EV-042, EV-004, EV-015, EV-030, EV-033, EV-034. **Unresolved:** none (FACT-15 decided in canon: from $9,500, EV-045). **Publication status:** metadata NO_CHANGE; copy deltas DRAFT; price APPROVED_BY_OWNER 2026-09-27 (EV-048).
 
 ---
 
@@ -171,14 +171,14 @@ Live structure (EV-038): H1 "How Ready Is Your Salesforce Org for AI?"; a method
 | Field | Current (live 2026-09-27) | Proposed |
 |---|---|---|
 | Title | "About Jeremy Carmona \| Salesforce Architect \| Clear Concise Consulting" (70 characters) (EV-038) | No change recommended. |
-| Meta description | "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance." (181 characters) (EV-038) | "Jeremy Carmona founded Clear Concise Consulting and leads every engagement. Salesforce Architect since 2012, NYU Tandon instructor, Salesforce Ben author." (154) [HOLD: FACT-05 tense] |
+| Meta description | "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance." (181 characters) (EV-038) | "Jeremy Carmona founded Clear Concise Consulting and leads each engagement. Salesforce Architect since 2012, former NYU Tandon instructor, Salesforce Ben author." (160) (FACT-05 approved: former instructor) |
 
 Live structure (EV-038): H1 "13x Certified Salesforce Architect"; H2 stat tiles "13", "14", "160+", "80%" (the last two twice); H2s "Architecture Track", "Consultant Track:", "Builder Track:", "Why a Journalism Background Matters", "From Confused Beginner to Certified Architect", "NYU Tandon Salesforce Instructor", "What Clients Say", "The Approach", "Results, Not Promises"; "Verify on Trailhead" link; three Salesforce Ben links; "Schedule a Consultation" -> /contact; Person and AboutPage schema. Citability heuristic 34.1 (14 blocks, 8 graded F: tiles and short paragraphs) (EV-042).
 
 **Recommended heading structure**
 - H1: "About Jeremy Carmona" (the live H1 is a credential, not the entity name; the Person should lead)
 - H2: "What I do" (one paragraph, FACT-01/02)
-- H2: "Background" (since 2012; Environmental Defense Fund; journalism; NYU teaching with years) [HOLD: FACT-05]
+- H2: "Background" (since 2012; Environmental Defense Fund; journalism; NYU teaching 2022 to 2023, FACT-05 approved)
 - H2: "Credentials": the live page lists every certification in three tracks with a "Verify on Trailhead" link (good). Lead with the 3 to 5 relevant to governance and data architecture and summarize the rest (FACT-03, CLM-036)
 - H2: "Writing and tools" (Salesforce Ben with the published title FACT-06; Medium; GitHub open-source tools)
 - H2: "How I work" (editorial policy link FACT-20; documentation-for-handoff principle, observed snippet)
@@ -186,7 +186,7 @@ Live structure (EV-038): H1 "13x Certified Salesforce Architect"; H2 stat tiles 
 
 **Direct-answer passage:**
 
-"Jeremy Carmona is the founder of Clear Concise Consulting and a Salesforce Architect. He has worked on Salesforce since 2012, beginning at Environmental Defense Fund, has taught Salesforce Administration at NYU Tandon School of Engineering [HOLD: FACT-05], and writes on AI governance and data quality for Salesforce Ben, including '5 Questions Salesforce Admins Must Ask Before Turning on AI.' He leads every Clear Concise Consulting engagement personally."
+"Jeremy Carmona is the founder of Clear Concise Consulting and a Salesforce Architect. He has worked on Salesforce since 2012, beginning at Environmental Defense Fund, taught Salesforce Administration at NYU Tandon School of Engineering from 2022 to 2023 (FACT-05, approved), and writes on AI governance and data quality for Salesforce Ben, including '5 Questions Salesforce Admins Must Ask Before Turning on AI.' He leads every Clear Concise Consulting engagement personally."
 
 **Corrections to make on this page**
 - Salesforce Ben is already cited by its displayed title with three linked pieces (ISS-017 resolved). Add the author page link.
@@ -208,7 +208,7 @@ Live structure (EV-038): H1 "13x Certified Salesforce Architect"; H2 stat tiles 
 
 **JSON-LD (deployed, EV-038):** Person (@id /about#jeremy-carmona, jobTitle "Salesforce Architect and Founder", worksFor -> #organization, four sameAs) and AboutPage (mainEntity -> the Person) are live alongside the site-wide blocks. Actions: sameAs parity (ISS-016: four entries here, six and seven on the Organization blocks); optional knowsAbout limited to published topics. The reconciliation draft uses the deployed @id.
 
-**Evidence:** EV-038, EV-042, EV-005, EV-007, EV-017, EV-018. **Unresolved:** FACT-05, CLM-004, CLM-049. **Publication status:** DRAFT / APPROVAL_REQUIRED (title: NO_CHANGE).
+**Evidence:** EV-038, EV-042, EV-005, EV-007, EV-017, EV-018. **Unresolved:** FACT-05, CLM-004, CLM-049. **Publication status:** APPROVED_BY_OWNER 2026-09-27 (EV-048); READY_FOR_CMS_EDIT (title: NO_CHANGE).
 
 ---
 
@@ -233,9 +233,9 @@ Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27
 2. Retainers: one sentence distinguishing the administration retainer from the architecture advisory retainer (FACT-12/13).
 3. Workshops: define the $15,000 tier once (FACT-11).
 4. Consultation: one 15-minute fit call, qualification only, no free technical scoping (FACT-09, decided in canon). The FAQ already says 15 minutes; add the qualification-only purpose in one clause.
-5. Client names: the relationship type is settled (Jeremy's career experience, not CCC engagements, FACT-22). Change "CCC has worked with" to "Jeremy's experience includes" in the visible answer and the FAQPage schema; keep only names with permission; otherwise use categorical wording. This is the highest-liability edit in the workspace.
+5. Client names: the relationship type is settled (Jeremy's career experience, not CCC engagements, FACT-22). Change "CCC has worked with" to "Jeremy's experience includes" in the visible answer and the FAQPage schema; permission to name the organizations was asserted by the owner on 2026-09-27 (EV-048); keep the written permissions on file. This is the highest-liability edit in the workspace, and the same change applies to the four case-study pages (ISS-040).
 6. Add one FAQ: "Who does the work?" answered with FACT-02 (including the delivery-partner caveat already published on the homepage).
-7. Contact answer: the FAQ gives j.carmona@; the footer and /privacy-policy give contact@ (FACT-24); use the chosen address. Update the FAQPage schema in step with every visible edit; it currently repeats the $5,000 answer and the client names.
+7. Contact answer: the FAQ gives j.carmona@; the footer and /privacy-policy give contact@ (FACT-24); use contact@clearconciseconsulting.com (decided 2026-09-27, EV-048). Update the FAQPage schema in step with every visible edit; it currently repeats the $5,000 answer and the client names.
 8. Gumroad answer: the anchor text reads gumroad.com/clearconciseconsulting (a 404) and the href points at https://jeremycarmona.gumroad.com/ (EV-038, EV-045). Change the anchor text to jeremycarmona.gumroad.com so text and link agree. Safe now, independent of Roadmap Decision P1 (ISS-022).
 
 **Direct-answer passage (for the pricing section):**
@@ -243,7 +243,7 @@ Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27
 "Most Clear Concise Consulting projects are fixed price. The price comes from a scoping document you approve before work begins. Architect-led implementations range from $15,000 to $75,000 depending on complexity. Workshops run from $2,500 for a half day to $15,000 for two days plus follow-up. Every engagement begins with a free 15-minute fit call; technical analysis starts in paid work." (FACT-08, FACT-10, FACT-11, FACT-09; all decided in canon, EV-045.)
 
 **CTAs**
-- Primary: "Book a 15-minute fit call" -> scheduler (FACT-09 decided in canon) [HOLD: FACT-24 for the contact address on the page].
+- Primary: "Book a 15-minute fit call" -> scheduler (FACT-09 decided in canon) (contact@clearconciseconsulting.com, decided 2026-09-27).
 - Secondary: none above the fold; bottom link to /scorecard for the undecided.
 
 **Internal links**
@@ -254,4 +254,4 @@ Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27
 
 **JSON-LD (deployed, EV-038):** FAQPage with 27 questions, live. Keep, but only for questions whose visible answers match the register; the pairs containing the $5,000 price and the client names are decided in canon (FACT-14 retired; FACT-22 career experience, not CCC clients) and wait only on string approval and the permission check for named organizations. Do not expect FAQ rich results: Google's documentation states the feature is shown only for well-known, authoritative government and health websites (checked 2026-09-27, EV-043). Validate on the live URL after edits.
 
-**Evidence:** EV-038, EV-042, EV-043, EV-010, EV-011, EV-022. **Unresolved:** FACT-24 (contact address) and the permission check behind FACT-22. FACT-09, FACT-11, FACT-12, FACT-15, and FACT-22 are decided in canon (EV-045); their strings need owner approval. **Publication status:** metadata NO_CHANGE; copy DRAFT / COPY_APPROVAL_REQUIRED; Gumroad anchor text FIX_ON_SIGHT.
+**Evidence:** EV-038, EV-042, EV-043, EV-010, EV-011, EV-022. **Unresolved:** none for copy (contact@ decided; permissions asserted, EV-048); the Gumroad anchor text and the /faqs price answer are ready to edit. FACT-09, FACT-11, FACT-12, FACT-15, and FACT-22 are decided in canon (EV-045); their strings need owner approval. **Publication status:** metadata NO_CHANGE; copy DRAFT / APPROVED_BY_OWNER 2026-09-27 (EV-048); Gumroad anchor text FIX_ON_SIGHT.
