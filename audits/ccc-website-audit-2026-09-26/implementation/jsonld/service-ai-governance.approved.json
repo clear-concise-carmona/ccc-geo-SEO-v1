@@ -1,0 +1,57 @@
+{
+  "_note": "Paste-ready Service block for /services/ai-governance (page Header Code Injection). Live block captured 2026-09-27 (EV-047); hasOfferCatalog replaced per decision A (change pack 2.4); @id added to match the other Service blocks. Remove _note before a strict validation.",
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.clearconciseconsulting.com/services/ai-governance#service",
+  "name": "AI Governance for Salesforce",
+  "description": "AI governance for Salesforce teams deploying Agentforce, Einstein, or other AI features. Data quality audit, sharing model review, AI readiness assessment, governance framework with review cycles, ownership assignments, and human oversight.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com"
+  },
+  "serviceType": "AI Governance",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Salesforce AI governance offers",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Salesforce AI Trust Test",
+        "description": "About five business days.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "2500",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Salesforce AI Data Readiness Assessment",
+        "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+        "description": "Three to four weeks, one production environment.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "9500",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Remediation and implementation",
+        "description": "Scoped after the assessment.",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": "15000",
+          "maxPrice": "75000",
+          "priceCurrency": "USD"
+        }
+      }
+    ]
+  }
+}

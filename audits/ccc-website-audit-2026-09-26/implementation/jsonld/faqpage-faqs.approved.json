@@ -1,0 +1,223 @@
+{
+  "_note": "Paste-ready FAQPage block for /faqs (page Header Code Injection). Built from the live block captured 2026-09-27 (EV-038); three answers replaced with owner-approved strings (EV-048; change pack 2.2 and 4.2; FACT-12): \"What industries do you specialize in?\", \"How much does a typical engagement cost?\", \"How are your services priced?\". All other 24 pairs unchanged. Remove this _note key before pasting, or leave it: unknown keys are ignored by parsers but fail strict validators.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes CCC different from a large consulting firm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Speed and accountability. At a large firm, a solutions architect designs the system, hands it to a technical lead, who hands it to a developer, who hands it to a tester. At CCC, one person does all of that. The result: implementations in 8-12 weeks instead of 6 months, and documentation that reflects what was actually built because the person who built it wrote the documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is behind CCC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect and former journalist. Jeremy works directly with every client. The person in your discovery meeting is the same person configuring your org, writing your documentation, and training your team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does Clear Concise Consulting do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CCC provides Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. Every engagement is led by a 13x certified Salesforce Architect with 14 years in the ecosystem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries do you specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Government (FedRAMP, GovCloud, compliance documentation), nonprofit (NPSP, Nonprofit Cloud, donor management), healthcare (Health Cloud, HIPAA compliance), and enterprise (multi-Cloud, large user bases, complex integrations). Jeremy Carmona's experience includes Salesforce work at or for USCIS, Environmental Defense Fund, UnitedHealth Group, HRSA, and NYU."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a typical engagement cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on scope. The Salesforce AI Trust Test starts at $2,500 and takes about five business days. The Salesforce AI Data Readiness Assessment starts at $9,500 and takes three to four weeks. Architect-led implementations range from $15,000 to $75,000 depending on complexity. Training workshops run $2,500 for a half day, $7,500 for a full day, and $15,000 for two days plus follow-up. Retained Advisory starts at $3,000 per month with a three-month minimum. Ad hoc architect support is $175 per hour. Every engagement begins with a free 15-minute fit call; technical analysis starts in paid work. Read more about the assessment at clearconciseconsulting.com/salesforce-ai-data-readiness-assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are your services priced?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most projects are fixed-price based on a scoping document you approve before work begins. Retained Advisory starts at $3,000 per month (15 hours, 24-hour response, three-month minimum). Ad hoc architect support is $175 per hour for one-off requests."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer nonprofit discounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CCC pricing already reflects the realities of nonprofit budgets. Registered nonprofits receive a discount on service rates. CCC also provides a limited number of pro bono hours annually to causes aligned with its values."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three steps. First: take the AI Readiness Scorecard (2 minutes, free). Second: book a 15-minute call to walk through your results. Third: receive a scoping document with timeline, deliverables, and fixed pricing. No pitch decks. No sales scripts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What consulting services do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CCC offers five core services: Salesforce Implementation, AI Governance, Data Governance and Migration, Training and Documentation, and ongoing Administration Support. Full details on each service are on the Services page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your typical project timeline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small implementations (single Cloud, under 50 users): 6-8 weeks. Medium implementations (multi-Cloud, 50-200 users): 8-12 weeks. Complex implementations (GovCloud, multi-department, integrations): 10-16 weeks. Data quality assessments: 1-2 weeks. Data migrations: 2-8 weeks depending on volume."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide post-project support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every implementation includes 30 days of support after go-live: bug fixes, configuration adjustments, and questions handled by the same person who built the system. For ongoing support beyond 30 days, clients can purchase a monthly retainer or use ad hoc support at $175/hour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer Salesforce training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CCC training is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin training, end user training, leadership training, and certification exam prep. Formats range from half-day workshops ($2,500) to executive sessions ($15,000). All training uses hands-on sandbox exercises, not slides."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help me prepare for Salesforce certifications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CCC certification prep covers every exam objective for the Salesforce Administrator certification. The program includes a structured study plan, exam guide breakdowns, and practice scenarios. The same program produced 80% job placement at NYU."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need technical experience to learn Salesforce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CCC training is designed for people who were not born speaking tech. Career changers, non-technical staff assigned to Salesforce roles, and teams with low user adoption are the most common training clients. Every concept is explained in plain language with hands-on exercises in a sandbox environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What free resources do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10 free guides with companion templates) are available at clearconciseconsulting.com/blog. The AI Readiness Scorecard is free at clearconciseconsulting.com/scorecard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you sell digital products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Premium templates, governance kits, and training resources are available on Gumroad. Categories include Salesforce Architecture, AI Governance, Training and Career, and Nonprofit Tools. Every paid resource includes lifetime updates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Salesforce data migration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A data migration moves records from an existing system into Salesforce through five stages: data extraction, field mapping, data cleaning, sandbox test loading, and production loading with validation. Timelines vary by volume: under 10,000 records takes 1-2 weeks, 10,000 to 100,000 takes 3-5 weeks, over 100,000 takes 6-8 weeks including testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my Salesforce org needs an audit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five signs indicate an audit is overdue: reports show data leadership questions, automations fire unexpectedly, new hires take over two weeks to learn the system, nobody can explain what specific automations do, or you have 20+ custom objects with no data dictionary. An org audit reviews data quality, automation health, security model, technical debt, and documentation gaps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Salesforce Flows and Process Builder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Process Builder is a retired Salesforce automation tool. Salesforce Flow is the current platform, supporting screen flows, record-triggered flows, scheduled flows, and autolaunched flows. Flows handle decision logic, loops, batch operations, and error handling. Salesforce recommends migrating all Process Builder automations to Flows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I measure data quality in Salesforce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Data quality is measured across five dimensions: completeness (percentage of records with required fields populated, target 95%+), accuracy (verified against source documents, under 5% error rate), consistency (standardized formats across picklist and free-text fields), timeliness (records modified within 18 months), and uniqueness (duplicate records identified via shared identifiers). Each dimension can be tracked using native Salesforce reports. Data quality assessment is a prerequisite for AI feature activation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Salesforce Trust Layer and why does it matter for AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Trust Layer is a three-phase security architecture between Salesforce data and external AI models. In the Prompt Journey, it performs dynamic grounding and data masking. During Response Generation, masked prompts reach the LLM under zero data retention agreements. In the Response Journey, outputs pass through toxicity detection and de-masking. It prevents data leaks but does not validate AI accuracy, which requires a separate governance framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Salesforce governor limits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Governor limits are hard ceilings on Salesforce's multi-tenant architecture. Synchronous transactions allow 100 SOQL queries, 150 DML statements, and 10 seconds of CPU time. Asynchronous transactions (Batch Apex) reset these limits per chunk with 60 seconds of CPU time. The most common violations come from non-bulkified code and Flows that query inside loops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is data skew in Salesforce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Data skew occurs when record distribution is heavily imbalanced: one user owns millions of records (ownership skew), one Account has thousands of child records (parent-child skew), or one lookup value is referenced disproportionately (lookup skew). Skew causes record locking failures and timeout errors. Fixes include redistributing records, restructuring data models, and reducing transaction times on parent objects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Zero Copy architecture in Salesforce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zero Copy allows Salesforce to read and write data from external warehouses (Snowflake, BigQuery, Databricks) without physically copying data into the CRM. Data stays in the warehouse and is queried in real time through federated connections. This eliminates ETL pipelines, reduces storage costs, and simplifies compliance by keeping data under its original access controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I use Flow vs Apex for AI agent triggers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Flow when automation involves standard CRUD operations, has fewer than 10 decision branches, and will be maintained by admins. Use Apex when logic requires complex data transformations, handles over 10,000 records, needs precise error handling, or interacts with external APIs. If the automation takes more than 15 minutes to explain on the Flow canvas, it probably belongs in Apex."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to learn Salesforce Administration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reaching job-ready competence takes 8 to 12 weeks of focused study at 15-20 hours per week, covering all Salesforce Administrator certification exam objectives. CCC's training program at NYU Tandon School of Engineering follows this timeline with an 80% job placement rate across 160+ students."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Salesforce Einstein and how does it work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Einstein is the AI layer built into Salesforce, including predictive scoring, natural language processing, recommendation engines, and generative AI (Copilot and Agentforce). Predictions require historical data: at least 400 closed-won and 400 closed-lost opportunities for opportunity scoring, or 1,000 leads with conversion data for lead scoring. Data governance is a prerequisite for accurate AI predictions."
+      }
+    }
+  ]
+}

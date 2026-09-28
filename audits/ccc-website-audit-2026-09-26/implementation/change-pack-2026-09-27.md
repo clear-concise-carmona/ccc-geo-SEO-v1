@@ -41,7 +41,7 @@ Alternative if the owner wants the project figure kept: "The governance assessme
 **2.2 /faqs: "How much does a typical engagement cost?" (EV-038).**
 Live: "It depends on scope. A data quality assessment starts at $5,000. A full Salesforce implementation ranges from $15,000 to $75,000 depending on complexity. Training workshops range from $2,500 (half-day) to $15,000 (executive session). Every engagement begins with a f[ree consultation]..."
 Replace the whole answer with: "It depends on scope. The Salesforce AI Trust Test starts at $2,500 and takes about five business days. The Salesforce AI Data Readiness Assessment starts at $9,500 and takes three to four weeks. Architect-led implementations range from $15,000 to $75,000 depending on complexity. Training workshops run $2,500 for a half day, $7,500 for a full day, and $15,000 for two days plus follow-up. Retained Advisory starts at $3,000 per month with a three-month minimum. Ad hoc architect support is $175 per hour. Every engagement begins with a free 15-minute fit call; technical analysis starts in paid work. Read more about the assessment at clearconciseconsulting.com/salesforce-ai-data-readiness-assessment."
-Also update: the same question's acceptedAnswer text in the FAQPage JSON-LD (page Header Code Injection). (FACT-08 to FACT-12, FACT-15, FACT-28, FACT-29)
+Also update: the same question's acceptedAnswer text in the FAQPage JSON-LD (page Header Code Injection). Full replacement block with this answer, the attribution answer (4.2), and the Retained Advisory answer already applied: implementation/jsonld/faqpage-faqs.approved.json. (FACT-08 to FACT-12, FACT-15, FACT-28, FACT-29)
 
 **2.3 /services/data-governance: "Timeline and investment" table (EV-038).**
 Live row: "Data quality assessment | 1-2 weeks | $5,000-$8,000"
@@ -51,7 +51,7 @@ Hold (not approved yet): the rows "Deduplication project $8,000-$15,000", "Data 
 **2.4 /services/ai-governance: pricing paragraph (EV-047).**
 Live: "Pricing: AI Governance Assessments start at $5,000 for orgs with fewer than 50 users and 5 or fewer AI touchpoints. Complex environments (multiple Clouds, GovCloud, HIPAA requirements) are scoped individually after a 15-minute con[sultation]."
 Replace with: "Pricing: the Salesforce AI Data Readiness Assessment starts at $9,500 for one production environment and takes three to four weeks. Smaller scopes start with the Salesforce AI Trust Test from $2,500. Complex environments (multiple Clouds, GovCloud, HIPAA requirements) are scoped individually after a free 15-minute fit call."
-Also update: the Service block's hasOfferCatalog in the page Header Code Injection. Replace the current two offers (8000 to 15000 and 15000 to 40000 USD) with:
+Also update: the Service block's hasOfferCatalog in the page Header Code Injection. Full replacement block: implementation/jsonld/service-ai-governance.approved.json. The catalog it carries:
 
 ```json
 "hasOfferCatalog": {
@@ -163,13 +163,13 @@ Schema on all four pages: replace the CaseStudy block with Article (Batch 6.3).
   "dateModified": "[date of this edit]"
 }
 ```
-Repeat for /healthcare (about: "Salesforce healthcare AI governance") and /nonprofit (about: "Nonprofit Salesforce data migration"), keeping each page's live H1 as the headline.
+All four blocks (government, healthcare, nonprofit, and enterprise, which also carries a CaseStudy type) with the live H1s as headlines: implementation/jsonld/article-case-studies.draft.json. Fill the bracketed label and dates before pasting.
 **6.4 Posts:** one of Article or BlogPosting per post, not both (ISS-028).
 
 ## Batch 7. Metadata and copy packages (approved)
 - Titles and descriptions: implementation/metadata-drafts.md (homepage title with brand, ISS-004; shorter post suffix, ISS-030; /who-we-help rewrite, ISS-009).
 - Page copy: PAGE-IMPROVEMENTS.md packages for /, the assessment page, /scorecard (label sentence and the server-rendered "After your results" block), /about, /faqs.
-- /llms.txt (ISS-023): description line "Founder-led Salesforce consulting for nonprofit, government, and mission-driven organizations." -> "Architect-led Salesforce AI governance, data governance, and implementation for nonprofit, government, healthcare, and enterprise organizations." (FACT-01); Trailblazer link -> https://www.salesforce.com/trailblazer/jeremy-carmona; remove the personal-brand Instagram line (decision 4); add "Contact: contact@clearconciseconsulting.com".
+- /llms.txt (ISS-023): description line "Founder-led Salesforce consulting for nonprofit, government, and mission-driven organizations." -> "Architect-led Salesforce AI governance, data governance, and implementation for nonprofit, government, healthcare, and enterprise organizations." (FACT-01); Trailblazer link -> https://www.salesforce.com/trailblazer/jeremy-carmona; remove the personal-brand Instagram line (decision 4); add "Contact: contact@clearconciseconsulting.com"; replace the em dash in the closing paragraph. Full revised file: implementation/llms.approved.txt.
 - URL mapping (ISS-021): add `/blog/category/Career+Transition+Resources -> /resources/beginners-career-changers 301` in Settings > Advanced > URL Mappings.
 - Alt text (ISS-029), H1 fix on the scorecard page (ISS-034), three H1s on /ai-coe-practice-map reduced to one.
 
