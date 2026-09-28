@@ -31,6 +31,9 @@ Replace with: "Now booking new engagements · Response within 24 hours"
 Live: anchor text "gumroad.com/clearconciseconsulting" with href https://jeremycarmona.gumroad.com/
 Replace with: anchor text "jeremycarmona.gumroad.com" (href unchanged). Update the matching FAQPage answer text in the same edit.
 
+## Batch 1b. Link pass and hygiene session (added 2026-09-28; EV-050, EV-051)
+No approved strings beyond the checklist's own anchor text ("Common questions about working with CCC" for the /services link to /faqs) and the link text "Salesforce AI Data Readiness Assessment". Items: ISS-043, ISS-044, ISS-048 to ISS-052, ISS-021, and ISS-029 (widened). Where and in what order: implementation/squarespace-instructions.md section 0 addendum; mappings in implementation/redirects-and-indexing.md sections B and H. Status: DRAFT until the owner confirms the checklist items.
+
 ## Batch 2. Price ladder (decision A; ISS-006, ISS-038, ISS-041)
 
 **2.1 /services: the anecdote (EV-038).**

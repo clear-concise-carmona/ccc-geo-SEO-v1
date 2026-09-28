@@ -68,6 +68,7 @@ Anti-persona matches from the owner's audience document (hourly-rate shoppers, "
 - Comparison: 12 full weeks after the last change in a batch is live and confirmed indexed. Do not read results before the recrawl window has passed.
 - Log every concurrent change (blog publications, LinkedIn campaigns, Salesforce Ben articles, pricing edits) in evidence/change-log.csv so alternative explanations are visible. An increase after publication does not establish causation.
 - Low volume: report counts with the observation window, not percentages, for anything under about 30 events per period.
+- Owner-supplied hygiene baselines (checklist of 2026-09-25, EV-051): 131 images without alt text on 79 posts; 19 pages with more than one H1; 11 category archives in the sitemap; /home returning 200. The audit verified the last two and the crawled subset of the first two. For /home, read the canonical, not the status code: it already points at /.
 
 ## 6. Experiments for uncertain P2/P3 changes
 

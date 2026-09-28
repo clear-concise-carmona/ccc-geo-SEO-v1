@@ -251,6 +251,7 @@ Live structure (EV-038): H1 "Frequently Asked Questions"; FAQPage schema with 27
 - /faqs -> /services/salesforce-implementation (implementation price answer)
 - /faqs -> /blog/how-much-does-a-salesforce-implementation-cost-in-2026, anchor "implementation cost guide"
 - /blog/how-much-does-a-salesforce-implementation-cost-in-2026 -> /faqs, anchor "our published price ranges"
+- footer (site-wide), /services, and the assessment page -> /faqs (ISS-048): no crawled page links to /faqs today (F-21)
 
 **JSON-LD (deployed, EV-038):** FAQPage with 27 questions, live. Keep, but only for questions whose visible answers match the register; the pairs containing the $5,000 price and the client names are decided in canon (FACT-14 retired; FACT-22 career experience, not CCC clients) and wait only on string approval and the permission check for named organizations. Do not expect FAQ rich results: Google's documentation states the feature is shown only for well-known, authoritative government and health websites (checked 2026-09-27, EV-043). Validate on the live URL after edits.
 

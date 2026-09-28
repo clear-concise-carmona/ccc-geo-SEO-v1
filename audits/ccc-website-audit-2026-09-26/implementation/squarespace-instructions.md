@@ -14,6 +14,11 @@ Nothing below is published by this workspace. Each line names the backlog item, 
 8. **Held until canon is reconciled.** ISS-039 (AI CoE service ladder) and ISS-042 (remediation price rows): the owner updates Confluence or retires the content; no edit before that.
 9. **After publishing.** Validate each edited page's raw HTML in the Rich Results Test; re-run the bounded crawler on the core pages; record the next EV.
 
+Added 2026-09-28 (EV-050, EV-051), positioned in the order above:
+- Before step 1, or in the same editor session: the assessment link pass (ISS-043, P1, no facts involved) on the readiness checklist post, the agentic-readiness and Agentforce posts, /blog/headless-360-vs-agentforce, both assessment sections on /services/ai-governance, /scorecard, and /org-health, with the H1 change on the assessment page (ISS-044; one H1). The measurable-standard post already carries the link.
+- With step 1: the URL Mappings session (ISS-021 approved; ISS-049 two lines; ISS-051 two lines after the category decision; /home as an optional test; redirects-and-indexing.md section B), then remove the two client-side redirect scripts (ISS-049), fix the dead link on the measurable-standard post, change the body Heading 1 blocks on seven pages (ISS-050), and add the /faqs links (ISS-048: footer first, then /services and the assessment page).
+- Background, with step 7: the category merge (ISS-051) and alt text on the checklist per-post list plus /about and the nonprofit service page (ISS-029). ISS-052 waits on a referrer check.
+
 Source for control locations: the owner Squarespace operations document (EV-032). "Verified live" means the state was read from the site on 2026-09-27 (EV-038, EV-039, EV-043). Controls marked [VERIFY] were not confirmed in the account.
 
 | Issue | Change | Squarespace location | Notes |
@@ -39,6 +44,13 @@ Source for control locations: the owner Squarespace operations document (EV-032)
 | ISS-034 H1 typo | Fix "forNonprofits" | /services/salesforce-nonprofit-consulting page editor | Verified live. |
 | ISS-036 /home | Check canonical; remove from sitemap if it does not canonicalize | Squarespace support (sitemap is generated) | Verified live: 200; canonical not read. |
 | ISS-037 numeric H2 tiles | Metric-naming headings; show each tile once; "Since 2012" instead of "14 Years" | / and /about page editors (summary and number blocks) | Verified live. |
+| ISS-043 assessment link pass | Text link "Salesforce AI Data Readiness Assessment" in the body of seven pages | Post and page editors | Confirmed missing on the crawled pages (EV-038, EV-047); two posts not crawled. |
+| ISS-044 assessment H1 | Offer name first, hook second, one H1 | Assessment page editor | Verified live: hook-only H1. |
+| ISS-046 / ISS-049 retired URLs | Two URL mappings; fix one post link; remove both client-side scripts | Settings > Developer Tools > URL Mappings; Code Injection; blog post editor | Verified live: scripts on every page; both old URLs 404 at the server. |
+| ISS-048 /faqs links | Footer link plus two body links | Footer editor; /services and assessment page editors | Verified live: no inbound link on 60 crawled pages. |
+| ISS-050 double H1s | Body Heading 1 blocks to Heading 2 on seven pages | Page and post editors | Verified live on two pages; five not crawled. |
+| ISS-051 categories | Merge two pairs; two mappings; repoint the footer category link | Blog post categories; URL Mappings; footer editor | Owner decision on the surviving names first. |
+| ISS-052 unknown 404 sources | Referrer check, then map or leave | Search Console; URL Mappings | Both 404; origin unknown. |
 
 Resolved live, no action: ISS-002 (non-www redirects), ISS-003 (/cart noindex), ISS-010 (custom titles everywhere), ISS-013 (og:description current), ISS-014 (three mappings live), ISS-017 (Salesforce Ben title displayed).
 
