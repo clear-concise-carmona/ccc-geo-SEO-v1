@@ -1,0 +1,426 @@
+{
+ "url": "http://127.0.0.1:8765/c7ff5c433ce4.html",
+ "total_blocks_analyzed": 17,
+ "average_citability_score": 39.2,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 4,
+  "D": 6,
+  "F": 7
+ },
+ "top_5_citable": [
+  {
+   "heading": "Next Step",
+   "word_count": 129,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Use this checklist alongside the primary Trust Layer explainer to evaluate the real configuration and invocation pathway\u00e2\u0080\u0094not the demo. If you need a structured review of Salesforce data, access, automation,..."
+  },
+  {
+   "heading": "2. Map the Data Path Before Relying on Masking",
+   "word_count": 107,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Document where the prompt template is invoked, what data is added, which model processes it, and whether the model is inside or outside the Salesforce trust boundary. For supported direct..."
+  },
+  {
+   "heading": "Salesforce Trust Layer Explained: What Admins Need to Know",
+   "word_count": 91,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The security architecture that makes Agentforce enterprise-ready \"How do we know the AI won't leak customer data?\" That is the right question to ask before enabling Agentforce or another supported..."
+  },
+  {
+   "heading": "5. Configure Audit and Feedback Collection",
+   "word_count": 104,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Do not assume every interaction is automatically or permanently available for review. Salesforce requires audit and feedback collection and storage to be configured. Provision Data 360 and enable Einstein for..."
+  },
+  {
+   "heading": "Does data masking protect a prompt template invoked through Agentforce?",
+   "word_count": 36,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent action. The same template used directly can apply masking..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "What Administrators Should Document",
+   "word_count": 58,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Keep one implementation record for each production AI use case: Business purpose and accountable ownerFeature, prompt template, agent, and action versionsExecuting user or agent permission contextSalesforce and external data sourcesModel..."
+  },
+  {
+   "heading": "Production Approval Checklist",
+   "word_count": 72,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before enabling a use case, confirm: Executing permission context identifiedObject, field, record, and Data 360 access testedSensitive-data inventory completedExternal data pathways reviewed Model provider and trust boundary documentedDirect prompt-template masking..."
+  },
+  {
+   "heading": "4. Test Prompt Defense and Toxicity Controls",
+   "word_count": 99,
+   "total_score": 25,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 9,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prompt defense adds system policies intended to reduce jailbreaking, prompt injection, and unintended outputs. Salesforce notes that these policies can vary by generative AI feature and use case. Toxicity scoring..."
+  },
+  {
+   "heading": "6. Limit Agent Actions and Define Human Review",
+   "word_count": 72,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Trust Layer does not decide which actions an agent should be allowed to take. Administrators and business owners must define that boundary. Grant only the permissions and actions required..."
+  },
+  {
+   "heading": "Does the Trust Layer override Salesforce permissions?",
+   "word_count": 26,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Permission-aware retrieval uses the executing context's existing access. Excessive permissions remain excessive, so object, field, record, and Data 360 access must be reviewed before production."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Salesforce Trust Layer Explained: What Admins Need to Know",
+   "word_count": 91,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The security architecture that makes Agentforce enterprise-ready \"How do we know the AI won't leak customer data?\" That is the right question to ask before enabling Agentforce or another supported..."
+  },
+  {
+   "heading": "1. Verify the Permission Context",
+   "word_count": 85,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Secure data retrieval grounds supported prompts with Salesforce data that the executing user or running context can access. The Trust Layer does not repair an unsafe sharing model, excessive Permission..."
+  },
+  {
+   "heading": "2. Map the Data Path Before Relying on Masking",
+   "word_count": 107,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Document where the prompt template is invoked, what data is added, which model processes it, and whether the model is inside or outside the Salesforce trust boundary. For supported direct..."
+  },
+  {
+   "heading": "3. Confirm External-Model Handling",
+   "word_count": 87,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce's external model-provider agreements include zero-data-retention commitments. Data sent to those providers is not retained, viewed, or used for model training after the response is returned. Grounding and zero data..."
+  },
+  {
+   "heading": "4. Test Prompt Defense and Toxicity Controls",
+   "word_count": 99,
+   "total_score": 25,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 9,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prompt defense adds system policies intended to reduce jailbreaking, prompt injection, and unintended outputs. Salesforce notes that these policies can vary by generative AI feature and use case. Toxicity scoring..."
+  },
+  {
+   "heading": "5. Configure Audit and Feedback Collection",
+   "word_count": 104,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Do not assume every interaction is automatically or permanently available for review. Salesforce requires audit and feedback collection and storage to be configured. Provision Data 360 and enable Einstein for..."
+  },
+  {
+   "heading": "6. Limit Agent Actions and Define Human Review",
+   "word_count": 72,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Trust Layer does not decide which actions an agent should be allowed to take. Administrators and business owners must define that boundary. Grant only the permissions and actions required..."
+  },
+  {
+   "heading": "How to Test the Trust Layer Configuration",
+   "word_count": 133,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run the same test cases across users with different permissions and compare the results. Test areaEvidence to capturePass conditionRecord accessUser, record, prompt, and responseRestricted records do not surfaceField accessField permissions..."
+  },
+  {
+   "heading": "What Administrators Should Document",
+   "word_count": 58,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Keep one implementation record for each production AI use case: Business purpose and accountable ownerFeature, prompt template, agent, and action versionsExecuting user or agent permission contextSalesforce and external data sourcesModel..."
+  },
+  {
+   "heading": "Does data masking protect a prompt template invoked through Agentforce?",
+   "word_count": 36,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent action. The same template used directly can apply masking..."
+  },
+  {
+   "heading": "Does the Trust Layer override Salesforce permissions?",
+   "word_count": 26,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Permission-aware retrieval uses the executing context's existing access. Excessive permissions remain excessive, so object, field, record, and Data 360 access must be reviewed before production."
+  },
+  {
+   "heading": "Are all AI interactions automatically stored for audit?",
+   "word_count": 32,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. Audit and feedback collection and storage must be enabled and supported by the required Data 360 configuration. Administrators must also restrict access to the collected data and establish a..."
+  },
+  {
+   "heading": "What do prompt-defense guardrails protect against?",
+   "word_count": 33,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prompt defense adds system policies intended to reduce jailbreaking, prompt injection, and unintended or harmful outputs. The policies vary by feature and use case and must be tested with the..."
+  },
+  {
+   "heading": "Does the Trust Layer automatically govern third-party AI tools?",
+   "word_count": 34,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Not necessarily. A third-party tool can have its own data path, model provider, storage terms, and security controls. Verify whether the tool uses supported Salesforce Trust Layer architecture before applying..."
+  },
+  {
+   "heading": "Production Approval Checklist",
+   "word_count": 72,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before enabling a use case, confirm: Executing permission context identifiedObject, field, record, and Data 360 access testedSensitive-data inventory completedExternal data pathways reviewed Model provider and trust boundary documentedDirect prompt-template masking..."
+  },
+  {
+   "heading": "Official Salesforce References",
+   "word_count": 20,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Einstein Trust Layer overviewData masking limitations in AgentforceSet up Einstein generative AI audit and feedbackEinstein audit and feedback dataAudit Trail"
+  },
+  {
+   "heading": "Next Step",
+   "word_count": 129,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Use this checklist alongside the primary Trust Layer explainer to evaluate the real configuration and invocation pathway\u00e2\u0080\u0094not the demo. If you need a structured review of Salesforce data, access, automation,..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

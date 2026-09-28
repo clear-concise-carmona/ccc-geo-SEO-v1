@@ -1,0 +1,311 @@
+{
+ "url": "https://www.clearconciseconsulting.com/services",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "96306",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:31 GMT",
+  "Etag": "W/\"a4093eb8a17407f670418d26e1f37b31\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "OT7wyCHZ/luZyku1r",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Consulting Services | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/services",
+  "og:type": "website",
+  "og:description": "Salesforce architecture, AI governance, data quality, and training for nonprofits, healthcare, and government. Fixed scope, one architect, no bench.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579924d15e0196298a02d/1775597970834/og_services.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Consulting Services | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579924d15e0196298a02d/1775597970834/og_services.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/services",
+  "twitter:card": "summary",
+  "twitter:description": "Salesforce architecture, AI governance, data quality, and training for nonprofits, healthcare, and government. Fixed scope, one architect, no bench.",
+  "description": "Salesforce architecture, AI governance, data quality, and training for nonprofits, healthcare, and government. Fixed scope, one architect, no bench.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Consulting Services | Clear Concise Consulting",
+ "description": "Salesforce architecture, AI governance, data quality, and training for nonprofits, healthcare, and government. Fixed scope, one architect, no bench.",
+ "canonical": "https://www.clearconciseconsulting.com/services",
+ "h1_tags": [
+  "Your Salesforce org should work as hard as your team does."
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Your Salesforce org should work as hard as your team does."
+  },
+  {
+   "level": 2,
+   "text": "The problems nobody warned you about."
+  },
+  {
+   "level": 2,
+   "text": "One architect. Full lifecycle. Zero handoffs."
+  },
+  {
+   "level": 2,
+   "text": "More ways CCC can help."
+  },
+  {
+   "level": 2,
+   "text": "What happens next depends on what you do now."
+  },
+  {
+   "level": 2,
+   "text": "Here's how to get started."
+  },
+  {
+   "level": 3,
+   "text": "Here's how we fix it."
+  },
+  {
+   "level": 3,
+   "text": "Salesforce Implementation"
+  },
+  {
+   "level": 3,
+   "text": "AI Governance"
+  },
+  {
+   "level": 3,
+   "text": "Data Governance and Migration"
+  },
+  {
+   "level": 3,
+   "text": "Step 1: Take the Scorecard."
+  },
+  {
+   "level": 3,
+   "text": "Step 2: Book a 15-Minute Call."
+  },
+  {
+   "level": 3,
+   "text": "Step 3: Get a Clear Plan."
+  }
+ ],
+ "word_count": 921,
+ "text_content": "Salesforce Consulting Services | Clear Concise Consulting 0 Your Salesforce org should work as hard as your team does. CCC offers five Salesforce consulting services: implementation, AI governance, data governance and migration, training and documentation, and ongoing administration support. Every service is delivered by one architect with no handoffs. Book a Free Consultation Take the AI Readiness Scorecard The problems nobody warned you about. The external problem: Your Salesforce implementation is stalled, over budget, or producing data nobody trusts. Reports don't match reality. Integrations break silently. The sharing model was never designed. The internal problem: You're frustrated because you've already invested in Salesforce and it's not delivering the return you were promised. You're spending more time managing the platform than using it. The deeper issue: Organizations that serve communities, patients, and the public deserve technology that works the first time. You shouldn't have to pay twice for the same implementation because the first team rotated junior staff through your project. One architect. Full lifecycle. Zero handoffs. CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect who started at Environmental Defense Fund in 2012. The founding principle: the person who designs your system should be the same person who builds it, documents it, and trains your team on it. 13x Salesforce Certified including Application Architect, Data Architect, and Sharing and Visibility Architect. 30+ implementations across nonprofit, government, healthcare, and enterprise organizations. Published in Salesforce Ben on AI governance and data quality. 160+ students trained at NYU Tandon with an 80% job placement rate. Trusted by teams at USCIS, NYU, Environmental Defense Fund, UnitedHealth Group, and HRSA. Trusted by teams at: Here's how we fix it. Salesforce Implementation Architecture, configuration, and go-live. One person from scoping to handoff. The problem this solves: Implementations that stall at month four because the solutions architect left the project and the replacement needs three weeks to ramp up. At CCC, there is no replacement. The architect who scopes your project builds it, tests it, and writes the documentation. What you get: Data model design. Object and field configuration. Flow automation. User training. Complete documentation package. Post-launch support for 30 days. Proof: CCC supported a Salesforce Government Cloud implementation with documented security and delivery requirements. Timeline: 6-12 weeks depending on complexity. Book a Consultation AI Governance AI brings speed. It also brings risk. CCC adds the governance layer that keeps your automation predictable. The problem this solves: Organizations deploying Agentforce or Einstein without assessing whether their data quality, sharing model, and documentation can support it. A client deployed Agentforce on top of duplicate records. The AI gave customers two different balance answers. They disabled it after two weeks. Implementation cost: $30,000. The governance assessment that would have caught it: $8,000. What you get: Data quality audit. Sharing model review. AI readiness assessment (15 scored metrics). Governance framework with review cycles, ownership assignments, and human oversight. Documentation for board and leadership review. Proof: Published in Salesforce Ben: \"How Salesforce Admins Can Apply Data Governance to Einstein.\" Timeline: 2-4 week assessment. 4-8 week implementation. Book a Consultation Take the AI Readiness Scorecard Data Governance and Migration Clean data in, clean data out. CCC's data practice covers deduplication, field standardization, validation rules, and migration planning. The problem this solves: A client migrated 70,000 records without deduplication. The cleanup cost more than the original migration. What you get: Data quality assessment (10 metrics with SOQL queries). Source data deduplication. Field mapping and validation. Test loads reviewed by business users. Post-migration audit. AP Style data standardization. Governance rules that prevent the problems from recurring. Proof: CCC holds a Data Architect certification. Data governance has been the focus of every CCC implementation since founding. Timeline: 2-6 weeks depending on volume and complexity. Book a Consultation More ways CCC can help. Salesforce Administration: Ongoing admin support for orgs that don't need a full-time admin. System maintenance, user management, release updates, and issue resolution. Flexible scheduling: weekly, biweekly, or on-demand. Salesforce Administration Details Documentation: Technical documentation that non-technical stakeholders can read. Process guides, Flow documentation, data dictionaries, and admin runbooks. CCC handed off one implementation with 35 documentation assets. The client's new admin started the following Monday and never called back. Salesforce Documentation Details Training: Live instruction for Salesforce administrators and career changers. NYU Tandon partnership: 160+ students trained, 80% job placement rate. Covers admin fundamentals, certification prep, and practical org management. Salesforce Training Details Ad Hoc Support: On-demand troubleshooting and system improvements. No retainer required. Hourly or project-based. Ad Hoc Salesforce Support Details What happens next depends on what you do now. With the right architect: Your implementation ships in weeks, not months. Reports reflect reality. Leadership trusts the data. Your next admin can find the documentation on day one. AI features work because the data foundation was built correctly. Without one: The implementation takes 6 months and comes in over budget. The consulting firm rotates a junior developer onto your project in month three. Documentation is a slide deck nobody reads. The reports look wrong. The VP of Sales stops checking dashboards. Eighteen months later, someone suggests migrating to a different CRM. Here's how to get started. Step 1: Take the Scorecard. Answer 15 questions about your Salesforce environment. Get a personalized report in under 2 minutes. Step 2: Book a 15-Minute Call. We'll walk through your results and identify where CCC can make the biggest impact. Step 3: Get a Clear Plan. You'll receive a scoping document with timeline, deliverables, and fixed pricing. No surprises. Book a Call Take the Scorecard",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Free Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation#ongoing-administration",
+   "text": "Salesforce Administration Details"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training#documentation",
+   "text": "Salesforce Documentation Details"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training",
+   "text": "Salesforce Training Details"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-training#ad-hoc-support",
+   "text": "Ad Hoc Salesforce Support Details"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Book a Call"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the Scorecard"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://www.uscis.gov/",
+   "text": ""
+  },
+  {
+   "url": "https://engineering.nyu.edu/events/2022/02/23/nyu-tandon-digital-skills-certificates-webinar",
+   "text": ""
+  },
+  {
+   "url": "https://www.edf.org/",
+   "text": ""
+  },
+  {
+   "url": "https://www.uhc.com/",
+   "text": ""
+  },
+  {
+   "url": "https://www.hrsa.gov/",
+   "text": ""
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/5bbff638-f519-4f2d-b5ad-57b92cf0e3c3/USCIS_logo_English.svg.png",
+   "alt": "U.S. Department of Homeland Security emblem with eagle and shields, alongside the text \"U.S. Citizenship and Immigration Services\" in blue.",
+   "width": "1024",
+   "height": "308",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b488239c-ef8b-4b36-b604-1525e89260d7/NYU.png",
+   "alt": "NYU Tandon School of Engineering logo with torch icon",
+   "width": "1031",
+   "height": "160",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/8d8aae68-d2a1-492f-9b8b-f96f2d80dda7/Environmental_Defense_Fund_EDF_Logo.png",
+   "alt": "Logo of the Environmental Defense Fund featuring a stylized globe with blue, green, and light blue curved sections and the organization name in blue text.",
+   "width": "5000",
+   "height": "1372",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/df293c63-0269-4992-a469-f58a2039c527/Remove+background+project.png",
+   "alt": "United Healthcare logo with a stylized blue emblem and text.",
+   "width": "500",
+   "height": "281",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/e391a046-0819-451e-85a6-6d60e8f204a3/HRSA-Logo.png",
+   "alt": "Logo for the Health Resources & Services Administration (HRSA) with text in blue and red.",
+   "width": "240",
+   "height": "78",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Service",
+   "name": "Salesforce Consulting Services",
+   "description": "Salesforce implementation, AI governance, and data governance from a 13x certified architect. One person from scoping to handoff. No junior rotation. Experience across government, nonprofit, healthcare, and enterprise.",
+   "provider": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com"
+   },
+   "serviceType": "Salesforce Consulting",
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "url": "https://www.clearconciseconsulting.com/services"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,184 @@
+{
+  "url": "https://www.clearconciseconsulting.com/case-studies",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "63200",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:54 GMT",
+    "Etag": "W/\"3b82549aa453c69c8c167430792eae7e\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "ygyRFajf/UfzvUBRF",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce Case Studies | CCC | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/case-studies",
+    "og:type": "website",
+    "og:description": "Review selected Salesforce case studies covering implementation, data migration, governance, healthcare, government, nonprofit, and enterprise delivery.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579e16892561c57b44c91/1775598049440/og_case_studies.jpg?format=1500w",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "twitter:title": "Salesforce Case Studies | CCC | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579e16892561c57b44c91/1775598049440/og_case_studies.jpg?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/case-studies",
+    "twitter:card": "summary",
+    "twitter:description": "Review selected Salesforce case studies covering implementation, data migration, governance, healthcare, government, nonprofit, and enterprise delivery.",
+    "description": "Review selected Salesforce case studies covering implementation, data migration, governance, healthcare, government, nonprofit, and enterprise delivery.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce Case Studies | CCC | Clear Concise Consulting",
+  "description": "Review selected Salesforce case studies covering implementation, data migration, governance, healthcare, government, nonprofit, and enterprise delivery.",
+  "canonical": "https://www.clearconciseconsulting.com/case-studies",
+  "h1_tags": [
+    "Real projects. Real numbers. Zero handoffs."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "Real projects. Real numbers. Zero handoffs."
+    },
+    {
+      "level": 2,
+      "text": "Ready to see what CCC can do for your org?"
+    },
+    {
+      "level": 3,
+      "text": "6-month quoted timeline delivered in 8 weeks."
+    },
+    {
+      "level": 3,
+      "text": "$30,000 AI failure prevented with an $8,000 assessment."
+    },
+    {
+      "level": 3,
+      "text": "Quote-to-contract time cut by 40% across 30 regions."
+    },
+    {
+      "level": 3,
+      "text": "Pipeline inflated by 100x. Fixed in 3 weeks."
+    }
+  ],
+  "word_count": 233,
+  "text_content": "Salesforce Case Studies | CCC | Clear Concise Consulting 0 CASE STUDIES Real projects. Real numbers. Zero handoffs. Every CCC engagement follows the same model: one architect from scoping to documentation. These four projects show what that looks like in practice. Government 6-month quoted timeline delivered in 8 weeks. GovCloud implementation with FedRAMP compliance. Single architect. 35 documentation assets. The new admin never called back. 8 wks Timeline 35 Docs 0 Support calls 8-week GovCloud delivery › Healthcare $30,000 AI failure prevented with an $8,000 assessment. Agentforce deployed without data quality review. AI gave patients two different balances. Governance assessment caught 12,000 duplicates. 12K Duplicates $8K Assessment 0 Errors since $30K AI failure prevented › Enterprise Quote-to-contract time cut by 40% across 30 regions. Global CPQ and DocuSign implementation. Standardized business processes across 30+ regions. Replaced manual quote generation with automated workflows. 40% Faster quotes 30+ Regions 5 Integrations Quote-to-contract cut by 40% › Nonprofit Pipeline inflated by 100x. Fixed in 3 weeks. 70,000 records migrated without deduplication. Dashboard showed $4.2M when the real number was $42,000. Board made budget decisions on the wrong data. 70K+ Records 12K Duplicates 3 wks To fix Pipeline fixed in 3 weeks › Ready to see what CCC can do for your org? Take the Scorecard to see where you stand, or request a scoping call to discuss your project. Take the Scorecard Request a Scoping Call",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/case-studies/government",
+      "text": "Government6-month quoted timeline delivered in 8 weeks.GovCloud implementation with FedRAMP compliance. Single architect. 35 documentation assets. The new admin never called back.8 wksTimeline35Docs0Support calls8-week GovCloud delivery ›"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+      "text": "Healthcare$30,000 AI failure prevented with an $8,000 assessment.Agentforce deployed without data quality review. AI gave patients two different balances. Governance assessment caught 12,000 duplicates.12KDuplicates$8KAssessment0Errors since$30K AI failure prevented ›"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+      "text": "EnterpriseQuote-to-contract time cut by 40% across 30 regions.Global CPQ and DocuSign implementation. Standardized business processes across 30+ regions. Replaced manual quote generation with automated workflows.40%Faster quotes30+Regions5IntegrationsQuote-to-contract cut by 40% ›"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+      "text": "NonprofitPipeline inflated by 100x. Fixed in 3 weeks.70,000 records migrated without deduplication. Dashboard showed $4.2M when the real number was $42,000. Board made budget decisions on the wrong data.70K+Records12KDuplicates3 wksTo fixPipeline fixed in 3 weeks ›"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Request a Scoping Call"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

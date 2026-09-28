@@ -1,0 +1,239 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "54493",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:03 GMT",
+  "Etag": "W/\"54d1020e956007b415398b9117d23757\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "6JdoBCJO/PiLuIFZp",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "How Long Does a Salesforce Implementation Take? 6 to 16 Weeks | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+  "og:type": "article",
+  "og:description": "6-16 weeks with a solo architect. 4-6 months with a large firm. Week-by-week breakdown, timeline factors, and what adds delays.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69dceb130d7cda50fe2612bc/1776085779784/og_article_implementation_timeline.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "How Long Does a Salesforce Implementation Take? 6 to 16 Weeks | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69dceb130d7cda50fe2612bc/1776085779784/og_article_implementation_timeline.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+  "twitter:card": "summary",
+  "twitter:description": "6-16 weeks with a solo architect. 4-6 months with a large firm. Week-by-week breakdown, timeline factors, and what adds delays.",
+  "description": "6-16 weeks with a solo architect. 4-6 months with a large firm. Week-by-week breakdown, timeline factors, and what adds delays.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "How Long Does a Salesforce Implementation Take? 6 to 16 Weeks | Clear Concise Consulting",
+ "description": "6-16 weeks with a solo architect. 4-6 months with a large firm. Week-by-week breakdown, timeline factors, and what adds delays.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+ "h1_tags": [
+  "How Long Does a Salesforce Implementation Take?"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "How Long Does a Salesforce Implementation Take?"
+  },
+  {
+   "level": 2,
+   "text": "Why do large firms take longer?"
+  },
+  {
+   "level": 2,
+   "text": "What does a typical implementation timeline look like?"
+  },
+  {
+   "level": 2,
+   "text": "What factors extend the timeline?"
+  },
+  {
+   "level": 2,
+   "text": "Can an implementation be done in less than 6 weeks?"
+  },
+  {
+   "level": 2,
+   "text": "How do I know if my timeline estimate is realistic?"
+  },
+  {
+   "level": 2,
+   "text": "What does CCC's timeline include that others do not?"
+  },
+  {
+   "level": 2,
+   "text": "Data Standardization for Salesforce: What Journalism Taught Me About CRM Data"
+  },
+  {
+   "level": 2,
+   "text": "The Sandbox That Time Forgot: Why Your Test Environment Is Lying to You"
+  }
+ ],
+ "word_count": 1027,
+ "text_content": "How Long Does a Salesforce Implementation Take? 6 to 16 Weeks | Clear Concise Consulting 0 How Long Does a Salesforce Implementation Take? Salesforce Implementation Apr 14 Written By Jeremy Carmona Why do large firms take longer? A large firm assigns separate people to separate roles: a solutions architect designs the system, a technical lead translates that design into tasks, a developer builds it, a QA analyst tests it, a business analyst documents requirements, and a project manager coordinates all of them. Every handoff between roles introduces a delay. The developer waits for the architect's design document. The QA analyst waits for the developer to finish building. The business analyst rewrites requirements after the architect changes scope. A solo architect eliminates these handoffs. The same person who attends your discovery meeting is the one configuring objects, building Flows, migrating data, and writing documentation. There is no design document that needs to be \"translated\" into tasks because the person who designed it is the person building it. That compression is why CCC delivers in 8 weeks what many firms quote at 6 months. What does a typical implementation timeline look like? Here is an 8-week implementation broken into phases: Weeks 1-2: Discovery and architecture. Requirements gathering, data model design, security model design, automation strategy, and project plan. Deliverables: Project Overview, Data Dictionary (draft), Architecture Diagram. Weeks 3-5: Configuration and development. Object creation, field configuration, page layouts, Flow automation, validation rules, reports, and dashboards. The bulk of the build happens here. Week 6: Data migration. Data mapping, transformation, deduplication, and loading. Test loads in sandbox first, then production load. Week 7: User Acceptance Testing (UAT). The client team tests every feature against documented test scripts. Bugs are logged, prioritized, and fixed during this week. Week 8: Training and go-live. Admin training, end-user training, documentation handoff (admin runbook, user guides, Flow documentation), and production deployment. Post-launch support begins. What factors extend the timeline? Six things that push implementations past the estimated timeline: Data quality. Dirty source data is the number one timeline killer. If your legacy system has 50,000 records with inconsistent naming conventions, duplicate contacts, and missing fields, the cleanup work happens before migration. A clean dataset migrates in days. A dirty dataset takes weeks to standardize. Scope creep. Requirements that surface after the project starts. \"We also need a custom portal for volunteers\" is a different project than the one scoped. Fixed-price contracts with documented scope protect against this. Integration complexity. Each external system integration (payment processors, accounting software, marketing tools) adds 20-40 hours to the timeline. The work is not just connecting the systems. It is mapping fields, handling errors, testing data flow, and documenting the integration for the next admin. Stakeholder availability. If the people who approve requirements are unavailable for two weeks, the project pauses for two weeks. CCC sets a response SLA (48-hour turnaround on approvals) at project kickoff. Compliance requirements. FedRAMP, HIPAA, and GDPR add layers of documentation, access controls, and audit trail configuration. A GovCloud implementation with FedRAMP compliance documentation takes longer than a standard Sales Cloud deployment. Custom development. Any feature requiring Apex code takes longer than declarative configuration. Flows and formula fields can be built and tested in hours. Custom Apex classes require development, unit testing (75% code coverage minimum), and deployment through a release pipeline. Can an implementation be done in less than 6 weeks? Yes, under specific conditions: The scope is narrow. A single Cloud (Sales Cloud or Service Cloud) with under 25 users and no integrations. The data is clean. Fewer than 10,000 records, already in a structured format (CSV with consistent columns), with no deduplication needed. The client is responsive. Stakeholders are available for weekly meetings and provide feedback within 24-48 hours. No custom development. The entire build uses declarative tools (Flows, validation rules, formula fields, page layouts) with no Apex code. Under these conditions, a 4-week sprint is realistic. CCC has delivered implementations in as few as 3 weeks for organizations that met all four criteria. How do I know if my timeline estimate is realistic? Ask your implementation partner three questions: What percentage of the timeline is dedicated to data migration? If the answer is \"we'll handle it at the end,\" the timeline is unrealistic. Data migration is the phase most likely to cause delays, and it needs dedicated time. What happens when we find something that was not in the original scope? If there is no change request process, scope creep will silently extend the timeline. When do we start UAT? If UAT is scheduled for the last day of the project, there is no time to fix what the testing reveals. UAT should have its own dedicated week with buffer time for bug fixes. What does CCC's timeline include that others do not? Documentation. Most firms deliver a configured Salesforce org and call it done. CCC delivers the org plus 35+ documentation assets: admin runbook, data dictionary, Flow documentation, validation report, user guides for four audiences (executives, project managers, technical teams, end users), and an architecture overview. The documentation is not an afterthought added in the last week. It is built throughout the project because the person writing it is the person who built the system. The test: if your implementation partner's timeline does not include time for documentation, your admin will spend the first three months after go-live figuring out what was built and why. That is not a timeline problem. That is a handoff problem. Jeremy Carmona is a 13x certified Salesforce Architect and founder of Clear Concise Consulting. Take the free AI Readiness Scorecard at clearconciseconsulting.com/scorecard. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Data Standardization for Salesforce: What Journalism Taught Me About CRM Data Next Next The Sandbox That Time Forgot: Why Your Test Environment Is Lying to You",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Salesforce+Implementation",
+   "text": "Salesforce Implementation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-standardization-guide",
+   "text": "PreviousPreviousData Standardization for Salesforce: What Journalism Taught Me About CRM Data"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-sandbox-management",
+   "text": "NextNextThe Sandbox That Time Forgot: Why Your Test Environment Is Lying to You"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/69c7a074-0e1d-4bcb-b9d1-2f1cbfa3f645/og_article_implementation_timeline.jpg",
+   "alt": "",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "How Long Does a Salesforce Implementation Take? 6 to 16 Weeks | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+   "datePublished": "2026-04-14T09:10:02-0400",
+   "dateModified": "2026-07-19T05:39:32-0400",
+   "headline": "How Long Does a Salesforce Implementation Take?",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69dceb130d7cda50fe2612bc/1776085779784/og_article_implementation_timeline.jpg?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

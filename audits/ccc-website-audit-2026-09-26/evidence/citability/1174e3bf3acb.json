@@ -1,0 +1,18 @@
+{
+ "url": "http://127.0.0.1:8765/1174e3bf3acb.html",
+ "total_blocks_analyzed": 0,
+ "average_citability_score": 0,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 0,
+  "D": 0,
+  "F": 0
+ },
+ "top_5_citable": [],
+ "bottom_5_citable": [],
+ "all_blocks": [],
+ "source_url": "https://www.clearconciseconsulting.com/cart",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

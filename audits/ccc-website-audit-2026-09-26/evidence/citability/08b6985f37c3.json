@@ -1,0 +1,306 @@
+{
+ "url": "http://127.0.0.1:8765/08b6985f37c3.html",
+ "total_blocks_analyzed": 9,
+ "average_citability_score": 54.2,
+ "optimal_length_passages": 5,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 6,
+  "D": 2,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What's Next",
+   "word_count": 149,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The next article in this series covers Proportionality. Not every AI decision needs a committee. The trick is knowing which decisions need lighter governance and which decisions need heavier governance,..."
+  },
+  {
+   "heading": "What \"Named Owner\" Actually Means",
+   "word_count": 158,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "In CCC engagements, accountability is not a sentence in the policy document. It is a row in a table. Every AI deployment produces a one-page Accountability Map before it goes..."
+  },
+  {
+   "heading": "The Named-Owner Test",
+   "word_count": 110,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before any CCC engagement deploys AI in a client environment, we run a five-question test. If any answer is unclear, the deployment is not ready. If the AI takes a..."
+  },
+  {
+   "heading": "The Cost of Unowned AI",
+   "word_count": 134,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Unowned AI is not free AI. It is deferred-cost AI. The cost shows up in three places. The first: incident response time. Without a named owner, the first 30 minutes..."
+  },
+  {
+   "heading": "Accountability: Who Picks Up the Phone When the AI Is Wrong",
+   "word_count": 158,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 2
+   },
+   "preview": "A nonprofit board chair called me the morning after their AI fundraising tool sent 18,000 donors an appeal letter referencing the wrong campaign. The ask amount was correct. The campaign..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "The Principle",
+   "word_count": 83,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Accountability.Every AI deployment has a named human owner responsible for outcomes. AI does not make consequential decisions without human authorization. That sentence sounds obvious. It is the most violated principle..."
+  },
+  {
+   "heading": "What This Looks Like in Practice",
+   "word_count": 123,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For a nonprofit Agentforce deployment, the Accountability Map for a fundraising agent might read: ActionAuthorization LevelOwnerRead donor recordsPolicy-level (documented in Privacy Policy)Development DirectorDraft donor emailPolicy-level (with mandatory human review before..."
+  },
+  {
+   "heading": "Where Accountability Disappears",
+   "word_count": 142,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Three patterns show up in the field where ownership goes missing. The first: vendor accountability. The organization assumes the vendor owns the deployment. The vendor's contract says they own the..."
+  },
+  {
+   "heading": "The Authorization Gate",
+   "word_count": 186,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The second half of the principle deserves its own treatment: \"AI does not make consequential decisions without human authorization.\" This is where most deployments cut corners. The AI is given..."
+  },
+  {
+   "heading": "Accountability: Who Picks Up the Phone When the AI Is Wrong",
+   "word_count": 158,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 2
+   },
+   "preview": "A nonprofit board chair called me the morning after their AI fundraising tool sent 18,000 donors an appeal letter referencing the wrong campaign. The ask amount was correct. The campaign..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Accountability: Who Picks Up the Phone When the AI Is Wrong",
+   "word_count": 158,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 2
+   },
+   "preview": "A nonprofit board chair called me the morning after their AI fundraising tool sent 18,000 donors an appeal letter referencing the wrong campaign. The ask amount was correct. The campaign..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 83,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Accountability.Every AI deployment has a named human owner responsible for outcomes. AI does not make consequential decisions without human authorization. That sentence sounds obvious. It is the most violated principle..."
+  },
+  {
+   "heading": "What \"Named Owner\" Actually Means",
+   "word_count": 158,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "In CCC engagements, accountability is not a sentence in the policy document. It is a row in a table. Every AI deployment produces a one-page Accountability Map before it goes..."
+  },
+  {
+   "heading": "The Named-Owner Test",
+   "word_count": 110,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before any CCC engagement deploys AI in a client environment, we run a five-question test. If any answer is unclear, the deployment is not ready. If the AI takes a..."
+  },
+  {
+   "heading": "Where Accountability Disappears",
+   "word_count": 142,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Three patterns show up in the field where ownership goes missing. The first: vendor accountability. The organization assumes the vendor owns the deployment. The vendor's contract says they own the..."
+  },
+  {
+   "heading": "The Authorization Gate",
+   "word_count": 186,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The second half of the principle deserves its own treatment: \"AI does not make consequential decisions without human authorization.\" This is where most deployments cut corners. The AI is given..."
+  },
+  {
+   "heading": "What This Looks Like in Practice",
+   "word_count": 123,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For a nonprofit Agentforce deployment, the Accountability Map for a fundraising agent might read: ActionAuthorization LevelOwnerRead donor recordsPolicy-level (documented in Privacy Policy)Development DirectorDraft donor emailPolicy-level (with mandatory human review before..."
+  },
+  {
+   "heading": "The Cost of Unowned AI",
+   "word_count": 134,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Unowned AI is not free AI. It is deferred-cost AI. The cost shows up in three places. The first: incident response time. Without a named owner, the first 30 minutes..."
+  },
+  {
+   "heading": "What's Next",
+   "word_count": 149,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The next article in this series covers Proportionality. Not every AI decision needs a committee. The trick is knowing which decisions need lighter governance and which decisions need heavier governance,..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/accountability-named-human-owner-ai-deployment",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

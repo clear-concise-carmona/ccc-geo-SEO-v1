@@ -1,0 +1,381 @@
+{
+ "url": "http://127.0.0.1:8765/369827f8126f.html",
+ "total_blocks_analyzed": 14,
+ "average_citability_score": 42.2,
+ "optimal_length_passages": 2,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 4,
+  "D": 3,
+  "F": 6
+ },
+ "top_5_citable": [
+  {
+   "heading": "Next Steps",
+   "word_count": 189,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 13,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Audit your existing Engagement Studio programs. Count the steps. If any exceed 20, consider splitting. 2. Define one clear goal for each program you're running. 3. Check your suppression..."
+  },
+  {
+   "heading": "Common Mistakes and Fixes",
+   "word_count": 185,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Mistake 1: Too many branches If your canvas looks like a subway map, simplify. More than 4-5 branches means you're trying to handle too many personas in one program. Fix:Build..."
+  },
+  {
+   "heading": "The Resend Strategy (Use Sparingly)",
+   "word_count": 113,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Resending emails to non-openers works. But it works once. [Send Email: Original] \u00e2\u0086\u0093[Wait 3 days] \u00e2\u0086\u0093[Trigger: Email opened?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Continue to next step] \u00e2\u0094\u0082 \u00e2\u0094\u0094\u00e2\u0094\u0080 NO \u00e2\u0086\u0092 [Send..."
+  },
+  {
+   "heading": "Scoring Within Programs",
+   "word_count": 108,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Engagement Studio can adjust prospect scores. Use this to reflect engagement quality, not just engagement quantity. Opened any email in sequence | +5 Clicked case study link | +15 Clicked..."
+  },
+  {
+   "heading": "Reporting: What to Actually Measure",
+   "word_count": 144,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Engagement Studio reporting tab shows everything. Most of it doesn't matter. 1.Completion rate by path: What percentage finished the \"happy path\" vs. the \"no-action path\"? 2.Step-level drop-off: Where do..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Step 3: Handle the no-click path",
+   "word_count": 73,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "[Wait 5 days] \u00e2\u0086\u0093[Send Email: \"One thing you missed\"]Content: Single key insight from the webinarCTA: \"Get the full recording\" \u00e2\u0086\u0093[Trigger: Email opened?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Wait 2 days] \u00e2\u0094\u0082 \u00e2\u0086\u0093..."
+  },
+  {
+   "heading": "Step 4: Close the loop",
+   "word_count": 92,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Both paths should eventually lead to the same destination: a clear CTA to take the next step. [Send Email: \"Next steps\" or \"See how Company X\"] \u00e2\u0086\u0093[Trigger: Clicked demo link?]..."
+  },
+  {
+   "heading": "Timing Best Practices",
+   "word_count": 114,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Timing kills more Engagement Studio programs than content does. Between emails in a sequence: Less than 2 days feels aggressive. More than 14 days loses momentum. After a non-action (didn't..."
+  },
+  {
+   "heading": "Building Your First Program",
+   "word_count": 37,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Walk through a real example: a webinar follow-up sequence. Goal:Convert webinar registrants who didn't attend into demo requests. Entry:List = \"Webinar X Registrants Who Did Not Attend\" Suppression:List = \"Webinar..."
+  },
+  {
+   "heading": "Step 2: Send the first email",
+   "word_count": 76,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "[Wait 1 day] \u00e2\u0086\u0093[Send Email: \"Sorry we missed you\"]Content: Recording link + key takeawaysCTA: \"Watch the recording\" \u00e2\u0086\u0093[Trigger: Link clicked?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Add to list: \"Engaged Webinar Leads\"] \u00e2\u0094\u0082..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Pardot Engagement Studio: How to Build Drip Campaigns That Actually Convert",
+   "word_count": 125,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A step-by-step guide to automated nurture programs that don't annoy your prospects The first Engagement Studio program I built had 47 steps. Fifteen email sends. Eight different branches. It took..."
+  },
+  {
+   "heading": "The Basics: Actions, Triggers, and Rules",
+   "word_count": 119,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before building anything, understand the three components that make up every Engagement Studio program. \u00e2\u0080\u00a2 Add to list / Remove from list Triggersare prospect behaviors that control the path: \u00e2\u0080\u00a2..."
+  },
+  {
+   "heading": "Planning Before Building",
+   "word_count": 208,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 19,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Never open the Engagement Studio canvas without a written plan. Here's the minimum you need: 1. Define the single goal. Not \"nurture leads\" or \"engage prospects.\" What specific action do..."
+  },
+  {
+   "heading": "Building Your First Program",
+   "word_count": 37,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Walk through a real example: a webinar follow-up sequence. Goal:Convert webinar registrants who didn't attend into demo requests. Entry:List = \"Webinar X Registrants Who Did Not Attend\" Suppression:List = \"Webinar..."
+  },
+  {
+   "heading": "Step 2: Send the first email",
+   "word_count": 76,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "[Wait 1 day] \u00e2\u0086\u0093[Send Email: \"Sorry we missed you\"]Content: Recording link + key takeawaysCTA: \"Watch the recording\" \u00e2\u0086\u0093[Trigger: Link clicked?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Add to list: \"Engaged Webinar Leads\"] \u00e2\u0094\u0082..."
+  },
+  {
+   "heading": "Step 3: Handle the no-click path",
+   "word_count": 73,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "[Wait 5 days] \u00e2\u0086\u0093[Send Email: \"One thing you missed\"]Content: Single key insight from the webinarCTA: \"Get the full recording\" \u00e2\u0086\u0093[Trigger: Email opened?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Wait 2 days] \u00e2\u0094\u0082 \u00e2\u0086\u0093..."
+  },
+  {
+   "heading": "Step 4: Close the loop",
+   "word_count": 92,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Both paths should eventually lead to the same destination: a clear CTA to take the next step. [Send Email: \"Next steps\" or \"See how Company X\"] \u00e2\u0086\u0093[Trigger: Clicked demo link?]..."
+  },
+  {
+   "heading": "Timing Best Practices",
+   "word_count": 114,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Timing kills more Engagement Studio programs than content does. Between emails in a sequence: Less than 2 days feels aggressive. More than 14 days loses momentum. After a non-action (didn't..."
+  },
+  {
+   "heading": "The Resend Strategy (Use Sparingly)",
+   "word_count": 113,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Resending emails to non-openers works. But it works once. [Send Email: Original] \u00e2\u0086\u0093[Wait 3 days] \u00e2\u0086\u0093[Trigger: Email opened?] \u00e2\u0094\u009c\u00e2\u0094\u0080 YES \u00e2\u0086\u0092 [Continue to next step] \u00e2\u0094\u0082 \u00e2\u0094\u0094\u00e2\u0094\u0080 NO \u00e2\u0086\u0092 [Send..."
+  },
+  {
+   "heading": "Scoring Within Programs",
+   "word_count": 108,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Engagement Studio can adjust prospect scores. Use this to reflect engagement quality, not just engagement quantity. Opened any email in sequence | +5 Clicked case study link | +15 Clicked..."
+  },
+  {
+   "heading": "Reporting: What to Actually Measure",
+   "word_count": 144,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Engagement Studio reporting tab shows everything. Most of it doesn't matter. 1.Completion rate by path: What percentage finished the \"happy path\" vs. the \"no-action path\"? 2.Step-level drop-off: Where do..."
+  },
+  {
+   "heading": "Common Mistakes and Fixes",
+   "word_count": 185,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Mistake 1: Too many branches If your canvas looks like a subway map, simplify. More than 4-5 branches means you're trying to handle too many personas in one program. Fix:Build..."
+  },
+  {
+   "heading": "A Real-World Example",
+   "word_count": 148,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "One of my nonprofit clients needed to re-engage lapsed donors. They hadn't donated in 12+ months and weren't opening emails. Entry: Lapsed Donor list (no gift in 12 months, email..."
+  },
+  {
+   "heading": "Next Steps",
+   "word_count": 189,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 13,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Audit your existing Engagement Studio programs. Count the steps. If any exceed 20, consider splitting. 2. Define one clear goal for each program you're running. 3. Check your suppression..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/pardot-engagement-studio-drip-campaigns",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

@@ -1,0 +1,47 @@
+{
+ "evidence_id": "EV-005",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:02Z",
+ "query": "\"Jeremy Carmona\" Salesforce architect Clear Concise Consulting",
+ "links": [
+  {
+   "title": "Carmona | Salesforce Ben (author page)",
+   "url": "https://www.salesforceben.com/author/jeremy-carmona/"
+  },
+  {
+   "title": "Why I Stopped Saying 'I'm Self-Taught' on Salesforce Interviews | Medium",
+   "url": "https://medium.com/@jcarmona86/stopped-saying-self-taught-salesforce-interviews-21c1222a9a2c"
+  },
+  {
+   "title": "GitHub - clear-concise-carmona/clear-concise-carmona",
+   "url": "https://github.com/clear-concise-carmona/clear-concise-carmona"
+  },
+  {
+   "title": "Jeremy Carmona, Author at Salesforce Break",
+   "url": "https://salesforcebreak.com/author/cccjeremycarmona/"
+  },
+  {
+   "title": "From Journalism to Salesforce | Medium",
+   "url": "https://medium.com/@jcarmona86/from-journalism-to-salesforce-a-journey-of-frustration-breakthroughs-and-victories-596b46ab0b12"
+  },
+  {
+   "title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/about"
+  },
+  {
+   "title": "Salesforce Job Description Templates for Recruiters | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-job-description-templates"
+  },
+  {
+   "title": "Jeremy Carmona - AI Governance | Salesforce Application ... (LinkedIn)",
+   "url": "https://www.linkedin.com/in/jeremy-a-carmona/"
+  },
+  {
+   "title": "Jeremy Carmona (Gumroad)",
+   "url": "https://jeremycarmona.gumroad.com"
+  }
+ ],
+ "observations": [
+  "Snippets: former journalist turned Salesforce Application Architect; 13x certified; NYU instructor; founded CCC; specializes in AI governance, data quality, Flow, nonprofits; 14 years hands-on Salesforce experience starting 2012 at Environmental Defense Fund."
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:26 GMT",
+  "Etag": "W/\"7c7cdf66b9e440a4fe15e97d88672aba--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "aesSUo3X/qLUAGD9y",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Human Oversight in Salesforce AI: What \"Human-in-the-Loop\" Really Means | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+  "og:type": "article",
+  "og:description": "Human-in-the-loop is not a slide in a deck. It is a documented review gate, a named owner, and a kill switch. How to build human oversight into Salesforce AI.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a01099c2f83637c43adfcd9/1778452892910/ccc-may-2026-article-3-human-oversight-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Human Oversight in Salesforce AI: What \"Human-in-the-Loop\" Really Means | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a01099c2f83637c43adfcd9/1778452892910/ccc-may-2026-article-3-human-oversight-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+  "twitter:card": "summary",
+  "twitter:description": "Human-in-the-loop is not a slide in a deck. It is a documented review gate, a named owner, and a kill switch. How to build human oversight into Salesforce AI.",
+  "description": "Human-in-the-loop is not a slide in a deck. It is a documented review gate, a named owner, and a kill switch. How to build human oversight into Salesforce AI.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Human Oversight in Salesforce AI: What \"Human-in-the-Loop\" Really Means | Clear Concise Consulting",
+ "description": "Human-in-the-loop is not a slide in a deck. It is a documented review gate, a named owner, and a kill switch. How to build human oversight into Salesforce AI.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+ "h1_tags": [
+  "Human Oversight: The Difference Between AI and Autopilot"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Human Oversight: The Difference Between AI and Autopilot"
+  },
+  {
+   "level": 2,
+   "text": "The Principle"
+  },
+  {
+   "level": 2,
+   "text": "The Three Tiers"
+  },
+  {
+   "level": 2,
+   "text": "What \"Bounded Scope\" Looks Like in Salesforce"
+  },
+  {
+   "level": 2,
+   "text": "The Kill Switch"
+  },
+  {
+   "level": 2,
+   "text": "Where This Connects"
+  },
+  {
+   "level": 2,
+   "text": "Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce"
+  },
+  {
+   "level": 2,
+   "text": "Data First: The Principle Most Orgs Skip"
+  }
+ ],
+ "word_count": 1214,
+ "text_content": "Human Oversight in Salesforce AI: What \"Human-in-the-Loop\" Really Means | Clear Concise Consulting 0 Human Oversight: The Difference Between AI and Autopilot AI Governance May 11 Written By Jeremy Carmona \"Human-in-the-loop\" appears on every AI vendor pitch deck I have ever seen. Almost none of those vendors can define what it means in practice. I have asked the question in maybe forty vendor calls in the last year. The answers fall into three buckets. The first bucket is silence followed by \"we have human review built in\" with no further detail. The second is a vague reference to a confidence threshold below which a human is consulted. The third, rarest and most useful, is a specific named role with documented review criteria and an escalation path. The first two buckets are slides. The third is a control. This article is about the difference, and about how to build the third one inside a Salesforce org. The Principle Human Oversight. Every AI-assisted decision has a documented human review gate. Automated actions are bounded by explicit scope limits. That sentence is the second guiding principle of the CCC AI Center of Excellence . It is the operating answer to the question \"what does responsible AI deployment look like in practice?\" The principle has four parts. Each one matters. Documented. Not \"we have a process.\" Not \"the team knows what to do.\" A written document, version-controlled, that any new hire can read on day one and understand who reviews what. Human review gate. A specific person, named by role, with the authority to approve, reject, or modify the AI output before it acts. Not a Slack channel. Not \"the team.\" A role with a name on the org chart. Bounded by explicit scope limits. The AI is allowed to do these things. The AI is not allowed to do those things. The boundary is enforced at the platform level, not at the policy level. Permission Sets, Trust Layer config, Topic Classification. If any of those four parts are missing, \"human-in-the-loop\" is a slide, not a control. The Three Tiers Not every AI decision needs the same level of oversight. Trying to apply the same gate to every output is a fast way to kill adoption while still missing the high-risk decisions. CCC engagements use a three-tier oversight model. The tier is set during the Design Review checkpoint, before the AI feature is activated. Tier 1 (Read-only and informational). AI summaries of existing records, suggested next-best-action lists for human review, draft email content. The human reads, decides, acts. AI never modifies data without human action. Oversight is automatic at the action layer (the human has to click). Documentation is light: a one-paragraph use case description and a named owner. Tier 2 (Suggested action with confirmation gate). AI proposes a record update, a Flow trigger, an external callout. The human sees a confirmation dialog. The human approves or rejects. The AI executes only on approval. Oversight is enforced at the platform layer via a custom confirmation pattern in Lightning. Documentation includes the use case, the confirmation criteria, the approver role, and the escalation path. Tier 3 (Autonomous action with audit and kill switch). AI executes on its own, but every action is logged in the AI Decision Log. A named human owner reviews the log on a documented cadence (daily, weekly, depending on volume). A kill switch exists at the Permission Set level: revoke the integration user's permissions, agent stops. Documentation includes everything from Tier 2 plus the audit cadence, the kill switch procedure, and a 30-day post-launch governance review. Most pilot use cases I see should be Tier 1 or Tier 2. Vendors push for Tier 3 because that is what their demo shows. The CCC default is to start at the lowest viable tier and earn the right to move up. What \"Bounded Scope\" Looks Like in Salesforce Scope limits at the policy level are insufficient. \"The agent should only update Contact records\" written in a Word document does not stop an agent from running an UPDATE on Account records if the integration user has permission. The boundary has to live in the platform. Permission Set. Create an AI-specific Permission Set assigned only to the integration user. Grant CRUD access only to the objects in scope. Field-Level Security restricts which fields the agent can read or write. Trust Layer . Configure data masking for PII fields the agent should not see in logs. Toxicity monitoring on agent outputs. Topic Classification limits the agent to approved subject areas. Validation Rules. Fire on API insert, not just UI insert. Catch agent attempts to create records that violate business rules. Flow Entry Criteria. Account for agent context using $Api.Session_ID or integration user identity. Some Flows should run for humans but not for agents. Some should run for agents but not for humans. The entry criteria enforces the difference. These four mechanisms are the structural enforcement of the human oversight principle. Without them, the principle is aspirational. The Kill Switch Every Tier 3 deployment needs a documented kill switch. The kill switch is not the same as turning off Agentforce. Agentforce off is a vendor-level control. The CCC kill switch is org-level: revoke the integration user's Permission Set assignment. Agent loses access immediately. Other AI features in the org continue working. The action is reversible, surgical, and does not require a vendor support call. The kill switch procedure is one page. It documents who has authority to fire it, what triggers warrant firing it, the exact Setup path (Setup > Permission Set Assignments > integration user > Remove), the post-firing audit steps, and the conditions under which the agent can be reactivated. Every client engagement that includes a Tier 3 deployment includes a kill switch dry run before go-live. We fire it in sandbox. We confirm the agent stops. We confirm reactivation works. The runbook is signed off by the named owner before the agent is allowed to operate in production. This is the operational difference between AI and autopilot. Autopilot has no kill switch. AI has one, documented, tested, and never used in anger because the rest of the controls held. Where This Connects Human Oversight is the second of six guiding principles. The first (Data First) governs whether the AI is operating against trustworthy input. The second (Human Oversight) governs whether the AI's actions are bounded and auditable. The principles compound. An AI deployment with bad data and good oversight is still a problem. An AI deployment with good data and bad oversight is a different problem. Both have to be in place. The next article in this series covers Principle 3: Transparency. Publishing Wed May 13. Human-in-the-Loop AI Governance Einstein Trust Layer Agentforce Salesforce Human Oversight Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce Next Next Data First: The Principle Most Orgs Skip",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+   "text": "Trust Layer"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "governs"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Human-in-the-Loop",
+   "text": "Human-in-the-Loop"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Einstein+Trust+Layer",
+   "text": "Einstein Trust Layer"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Agentforce",
+   "text": "Agentforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Salesforce",
+   "text": "Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Human+Oversight",
+   "text": "Human Oversight"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-migration-checklist",
+   "text": "PreviousPreviousYour Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": "NextNextData First: The Principle Most Orgs Skip"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/99bf3df7-32c9-423a-8853-cd871b7ea511/ccc-may-2026-article-3-human-oversight-inline.png",
+   "alt": "Geometric minimal illustration in CCC navy and beige showing a decision flow with a human checkpoint gate between AI output and final action",
+   "width": "2528",
+   "height": "1696",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Human Oversight in Salesforce AI: What \"Human-in-the-Loop\" Really Means | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "datePublished": "2026-05-11T08:31:01-0400",
+   "dateModified": "2026-05-11T08:31:42-0400",
+   "headline": "Human Oversight: The Difference Between AI and Autopilot",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a01099c2f83637c43adfcd9/1778452892910/ccc-may-2026-article-3-human-oversight-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

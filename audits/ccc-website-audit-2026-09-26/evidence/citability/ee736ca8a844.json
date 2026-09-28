@@ -1,0 +1,681 @@
+{
+ "url": "http://127.0.0.1:8765/ee736ca8a844.html",
+ "total_blocks_analyzed": 34,
+ "average_citability_score": 53.9,
+ "optimal_length_passages": 4,
+ "grade_distribution": {
+  "A": 0,
+  "B": 6,
+  "C": 16,
+  "D": 11,
+  "F": 1
+ },
+ "top_5_citable": [
+  {
+   "heading": "How long does it take to learn Salesforce Administration?",
+   "word_count": 154,
+   "total_score": 78,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "For someone with no technical background, reaching job-ready competence in Salesforce Administration takes 8 to 12 weeks of focused study (15-20 hours per week). This covers the Salesforce Administrator certification..."
+  },
+  {
+   "heading": "Salesforce & Technical",
+   "word_count": 1062,
+   "total_score": 72,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 10,
+    "uniqueness_signals": 8
+   },
+   "preview": "What is a Salesforce data migration?A data migration moves records from an existing system (spreadsheets, legacy CRM, another database) into Salesforce. The process has five stages: data extraction from the..."
+  },
+  {
+   "heading": "Training & Certification",
+   "word_count": 159,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 25,
+    "structural_readability": 9,
+    "statistical_density": 11,
+    "uniqueness_signals": 3
+   },
+   "preview": "Do you offer Salesforce training?Yes. CCC's training program is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin..."
+  },
+  {
+   "heading": "How do I know if my Salesforce org needs an audit?",
+   "word_count": 148,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Five signs indicate an org audit is overdue. First, reports show data that leadership questions (\"these numbers can't be right\"). Second, automations fire at unexpected times or produce duplicate records...."
+  },
+  {
+   "heading": "Do you offer Salesforce training?",
+   "word_count": 54,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "Yes. CCC's training program is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin training, end user training,..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Do you offer nonprofit discounts?",
+   "word_count": 48,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's pricing already reflects the realities of nonprofit budgets. Registered nonprofits receive a discount on service rates. CCC also provides a limited number of pro bono hours annually to causes..."
+  },
+  {
+   "heading": "How do I get started?",
+   "word_count": 38,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 14,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Three steps. First: take the AI Readiness Scorecard (2 minutes, free). Second: book a 15-minute call to walk through your results. Third: receive a scoping document with timeline, deliverables, and..."
+  },
+  {
+   "heading": "What tools do you use for collaboration?",
+   "word_count": 36,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Zoom for meetings. Confluence for project documentation and knowledge bases. Google Drive for shared files. Salesforce sandboxes for development and testing. Jira for task tracking when needed. You'll have visibility..."
+  },
+  {
+   "heading": "Templates & Resources",
+   "word_count": 79,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What free resources do you offer?CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10..."
+  },
+  {
+   "heading": "What industries do you specialize in?",
+   "word_count": 37,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Government (FedRAMP, GovCloud, compliance documentation), nonprofit (NPSP, Nonprofit Cloud, donor management), healthcare (Health Cloud, HIPAA compliance), and enterprise (multi-Cloud, large user bases, complex integrations). CCC has worked with USCIS, Environmental..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "About CCC",
+   "word_count": 252,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What makes CCC different from a large consulting firm?Speed and accountability. At a large firm, a solutions architect designs the system, hands it to a technical lead, who hands it..."
+  },
+  {
+   "heading": "What makes CCC different from a large consulting firm?",
+   "word_count": 66,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 27,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Speed and accountability. At a large firm, a solutions architect designs the system, hands it to a technical lead, who hands it to a developer, who hands it to a..."
+  },
+  {
+   "heading": "Who is behind CCC?",
+   "word_count": 74,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect and former journalist. Jeremy works directly with every client. The person in your discovery meeting is the same person..."
+  },
+  {
+   "heading": "What does Clear Concise Consulting do?",
+   "word_count": 57,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC provides Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. The focus is practical: architecture that scales, documentation that non-technical leadership can read,..."
+  },
+  {
+   "heading": "What industries do you specialize in?",
+   "word_count": 37,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Government (FedRAMP, GovCloud, compliance documentation), nonprofit (NPSP, Nonprofit Cloud, donor management), healthcare (Health Cloud, HIPAA compliance), and enterprise (multi-Cloud, large user bases, complex integrations). CCC has worked with USCIS, Environmental..."
+  },
+  {
+   "heading": "Pricing & Process",
+   "word_count": 245,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "How much does a typical engagement cost?It depends on scope. A data quality assessment starts at $5,000. A full Salesforce implementation ranges from $15,000 to $75,000 depending on complexity. Training..."
+  },
+  {
+   "heading": "How much does a typical engagement cost?",
+   "word_count": 51,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "It depends on scope. A data quality assessment starts at $5,000. A full Salesforce implementation ranges from $15,000 to $75,000 depending on complexity. Training workshops range from $2,500 (half-day) to..."
+  },
+  {
+   "heading": "How are your services priced?",
+   "word_count": 52,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most projects are fixed-price based on a scoping document you approve before work begins. You know the total cost before the first configuration starts. For ongoing administration support, CCC offers..."
+  },
+  {
+   "heading": "Do you offer nonprofit discounts?",
+   "word_count": 48,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 11,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's pricing already reflects the realities of nonprofit budgets. Registered nonprofits receive a discount on service rates. CCC also provides a limited number of pro bono hours annually to causes..."
+  },
+  {
+   "heading": "Do you require a deposit?",
+   "word_count": 38,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "For project engagements, a 30-50% deposit is standard to secure scheduling and begin work. The remainder is invoiced at project milestones. For monthly retainers, invoicing is monthly in advance. For..."
+  },
+  {
+   "heading": "How do I get started?",
+   "word_count": 38,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 14,
+    "self_containment": 17,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Three steps. First: take the AI Readiness Scorecard (2 minutes, free). Second: book a 15-minute call to walk through your results. Third: receive a scoping document with timeline, deliverables, and..."
+  },
+  {
+   "heading": "Services & Implementation",
+   "word_count": 191,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 9,
+    "uniqueness_signals": 0
+   },
+   "preview": "What consulting services do you offer?CCC offers five core services: Salesforce Implementation (architecture, configuration, go-live), AI Governance (review cycles, ownership, human oversight), Data Governance and Migration (deduplication, standardization, migration planning),..."
+  },
+  {
+   "heading": "What consulting services do you offer?",
+   "word_count": 51,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 28,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers five core services: Salesforce Implementation (architecture, configuration, go-live), AI Governance (review cycles, ownership, human oversight), Data Governance and Migration (deduplication, standardization, migration planning), Training and Documentation (admin training,..."
+  },
+  {
+   "heading": "What is your typical project timeline?",
+   "word_count": 44,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "Small implementations (single Cloud, under 50 users): 6-8 weeks. Medium implementations (multi-Cloud, 50-200 users): 8-12 weeks. Complex implementations (GovCloud, multi-department, integrations): 10-16 weeks. Data quality assessments: 1-2 weeks. Data migrations:..."
+  },
+  {
+   "heading": "Do you provide post-project support?",
+   "word_count": 43,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every implementation includes 30 days of support after go-live: bug fixes, configuration adjustments, and questions handled by the same person who built the system. For ongoing support beyond 30 days,..."
+  },
+  {
+   "heading": "What tools do you use for collaboration?",
+   "word_count": 36,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Zoom for meetings. Confluence for project documentation and knowledge bases. Google Drive for shared files. Salesforce sandboxes for development and testing. Jira for task tracking when needed. You'll have visibility..."
+  },
+  {
+   "heading": "Salesforce & Technical",
+   "word_count": 1062,
+   "total_score": 72,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 10,
+    "uniqueness_signals": 8
+   },
+   "preview": "What is a Salesforce data migration?A data migration moves records from an existing system (spreadsheets, legacy CRM, another database) into Salesforce. The process has five stages: data extraction from the..."
+  },
+  {
+   "heading": "What is a Salesforce data migration?",
+   "word_count": 132,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A data migration moves records from an existing system (spreadsheets, legacy CRM, another database) into Salesforce. The process has five stages: data extraction from the source system, field mapping (matching..."
+  },
+  {
+   "heading": "How do I know if my Salesforce org needs an audit?",
+   "word_count": 148,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Five signs indicate an org audit is overdue. First, reports show data that leadership questions (\"these numbers can't be right\"). Second, automations fire at unexpected times or produce duplicate records...."
+  },
+  {
+   "heading": "What is the Salesforce Trust Layer and why does it matter for AI?",
+   "word_count": 215,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 5
+   },
+   "preview": "TheSalesforce Trust Layeris a set of security controls that sit between Salesforce data and external AI models. When Einstein, Copilot, or Agentforce sends data to an LLM for processing, the..."
+  },
+  {
+   "heading": "When should I use Flow vs. Apex for AI agent triggers?",
+   "word_count": 215,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is a design decision that depends on complexity, volume, and maintenance requirements. Use Flow when: the automation involves standard CRUD operations (create, read, update, delete), the logic has fewer..."
+  },
+  {
+   "heading": "What should I include in a Salesforce RFP for a consultant?",
+   "word_count": 163,
+   "total_score": 64,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 6,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "A complete Salesforce RFP should cover eight areas: current state (what systems you use today, how many users, what works and what doesn't), desired outcomes (what \"done\" looks like in..."
+  },
+  {
+   "heading": "How long does it take to learn Salesforce Administration?",
+   "word_count": 154,
+   "total_score": 78,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "For someone with no technical background, reaching job-ready competence in Salesforce Administration takes 8 to 12 weeks of focused study (15-20 hours per week). This covers the Salesforce Administrator certification..."
+  },
+  {
+   "heading": "Training & Certification",
+   "word_count": 159,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 25,
+    "structural_readability": 9,
+    "statistical_density": 11,
+    "uniqueness_signals": 3
+   },
+   "preview": "Do you offer Salesforce training?Yes. CCC's training program is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin..."
+  },
+  {
+   "heading": "Do you offer Salesforce training?",
+   "word_count": 54,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 8,
+    "uniqueness_signals": 3
+   },
+   "preview": "Yes. CCC's training program is built from 160+ students taught at NYU Tandon School of Engineering with an 80% job placement rate. Training options include admin training, end user training,..."
+  },
+  {
+   "heading": "Can you help me prepare for Salesforce certifications?",
+   "word_count": 43,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC's certification prep covers every exam objective for the Salesforce Administrator certification: data management, security, automation, customization, reports, and analytics. The program includes a structured study plan, exam guide..."
+  },
+  {
+   "heading": "Do I need technical experience to learn Salesforce?",
+   "word_count": 46,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "No. CCC's training is designed for people who weren't born speaking tech. Career changers, non-technical staff assigned to Salesforce roles, and teams with low user adoption are the most common..."
+  },
+  {
+   "heading": "Templates & Resources",
+   "word_count": 79,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What free resources do you offer?CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10..."
+  },
+  {
+   "heading": "What free resources do you offer?",
+   "word_count": 40,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC publishes free Salesforce guides, screening templates, and governance checklists on the blog. The recruiter series (10 free guides) and the org health series (10 free guides with companion templates)..."
+  },
+  {
+   "heading": "Do you sell digital products?",
+   "word_count": 31,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. Premium templates, governance kits, and training resources are available on Gumroad atgumroad.com/clearconciseconsulting. Categories include Salesforce Architecture, AI Governance, Training and Career, and Nonprofit Tools. Every paid resource includes lifetime..."
+  },
+  {
+   "heading": "Logistics",
+   "word_count": 172,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Do you work with organizations outside New York?Yes. CCC works remotely with organizations across the US. Past clients include teams in New York, Washington DC, and distributed organizations with staff..."
+  },
+  {
+   "heading": "Do you work with organizations outside New York?",
+   "word_count": 45,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC works remotely with organizations across the US. Past clients include teams in New York, Washington DC, and distributed organizations with staff in multiple states. Most work is done..."
+  },
+  {
+   "heading": "How do you handle confidentiality?",
+   "word_count": 38,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC signs mutual non-disclosure agreements and follows best practices for access control. All subcontractors are bound by confidentiality agreements. CCC never shares client data with third parties. Separate sandboxes and..."
+  },
+  {
+   "heading": "What if I'm not sure what I need?",
+   "word_count": 42,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Start with the scorecard. It takes 2 minutes and gives you a clear picture of where your org stands across five categories. From there, we can have an informed conversation..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/faqs",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

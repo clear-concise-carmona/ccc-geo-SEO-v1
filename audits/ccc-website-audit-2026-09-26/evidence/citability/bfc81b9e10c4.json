@@ -1,0 +1,291 @@
+{
+ "url": "http://127.0.0.1:8765/bfc81b9e10c4.html",
+ "total_blocks_analyzed": 8,
+ "average_citability_score": 41.0,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 4,
+  "F": 2
+ },
+ "top_5_citable": [
+  {
+   "heading": "One architect. Full lifecycle. Zero handoffs.",
+   "word_count": 97,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect who started at Environmental Defense Fund in 2012. The founding principle: the person who designs your system should be..."
+  },
+  {
+   "heading": "What happens next depends on what you do now.",
+   "word_count": 89,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "With the right architect:Your implementation ships in weeks, not months. Reports reflect reality. Leadership trusts the data. Your next admin can find the documentation on day one. AI features work..."
+  },
+  {
+   "heading": "The problems nobody warned you about.",
+   "word_count": 93,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The external problem:Your Salesforce implementation is stalled, over budget, or producing data nobody trusts. Reports don't match reality. Integrations break silently. The sharing model was never designed. The internal problem:You're..."
+  },
+  {
+   "heading": "Your Salesforce org should work as hard as your team does.",
+   "word_count": 30,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers five Salesforce consulting services: implementation, AI governance, data governance and migration, training and documentation, and ongoing administration support. Every service is delivered by one architect with no handoffs."
+  },
+  {
+   "heading": "More ways CCC can help.",
+   "word_count": 114,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Administration:Ongoing admin support for orgs that don't need a full-time admin. System maintenance, user management, release updates, and issue resolution. Flexible scheduling: weekly, biweekly, or on-demand.Salesforce Administration Details Documentation:Technical..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Data Governance and Migration",
+   "word_count": 98,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clean data in, clean data out. CCC's data practice covers deduplication, field standardization, validation rules, and migration planning. The problem this solves:A client migrated 70,000 records without deduplication. The cleanup..."
+  },
+  {
+   "heading": "AI Governance",
+   "word_count": 122,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI brings speed. It also brings risk. CCC adds the governance layer that keeps your automation predictable. The problem this solves:Organizations deploying Agentforce or Einstein without assessing whether their data..."
+  },
+  {
+   "heading": "Salesforce Implementation",
+   "word_count": 94,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Architecture, configuration, and go-live. One person from scoping to handoff. The problem this solves:Implementations that stall at month four because the solutions architect left the project and the replacement needs..."
+  },
+  {
+   "heading": "More ways CCC can help.",
+   "word_count": 114,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Administration:Ongoing admin support for orgs that don't need a full-time admin. System maintenance, user management, release updates, and issue resolution. Flexible scheduling: weekly, biweekly, or on-demand.Salesforce Administration Details Documentation:Technical..."
+  },
+  {
+   "heading": "Your Salesforce org should work as hard as your team does.",
+   "word_count": 30,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers five Salesforce consulting services: implementation, AI governance, data governance and migration, training and documentation, and ongoing administration support. Every service is delivered by one architect with no handoffs."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Your Salesforce org should work as hard as your team does.",
+   "word_count": 30,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers five Salesforce consulting services: implementation, AI governance, data governance and migration, training and documentation, and ongoing administration support. Every service is delivered by one architect with no handoffs."
+  },
+  {
+   "heading": "The problems nobody warned you about.",
+   "word_count": 93,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The external problem:Your Salesforce implementation is stalled, over budget, or producing data nobody trusts. Reports don't match reality. Integrations break silently. The sharing model was never designed. The internal problem:You're..."
+  },
+  {
+   "heading": "One architect. Full lifecycle. Zero handoffs.",
+   "word_count": 97,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC was founded by Jeremy Carmona, a 13x certified Salesforce Architect who started at Environmental Defense Fund in 2012. The founding principle: the person who designs your system should be..."
+  },
+  {
+   "heading": "Salesforce Implementation",
+   "word_count": 94,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Architecture, configuration, and go-live. One person from scoping to handoff. The problem this solves:Implementations that stall at month four because the solutions architect left the project and the replacement needs..."
+  },
+  {
+   "heading": "AI Governance",
+   "word_count": 122,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 6,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI brings speed. It also brings risk. CCC adds the governance layer that keeps your automation predictable. The problem this solves:Organizations deploying Agentforce or Einstein without assessing whether their data..."
+  },
+  {
+   "heading": "Data Governance and Migration",
+   "word_count": 98,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clean data in, clean data out. CCC's data practice covers deduplication, field standardization, validation rules, and migration planning. The problem this solves:A client migrated 70,000 records without deduplication. The cleanup..."
+  },
+  {
+   "heading": "More ways CCC can help.",
+   "word_count": 114,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Administration:Ongoing admin support for orgs that don't need a full-time admin. System maintenance, user management, release updates, and issue resolution. Flexible scheduling: weekly, biweekly, or on-demand.Salesforce Administration Details Documentation:Technical..."
+  },
+  {
+   "heading": "What happens next depends on what you do now.",
+   "word_count": 89,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "With the right architect:Your implementation ships in weeks, not months. Reports reflect reality. Leadership trusts the data. Your next admin can find the documentation on day one. AI features work..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/services",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

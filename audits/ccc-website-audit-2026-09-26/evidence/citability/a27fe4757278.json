@@ -1,0 +1,246 @@
+{
+ "url": "http://127.0.0.1:8765/a27fe4757278.html",
+ "total_blocks_analyzed": 5,
+ "average_citability_score": 37.6,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 1,
+  "D": 1,
+  "F": 3
+ },
+ "top_5_citable": [
+  {
+   "heading": "Nonprofit",
+   "word_count": 73,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:You need enterprise-quality Salesforce tools on a nonprofit budget. Your donor data is messy, your NPSP is misconfigured, and you're hearing about Nonprofit Cloud without knowing whether to migrate..."
+  },
+  {
+   "heading": "Enterprise",
+   "word_count": 82,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Your problem:Multiple Clouds, hundreds of users, custom integrations, and architectural decisions that need to scale. You've been burned by a consulting firm that staffed your project with junior developers after..."
+  },
+  {
+   "heading": "Healthcare",
+   "word_count": 74,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Patient data integrity isn't optional. HIPAA compliance adds a layer of complexity to every Salesforce decision. You need an architect who doesn't treat healthcare data like commercial CRM data...."
+  },
+  {
+   "heading": "Who We Work With",
+   "word_count": 29,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC works with organizations where Salesforce is critical infrastructure and the cost of getting it wrong shows up in compliance exposure, lost funding, or decisions made on bad data."
+  },
+  {
+   "heading": "Government",
+   "word_count": 67,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Federal compliance requirements, FedRAMP, GovCloud, and documentation standards that leave zero room for ambiguity. You need an architect who understands security clearance workflows, approval chains, and the pace of..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Government",
+   "word_count": 67,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Federal compliance requirements, FedRAMP, GovCloud, and documentation standards that leave zero room for ambiguity. You need an architect who understands security clearance workflows, approval chains, and the pace of..."
+  },
+  {
+   "heading": "Who We Work With",
+   "word_count": 29,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC works with organizations where Salesforce is critical infrastructure and the cost of getting it wrong shows up in compliance exposure, lost funding, or decisions made on bad data."
+  },
+  {
+   "heading": "Healthcare",
+   "word_count": 74,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Patient data integrity isn't optional. HIPAA compliance adds a layer of complexity to every Salesforce decision. You need an architect who doesn't treat healthcare data like commercial CRM data...."
+  },
+  {
+   "heading": "Enterprise",
+   "word_count": 82,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Your problem:Multiple Clouds, hundreds of users, custom integrations, and architectural decisions that need to scale. You've been burned by a consulting firm that staffed your project with junior developers after..."
+  },
+  {
+   "heading": "Nonprofit",
+   "word_count": 73,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:You need enterprise-quality Salesforce tools on a nonprofit budget. Your donor data is messy, your NPSP is misconfigured, and you're hearing about Nonprofit Cloud without knowing whether to migrate..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Who We Work With",
+   "word_count": 29,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC works with organizations where Salesforce is critical infrastructure and the cost of getting it wrong shows up in compliance exposure, lost funding, or decisions made on bad data."
+  },
+  {
+   "heading": "Government",
+   "word_count": 67,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Federal compliance requirements, FedRAMP, GovCloud, and documentation standards that leave zero room for ambiguity. You need an architect who understands security clearance workflows, approval chains, and the pace of..."
+  },
+  {
+   "heading": "Nonprofit",
+   "word_count": 73,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:You need enterprise-quality Salesforce tools on a nonprofit budget. Your donor data is messy, your NPSP is misconfigured, and you're hearing about Nonprofit Cloud without knowing whether to migrate..."
+  },
+  {
+   "heading": "Healthcare",
+   "word_count": 74,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your problem:Patient data integrity isn't optional. HIPAA compliance adds a layer of complexity to every Salesforce decision. You need an architect who doesn't treat healthcare data like commercial CRM data...."
+  },
+  {
+   "heading": "Enterprise",
+   "word_count": 82,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Your problem:Multiple Clouds, hundreds of users, custom integrations, and architectural decisions that need to scale. You've been burned by a consulting firm that staffed your project with junior developers after..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/who-we-help",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

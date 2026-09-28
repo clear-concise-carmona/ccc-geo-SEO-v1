@@ -1,0 +1,276 @@
+{
+ "url": "http://127.0.0.1:8765/cceb9466d2c6.html",
+ "total_blocks_analyzed": 7,
+ "average_citability_score": 60.3,
+ "optimal_length_passages": 2,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 6,
+  "D": 0,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What to Do This Week",
+   "word_count": 187,
+   "total_score": 68,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you are reading this and your org has an Agentforce pilot scheduled in the next 90 days, run the 10-metric audit before the pilot starts. Two hours. Free. Honest..."
+  },
+  {
+   "heading": "What \"Data Quality\" Actually Means",
+   "word_count": 185,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "In CCC engagements, Data Quality is not a vibe. It is a 10-metric audit with a numerical baseline. Here are the 10 metrics. Each is scored 0-10. Sum out of..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 122,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Data First.No AI feature is activated untildata qualityis assessed. Clean data is a prerequisite, not a parallel workstream. That sentence has done real work in client engagements. It is the..."
+  },
+  {
+   "heading": "Why This Cannot Be Parallel Work",
+   "word_count": 156,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most clients want to run data quality work in parallel with AI deployment. The argument is reasonable: \"We're already paying for the engagement, let's get value while the cleanup happens.\"..."
+  },
+  {
+   "heading": "The Pattern Across 30 Assessments",
+   "word_count": 158,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 20,
+    "structural_readability": 9,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "That is not a typo. Most Salesforce orgs run AI features on top of a data quality baseline that is below the threshold I would consider safe for advisory work...."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Data First: The Principle Most Orgs Skip",
+   "word_count": 195,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's Data First principle illustrated as a four-layer stack. The Data Layer sits at the foundation in navy with structured data icons. Integration, Logic, and AI Model layers build upward..."
+  },
+  {
+   "heading": "What the Fixes Look Like",
+   "word_count": 221,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "The fixes are not exciting. That is the point. Phone format standardization.A Flow on the Contact and Lead objects that runs on Before Save, normalizes formats to a single pattern..."
+  },
+  {
+   "heading": "The Pattern Across 30 Assessments",
+   "word_count": 158,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 20,
+    "structural_readability": 9,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "That is not a typo. Most Salesforce orgs run AI features on top of a data quality baseline that is below the threshold I would consider safe for advisory work...."
+  },
+  {
+   "heading": "Why This Cannot Be Parallel Work",
+   "word_count": 156,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most clients want to run data quality work in parallel with AI deployment. The argument is reasonable: \"We're already paying for the engagement, let's get value while the cleanup happens.\"..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 122,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Data First.No AI feature is activated untildata qualityis assessed. Clean data is a prerequisite, not a parallel workstream. That sentence has done real work in client engagements. It is the..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Data First: The Principle Most Orgs Skip",
+   "word_count": 195,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC's Data First principle illustrated as a four-layer stack. The Data Layer sits at the foundation in navy with structured data icons. Integration, Logic, and AI Model layers build upward..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 122,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Data First.No AI feature is activated untildata qualityis assessed. Clean data is a prerequisite, not a parallel workstream. That sentence has done real work in client engagements. It is the..."
+  },
+  {
+   "heading": "What \"Data Quality\" Actually Means",
+   "word_count": 185,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "In CCC engagements, Data Quality is not a vibe. It is a 10-metric audit with a numerical baseline. Here are the 10 metrics. Each is scored 0-10. Sum out of..."
+  },
+  {
+   "heading": "The Pattern Across 30 Assessments",
+   "word_count": 158,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 20,
+    "structural_readability": 9,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "That is not a typo. Most Salesforce orgs run AI features on top of a data quality baseline that is below the threshold I would consider safe for advisory work...."
+  },
+  {
+   "heading": "What the Fixes Look Like",
+   "word_count": 221,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 6,
+    "statistical_density": 3,
+    "uniqueness_signals": 2
+   },
+   "preview": "The fixes are not exciting. That is the point. Phone format standardization.A Flow on the Contact and Lead objects that runs on Before Save, normalizes formats to a single pattern..."
+  },
+  {
+   "heading": "Why This Cannot Be Parallel Work",
+   "word_count": 156,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most clients want to run data quality work in parallel with AI deployment. The argument is reasonable: \"We're already paying for the engagement, let's get value while the cleanup happens.\"..."
+  },
+  {
+   "heading": "What to Do This Week",
+   "word_count": 187,
+   "total_score": 68,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 13,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you are reading this and your org has an Agentforce pilot scheduled in the next 90 days, run the 10-metric audit before the pilot starts. Two hours. Free. Honest..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

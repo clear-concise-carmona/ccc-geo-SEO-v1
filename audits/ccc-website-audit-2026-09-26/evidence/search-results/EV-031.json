@@ -1,0 +1,24 @@
+{
+ "evidence_id": "EV-031",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:11Z",
+ "query": "\"clearconciseconsulting.com\" -site:clearconciseconsulting.com nonprofit consultant list OR directory OR mention",
+ "links": [
+  {
+   "title": "GitHub - clear-concise-carmona/clear-concise-carmona",
+   "url": "https://github.com/clear-concise-carmona/clear-concise-carmona"
+  },
+  {
+   "title": "The Nonprofit Salesforce Toolkit | Medium",
+   "url": "https://medium.com/@jcarmona86/introduction-why-tools-matter-in-nonprofit-consulting-b357ca63ff04"
+  },
+  {
+   "title": "Finding Consultants for Your Nonprofit's Salesforce Needs | Salesforce Ben",
+   "url": "https://www.salesforceben.com/finding-consultants-for-your-nonprofits-salesforce-needs/"
+  }
+ ],
+ "observations": [
+  "Snippet (source page not attributable from results): certifications include Application Architect, Data Architecture and Management Designer, Sharing and Visibility Designer, Nonprofit Cloud Consultant, 'and 9 others'.",
+  "No third-party directory listing naming CCC surfaced."
+ ]
+}

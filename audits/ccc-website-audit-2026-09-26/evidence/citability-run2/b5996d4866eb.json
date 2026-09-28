@@ -1,0 +1,246 @@
+{
+  "url": "http://127.0.0.1:8766/b5996d4866eb.html",
+  "total_blocks_analyzed": 5,
+  "average_citability_score": 50.6,
+  "optimal_length_passages": 0,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 3,
+    "D": 2,
+    "F": 0
+  },
+  "top_5_citable": [
+    {
+      "heading": "What CCC Did",
+      "word_count": 234,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 16,
+        "structural_readability": 16,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran the AI Readiness Scorecard across five categories: Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. The organization scored 38 out of 100. Governance Readiness was..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 56,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Agentforce without a data quality review or sharing model audit. The AI gave patients two different account balances because it pulled from duplicate records...."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 180,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Salesforce Agentforce across their patient services team. The goal was to speed up case resolution by giving AI agents access to patient account data,..."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 81,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 3,
+        "uniqueness_signals": 2
+      },
+      "preview": "Industry: Healthcare (National Health Services Provider) Platform: Salesforce with Agentforce (AI) Scope: AI readiness assessment, data quality audit, sharing model redesign, and governance framework Waste Prevented: $30,000 (failed Agentforce deployment)..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 84,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCAI Readiness Score38/10079/100Duplicate Account records12,000 undetectedIdentified and mergedDuplicates with active patient cases3,400Resolved with business user validationPatient billing accuracyTwo different balances per patientZero patient errors since fixPHI field-level securityAI..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "At a Glance",
+      "word_count": 81,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 3,
+        "uniqueness_signals": 2
+      },
+      "preview": "Industry: Healthcare (National Health Services Provider) Platform: Salesforce with Agentforce (AI) Scope: AI readiness assessment, data quality audit, sharing model redesign, and governance framework Waste Prevented: $30,000 (failed Agentforce deployment)..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 84,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCAI Readiness Score38/10079/100Duplicate Account records12,000 undetectedIdentified and mergedDuplicates with active patient cases3,400Resolved with business user validationPatient billing accuracyTwo different balances per patientZero patient errors since fixPHI field-level securityAI..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 180,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Salesforce Agentforce across their patient services team. The goal was to speed up case resolution by giving AI agents access to patient account data,..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 56,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Agentforce without a data quality review or sharing model audit. The AI gave patients two different account balances because it pulled from duplicate records...."
+    },
+    {
+      "heading": "What CCC Did",
+      "word_count": 234,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 16,
+        "structural_readability": 16,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran the AI Readiness Scorecard across five categories: Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. The organization scored 38 out of 100. Governance Readiness was..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 56,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Agentforce without a data quality review or sharing model audit. The AI gave patients two different account balances because it pulled from duplicate records...."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 81,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 3,
+        "uniqueness_signals": 2
+      },
+      "preview": "Industry: Healthcare (National Health Services Provider) Platform: Salesforce with Agentforce (AI) Scope: AI readiness assessment, data quality audit, sharing model redesign, and governance framework Waste Prevented: $30,000 (failed Agentforce deployment)..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 180,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 3,
+        "uniqueness_signals": 0
+      },
+      "preview": "A national health services provider deployed Salesforce Agentforce across their patient services team. The goal was to speed up case resolution by giving AI agents access to patient account data,..."
+    },
+    {
+      "heading": "What CCC Did",
+      "word_count": 234,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 16,
+        "structural_readability": 16,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran the AI Readiness Scorecard across five categories: Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. The organization scored 38 out of 100. Governance Readiness was..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 84,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 19,
+        "structural_readability": 2,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCAI Readiness Score38/10079/100Duplicate Account records12,000 undetectedIdentified and mergedDuplicates with active patient cases3,400Resolved with business user validationPatient billing accuracyTwo different balances per patientZero patient errors since fixPHI field-level securityAI..."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

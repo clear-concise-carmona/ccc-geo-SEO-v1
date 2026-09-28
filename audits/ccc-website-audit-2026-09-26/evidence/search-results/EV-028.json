@@ -1,0 +1,24 @@
+{
+ "evidence_id": "EV-028",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:11Z",
+ "query": "site:clearconciseconsulting.com \"AI governance\" services OR \"governance assessment\" OR nonprofit-consulting OR ai-governance",
+ "links": [
+  {
+   "title": "Salesforce AI Governance & Architecture",
+   "url": "https://www.clearconciseconsulting.com/"
+  },
+  {
+   "title": "Policies & Commitments \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/policies-commitments"
+  },
+  {
+   "title": "Salesforce Validation Rules That Work: Prevent Bad Data at Entry | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide"
+  }
+ ],
+ "observations": [
+  "Snippets: founded 2018 'to serve nonprofit, government, healthcare, and enterprise organizations that need senior Salesforce expertise without a full-time hire'; 'All content published by Clear Concise Consulting is written or reviewed by Jeremy Carmona'; 'A governance assessment found the duplicate records behind the errors and set the remediation order before wider rollout'.",
+  "No dedicated AI governance service page URL or /services/salesforce-nonprofit-consulting URL surfaced."
+ ]
+}

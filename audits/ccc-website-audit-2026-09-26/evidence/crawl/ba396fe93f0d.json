@@ -1,0 +1,809 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:51 GMT",
+  "Etag": "W/\"b423798b7801b84af94f4d989d9a8337--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "wQvBYhbh/rZ8ZP4zn",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Resources and Guides | CCC | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/blog",
+  "og:type": "website",
+  "og:description": "Practical Salesforce guides on implementation, data governance, AI readiness, nonprofit operations, architecture, and career development.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d57a004d15e0196298a0a4/1775598080918/og_blog_default.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Resources and Guides | CCC | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d57a004d15e0196298a0a4/1775598080918/og_blog_default.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog",
+  "twitter:card": "summary",
+  "twitter:description": "Practical Salesforce guides on implementation, data governance, AI readiness, nonprofit operations, architecture, and career development.",
+  "description": "Practical Salesforce guides on implementation, data governance, AI readiness, nonprofit operations, architecture, and career development.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Resources and Guides | CCC | Clear Concise Consulting",
+ "description": "Practical Salesforce guides on implementation, data governance, AI readiness, nonprofit operations, architecture, and career development.",
+ "canonical": "https://www.clearconciseconsulting.com/blog",
+ "h1_tags": [
+  "Salesforce Guides and Resources for Real People",
+  "Placeholder Values Are the Data Quality Problem Nobody Measures",
+  "Salesforce Duplicate Records: Find and Fix Before AI Scales the Damage",
+  "Two open-source tools for NPSP-to-Nonprofit-Cloud migrations",
+  "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)",
+  "The AI Queries in My Search Console",
+  "Salesforce GovCloud Implementation: What Changes Before the First Login",
+  "Nonprofit Salesforce Data Migration: What the Free Licenses Don't Cover",
+  "The Data Quality Delusion: Salesforce Data Governance Comes Before AI",
+  "Salesforce Flow Governance Broke Before the AI Showed Up",
+  "The Six Governance Checkpoints: A Real Engagement, Walked Through",
+  "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+  "Proportionality: Not Every AI Decision Needs a Committee",
+  "Accountability: Who Picks Up the Phone When the AI Is Wrong",
+  "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org",
+  "Preparing Your Salesforce Org for AI: A Data Readiness Checklist",
+  "The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)",
+  "Transparency: Writing AI Governance Docs Four Audiences Will Actually Read",
+  "Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce",
+  "Human Oversight: The Difference Between AI and Autopilot",
+  "Data First: The Principle Most Orgs Skip"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Guides and Resources for Real People"
+  },
+  {
+   "level": 1,
+   "text": "Placeholder Values Are the Data Quality Problem Nobody Measures"
+  },
+  {
+   "level": 1,
+   "text": "Salesforce Duplicate Records: Find and Fix Before AI Scales the Damage"
+  },
+  {
+   "level": 1,
+   "text": "Two open-source tools for NPSP-to-Nonprofit-Cloud migrations"
+  },
+  {
+   "level": 1,
+   "text": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+  },
+  {
+   "level": 1,
+   "text": "The AI Queries in My Search Console"
+  },
+  {
+   "level": 1,
+   "text": "Salesforce GovCloud Implementation: What Changes Before the First Login"
+  },
+  {
+   "level": 1,
+   "text": "Nonprofit Salesforce Data Migration: What the Free Licenses Don't Cover"
+  },
+  {
+   "level": 1,
+   "text": "The Data Quality Delusion: Salesforce Data Governance Comes Before AI"
+  },
+  {
+   "level": 1,
+   "text": "Salesforce Flow Governance Broke Before the AI Showed Up"
+  },
+  {
+   "level": 1,
+   "text": "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+  },
+  {
+   "level": 1,
+   "text": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+  },
+  {
+   "level": 1,
+   "text": "Proportionality: Not Every AI Decision Needs a Committee"
+  },
+  {
+   "level": 1,
+   "text": "Accountability: Who Picks Up the Phone When the AI Is Wrong"
+  },
+  {
+   "level": 1,
+   "text": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org"
+  },
+  {
+   "level": 1,
+   "text": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist"
+  },
+  {
+   "level": 1,
+   "text": "The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)"
+  },
+  {
+   "level": 1,
+   "text": "Transparency: Writing AI Governance Docs Four Audiences Will Actually Read"
+  },
+  {
+   "level": 1,
+   "text": "Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce"
+  },
+  {
+   "level": 1,
+   "text": "Human Oversight: The Difference Between AI and Autopilot"
+  },
+  {
+   "level": 1,
+   "text": "Data First: The Principle Most Orgs Skip"
+  },
+  {
+   "level": 2,
+   "text": "Featured Series"
+  },
+  {
+   "level": 2,
+   "text": "Get new guides in your inbox."
+  },
+  {
+   "level": 2,
+   "text": "Need help implementing what you've read?"
+  },
+  {
+   "level": 3,
+   "text": "Browse by Topic"
+  }
+ ],
+ "word_count": 1264,
+ "text_content": "Salesforce Resources and Guides | CCC | Clear Concise Consulting 0 Salesforce Guides and Resources for Real People Free implementation guides, org health assessments, career tools, and data governance resources. Written by a 13x certified Salesforce Architect who started at EDF and teaches at NYU. Take the AI Readiness Scorecard Subscribe for New Guides Featured Series 10-PART SERIES Salesforce for Recruiters 93,000+ LinkedIn impressions \u00b7 400+ new followers \u00b7 10 free guides Screening guides for every Salesforce Cloud, certification decoder, JD templates, and salary benchmarks. Everything recruiters need to place Salesforce talent correctly. Read the Series LAUNCHING APRIL 1 What Your Salesforce Org Says About Your Company 10 guides \u00b7 10 free templates \u00b7 Org health to AI readiness The 400-object org. Flow spaghetti. Reports nobody trusts. The sharing model nobody designed. 10 problems I find every time someone hires me to fix their Salesforce. Read the Series Browse by Topic All Posts Salesforce Implementation Data Governance AI Governance Career Development Newsletter Block This newsletter signup form needs a storage option. Edit the block and enter a storage location via the Storage tab. Email Address Subscribe Thank you! AI Governance Jeremy Carmona 9/23/26 AI Governance Jeremy Carmona 9/23/26 Placeholder Values Are the Data Quality Problem Nobody Measures Your fields say 100% complete. The data says nothing. \"Other,\" \"TBD,\" and \"N/A\" pass every validation rule and tell AI exactly as much as a blank. Read More AI Governance Jeremy Carmona 9/23/26 AI Governance Jeremy Carmona 9/23/26 Salesforce Duplicate Records: Find and Fix Before AI Scales the Damage Your CRM says 12,000 contacts. You might have 8,000 people. Measure your duplicate exposure in Excel in under an hour, then stop new duplicates at the door. Read More Nonprofit Salesforce Jeremy Carmona 9/13/26 Nonprofit Salesforce Jeremy Carmona 9/13/26 Two open-source tools for NPSP-to-Nonprofit-Cloud migrations Read More AI Governance Jeremy Carmona 8/26/26 AI Governance Jeremy Carmona 8/26/26 What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It) The median data quality score across 30+ Salesforce assessments is 58 out of 100. Here is how to measure yours in two hours with Excel. Read More AI Governance Jeremy Carmona 7/28/26 AI Governance Jeremy Carmona 7/28/26 The AI Queries in My Search Console My highest-impression keyword last quarter was never typed by a human. A 90-day Search Console export from my own consultancy site, and what the machine-phrased queries in it mean for how we write. Read More Government Salesforce Jeremy Carmona 7/23/26 Government Salesforce Jeremy Carmona 7/23/26 Salesforce GovCloud Implementation: What Changes Before the First Login GovCloud is not commercial Salesforce with a flag on it. The authorization boundary changes procurement, features, apps, and staffing. Here is the implementation sequence that respects that. Read More Nonprofit Salesforce Jeremy Carmona 7/21/26 Nonprofit Salesforce Jeremy Carmona 7/21/26 Nonprofit Salesforce Data Migration: What the Free Licenses Don't Cover The Power of Us Program gives you ten free licenses. It does not migrate your donor data. Here is the pre-flight process that separates a clean cutover from a six-week cleanup. Read More AI Governance Jeremy Carmona 7/2/26 AI Governance Jeremy Carmona 7/2/26 The Data Quality Delusion: Salesforce Data Governance Comes Before AI Anthropic priced its security trade-off and published it. Most Salesforce SOWs never mention one. Clients want an agent that sees everything and exposes nothing, and the consultant who lets both requirements survive discovery owns whatever happens next. Read More AI Governance Jeremy Carmona 7/2/26 AI Governance Jeremy Carmona 7/2/26 Salesforce Flow Governance Broke Before the AI Showed Up Anthropic had layered defenses, constant monitoring, and a three-week patch. The outcome still left their hands. Your org has dozens of ungoverned flows and an error inbox nobody reads. Audit the automation layer before an AI agent scales what it finds. Read More AI Governance Jeremy Carmona 5/27/26 AI Governance Jeremy Carmona 5/27/26 The Six Governance Checkpoints: A Real Engagement, Walked Through Eight weeks of governance. Three weeks of configuration. The eight governance weeks prevented a deployment that would have failed HIPAA later. Read More AI Governance Jeremy Carmona 5/25/26 AI Governance Jeremy Carmona 5/25/26 Reversibility: The Rollback Plan Nobody Writes Until It's Too Late 12,000 duplicate Account records overnight. The kill switch worked in 90 seconds. Cleanup took nine days. The agent had not tagged its records. Read More AI Governance Jeremy Carmona 5/21/26 AI Governance Jeremy Carmona 5/21/26 Proportionality: Not Every AI Decision Needs a Committee An AI Ethics Committee took four weeks to approve typo autocorrect. The same committee approved a Tier 3 Agentforce deployment in 30 minutes. Read More AI Governance Jeremy Carmona 5/18/26 AI Governance Jeremy Carmona 5/18/26 Accountability: Who Picks Up the Phone When the AI Is Wrong Three teams pointed at each other. Nobody was wrong. Everybody was responsible. Nobody was accountable. The fix was a custom object and one job title. Read More Org Health Jeremy Carmona 5/15/26 Org Health Jeremy Carmona 5/15/26 The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org I've spent 9 posts telling you what's wrong with your Salesforce org. Here's the part I actually care about: it's all fixable. This guide covers the 30-60-90 day framework I use in every org health engagement. Assess first, fix second, govern third. Free roadmap template included Read More Data Governance Jeremy Carmona 5/14/26 Data Governance Jeremy Carmona 5/14/26 Preparing Your Salesforce Org for AI: A Data Readiness Checklist Turning on Einstein or Agentforce without checking your data is how AI projects fail. This is the readiness audit Salesforce admins should run before activating any AI feature, covering the five categories that determine whether your org is actually ready. Read More AI Governance Jeremy Carmona 5/14/26 AI Governance Jeremy Carmona 5/14/26 The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First) I assessed an org that deployed Agentforce before running a data quality audit. The agent was surfacing duplicate records to customers. They disabled it after 2 weeks. Implementation cost: $30K. This guide includes an AI readiness assessment covering data quality, duplication, field completeness, and sharing model review. Read More AI Governance Jeremy Carmona 5/14/26 AI Governance Jeremy Carmona 5/14/26 Transparency: Writing AI Governance Docs Four Audiences Will Actually Read A board chair, a project manager, a system admin, and an end user walk into an AI policy. Three of them stop reading by paragraph two. Here is the fix. Read More Org Health Jeremy Carmona 5/14/26 Org Health Jeremy Carmona 5/14/26 Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce A client migrated 70,000 records from their legacy system. They skipped deduplication. They skipped field mapping validation. They skipped UAT. The result: 12,000 duplicate Accounts, 8,000 orphaned Contacts, and a $25,000 cleanup project. This guide includes a 15-point pre-flight checklist. Read More AI Governance Jeremy Carmona 5/11/26 AI Governance Jeremy Carmona 5/11/26 Human Oversight: The Difference Between AI and Autopilot \"Human-in-the-loop\" is on every AI vendor pitch deck. Almost none of them define what that means in practice. Here is what it actually requires. Read More Jeremy Carmona 5/6/26 Jeremy Carmona 5/6/26 Data First: The Principle Most Orgs Skip Most Salesforce orgs run AI features on a data quality baseline of 58 out of 100. That is below the threshold for safe advisory work. Here is the 10-metric audit that fixes it. Read More Need help implementing what you've read? CCC provides Salesforce implementation, data governance, and AI governance services for nonprofit, government, healthcare, and enterprise organizations. The same architect who writes these guides builds the systems. Book a Free Consultation Take the AI Readiness Scorecard",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog",
+   "text": "Take the AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-terminology-for-recruiters",
+   "text": "Read the Series"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/org-health",
+   "text": "Read the Series"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog",
+   "text": "All Posts"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?category=Implementation",
+   "text": "Salesforce Implementation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?category=Data Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?category=AI Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?category=Career Development",
+   "text": "Career Development"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/placeholder-values-are-the-data-quality-problem-nobody-measures",
+   "text": "Placeholder Values Are the Data Quality Problem Nobody Measures"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/placeholder-values-are-the-data-quality-problem-nobody-measures",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-records-find-and-fix-before-ai-scales-the-damage",
+   "text": "Salesforce Duplicate Records: Find and Fix Before AI Scales the Damage"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-duplicate-records-find-and-fix-before-ai-scales-the-damage",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/npsp-to-nonprofit-cloud-migration-tools",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Nonprofit+Salesforce",
+   "text": "Nonprofit Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Nonprofit+Salesforce",
+   "text": "Nonprofit Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/npsp-to-nonprofit-cloud-migration-tools",
+   "text": "Two open-source tools for NPSP-to-Nonprofit-Cloud migrations"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/npsp-to-nonprofit-cloud-migration-tools",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+   "text": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "text": "The AI Queries in My Search Console"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-govcloud-implementation",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Government+Salesforce",
+   "text": "Government Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Government+Salesforce",
+   "text": "Government Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-govcloud-implementation",
+   "text": "Salesforce GovCloud Implementation: What Changes Before the First Login"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-govcloud-implementation",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-salesforce-data-migration",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Nonprofit+Salesforce",
+   "text": "Nonprofit Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Nonprofit+Salesforce",
+   "text": "Nonprofit Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-salesforce-data-migration",
+   "text": "Nonprofit Salesforce Data Migration: What the Free Licenses Don't Cover"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/nonprofit-salesforce-data-migration",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/the-data-quality-delusion-salesforce-data-governance-comes-before-ai",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/the-data-quality-delusion-salesforce-data-governance-comes-before-ai",
+   "text": "The Data Quality Delusion: Salesforce Data Governance Comes Before AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/the-data-quality-delusion-salesforce-data-governance-comes-before-ai",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "text": "Salesforce Flow Governance Broke Before the AI Showed Up"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "text": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/proportional-ai-governance-risk-tiers",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/proportional-ai-governance-risk-tiers",
+   "text": "Proportionality: Not Every AI Decision Needs a Committee"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/proportional-ai-governance-risk-tiers",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/accountability-named-human-owner-ai-deployment",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/accountability-named-human-owner-ai-deployment",
+   "text": "Accountability: Who Picks Up the Phone When the AI Is Wrong"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/accountability-named-human-owner-ai-deployment",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-health-roadmap",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Org+Health",
+   "text": "Org Health"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Org+Health",
+   "text": "Org Health"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-health-roadmap",
+   "text": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-health-roadmap",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+   "text": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+   "text": "The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/transparency-ai-governance-documentation",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/transparency-ai-governance-documentation",
+   "text": "Transparency: Writing AI Governance Docs Four Audiences Will Actually Read"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/transparency-ai-governance-documentation",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-migration-checklist",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Org+Health",
+   "text": "Org Health"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Org+Health",
+   "text": "Org Health"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-migration-checklist",
+   "text": "Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-migration-checklist",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": "Human Oversight: The Difference Between AI and Autopilot"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": ""
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": "Data First: The Principle Most Orgs Skip"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "text": "Read More"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the AI Readiness Scorecard"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://scheduler.zoom.us/jeremy-carmona/free-consultation",
+   "text": "Book a Free Consultation"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1789335775214-FWOR3TT2JJ13ZXBP1WBZ/CCC_Blog_NPSPMigrationTools_Featured_1500x844.webp",
+   "alt": "Two open-source tools for NPSP-to-Nonprofit-Cloud migrations",
+   "width": "1500",
+   "height": "844",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1787251335701-5GK610LF3BJ7QLCX9XET/CCC_CleanDataForAI_Part01_Featured_Refined_20260818.png",
+   "alt": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)",
+   "width": "1500",
+   "height": "844",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1784460140121-DJIRBEEKN3BZ05KSH83E/ai-queries-in-search-console-thumb.png",
+   "alt": "The AI Queries in My Search Console",
+   "width": "2048",
+   "height": "2048",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1784458467101-6IMFL7WDHBBIX2Q1E37X/salesforce-govcloud-implementation-thumb.png",
+   "alt": "Salesforce GovCloud Implementation: What Changes Before the First Login",
+   "width": "1024",
+   "height": "1024",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1784456509485-DGNH7VC66ZX4ISQ4PVXQ/nonprofit-salesforce-data-migration-thumb.png",
+   "alt": "Nonprofit Salesforce Data Migration: What the Free Licenses Don't Cover",
+   "width": "1200",
+   "height": "1200",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1782980252192-A28H1XEHPYD4R25HGDRG/og_6_data.png",
+   "alt": "The Data Quality Delusion: Salesforce Data Governance Comes Before AI",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1782979502947-62RT2V6KWRETY9733B3H/og_5_flow.png",
+   "alt": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778802802785-GIXA4VSP6SP3VKAWMK9V/ccc-may-2026-article-8-checkpoints-featured.png",
+   "alt": "The Six Governance Checkpoints: A Real Engagement, Walked Through",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778801765737-149JFCPJEM4OEECOQ27X/ccc-may-2026-article-7-reversibility-featured.png",
+   "alt": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778801143833-6HK5G2LOFBRTX70EXYW5/ccc-may-2026-article-6-proportionality-featured.png",
+   "alt": "Proportionality: Not Every AI Decision Needs a Committee",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778731096758-XVUAP5HH1RRXEB33VOF9/ccc-may-2026-article-5-accountability-featured.png",
+   "alt": "Accountability: Who Picks Up the Phone When the AI Is Wrong",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/20ae0ab2-e3e8-4429-a928-afeed6bbbb01/10_preview_the_fix.png",
+   "alt": "The Fix: A 30-60-90 Day Roadmap for Cleaning Up Your Salesforce Org",
+   "width": "2048",
+   "height": "2048",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1773160723529-9STV722ZKKWJFZ2HE8MV/08_ai_readiness_checklist.png",
+   "alt": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/3805d8b1-3f98-4ddc-9ab6-e298fce1d381/09_preview_governance_gap.png",
+   "alt": "The Governance Gap: Why Your Org Isn't Ready for Agentforce (and What to Fix First)",
+   "width": "2048",
+   "height": "2048",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778729874574-CMTQPTRY70CP6V0ED5RP/ccc-may-2026-article-4-transparency-featured.png",
+   "alt": "Transparency: Writing AI Governance Docs Four Audiences Will Actually Read",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/4c6b9ad6-3355-47fe-b295-6484f8ba7dfa/08_preview_data_migration_crime.png",
+   "alt": "Your Data Migration Was a Crime Scene: What Nobody Tells You About Moving Data into Salesforce",
+   "width": "2048",
+   "height": "2048",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778452724603-EEKOO02L5QGBEMQN018K/ccc-may-2026-article-3-human-oversight-featured.png",
+   "alt": "Human Oversight: The Difference Between AI and Autopilot",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/1778039006370-VA6YJLZAXXOWC5FJF5K7/ccc-may-2026-article-2-data-first-featured.png",
+   "alt": "Data First: The Principle Most Orgs Skip",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

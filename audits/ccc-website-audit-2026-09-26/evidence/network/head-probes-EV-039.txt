@@ -1,0 +1,22 @@
+EV-039: HEAD-only status probes (no page bodies fetched; kept the audit within the 50-page crawl cap). 2026-09-27 17:28 to 17:33 UTC. curl -I, 1s apart, UA "ccc-geo-audit/1.0".
+
+http://clearconciseconsulting.com/                                                   301 -> https://www.clearconciseconsulting.com/
+https://clearconciseconsulting.com/                                                  301 -> https://www.clearconciseconsulting.com/
+http://www.clearconciseconsulting.com/                                               301 -> https://www.clearconciseconsulting.com/
+https://clearconciseconsulting.squarespace.com/                                      200 (no redirect; canonical not checked: HEAD only)
+https://clearconciseconsulting.squarespace.com/faqs                                  200
+https://clearconciseconsulting.squarespace.com/services                              200
+https://clearconciseconsulting.squarespace.com/ai-services                           301 -> http://clearconciseconsulting.squarespace.com/services/ai-governance
+https://clearconciseconsulting.squarespace.com/salesforce-consulting-services        301 -> http://clearconciseconsulting.squarespace.com/services
+https://clearconciseconsulting.squarespace.com/services/non-profit                   404
+https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment       200
+https://www.clearconciseconsulting.com/services/salesforce-administration            301 -> http://www.clearconciseconsulting.com/services/salesforce-implementation
+https://www.clearconciseconsulting.com/services/ad-hoc-support                       301 -> http://www.clearconciseconsulting.com/services/salesforce-training
+https://www.clearconciseconsulting.com/new-clients                                   404
+https://www.clearconciseconsulting.com/case-studies                                  200
+https://www.clearconciseconsulting.com/services/ai-governance                        200
+https://www.clearconciseconsulting.com/ai-center-of-excellence                       200
+
+Observations:
+- Every Squarespace URL-mapping redirect observed points to an http:// Location, which then redirects to https:// (two hops). Also seen in the crawler's redirect_chain for /services/salesforce-ai-data-preparation.
+- The built-in domain answers 200 on its root and on /faqs and /services; it mirrors the site rather than redirecting to the primary domain.

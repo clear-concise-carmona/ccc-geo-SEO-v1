@@ -1,0 +1,442 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "58526",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:06 GMT",
+  "Etag": "W/\"95ea016815a0623a3fee86156d21d9a6\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "byQl1ypi/j4NKa4cp",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Validation Rules: Copy-Paste Formulas That Work | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+  "og:type": "article",
+  "og:description": "Copy-paste Salesforce validation rule formulas for email, phone, and dates, plus bypass patterns and a testing checklist. Block bad data at entry.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04a4ebff5380000ae39dd/1773161038319/07_validation_rules_guide.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Validation Rules: Copy-Paste Formulas That Work | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04a4ebff5380000ae39dd/1773161038319/07_validation_rules_guide.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+  "twitter:card": "summary",
+  "twitter:description": "Copy-paste Salesforce validation rule formulas for email, phone, and dates, plus bypass patterns and a testing checklist. Block bad data at entry.",
+  "description": "Copy-paste Salesforce validation rule formulas for email, phone, and dates, plus bypass patterns and a testing checklist. Block bad data at entry.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Validation Rules: Copy-Paste Formulas That Work | Clear Concise Consulting",
+ "description": "Copy-paste Salesforce validation rule formulas for email, phone, and dates, plus bypass patterns and a testing checklist. Block bad data at entry.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+ "h1_tags": [
+  "Validation Rules That Actually Work: Preventing Bad Data at Entry"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Validation Rules That Actually Work: Preventing Bad Data at Entry"
+  },
+  {
+   "level": 2,
+   "text": "Validation Rule Fundamentals"
+  },
+  {
+   "level": 2,
+   "text": "The Validation Rule Framework"
+  },
+  {
+   "level": 2,
+   "text": "Essential Validation Rules"
+  },
+  {
+   "level": 2,
+   "text": "Validation Rules for Data Quality"
+  },
+  {
+   "level": 2,
+   "text": "Advanced Patterns"
+  },
+  {
+   "level": 2,
+   "text": "Testing Validation Rules"
+  },
+  {
+   "level": 2,
+   "text": "When Validation Rules Cause Problems"
+  },
+  {
+   "level": 2,
+   "text": "Validation Rule Maintenance"
+  },
+  {
+   "level": 2,
+   "text": "The Validation Rule Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Next Steps"
+  },
+  {
+   "level": 2,
+   "text": "The 400-Object Org: How Custom Object Sprawl Happens and What to Do About It"
+  },
+  {
+   "level": 2,
+   "text": "Data Standardization for Salesforce: What Journalism Taught Me About CRM Data"
+  },
+  {
+   "level": 3,
+   "text": "Principle 1: Block Entry Errors, Not Business Decisions"
+  },
+  {
+   "level": 3,
+   "text": "Principle 2: Explain the Fix, Not Just the Problem"
+  },
+  {
+   "level": 3,
+   "text": "Principle 3: Don't Over-Validate"
+  },
+  {
+   "level": 3,
+   "text": "Principle 4: Provide Bypass When Necessary"
+  },
+  {
+   "level": 3,
+   "text": "Email Format"
+  },
+  {
+   "level": 3,
+   "text": "Phone Number Format"
+  },
+  {
+   "level": 3,
+   "text": "State Abbreviation"
+  },
+  {
+   "level": 3,
+   "text": "Close Date in the Future (New Opportunities)"
+  },
+  {
+   "level": 3,
+   "text": "Required Fields Based on Stage"
+  },
+  {
+   "level": 3,
+   "text": "Prevent Backdating"
+  },
+  {
+   "level": 3,
+   "text": "No HTML in Text Fields"
+  },
+  {
+   "level": 3,
+   "text": "Prevent All-Caps Entry"
+  },
+  {
+   "level": 3,
+   "text": "Website URL Format"
+  },
+  {
+   "level": 3,
+   "text": "Prevent Duplicative Data"
+  },
+  {
+   "level": 3,
+   "text": "Cross-Object Validation"
+  },
+  {
+   "level": 3,
+   "text": "Conditional Required Fields"
+  },
+  {
+   "level": 3,
+   "text": "Time-Based Validation"
+  },
+  {
+   "level": 3,
+   "text": "Profile-Based Exceptions"
+  },
+  {
+   "level": 3,
+   "text": "Test in Sandbox"
+  },
+  {
+   "level": 3,
+   "text": "Document Test Cases"
+  },
+  {
+   "level": 3,
+   "text": "Watch for Edge Cases"
+  },
+  {
+   "level": 3,
+   "text": "Problem: Users Complain Rules Are Too Strict"
+  },
+  {
+   "level": 3,
+   "text": "Problem: Data Loads Fail"
+  },
+  {
+   "level": 3,
+   "text": "Problem: Integration Errors"
+  },
+  {
+   "level": 3,
+   "text": "Problem: Too Many Rules Firing at Once"
+  },
+  {
+   "level": 3,
+   "text": "Monthly Review"
+  },
+  {
+   "level": 3,
+   "text": "When to Retire Rules"
+  },
+  {
+   "level": 3,
+   "text": "Documentation"
+  }
+ ],
+ "word_count": 1380,
+ "text_content": "Salesforce Validation Rules: Copy-Paste Formulas That Work | Clear Concise Consulting 0 Validation Rules That Actually Work: Preventing Bad Data at Entry Data Governance Apr 15 Written By Jeremy Carmona Stop cleaning up data and start preventing bad data from entering in the first place The admin before me had a philosophy: \"Let users enter data however they want, we'll clean it up later.\" Later never came. Or when it did, the cleanup took weeks and had to be repeated every quarter. Validation rules flip this approach. Instead of fixing bad data after it exists, you prevent bad data from being created. It's faster, cheaper, and doesn't require quarterly cleanup projects. Here's how to build validation rules that protect data quality without driving users crazy. Validation Rule Fundamentals A validation rule has two parts: 1. Error Condition Formula: Returns TRUE when the data is invalid 2. Error Message: What the user sees when they try to save invalid data The rule fires when the formula returns TRUE, blocking the save and displaying the message. Key Concept: The formula defines what's WRONG, not what's right. If the formula evaluates to TRUE, the save is blocked. The Validation Rule Framework Before writing rules, establish principles: Principle 1: Block Entry Errors, Not Business Decisions Good: Blocking invalid email formats Bad: Blocking opportunities under $10,000 Validation rules prevent data entry errors. They shouldn't enforce business policies that have legitimate exceptions. Principle 2: Explain the Fix, Not Just the Problem Bad message: \"Invalid phone number\" Good message: \"Phone number must be exactly 10 digits (e.g., 5551234567)\" Users should know exactly how to fix the error. Principle 3: Don't Over-Validate Every validation rule is friction. Only validate what matters: \u2022 Fields that break automation \u2022 Fields that affect reporting \u2022 Fields that impact customer communications Don't validate fields that are nice-to-have or rarely used. Principle 4: Provide Bypass When Necessary Some rules need admin override. Create a checkbox field (Bypass_Validation__c) and include it in rules: AND(    NOT(Bypass_Validation__c),    [your validation logic]) Only admins can check the bypass field. Use sparingly. Essential Validation Rules Email Format What it prevents: Invalid emails that bounce, breaking automation Formula: AND(    NOT(ISBLANK(Email)),    NOT(REGEX(Email, \"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$\"))) Error Message: \"Please enter a valid email address (e.g., name@company.com )\" Phone Number Format What it prevents: Inconsistent phone data that's hard to use Formula (US 10-digit): AND(    NOT(ISBLANK(Phone)),    NOT(REGEX(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(Phone, \"(\", \"\"), \")\", \"\"), \"-\", \"\"), \" \", \"\"), \"^[0-9]{10}$\"))) This strips common formatting before checking for 10 digits. Error Message: \"Phone number must contain exactly 10 digits\" State Abbreviation What it prevents: Inconsistent state data that breaks segmentation Formula (after converting to picklist, validate text if needed): AND(    NOT(ISBLANK(BillingState)),    NOT(CONTAINS(\"AL,AK,AZ,AR,CA,CO,CT,DE,FL,GA,HI,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,WY,DC\", BillingState))) Better approach: Use a picklist instead of validation. Close Date in the Future (New Opportunities) What it prevents: Opportunities with past close dates that skew pipeline Formula: AND(    ISNEW(),    CloseDate < TODAY()) Error Message: \"Close Date must be today or in the future for new opportunities\" Required Fields Based on Stage What it prevents: Opportunities advancing without necessary data Formula: AND(    ISPICKVAL(StageName, \"Closed Won\"),    OR(        ISBLANK(Amount),        ISBLANK(CloseDate),        ISBLANK(Primary_Contact__c)    )) Error Message: \"Closed Won opportunities require Amount, Close Date, and Primary Contact\" Prevent Backdating What it prevents: Users changing historical data they shouldn't modify Formula: AND(    ISCHANGED(Amount),    PRIORVALUE(CloseDate) < TODAY() - 30) Error Message: \"Cannot change Amount on opportunities closed more than 30 days ago\" Validation Rules for Data Quality No HTML in Text Fields What it prevents: Junk data from form spam Formula: OR(    CONTAINS(Description, \"<script\"),    CONTAINS(Description, \"<iframe\"),    CONTAINS(Description, \"<a href\")) Error Message: \"HTML code is not allowed in this field\" Prevent All-Caps Entry What it prevents: SCREAMING DATA THAT LOOKS UNPROFESSIONAL Formula: AND(    NOT(ISBLANK(LastName)),    LastName = UPPER(LastName),    LEN(LastName) > 1) Error Message: \"Please use standard capitalization (e.g., Smith, not SMITH)\" Website URL Format What it prevents: Invalid URLs that break links Formula: AND(    NOT(ISBLANK(Website)),    NOT(OR(        LEFT(Website, 7) = \"http://\",        LEFT(Website, 8) = \"https://\"    ))) Error Message: \"Website must start with http:// or https://\" Prevent Duplicative Data What it prevents: Same value in fields that should differ Formula: AND(    NOT(ISBLANK(Phone)),    NOT(ISBLANK(Fax)),    Phone = Fax) Error Message: \"Phone and Fax cannot be the same number\" Advanced Patterns Cross-Object Validation Validate based on related record data: Formula (Contact level validation based on Account): AND(    NOT(ISBLANK(Email)),    Account.Do_Not_Contact__c = TRUE) Error Message: \"Cannot add email to contacts for Do Not Contact accounts\" Conditional Required Fields Require fields only when another field has specific value: Formula: AND(    ISPICKVAL(Type, \"Partner\"),    ISBLANK(Partner_Agreement_Date__c)) Error Message: \"Partner Agreement Date is required for Partner accounts\" Time-Based Validation Prevent edits after a certain period: Formula: AND(    NOT(ISNEW()),    ISCHANGED(Amount),    CreatedDate < TODAY() - 90) Error Message: \"Cannot modify Amount on records older than 90 days\" Profile-Based Exceptions Allow certain profiles to bypass validation: Formula: AND(    NOT($Profile.Name = \"System Administrator\"),    [your validation logic]) Use sparingly. Better to use the bypass checkbox approach. Testing Validation Rules Before activating rules: Test in Sandbox 1. Create the rule inactive 2. Test scenarios that should pass (no error) 3. Test scenarios that should fail (error displayed) 4. Verify error message is clear 5. Activate the rule Document Test Cases Scenario | Input | Expected Result Valid email | test@company.com | Save succeeds Missing @ | testcompany.com | Error displayed No domain | test@ | Error displayed Valid with + | test+tag@company.com | Save succeeds Watch for Edge Cases \u2022 What happens with blank fields? \u2022 What about international formats? \u2022 Are there legitimate exceptions? When Validation Rules Cause Problems Problem: Users Complain Rules Are Too Strict Solution: Review whether the rule is preventing errors or preventing legitimate use cases. Adjust if needed. Problem: Data Loads Fail Solution: Either clean data before loading, or temporarily deactivate rules during loads (with proper oversight). Problem: Integration Errors Solution: Add bypass logic for integration users, or ensure integrations send valid data. Problem: Too Many Rules Firing at Once Solution: Users see multiple errors and get confused. Prioritize the most important validations. Validation Rule Maintenance Monthly Review \u2022 Which rules are triggering most often? (Check error logs) \u2022 Are there legitimate use cases being blocked? \u2022 Have business processes changed, making rules obsolete? When to Retire Rules \u2022 The business process the rule protected has changed \u2022 A Flow or Apex trigger now handles the validation better \u2022 The rule is causing more problems than it prevents Documentation Maintain a list of all validation rules: Rule Name | Object | Purpose | Owner | Last Reviewed Email_Format | Contact | Prevent invalid emails | Sales Ops | 2026-03 Phone_Digits | Contact | Ensure 10-digit phones | Sales Ops | 2026-03 Review quarterly. The Validation Rule Checklist Before deploying a new validation rule: \u2022 [ ] Does this prevent a data entry error (not a business decision)? \u2022 [ ] Is the error message clear and actionable? \u2022 [ ] Have I tested both passing and failing scenarios? \u2022 [ ] Have I considered edge cases and exceptions? \u2022 [ ] Is there a bypass mechanism for legitimate exceptions? \u2022 [ ] Have I documented the rule? \u2022 [ ] Have I communicated the rule to affected users? Next Steps 1. Audit existing validation rules. Are they documented? Still relevant? 2. Identify your biggest data quality pain points 3. Implement validation rules addressing the top 3 issues 4. Monitor for user complaints and edge cases 5. Refine rules based on real-world usage If you need help designing validation rules that balance data quality with user experience, Clear Concise Consulting offers Salesforce configuration services. We build validation strategies that prevent bad data without creating friction. Jeremy Carmona is a 13x certified Salesforce Architect who has implemented validation frameworks for nonprofits, healthcare systems, and enterprises. His approach: prevent errors at entry rather than cleaning them up later. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The 400-Object Org: How Custom Object Sprawl Happens and What to Do About It Next Next Data Standardization for Salesforce: What Journalism Taught Me About CRM Data",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-400-object-org-audit",
+   "text": "PreviousPreviousThe 400-Object Org: How Custom Object Sprawl Happens and What to Do About It"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-standardization-guide",
+   "text": "NextNextData Standardization for Salesforce: What Journalism Taught Me About CRM Data"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b4716f00-81af-46db-b99a-42eb482286f3/07_validation_rules_guide.png",
+   "alt": "",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Validation Rules: Copy-Paste Formulas That Work | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+   "datePublished": "2026-04-15T09:11:06-0400",
+   "dateModified": "2026-07-19T05:38:32-0400",
+   "headline": "Validation Rules That Actually Work: Preventing Bad Data at Entry",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04a4ebff5380000ae39dd/1773161038319/07_validation_rules_guide.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "HowTo",
+   "@id": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide#howto",
+   "name": "How to Test and Deploy a Salesforce Validation Rule",
+   "description": "A five-step process for testing validation rules in a Salesforce sandbox before activating them in production, so rules block invalid data without disrupting legitimate use cases.",
+   "image": {
+    "@type": "ImageObject",
+    "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b04a4ebff5380000ae39dd/1773161038319/07_validation_rules_guide.png?format=1500w",
+    "width": 1200,
+    "height": 630
+   },
+   "totalTime": "PT30M",
+   "tool": [
+    {
+     "@type": "HowToTool",
+     "name": "Salesforce Sandbox"
+    },
+    {
+     "@type": "HowToTool",
+     "name": "Salesforce Object Manager"
+    }
+   ],
+   "step": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "name": "Create the rule inactive",
+     "text": "In your Salesforce sandbox, open Setup, then Object Manager, then the target object, then Validation Rules. Create the new validation rule with the Active checkbox unchecked. This allows you to test the formula and error message without affecting users."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "name": "Test scenarios that should pass",
+     "text": "Attempt to save records with valid data that should NOT trigger the validation rule. Verify the save succeeds without an error. This confirms the rule does not block legitimate use cases."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "name": "Test scenarios that should fail",
+     "text": "Attempt to save records with invalid data that SHOULD trigger the validation rule. Verify the error displays and the save is blocked. Test multiple invalid inputs including blank values, formatting violations, and edge cases."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "name": "Verify the error message is clear",
+     "text": "Read the error message as if you were a new user encountering it for the first time. The message should explain what is wrong AND how to fix it. Example: 'Phone number must be exactly 10 digits (e.g., 5551234567)' rather than 'Invalid phone number'."
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "name": "Activate the rule",
+     "text": "After all test scenarios pass and the error message is clear, check the Active checkbox to activate the validation rule. Communicate the new rule to affected users before deploying to production."
+    }
+   ],
+   "author": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.clearconciseconsulting.com/#organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com"
+   },
+   "datePublished": "2026-04-15",
+   "dateModified": "2026-04-15",
+   "inLanguage": "en-US",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

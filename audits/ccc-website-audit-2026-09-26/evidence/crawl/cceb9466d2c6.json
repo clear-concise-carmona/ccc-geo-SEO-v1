@@ -1,0 +1,307 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:21 GMT",
+  "Etag": "W/\"81da287178db42db454f0e42d8b93100--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "TNQ3c33c/byYRgetQ",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+  "og:type": "article",
+  "og:description": "A 10-metric data quality audit for Salesforce orgs deploying AI. Median score across 30 assessments: 58 out of 100. Here is how to get above the 70 threshold.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69fab9a5a3780355a2ee50d6/1778039205755/ccc-may-2026-article-2-data-first-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69fab9a5a3780355a2ee50d6/1778039205755/ccc-may-2026-article-2-data-first-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+  "twitter:card": "summary",
+  "twitter:description": "A 10-metric data quality audit for Salesforce orgs deploying AI. Median score across 30 assessments: 58 out of 100. Here is how to get above the 70 threshold.",
+  "description": "A 10-metric data quality audit for Salesforce orgs deploying AI. Median score across 30 assessments: 58 out of 100. Here is how to get above the 70 threshold.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI | Clear Concise Consulting",
+ "description": "A 10-metric data quality audit for Salesforce orgs deploying AI. Median score across 30 assessments: 58 out of 100. Here is how to get above the 70 threshold.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+ "h1_tags": [
+  "Data First: The Principle Most Orgs Skip"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Data First: The Principle Most Orgs Skip"
+  },
+  {
+   "level": 2,
+   "text": "The Principle"
+  },
+  {
+   "level": 2,
+   "text": "What \"Data Quality\" Actually Means"
+  },
+  {
+   "level": 2,
+   "text": "The Pattern Across 30 Assessments"
+  },
+  {
+   "level": 2,
+   "text": "What the Fixes Look Like"
+  },
+  {
+   "level": 2,
+   "text": "Why This Cannot Be Parallel Work"
+  },
+  {
+   "level": 2,
+   "text": "What to Do This Week"
+  },
+  {
+   "level": 2,
+   "text": "Human Oversight: The Difference Between AI and Autopilot"
+  },
+  {
+   "level": 2,
+   "text": "The Integration Built on Prayer: What Happens When Nobody Documents the API"
+  }
+ ],
+ "word_count": 1275,
+ "text_content": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI | Clear Concise Consulting 0 Data First: The Principle Most Orgs Skip May 6 Written By Jeremy Carmona CCC's Data First principle illustrated as a four-layer stack. The Data Layer sits at the foundation in navy with structured data icons. Integration, Logic, and AI Model layers build upward on beige. The visual reinforces the article's core argument: AI is the top of the stack, not the starting point. Every layer above depends on the quality of the data beneath it. I got a call from a nonprofit ED on a Tuesday morning. She was crying. Their new AI agent had sent a fundraising email to a donor's widow. The donor had been dead for two years. The record was still active. Her first question: \"How did this happen?\" My first question: \"Did anyone audit the data before you turned it on?\" She did not have an answer. That is not a criticism. Most orgs I work with do not have an answer to that question. The question itself is not part of the deployment conversation. The deployment conversation is about features, vendors, and timelines. The data quality conversation is treated as an IT ops task, not a deployment prerequisite. This is the gap that the CCC AI Center of Excellence 's first guiding principle addresses. The Principle Data First. No AI feature is activated until data quality is assessed. Clean data is a prerequisite, not a parallel workstream. That sentence has done real work in client engagements. It is the difference between a 90-day rollout that produces 30% improvement and a 90-day rollout that produces an incident report. The principle reflects what AI actually does inside a Salesforce org. AI does not improve bad data. AI amplifies bad data. An agent reading a Contact record with three different phone numbers, two different addresses, and a \"preferred name\" field that says \"DO NOT CONTACT\" is going to generate output that reflects all of that confusion. The output looks confident because the model is confident. The output is wrong because the input was wrong. What \"Data Quality\" Actually Means In CCC engagements, Data Quality is not a vibe. It is a 10-metric audit with a numerical baseline. Here are the 10 metrics. Each is scored 0-10. Sum out of 100. I do not start AI work below 70. Total Contact records vs. unique email rate Phone number format consistency (US vs. international vs. blank) State field standardization (state codes vs. full names vs. blank) Duplicate ratio on Account name (case-insensitive) Records with last modified date older than 24 months Records owned by inactive users Required field completion rate on Lead Email bounce flag distribution Records with no related activity in last 12 months Sharing model exception count (manual shares, dev permissions) Two hours in Developer Console. Costs zero. Produces a number you can show a board. The Pattern Across 30 Assessments Median score: 58. That is not a typo. Most Salesforce orgs run AI features on top of a data quality baseline that is below the threshold I would consider safe for advisory work. The shape of the failure is consistent. Categories 1 and 2 (uniqueness and format) are the most common drag. Phone formats range from \"(555) 123-4567\" to \"5551234567\" to \"+1 555 123 4567\" to \"ext. 4567\" to blank. State fields contain \"California,\" \"CA,\" \"Calif.,\" \"Cal,\" and lowercase variants. Duplicate ratios on Contact records sit between 8% and 22%. These are not catastrophic problems for a human salesperson typing notes. A human reads the record, makes a judgment, moves on. Same record fed to an agent that does not know your org's history? The agent treats every variant as a discrete fact. It writes follow-up sequences to three versions of the same person. It triggers Flows that never should have fired. It populates a Data Cloud activation with garbage upstream. What the Fixes Look Like The fixes are not exciting. That is the point. Phone format standardization. A Flow on the Contact and Lead objects that runs on Before Save, normalizes formats to a single pattern (typically E.164 for international compatibility), strips extensions to a separate field. Three hours of work. Affects 100% of new records and any updated existing records. Score on metric 2 goes from 4 to 9 within a week. State field standardization. Validation rule that enforces ISO state codes. Picklist field replaces text field. Existing records cleaned via Data Loader using a state mapping table. One day of work. Score on metric 3 goes from 5 to 10. Duplicate Rules with Block action. Most orgs run Duplicate Rules on Allow with Alert. Users see the alert, ignore it, save the duplicate. Switch to Block on Contact, Lead, and Account. Configure Matching Rules to use email plus name fuzzy match. Two hours. Score on metric 4 goes from 5 to 8 immediately, then to 9 after 30 days as users adapt. Inactive user record reassignment. SOQL query identifies records owned by deactivated users. Reassign in bulk to a service account or active owner. Half a day. Score on metric 6 goes from 3 to 9. That is four fixes. Score moves from 58 to 78. Below the threshold to above it. Now we can talk about Agentforce. Why This Cannot Be Parallel Work Most clients want to run data quality work in parallel with AI deployment. The argument is reasonable: \"We're already paying for the engagement, let's get value while the cleanup happens.\" The problem is sequence. Agents do not wait. An Agentforce pilot turned on against bad data starts producing bad outputs on day one. Those outputs go into the Decision Log, into reporting, into stakeholder dashboards. By the time the data cleanup catches up six weeks later, the organization has six weeks of bad-output evidence to argue about. The pilot is judged on its early output. The early output was always going to be bad. The pilot fails not because the AI was wrong but because the foundation was wrong. Sequence matters. Data first, then deployment. Not \"data while deployment.\" This is the operational meaning of the principle. It is not a slogan. It is a sequencing constraint that protects the engagement from a predictable failure mode. What to Do This Week If you are reading this and your org has an Agentforce pilot scheduled in the next 90 days, run the 10-metric audit before the pilot starts. Two hours. Free. Honest answer. If you score below 70, you have time but not unlimited time. The fixes above are the fastest path to a usable baseline. Most can be done internally if your admin team has Flow and Data Loader experience. If you score above 70, you are in better shape than most. The CoE engagements then focus on the specific metric where you are weakest, not on rebuilding everything. Either way, the order is the same. Data first. Then everything else. The next article in this series covers Principle 2: Human Oversight. Publishing Mon May 11. AI Center of Excellence AI Governance Data Quality Salesforce Data Agentforce Data Governance Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Human Oversight: The Difference Between AI and Autopilot Next Next The Integration Built on Prayer: What Happens When Nobody Documents the API",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "CCC AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance",
+   "text": "data quality"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-data-standardization-guide",
+   "text": "State field standardization"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Center+of+Excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Data+Quality",
+   "text": "Data Quality"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Salesforce+Data",
+   "text": "Salesforce Data"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Agentforce",
+   "text": "Agentforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": "PreviousPreviousHuman Oversight: The Difference Between AI and Autopilot"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-integration-documentation",
+   "text": "NextNextThe Integration Built on Prayer: What Happens When Nobody Documents the API"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c7db5d70-6a77-4384-890c-3bf9c1b9dafd/ccc-may-2026-article-2-data-first-inline.png",
+   "alt": "Layered architecture diagram showing Data Layer as the foundation beneath Integration, Logic, and AI Model layers",
+   "width": "2528",
+   "height": "1696",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Data First: Why Clean Data Is a Prerequisite for Salesforce AI | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance",
+   "datePublished": "2026-05-06T08:00:03-0400",
+   "dateModified": "2026-05-06T08:00:20-0400",
+   "headline": "Data First: The Principle Most Orgs Skip",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69fab9a5a3780355a2ee50d6/1778039205755/ccc-may-2026-article-2-data-first-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BlogPosting",
+   "@id": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance#article",
+   "headline": "Data First: The Principle Most Orgs Skip",
+   "description": "A 10-metric data quality audit for Salesforce orgs deploying AI. Median score across 30 assessments: 58 out of 100.",
+   "datePublished": "2026-05-06",
+   "dateModified": "2026-05-06",
+   "author": {
+    "@type": "Person",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about",
+    "jobTitle": "Salesforce Architect",
+    "sameAs": [
+     "https://www.linkedin.com/in/jeremy-a-carmona"
+    ]
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com",
+    "@id": "https://www.clearconciseconsulting.com/#organization"
+   },
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.clearconciseconsulting.com/blog/data-first-salesforce-ai-governance"
+   },
+   "keywords": [
+    "data quality",
+    "Salesforce AI",
+    "Agentforce",
+    "data governance",
+    "AI governance",
+    "SOQL audit"
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

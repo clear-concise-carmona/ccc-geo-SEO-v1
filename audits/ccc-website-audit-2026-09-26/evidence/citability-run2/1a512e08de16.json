@@ -1,0 +1,486 @@
+{
+  "url": "http://127.0.0.1:8766/1a512e08de16.html",
+  "total_blocks_analyzed": 21,
+  "average_citability_score": 43.5,
+  "optimal_length_passages": 0,
+  "grade_distribution": {
+    "A": 0,
+    "B": 4,
+    "C": 4,
+    "D": 6,
+    "F": 7
+  },
+  "top_5_citable": [
+    {
+      "heading": "What Gets Measured in an AI Readiness Assessment",
+      "word_count": 216,
+      "total_score": 70,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 6,
+        "uniqueness_signals": 7
+      },
+      "preview": "An AI strategy without a data foundation is a wish list. Before activating any AI feature, CCC evaluates five pillars of readiness: Data Unification:Are your customer records consolidated into a..."
+    },
+    {
+      "heading": "How CCC's AI Governance Assessment Works",
+      "word_count": 313,
+      "total_score": 69,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 5
+      },
+      "preview": "The assessment is a structured review of your Salesforce org's AI touchpoints, data quality, and decision-making gaps. It takes 5 to 10 business days depending on org complexity. Here is..."
+    },
+    {
+      "heading": "Common AI Data Governance Mistakes in Salesforce",
+      "word_count": 273,
+      "total_score": 69,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 5
+      },
+      "preview": "Activating AI before fixing data quality.This is the most expensive mistake in Salesforce AI projects. Teams rush to turn on Einstein predictions or Agentforce actions without auditing the data those..."
+    },
+    {
+      "heading": "Aligning Salesforce AI Governance with the NIST AI Risk Management Framework",
+      "word_count": 267,
+      "total_score": 65,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 16,
+        "statistical_density": 0,
+        "uniqueness_signals": 7
+      },
+      "preview": "TheNIST AI Risk Management Framework(AI RMF 1.0) provides a structured approach to AI risk across four functions: Govern, Map, Measure, and Manage. For Salesforce teams in government, healthcare, and regulated..."
+    },
+    {
+      "heading": "What Is AI Data Governance in Salesforce?",
+      "word_count": 258,
+      "total_score": 62,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 0
+      },
+      "preview": "AI data governance is the system of rules, roles, and review cycles that controls how artificial intelligence interacts with your Salesforce data. It covers four areas: what data feeds into..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "What You Get with AI Governance",
+      "word_count": 70,
+      "total_score": 11,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 9,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A review loop that fits your teamClear ownership for each AI workflowInput checks before issues beginOutput checks that keep results steadyHuman-in-the-loop where it mattersA simple log to track decisionsNonprofit-friendly language..."
+    },
+    {
+      "heading": "AI Governance Assessment",
+      "word_count": 21,
+      "total_score": 15,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 7,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Short review of your setup, data, and AI touchpoints. You get a list of risks and a plan to steady them."
+    },
+    {
+      "heading": "What if Iâm a small team? We donât have a âgovernance committee.â",
+      "word_count": 29,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "You donât need one. A two-person loop works: one person checks the outputs, the other owns the workflow. Small teams also have an advantage: fewer systems, fewer surprises.tem description"
+    },
+    {
+      "heading": "Free Starter Tools",
+      "word_count": 39,
+      "total_score": 26,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 7,
+        "self_containment": 14,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Accountability ChecklistShows who owns what, what AI touches, and when reviews happen. Prompt CharterA short list of rules to keep prompts consistent and safe. Risk Map TemplateA simple template that..."
+    },
+    {
+      "heading": "AI Governance for Regulated Industries",
+      "word_count": 232,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 8,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Organizations in healthcare, government, and financial services face specific AI compliance requirements that generic governance frameworks miss. Healthcare (HIPAA):Any AI that touches Protected Health Information (PHI) requires documented access controls,..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "What Is AI Data Governance in Salesforce?",
+      "word_count": 258,
+      "total_score": 62,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 0
+      },
+      "preview": "AI data governance is the system of rules, roles, and review cycles that controls how artificial intelligence interacts with your Salesforce data. It covers four areas: what data feeds into..."
+    },
+    {
+      "heading": "What You Get with AI Governance",
+      "word_count": 70,
+      "total_score": 11,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 9,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A review loop that fits your teamClear ownership for each AI workflowInput checks before issues beginOutput checks that keep results steadyHuman-in-the-loop where it mattersA simple log to track decisionsNonprofit-friendly language..."
+    },
+    {
+      "heading": "Why Data Quality Must Come Before AI in Salesforce",
+      "word_count": 297,
+      "total_score": 62,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 12,
+        "statistical_density": 6,
+        "uniqueness_signals": 0
+      },
+      "preview": "Einstein predictions, Copilot suggestions, and Agentforce actions all consume data from your Salesforce org. If that data includes duplicates, missing values, inconsistent formats, or stale records, the AI will learn..."
+    },
+    {
+      "heading": "How the Einstein Trust Layer Protects Your Data",
+      "word_count": 325,
+      "total_score": 56,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 12,
+        "statistical_density": 2,
+        "uniqueness_signals": 0
+      },
+      "preview": "TheEinstein Trust Layeris the security architecture that sits between your Salesforce data and external AI models. Every time Einstein, Copilot, or Agentforce processes a request, data passes through a three-phase..."
+    },
+    {
+      "heading": "Aligning Salesforce AI Governance with the NIST AI Risk Management Framework",
+      "word_count": 267,
+      "total_score": 65,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 12,
+        "structural_readability": 16,
+        "statistical_density": 0,
+        "uniqueness_signals": 7
+      },
+      "preview": "TheNIST AI Risk Management Framework(AI RMF 1.0) provides a structured approach to AI risk across four functions: Govern, Map, Measure, and Manage. For Salesforce teams in government, healthcare, and regulated..."
+    },
+    {
+      "heading": "How CCC's AI Governance Assessment Works",
+      "word_count": 313,
+      "total_score": 69,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 5
+      },
+      "preview": "The assessment is a structured review of your Salesforce org's AI touchpoints, data quality, and decision-making gaps. It takes 5 to 10 business days depending on org complexity. Here is..."
+    },
+    {
+      "heading": "What Gets Measured in an AI Readiness Assessment",
+      "word_count": 216,
+      "total_score": 70,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 6,
+        "uniqueness_signals": 7
+      },
+      "preview": "An AI strategy without a data foundation is a wish list. Before activating any AI feature, CCC evaluates five pillars of readiness: Data Unification:Are your customer records consolidated into a..."
+    },
+    {
+      "heading": "AI Governance for Regulated Industries",
+      "word_count": 232,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 8,
+        "self_containment": 14,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Organizations in healthcare, government, and financial services face specific AI compliance requirements that generic governance frameworks miss. Healthcare (HIPAA):Any AI that touches Protected Health Information (PHI) requires documented access controls,..."
+    },
+    {
+      "heading": "AI Governance Assessment",
+      "word_count": 21,
+      "total_score": 15,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 7,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Short review of your setup, data, and AI touchpoints. You get a list of risks and a plan to steady them."
+    },
+    {
+      "heading": "Free Starter Tools",
+      "word_count": 39,
+      "total_score": 26,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 7,
+        "self_containment": 14,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Accountability ChecklistShows who owns what, what AI touches, and when reviews happen. Prompt CharterA short list of rules to keep prompts consistent and safe. Risk Map TemplateA simple template that..."
+    },
+    {
+      "heading": "Common AI Data Governance Mistakes in Salesforce",
+      "word_count": 273,
+      "total_score": 69,
+      "grade": "B",
+      "label": "Good Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 12,
+        "statistical_density": 8,
+        "uniqueness_signals": 5
+      },
+      "preview": "Activating AI before fixing data quality.This is the most expensive mistake in Salesforce AI projects. Teams rush to turn on Einstein predictions or Agentforce actions without auditing the data those..."
+    },
+    {
+      "heading": "FAQs",
+      "word_count": 346,
+      "total_score": 43,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 12,
+        "structural_readability": 9,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "What is AI governance in Salesforce?Itâs the process of deciding who owns an AI system, what data it uses, how often it gets reviewed, and what happens when it gets..."
+    },
+    {
+      "heading": "What is AI governance in Salesforce?",
+      "word_count": 41,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 28,
+        "self_containment": 6,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Itâs the process of deciding who owns an AI system, what data it uses, how often it gets reviewed, and what happens when it gets something wrong. If youâve ever..."
+    },
+    {
+      "heading": "Do I need governance even if Iâm only using prompts or small automations?",
+      "word_count": 30,
+      "total_score": 41,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 9,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. If AI touches data, produces recommendations, or triggers automation, it needs oversight. The risk is not how âadvancedâ the AI is â itâs how quietly it can make mistakes."
+    },
+    {
+      "heading": "What does an AI governance framework include?",
+      "word_count": 35,
+      "total_score": 36,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 16,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Data hygieneOwnership and review loopsRisk checksDocumentation and audit trails If youâre missing any of these, your AI will behave unpredictably. Documentation and audit trails If youâre missing any of these,..."
+    },
+    {
+      "heading": "How does this apply to Salesforce Einstein, Copilot, or other LLM tools?",
+      "word_count": 32,
+      "total_score": 35,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 16,
+        "self_containment": 11,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Salesforce tools still rely on the same rules: clear inputs, clear outputs, and human review. AI native to Salesforce doesnât remove the need for governance â it simplifies where the..."
+    },
+    {
+      "heading": "What if Iâm a small team? We donât have a âgovernance committee.â",
+      "word_count": 29,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "You donât need one. A two-person loop works: one person checks the outputs, the other owns the workflow. Small teams also have an advantage: fewer systems, fewer surprises.tem description"
+    },
+    {
+      "heading": "How can nonprofits use AI safely without risking donor trust?",
+      "word_count": 25,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 16,
+        "self_containment": 12,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Start with transparent data use, clear opt-ins, review loops on donor-facing content, and a lightweight audit log. AI should amplify impact, not create PR headaches."
+    },
+    {
+      "heading": "Is governance going to slow us down?",
+      "word_count": 33,
+      "total_score": 46,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Only if your current workflows depend on speed instead of accuracy. Governance reduces rework, backtracking, and âwhy did AI do that?â conversations. The slowdown you fear is smaller than the..."
+    },
+    {
+      "heading": "Whatâs the first thing I should do before adopting AI in Salesforce?",
+      "word_count": 43,
+      "total_score": 50,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 30,
+        "self_containment": 14,
+        "structural_readability": 6,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "What data do we rely on?Who touches it?Who reviews outputs?What breaks if AI is wrong? Your second step is using the Accountability Checklist.escription What data do we rely on? What..."
+    },
+    {
+      "heading": "How often should AI outputs be reviewed?",
+      "word_count": 37,
+      "total_score": 33,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 16,
+        "self_containment": 9,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "High-risk workflows: weeklyMedium-risk: biweekly or monthlyLow-risk: when system behavior changes If it affects money, access, or donors, check it more often. Low-risk: when system behavior changes If it affects money,..."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/services/ai-governance",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

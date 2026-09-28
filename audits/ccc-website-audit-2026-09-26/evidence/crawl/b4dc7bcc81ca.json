@@ -1,0 +1,303 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "64315",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:01 GMT",
+  "Etag": "W/\"b5eba4fcbd025fd78170fb11048b5bb4\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "d5rdQWYM/MSYng4Xz",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Flow Governance Broke Before AI Showed Up | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+  "og:type": "article",
+  "og:description": "The US government pulled Fable 5 offline, not Anthropic. Salesforce flow governance decides whether an AI scales your work or your silent failures. Audit now.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a461c25b629f94bfa527216/1782979621525/og_5_flow.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Flow Governance Broke Before AI Showed Up | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a461c25b629f94bfa527216/1782979621525/og_5_flow.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+  "twitter:card": "summary",
+  "twitter:description": "The US government pulled Fable 5 offline, not Anthropic. Salesforce flow governance decides whether an AI scales your work or your silent failures. Audit now.",
+  "description": "The US government pulled Fable 5 offline, not Anthropic. Salesforce flow governance decides whether an AI scales your work or your silent failures. Audit now.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Flow Governance Broke Before AI Showed Up | Clear Concise Consulting",
+ "description": "The US government pulled Fable 5 offline, not Anthropic. Salesforce flow governance decides whether an AI scales your work or your silent failures. Audit now.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+ "h1_tags": [
+  "Salesforce Flow Governance Broke Before the AI Showed Up"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Flow Governance Broke Before the AI Showed Up"
+  },
+  {
+   "level": 2,
+   "text": "What does a silent flow failure look like?"
+  },
+  {
+   "level": 2,
+   "text": "Why do flows fail silently?"
+  },
+  {
+   "level": 2,
+   "text": "How do you diagnose ungoverned automation?"
+  },
+  {
+   "level": 2,
+   "text": "How do you fix what the audit finds?"
+  },
+  {
+   "level": 2,
+   "text": "How do you prevent the next silent failure?"
+  },
+  {
+   "level": 2,
+   "text": "The Data Quality Delusion: Salesforce Data Governance Comes Before AI"
+  },
+  {
+   "level": 2,
+   "text": "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+  }
+ ],
+ "word_count": 2006,
+ "text_content": "Salesforce Flow Governance Broke Before AI Showed Up | Clear Concise Consulting 0 Salesforce Flow Governance Broke Before the AI Showed Up AI Governance Jul 2 Written By Jeremy Carmona Your automations already break silently, and adding an AI agent on top of them will not fix the architecture. It will scale the breakage. That is a Salesforce flow governance problem, and the Fable 5 story is the cleanest proof of it the industry has produced this year. Most takes on that story get the facts wrong, so here is the record. Anthropic did not discover a flaw and pull its own model. On June 12, 2026, the US government issued an export-control directive, citing national security, after researchers at Amazon reported a technique that let Claude Fable 5 bypass its safeguards and identify software vulnerabilities. Anthropic had no reliable way to separate foreign nationals from US users on same-day notice, so it disabled Fable 5 and Mythos 5 for every customer on the planet and disputed the basis publicly . The controls lifted June 30. The model came back July 1 with wider safety margins and a new classifier. Read that sequence again as an automation architect. Anthropic had layered defenses, 24/7 monitoring, a published admission that perfect jailbreak resistance is not possible, and the engineering depth to patch a classifier in under three weeks. The outcome still left their hands. An outside party found the gap, and a regulator pulled the plug. Your org has none of those layers. From my experience architecting 30+ Salesforce implementations, I can tell you what most orgs have instead: dozens of active flows across a handful of objects, no naming conventions, no fault paths, and nobody watching the failure inbox. The biggest threat to an AI rollout is not the model hallucinating. It is the technical debt the organization refuses to acknowledge, executing quietly in production while everyone argues about prompts. What does a silent flow failure look like? Two years ago I audited case routing for an enterprise client that wanted AI to triage high-priority cases. Under the hood we found three workflow rules, two Process Builder processes, and four record-triggered flows all trying to update the case owner on the same event. The order of execution was a coin toss. Cases were landing in the wrong queues weekly, and nobody had connected the misroutes to the automation layer, so the support team had simply built manual habits around the failures. The cost was real and mostly invisible: reassignment delays on priority cases, an SLA breach that surfaced in a quarterly review, and about three weeks of my time untangling logic no one had documented. Had they connected an AI agent to that object, the agent would have read whatever state the coin toss produced, treated it as truth, and routed at machine speed. The client would have blamed the AI. The AI would have been innocent. The architecture was the problem, and it had been the problem for years before anyone said the word Agentforce. The uncomfortable part of that engagement was how normal it was. Nothing about the org was unusual except that someone finally looked. AI does not fix bad logic. It accelerates it. It executes bad logic at scale and hides the math. Why do flows fail silently? The pattern repeats across orgs for a short list of reasons. No fault paths. A flow element fails, the transaction rolls back or partially commits, and the error email goes to whoever last modified the flow, often a consultant who left in 2023. The record quietly does not update. Nobody is alerted. Overlapping automation on one object. Workflow rules, Process Builder, and record-triggered flows stacked on the same object and event produce order-of-execution behavior nobody designed. Each piece passed its own test. The combination never got tested at all. Retired tools still running production. Workflow Rules and Process Builder are both past their announced end-of-support, and they still execute in thousands of orgs, invisible to admins who only look at the Flows list. Unsupported logic is unowned logic. Everything runs in system context. Automations that ignore the sharing model hide access problems until something, human or AI, starts reading the results. No observability. Anthropic caught its problem partly through monitoring and an outside report. Most orgs have no equivalent: no error log object, no dashboard of failed flow interviews, no quarterly review. The first alert is a user complaint, weeks late. Each cause is boring. That is exactly why they persist. Boring problems do not get budget until they detonate inside a visible project, and an AI rollout is the most visible project your org will run this decade. Leadership will fund the AI license without blinking and question the governance line item for a week. The order of those two purchases is the whole ballgame. How do you diagnose ungoverned automation? You do not need a tool purchase to see the exposure. You need an afternoon in Setup. Start at Setup > Flow Trigger Explorer and pick your highest-traffic object. This screen shows every record-triggered flow firing on create, update, and delete, in the order they run. If you see more than one flow per object per event and cannot explain the sequence, write that down. Repeat for the two or three objects your AI project will read. Move to Setup > Paused and Failed Flow Interviews . Sort by date. A healthy org has a short, explained list. An ungoverned org has hundreds of rows nobody has opened. Check Setup > Process Automation Settings and confirm where flow error emails go. The default routes errors to the last person who modified the flow. If that answer is a departed admin's inbox, your failure notifications have been landing in a void for years, and the count of unread errors is your silent failure rate, measured. Pull the legacy layer into view: Setup > Workflow Rules and Setup > Process Builder . List every active one touching the objects in scope. Finish with a census: for each active flow, can anyone name its purpose, its owner, and its rollback plan in one sentence each? Every blank cell in that census is a silent failure waiting for a launch date. This census is the automation half of the readiness picture our AI governance practice assesses before any agent goes live. Write the numbers down as you go: active automations per object, failed interviews per month, flows with no description or owner. Three numbers turn a governance argument into a budget line, and they give you the before picture for the review that follows the cleanup. How do you fix what the audit finds? Fix in this order, and resist the urge to build anything new until the list is done. Consolidate the stack. Migrate workflow rules and Process Builder logic into flows, and move to one record-triggered flow per object per event where the design allows, with subflows carrying the branching logic. Use entry conditions aggressively so flows fire only when the fields they care about actually change. Order of execution should be a design decision, documented, not an accident. Add fault paths everywhere. Every element that touches data gets a fault connector. Route faults to a custom error log object and a custom notification to a named owner, not an email to whoever edited last. A donor or customer should never see a raw flow error screen, and an admin should never learn about a failure from a user. Build a bypass switch. A custom permission or metadata toggle that lets an admin suspend automation during data loads and incident response is the difference between a controlled fix and a cascade. Design the off switch before you need it. Wire the same toggle into the integration user's permission set so bulk API jobs skip the interactive automation entirely: the AI agent gets the governed path, the data loader gets the fast one, and neither trips the other. Name and document. Adopt a convention that encodes object, trigger, and purpose. Give every flow a description with owner and rollback plan. Ten minutes per flow now saves the three-week archaeology project later. Test the combination, not the component. Sandbox testing has to cover the full automation stack on an object, firing together, with realistic data volumes. Include the batch case: a 10,000-record load exercises recursion and limits in ways a single-record test never will, and batch is exactly how an agent-driven process will hit the org. Anthropic's fix was validated by an outside evaluator before redeployment. Borrow the principle: someone who did not build the logic signs off on it. Design the fallback before the failure. The most instructive detail in the redeployment is what happens when Fable 5's new classifier blocks a request: the request reroutes automatically to Claude Opus 4.8 and the user is told. That is a fault path. The work still gets done, on a safer path, with visibility. Your critical automations deserve the same pattern: a defined degraded mode, not a null update and silence. How do you prevent the next silent failure? Prevention is governance, and governance is a calendar, not a binder. Put a quarterly flow review on the schedule and treat it like a close process. The agenda is three items: every failed interview since last quarter gets an explanation, every new automation shows its documentation and test evidence, and every flow without a living owner gets one assigned or gets deactivated. No automation ships to production without a documented purpose, owner, test evidence, and rollback plan. No AI agent connects to an object until the automation stack on that object has passed the review. An AI Center of Excellence exists to enforce exactly this: it owns the testing protocol that proves an automation is safe before an agent is allowed to touch it, and it holds the authority to say \"not yet\" when leadership wants to say \"ship.\" A CoE does not require headcount a small org lacks. The working version I set up for clients is three people on a quarterly calendar: the admin who runs the review, an executive sponsor who owns the pause authority, and an outside architect who signs off on anything an agent will touch. Rotate the outside seat if you like, but keep it filled. The person who did not build the logic is the only one who reads it honestly. Governance is not the expensive part of an AI project. Shipping without it is the expensive part, and the invoice arrives as a corrupted database, a breached SLA, or a board meeting about numbers nobody can defend. The audit costs an afternoon. The unwinding costs a quarter. The pressure will not slow down. Fable 5 is back online, the vendors are shipping, and leadership read about all of it this week. The orgs that survive the next release cycle are the ones that governed the logic layer before pointing intelligence at it. The next two pieces in this series cover the other two failure surfaces: the data your AI will read and the scoping conversation that decides everything before kickoff . Start with the checklist Auditing an automation layer is repeatable work, so use a repeatable instrument. The Salesforce Flow Governance Checklist covers naming standards, documentation requirements, fault path patterns, pre-production testing, and the quarterly review cadence. It was built from nonprofit engagements and applies anywhere flows run ungoverned. Run it against your org before the next AI license lands on your desk. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Data Quality Delusion: Salesforce Data Governance Comes Before AI Next Next The Six Governance Checkpoints: A Real Engagement, Walked Through",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "AI governance practice"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-agentforce-data-governance",
+   "text": "the data your AI will read"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-implementation-timeline",
+   "text": "the scoping conversation that decides everything before kickoff"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/the-data-quality-delusion-salesforce-data-governance-comes-before-ai",
+   "text": "PreviousPreviousThe Data Quality Delusion: Salesforce Data Governance Comes Before AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": "NextNextThe Six Governance Checkpoints: A Real Engagement, Walked Through"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://www.anthropic.com/news/fable-mythos-access",
+   "text": "disputed the basis publicly"
+  },
+  {
+   "url": "https://jeremycarmona.gumroad.com/l/flow-governance-checklist-nonprofits",
+   "text": "The Salesforce Flow Governance Checklist"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/29779903-af88-4abb-8e03-519506d92eff/og_5_flow.png",
+   "alt": "Your automations already break silently. Salesforce flow governance diagram",
+   "width": "1200",
+   "height": "630",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Flow Governance Broke Before AI Showed Up | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "datePublished": "2026-07-02T04:16:35-0400",
+   "dateModified": "2026-09-23T18:17:15-0400",
+   "headline": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a461c25b629f94bfa527216/1782979621525/og_5_flow.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "@id": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation#article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation"
+   },
+   "headline": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "description": "The US government pulled Fable 5 offline, not Anthropic. Salesforce flow governance decides whether an AI scales your work or your silent failures. Audit now.",
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "datePublished": "2026-07-02T09:00:00-0400",
+   "dateModified": "2026-07-02T09:00:00-0400",
+   "author": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.clearconciseconsulting.com/#organization",
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/4263363b-4b6b-4d0c-addc-4cf71f9c920e/CCC_Logo_Master_2000px.png",
+     "width": 2000,
+     "height": 2000
+    }
+   },
+   "image": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/f5a91e71-42ab-4454-9803-5b85b079af38/og_5_flow.png?format=2500w",
+   "keywords": [
+    "Salesforce Flow Governance",
+    "Flow Automation",
+    "AI Governance",
+    "Agentforce",
+    "Fault Paths",
+    "Technical Debt"
+   ],
+   "articleSection": "AI Governance",
+   "wordCount": 1916,
+   "inLanguage": "en-US"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

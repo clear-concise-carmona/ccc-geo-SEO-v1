@@ -1,0 +1,310 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:24 GMT",
+  "Etag": "W/\"b551def2a8d1f752354ea7455ac5c66d--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "xGHOCedH/nIoQhZB1",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Headless 360 vs Agentforce: What's the Difference? | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+  "og:type": "article",
+  "og:description": "Headless 360 is the infrastructure. Agentforce is the application. An architect explains the difference and why confusing them leads to bad decisions.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e519adfd523c3b2595f62d/1776621997182/article-01-headless-360-vs-agentforce-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Headless 360 vs Agentforce: What's the Difference? | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e519adfd523c3b2595f62d/1776621997182/article-01-headless-360-vs-agentforce-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+  "twitter:card": "summary",
+  "twitter:description": "Headless 360 is the infrastructure. Agentforce is the application. An architect explains the difference and why confusing them leads to bad decisions.",
+  "description": "Headless 360 is the infrastructure. Agentforce is the application. An architect explains the difference and why confusing them leads to bad decisions.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Headless 360 vs Agentforce: What's the Difference? | Clear Concise Consulting",
+ "description": "Headless 360 is the infrastructure. Agentforce is the application. An architect explains the difference and why confusing them leads to bad decisions.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+ "h1_tags": [
+  "Headless 360 vs Agentforce: An Architect's Decision Matrix"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Headless 360 vs Agentforce: An Architect's Decision Matrix"
+  },
+  {
+   "level": 2,
+   "text": "What Headless 360 Actually Is"
+  },
+  {
+   "level": 2,
+   "text": "What Agentforce Actually Is"
+  },
+  {
+   "level": 2,
+   "text": "The Decision Matrix"
+  },
+  {
+   "level": 2,
+   "text": "Where Confusion Causes Real Damage"
+  },
+  {
+   "level": 2,
+   "text": "What to Do Right Now"
+  },
+  {
+   "level": 2,
+   "text": "Key Takeaways"
+  },
+  {
+   "level": 2,
+   "text": "The Builder Gap: How Salesforce Admins Can Pivot to the Agentic Era"
+  },
+  {
+   "level": 2,
+   "text": "The 400-Object Org: How Custom Object Sprawl Happens and What to Do About It"
+  }
+ ],
+ "word_count": 997,
+ "text_content": "Headless 360 vs Agentforce: What's the Difference? | Clear Concise Consulting 0 Headless 360 vs Agentforce: An Architect's Decision Matrix Salesforce Architecture Apr 20 Written By Jeremy Carmona Half the people at TDX used \"Headless 360\" and \"Agentforce\" interchangeably. They are not the same thing. One is the foundation your house sits on. The other is the house. Confusing them is how you end up renovating the roof when the problem is the plumbing. I have been building Salesforce orgs for 14 years . I watched the TDX 2026 keynote with the same question most architects had: what is the actual relationship between these two things, and what breaks if I get it wrong? Here is the breakdown. What Headless 360 Actually Is Salesforce announced Headless 360 on April 15, 2026 at TrailblazerDX in San Francisco. The core idea: every capability on the Salesforce platform is now exposed as an API, MCP tool, or CLI command. Agents and coding tools can access the full platform without ever opening a browser. This includes your data, your workflows, your business logic, your sharing model, and your security controls. All of it is callable by machines. Headless 360 is organized around four layers that Salesforce's EVP Jayesh Govindarjan described to VentureBeat : System of Context (Data 360): Your unified customer data, now accessible via API System of Work (Customer 360 apps): Sales Cloud, Service Cloud, Nonprofit Cloud, all callable System of Agency (Agentforce): Where agents are built and orchestrated System of Engagement (Slack): Where humans interact with agent output Headless 360 is the plumbing that connects all four layers. It is infrastructure. What Agentforce Actually Is Agentforce is the application layer. It is where you configure an AI agent, define its behavior through AgentScript , set its guardrails, assign it a topic scope, and deploy it to a surface (Slack, a website, a mobile app, or a voice channel). Think of it this way: Agentforce is the agent. Headless 360 is what the agent operates on. Before Headless 360, Agentforce agents could do specific tasks within the Salesforce UI. After Headless 360, Agentforce agents (and any external agent built with Claude Code, Cursor, or Codex) can access the entire platform without the UI. The Decision Matrix When you are making architecture decisions, the question is not \"Headless 360 or Agentforce.\" The question is which layer your problem lives in. Decision Use This Why \"I need an agent to handle customer service cases\" Agentforce You are building an agent application \"I need Claude Code to read my org metadata and generate Flows\" Headless 360 (MCP tools) You are giving an external tool API access to your platform \"I need to expose Salesforce data to a non-Salesforce agent\" Headless 360 (APIs) You are connecting infrastructure to an external system \"I need to control what an agent can and cannot do\" Agentforce (AgentScript + Agent Fabric) You are governing agent behavior \"I need my agent to work in Slack, not the Salesforce UI\" Both Agentforce builds the agent. Headless 360 + Experience Layer renders it in Slack Where Confusion Causes Real Damage The risk I see in the field is organizations treating Agentforce as the whole story and skipping the infrastructure conversation. If your data governance is not ready for API-scale operations, deploying an Agentforce agent will amplify every data quality problem you already have. The agent inherits your validation rules , your permission model , and your sharing rules. If those are not built for machine-speed consumption, the agent will create problems faster than humans can fix them. The inverse is also true: building Headless 360 API integrations without Agentforce's governance layer (AgentScript, Agent Fabric, Session Tracing) means running agents without guardrails. That is how orgs end up with unauthorized data modifications and no audit trail. What to Do Right Now Before you activate either capability, audit your org for agentic readiness . Check these four areas: Are your validation rules designed to return structured API errors, not just UI messages? Is your integration user following least-privilege Permission Set assignments? Do you have a documented rollback plan for bulk agent-created records? Is your data governance machine-readable (consistent picklist values, standardized field formats)? If the answer to any of these is no, start there. The infrastructure conversation (Headless 360) and the application conversation (Agentforce) both depend on the same foundation: clean data, tight permissions, and documented governance. Key Takeaways Headless 360 is infrastructure. Agentforce is the application. They are complementary, not interchangeable. TDX shipped 60+ MCP tools and 30+ coding skills across both layers. Headless 360 exposes your entire platform via APIs, MCP tools, and CLI commands. Agentforce is where agents are built, governed, and deployed. The four-layer architecture (Data 360, Customer 360, Agentforce, Slack) connects through Headless 360. Architecture decisions should start at the infrastructure layer (is your data agent-ready?) before moving to the application layer (which agent should I build?). In 14 years of implementations, I have never seen an org fail because the agent was wrong. I have seen orgs fail because the data was wrong. Pricing for Headless 360 has not been disclosed . Do not build architectural dependencies on features that may require additional SKUs. The free Developer Edition trial (110 requests/month, 1.5M tokens) expires after May 2026. Start with the AI Readiness Scorecard to identify gaps before activation. The scorecard evaluates 15 weighted questions across 5 categories to produce a 0-100 baseline. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Builder Gap: How Salesforce Admins Can Pivot to the Agentic Era Next Next The 400-Object Org: How Custom Object Sprawl Happens and What to Do About It",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Salesforce+Architecture",
+   "text": "Salesforce Architecture"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-builder-gap-tdx-2026",
+   "text": "PreviousPreviousThe Builder Gap: How Salesforce Admins Can Pivot to the Agentic Era"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-400-object-org-audit",
+   "text": "NextNextThe 400-Object Org: How Custom Object Sprawl Happens and What to Do About It"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://clearconciseconsulting.com/about",
+   "text": "14 years"
+  },
+  {
+   "url": "https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/",
+   "text": "announced Headless 360"
+  },
+  {
+   "url": "https://venturebeat.com/ai/salesforce-launches-headless-360-to-turn-its-entire-platform-into-infrastructure-for-ai-agents",
+   "text": "described to VentureBeat"
+  },
+  {
+   "url": "https://www.salesforce.com/blog/tdx-2026-roundup-agentforce-edition/",
+   "text": "AgentScript"
+  },
+  {
+   "url": "http:///blog/validation-rules-ai-agents",
+   "text": "validation rules"
+  },
+  {
+   "url": "http:///blog/salesforce-permission-sets-ai-agents",
+   "text": "permission model"
+  },
+  {
+   "url": "http:///blog/salesforce-agentic-readiness-audit",
+   "text": "audit your org for agentic readiness"
+  },
+  {
+   "url": "http:///blog/headless-360-data-governance",
+   "text": "data governance"
+  },
+  {
+   "url": "https://www.cio.com/article/4159536/salesforce-launches-headless-360-to-support-agent-first-enterprise-workflows.html",
+   "text": "not been disclosed"
+  },
+  {
+   "url": "https://clearconciseconsulting.com/scorecard",
+   "text": "AI Readiness Scorecard"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/a35521ce-fe18-4b1f-b5d3-9a78fe06c2a5/article-01-headless-360-vs-agentforce-featured.png",
+   "alt": "Abstract illustration showing two layers of enterprise architecture: infrastructure foundation and application layer",
+   "width": "2752",
+   "height": "1536",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Headless 360 vs Agentforce: What's the Difference? | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/headless-360-vs-agentforce",
+   "datePublished": "2026-04-20T12:05:26-0400",
+   "dateModified": "2026-04-20T12:05:50-0400",
+   "headline": "Headless 360 vs Agentforce: An Architect's Decision Matrix",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69e519adfd523c3b2595f62d/1776621997182/article-01-headless-360-vs-agentforce-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is the difference between Salesforce Headless 360 and Agentforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Headless 360 is the infrastructure layer that exposes every Salesforce capability as an API, MCP tool, or CLI command. Agentforce is the application layer where AI agents are configured, deployed, and managed. Headless 360 is what agents connect to. Agentforce is where agents are built."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can you use Agentforce without Headless 360?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Agentforce existed before Headless 360 and can still operate within the traditional Salesforce UI. Headless 360 extends Agentforce by making the full platform accessible to external coding agents and third-party tools via APIs and MCP."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Headless 360 a separate Salesforce product?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Headless 360 is not a standalone product with separate licensing. It is an architectural initiative that exposes existing Salesforce capabilities through APIs, MCP tools, and CLI commands. Pricing and licensing details have not been disclosed as of April 2026."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

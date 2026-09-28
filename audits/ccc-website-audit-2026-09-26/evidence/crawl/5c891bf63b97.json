@@ -1,0 +1,288 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "61050",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:00 GMT",
+  "Etag": "W/\"da118d8bf1e649c9ea9a1a11e27473ce\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "uMc7IR3R/ksPbvFwi",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "AI Reversibility: The Rollback Plan Most Deployments Skip | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+  "og:type": "article",
+  "og:description": "Off is not rollback. A real AI rollback plan has four parts: kill switch, data isolation, reversal procedure, post-incident review. With drill.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a065db72cda070a669c0cb0/1778802103165/ccc-may-2026-article-7-reversibility-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "AI Reversibility: The Rollback Plan Most Deployments Skip | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a065db72cda070a669c0cb0/1778802103165/ccc-may-2026-article-7-reversibility-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+  "twitter:card": "summary",
+  "twitter:description": "Off is not rollback. A real AI rollback plan has four parts: kill switch, data isolation, reversal procedure, post-incident review. With drill.",
+  "description": "Off is not rollback. A real AI rollback plan has four parts: kill switch, data isolation, reversal procedure, post-incident review. With drill.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "AI Reversibility: The Rollback Plan Most Deployments Skip | Clear Concise Consulting",
+ "description": "Off is not rollback. A real AI rollback plan has four parts: kill switch, data isolation, reversal procedure, post-incident review. With drill.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+ "h1_tags": [
+  "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+  },
+  {
+   "level": 2,
+   "text": "The Principle"
+  },
+  {
+   "level": 2,
+   "text": "The Four Parts of a Real Rollback Plan"
+  },
+  {
+   "level": 2,
+   "text": "The Rollback Drill"
+  },
+  {
+   "level": 2,
+   "text": "What Reversibility Costs"
+  },
+  {
+   "level": 2,
+   "text": "What's Next"
+  },
+  {
+   "level": 2,
+   "text": "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+  },
+  {
+   "level": 2,
+   "text": "Proportionality: Not Every AI Decision Needs a Committee"
+  },
+  {
+   "level": 3,
+   "text": "Part 1: The Kill Switch"
+  },
+  {
+   "level": 3,
+   "text": "Part 2: The Data Isolation Layer"
+  },
+  {
+   "level": 3,
+   "text": "Part 3: The Reversal Procedure"
+  },
+  {
+   "level": 3,
+   "text": "Part 4: The Post-Incident Review"
+  }
+ ],
+ "word_count": 1828,
+ "text_content": "AI Reversibility: The Rollback Plan Most Deployments Skip | Clear Concise Consulting 0 Reversibility: The Rollback Plan Nobody Writes Until It's Too Late AI Governance May 25 Written By Jeremy Carmona The best way to roll back a problematic AI agent deployment is to version every release, require human approval before activation, tag every affected record, and test a documented reversal procedure. A kill switch stops new actions; it does not restore data or undo completed work. A regional services nonprofit deployed an Agentforce agent in late February. The agent's job was straightforward: when a new Lead came in through the website form, the agent would search for an existing Contact match, then either link the Lead to the matched Contact or create a new Account-Contact-Lead chain. The agent went live on a Friday afternoon. By Monday morning, the org had 12,000 new Account records that should not exist. The kill switch worked exactly as designed. The system administrator deactivated the integration user, which terminated the agent's session, which stopped further record creation. From the moment the issue was reported to the moment the agent stopped: about 90 seconds. The cleanup took nine days. Nine days, because the agent had not tagged its created records. The org had no way to query \"show me records this agent created between Friday afternoon and Monday morning.\" They had to reconstruct the agent's activity from system audit logs, then manually identify which Account records were duplicates of existing Accounts, then merge or delete each one with sharing rules and ownership preserved. This is the conversation that gets skipped in most AI deployments. The kill switch question gets asked. The kill switch question gets answered. Everyone moves on. The rollback question never gets asked. This is what the sixth and final guiding principle of the CCC AI Center of Excellence addresses. The Principle Reversibility. Every AI deployment includes a documented rollback procedure. If something goes wrong, the system returns to its pre-AI state within a defined timeframe. Two phrases in that sentence do most of the work. \"Documented rollback procedure\" means a written runbook, not a kill switch. A kill switch stops the agent. It does not undo what the agent did. The runbook is what undoes it. \"Within a defined timeframe\" means the org commits to a specific recovery window before deployment. The window has consequences. If the window is \"within four hours,\" the rollback procedure has to be designed for four hours. If the window is \"within seven days,\" the procedure can be slower but still has to exist. The window forces the org to think about what acceptable damage actually looks like. Reversibility is the principle most often missing from policy documents I review. It is also the principle that prevents a single bad deployment from becoming an institutional crisis. The Four Parts of a Real Rollback Plan Off is not rollback. A real AI rollback plan has four parts. All four are required. Skipping any one of them means the rollback works in theory but fails in practice. Part 1: The Kill Switch What it is: a documented procedure to immediately stop the AI from taking further action. For Salesforce-based AI: Deactivate the integration user the agent runs as Disable the named credential the agent uses to call external services Disable the Flow or Process that triggers the agent Revoke the Permission Set assignment that grants the agent's elevated access The kill switch is the easiest of the four parts to design and the part most orgs treat as the entire rollback plan. It is not. The kill switch stops the bleeding. It does not heal the wound. Test criterion: a system administrator can execute the kill switch from a mobile device in under five minutes without consulting documentation. Part 2: The Data Isolation Layer What it is: a way to identify, in a query, every record the AI created or modified. This is the part that the nonprofit Agentforce deployment skipped. Without isolation, the rollback team has to reverse-engineer agent activity from system audit logs. With isolation, the team can run a single SOQL query and see every record the agent touched. The simplest implementation: a custom field on every affected object called \"Created_By_Agent__c\" or \"Modified_By_Agent__c\" with the agent's identifier. The agent writes its identifier on every record it creates or modifies. Storage cost is trivial. Recovery time goes from days to hours. For agents operating across multiple objects, the isolation field goes on every affected object: Account, Contact, Lead, Opportunity, Case, custom objects in scope. For agents that modify existing records, the isolation field captures the prior value. Either a JSON snapshot in a custom long-text field on the record, or a related \"Pre-Agent Snapshot\" custom object referenced from the modified record. The choice depends on volume and retention requirements. Test criterion: a system administrator can run a single SOQL query that returns every record affected by the agent within a specified time range. Part 3: The Reversal Procedure What it is: a documented sequence of steps to restore the system to its pre-AI state. Reversal procedures depend on what the agent did: For records the agent created: bulk delete via Data Loader using the isolation field as the filter. Document the destructive permission required. Document the sharing model implications. Document what happens to related child records. For records the agent modified: bulk restore from the pre-agent snapshot. If using JSON snapshots in a custom field, document the deserialization Apex or Flow that restores prior values. If using a Pre-Agent Snapshot object, document the merge procedure. For external communications the agent sent: the procedure cannot un-send the message. The reversal is a documented apology or correction sent to recipients, with a named human approver. This is a hard truth that orgs deploying agents with send authority need to internalize before launch, not after. For financial transactions or commitments the agent made: legal review. There is no reversal procedure for a contract the agent signed. Tier 3 deployments with financial action authority require a pre-signed legal opinion on what the org will do if the agent commits something it should not have. Test criterion: a complete reversal can be executed by a documented runbook within the committed recovery window. No improvisation. No \"we will figure it out.\" Part 4: The Post-Incident Review What it is: a structured retrospective after any rollback execution. Documented within 72 hours. The retrospective covers: What did the agent do that triggered the rollback? What in the design allowed that to happen? What controls would have prevented it? What changed about the deployment as a result? What did the rollback itself reveal about gaps in the runbook? The post-incident review is the part that turns a single rollback into institutional learning. Without it, the same class of incident recurs in three months. With it, the design improves. For Tier 3 deployments, the post-incident review goes to the executive sponsor and, where applicable, to the board. For Tier 2, it goes to the named project owner and the AI inventory documentation. For Tier 1, it goes into the inventory record. Every tier requires the review. The audience differs by tier. The Rollback Drill A rollback plan that has never been tested is not a rollback plan. It is a wish. Every CCC engagement at Tier 2 or Tier 3 includes a rollback drill before go-live. The drill takes two to four hours. The procedure: The agent is deployed in a Full sandbox with realistic data volume. The team simulates an incident that requires rollback. The named system administrator executes the kill switch. The named admin runs the data isolation query. The named admin or developer executes the reversal procedure. The named admin or developer confirms the system has returned to its pre-agent state. The team writes the post-incident review of the drill itself. Drill outcomes are useful in two ways. First, they expose gaps in the runbook. Almost every drill surfaces at least one step that does not work as written. Second, they build muscle memory. The system administrator who has run the drill can run the real rollback under stress. The system administrator who has only read the runbook cannot. Drills also force the org to confirm the recovery window is realistic. Several engagements have revised their committed recovery window after the drill revealed the documented procedure took twice as long as the stated commitment. Better to discover that in a sandbox than during an incident. What Reversibility Costs There is a real cost to building reversibility correctly. The data isolation layer adds custom fields and storage. The reversal procedure adds developer time. The drill adds engineering and admin hours. The post-incident review adds documentation overhead. The cost is paid before the incident. The alternative, paying the cost during the incident, is always more expensive. The nonprofit with the 12,000 duplicate Accounts spent more in cleanup labor, donor confusion, and reporting corrections than the rollback infrastructure would have cost to build. The incident also delayed the next phase of the org's Salesforce roadmap by six weeks while the team focused on cleanup instead of new work. EU AI Act high-risk categories include rollback as a Mandatory Control for systems classified as high-risk. HIPAA's 2025 AI guidance requires documented reversal procedures for any AI processing PHI. OMB M-25-21 requires federal agencies to maintain rollback procedures for high-impact AI. \"We figured it out as we went\" is not a defense in any of these regulatory contexts. What's Next The next article in this series is the wrap. The Six Governance Checkpoints, walked through with a real engagement. Eight articles in, the principles have been laid out. The eighth article shows what they look like when applied to one client deployment, end to end. If your AI deployment has a kill switch but no isolation field, no reversal SOQL, and no rollback drill, the AI Readiness Scorecard is the right starting point. The Reversibility questions sit in the Documentation Health section. This article is publishing on Memorial Day. If you are reading it on the holiday, the rollback plan is the one document worth writing before you go back to work tomorrow. The work that ships next quarter will be safer if the rollback work ships this week. Take the AI Readiness Scorecard: clearconciseconsulting.com/scorecard Schedule a 15-minute call: scheduler.zoom.us/jeremy-carmona Read the AI Governance service page: clearconciseconsulting.com/services/ai-governance AI Rollback AI Governance Agent Kill Switch AI Center of Excellence Agentforce Salesforce AI Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous The Six Governance Checkpoints: A Real Engagement, Walked Through Next Next Proportionality: Not Every AI Decision Needs a Committee",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "clearconciseconsulting.com/scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+   "text": "clearconciseconsulting.com/services/ai-governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Rollback",
+   "text": "AI Rollback"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Agent+Kill+Switch",
+   "text": "Agent Kill Switch"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Center+of+Excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Agentforce",
+   "text": "Agentforce"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Salesforce+AI",
+   "text": "Salesforce AI"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "text": "PreviousPreviousThe Six Governance Checkpoints: A Real Engagement, Walked Through"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/proportional-ai-governance-risk-tiers",
+   "text": "NextNextProportionality: Not Every AI Decision Needs a Committee"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://scheduler.zoom.us/jeremy-carmona",
+   "text": "scheduler.zoom.us/jeremy-carmona"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c8e101e7-966c-4d46-82f0-55fdbdbbf17a/ccc-may-2026-article-7-reversibility-inline.png",
+   "alt": "Geometric minimal illustration in CCC navy and beige showing a four-part rollback diagram with kill switch, isolation, reversal, and review",
+   "width": "2528",
+   "height": "1696",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "AI Reversibility: The Rollback Plan Most Deployments Skip | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "datePublished": "2026-05-25T10:30:03-0400",
+   "dateModified": "2026-08-30T13:57:52-0400",
+   "headline": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a065db72cda070a669c0cb0/1778802103165/ccc-may-2026-article-7-reversibility-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

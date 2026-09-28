@@ -1,0 +1,66 @@
+{
+ "url": "http://127.0.0.1:8765/158efe549a69.html",
+ "total_blocks_analyzed": 1,
+ "average_citability_score": 47.0,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 0,
+  "D": 1,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "Architecture without the handoffs.",
+   "word_count": 94,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most implementations ship in 8 to 12 weeks. I do not use indefinite hourly billing models. Large firms cycle through junior associates. CCC provides 13x Certified accountability on every build...."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Architecture without the handoffs.",
+   "word_count": 94,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most implementations ship in 8 to 12 weeks. I do not use indefinite hourly billing models. Large firms cycle through junior associates. CCC provides 13x Certified accountability on every build...."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Architecture without the handoffs.",
+   "word_count": 94,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most implementations ship in 8 to 12 weeks. I do not use indefinite hourly billing models. Large firms cycle through junior associates. CCC provides 13x Certified accountability on every build...."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/contact",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

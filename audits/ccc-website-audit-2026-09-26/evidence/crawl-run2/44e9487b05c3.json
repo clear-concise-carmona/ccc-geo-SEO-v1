@@ -1,0 +1,174 @@
+{
+  "url": "https://www.clearconciseconsulting.com/ai-coe-practice-map",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:35:00 GMT",
+    "Etag": "W/\"7c053a3ecca82d0e27828bb5b1eff07f--gzip\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "dNgSxvUh/jksJcquV",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Transfer-Encoding": "chunked"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "AI CoE Practice Map for Salesforce | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/ai-coe-practice-map",
+    "og:type": "website",
+    "og:description": "The full surface area of AI governance for Salesforce. Fifteen practice areas across three layers and seven roles. Interactive reference from Clear Concise Consulting.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a21a9d0f2f64d69b394e9b3/1780591056188/ai-coe-practice-map-social-1200x630.png?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "837",
+    "twitter:title": "AI CoE Practice Map for Salesforce | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a21a9d0f2f64d69b394e9b3/1780591056188/ai-coe-practice-map-social-1200x630.png?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/ai-coe-practice-map",
+    "twitter:card": "summary",
+    "twitter:description": "The full surface area of AI governance for Salesforce. Fifteen practice areas across three layers and seven roles. Interactive reference from Clear Concise Consulting.",
+    "description": "The full surface area of AI governance for Salesforce. Fifteen practice areas across three layers and seven roles. Interactive reference from Clear Concise Consulting.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "AI CoE Practice Map for Salesforce | Clear Concise Consulting",
+  "description": "The full surface area of AI governance for Salesforce. Fifteen practice areas across three layers and seven roles. Interactive reference from Clear Concise Consulting.",
+  "canonical": "https://www.clearconciseconsulting.com/ai-coe-practice-map",
+  "h1_tags": [
+    "AI COE PRACTICE MAP",
+    "Most CoE diagrams are conceptual.",
+    "The map is a reference. The practice is the implementation."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "AI COE PRACTICE MAP"
+    },
+    {
+      "level": 1,
+      "text": "Most CoE diagrams are conceptual."
+    },
+    {
+      "level": 1,
+      "text": "The map is a reference. The practice is the implementation."
+    },
+    {
+      "level": 2,
+      "text": "Three lenses. One reference document."
+    },
+    {
+      "level": 2,
+      "text": "What's inside each cell"
+    }
+  ],
+  "word_count": 561,
+  "text_content": "AI CoE Practice Map for Salesforce | Clear Concise Consulting 0 AI COE PRACTICE MAP The full surface area of AI governance for Salesforce. Fifteen practice areas across three layers and seven roles. The map below shows what gets configured, who owns each cell, and where governance gates apply. Built for Salesforce orgs evaluating AI on a foundation that needs to hold up to audit. TAKE THE AI READINESS SCORECARD SEE THE AI COE PRACTICE WHY A PRACTICE MAP Most CoE diagrams are conceptual. A typical AI Center of Excellence diagram shows boxes labeled \"Strategy,\" \"Governance,\" \"Innovation,\" and \"Deployment.\" The boxes mean different things to different people. Nothing maps to a Salesforce object, a permission set, or a named role. This map is different. Every cell ties to a concrete deliverable: a configured Salesforce feature, a documented process, or a named owner. Every layer corresponds to a phase of work that can be scoped and timed. Every role is a person who can be hired, contracted, or assigned. The map is the reference document we use during scoping calls. Visitors see what they would actually be buying before they buy it. HOW TO READ THE MAP Three lenses. One reference document. By Layer The default view shows the practice in three horizontal layers. The Foundation layer covers data quality, governance gates, and audit infrastructure that must exist before AI activation. The Trust layer covers the human review processes, override protocols, and decision logging that surround AI outputs. The Activation layer covers the AI features themselves: Einstein, Agentforce, and third-party tools integrated into your org. By Risk Toggle the risk lens to highlight cells where audit failures concentrate. Cells with red borders are the ones that produce the highest-frequency findings in compliance reviews. The risk lens is the most actionable view for orgs that are pre-Einstein activation or post-Einstein but pre-audit. By Role Toggle the role lens to see which of the seven defined roles owns each cell. Roles include the AI CoE Lead, the Data Governance Owner, the AI Decision Reviewer, the Audit Liaison, and others. This view answers the question that scoping calls usually surface first: who would actually do this work, and do we have that person on staff? What's inside each cell Click any cell in the map to open a detail panel. Each cell contains: - A plain-English definition of the practice area - The Salesforce features or objects it touches - The named role that owns it - The governance gate it passes through (when applicable) - Sources cited from NIST AI RMF, ISO 42001, the Salesforce Trusted AI Principles, and the EU AI Act The sources matter. AI governance work cited against published frameworks holds up in audit. AI governance work cited against an internal opinion does not. WHERE THIS FITS The map is a reference. The practice is the implementation. The Practice Map shows the full surface area of AI governance for a Salesforce org. The AI Center of Excellence is the engagement model that implements it. CCC delivers the practice in scoped phases: a Governance Assessment first, then AI CoE Setup, then ongoing Agentforce Governance or Data Quality Baseline work as the org's AI footprint grows. Every phase ties back to specific cells on the map. You can see the deliverables before signing. TAKE THE AI READINESS SCORECARD SEE THE AI COE PRACTICE",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "TAKE THE AI READINESS SCORECARD"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+      "text": "SEE THE AI COE PRACTICE"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "TAKE THE AI READINESS SCORECARD"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+      "text": "SEE THE AI COE PRACTICE"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

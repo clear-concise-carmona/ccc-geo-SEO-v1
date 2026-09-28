@@ -1,0 +1,339 @@
+{
+ "url": "https://www.clearconciseconsulting.com/about",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "116712",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:30 GMT",
+  "Etag": "W/\"84e7b93420bd6d5b670a49969d868479\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "WhHWMHrT/6gAWS4Ss",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/about",
+  "og:type": "website",
+  "og:description": "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579bfd071a85d033ec038/1775598015447/og_about.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d579bfd071a85d033ec038/1775598015447/og_about.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/about",
+  "twitter:card": "summary",
+  "twitter:description": "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+  "description": "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting",
+ "description": "Meet Jeremy Carmona, founder of Clear Concise Consulting and a Salesforce architect focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+ "canonical": "https://www.clearconciseconsulting.com/about",
+ "h1_tags": [
+  "13x Certified Salesforce Architect"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "13x Certified Salesforce Architect"
+  },
+  {
+   "level": 2,
+   "text": "13"
+  },
+  {
+   "level": 2,
+   "text": "14"
+  },
+  {
+   "level": 2,
+   "text": "160+"
+  },
+  {
+   "level": 2,
+   "text": "80%"
+  },
+  {
+   "level": 2,
+   "text": "Architecture Track"
+  },
+  {
+   "level": 2,
+   "text": "Consultant Track:"
+  },
+  {
+   "level": 2,
+   "text": "Builder Track:"
+  },
+  {
+   "level": 2,
+   "text": "Why a Journalism Background Matters"
+  },
+  {
+   "level": 2,
+   "text": "From Confused Beginner to Certified Architect"
+  },
+  {
+   "level": 2,
+   "text": "NYU Tandon Salesforce Instructor"
+  },
+  {
+   "level": 2,
+   "text": "160+"
+  },
+  {
+   "level": 2,
+   "text": "80%"
+  },
+  {
+   "level": 2,
+   "text": "What Clients Say"
+  },
+  {
+   "level": 2,
+   "text": "The Approach"
+  },
+  {
+   "level": 2,
+   "text": "Results, Not Promises"
+  },
+  {
+   "level": 2,
+   "text": "You Get the Senior Person. Every Time."
+  },
+  {
+   "level": 2,
+   "text": "We Might Not Be the Right Fit"
+  },
+  {
+   "level": 2,
+   "text": "24-Hour Response Time"
+  },
+  {
+   "level": 2,
+   "text": "Weekly Progress Updates"
+  },
+  {
+   "level": 2,
+   "text": "Documentation Before Handoff"
+  },
+  {
+   "level": 2,
+   "text": "Paid Discovery, No Obligation"
+  },
+  {
+   "level": 2,
+   "text": "Ready to Fix Your Salesforce?"
+  },
+  {
+   "level": 3,
+   "text": "Nonprofit Data Migration"
+  },
+  {
+   "level": 3,
+   "text": "Healthcare Compliance"
+  },
+  {
+   "level": 3,
+   "text": "Government Cloud Implementation"
+  },
+  {
+   "level": 3,
+   "text": "Organizations shopping for the cheapest option."
+  },
+  {
+   "level": 3,
+   "text": "Teams unwilling to participate in discovery."
+  },
+  {
+   "level": 3,
+   "text": "Projects with no decision-maker."
+  },
+  {
+   "level": 3,
+   "text": "Requests for work I can't verify."
+  },
+  {
+   "level": 4,
+   "text": ""
+  }
+ ],
+ "word_count": 1193,
+ "text_content": "About Jeremy Carmona | Salesforce Architect | Clear Concise Consulting 0 13x Certified Salesforce Architect Jeremy Carmona is a 13x certified Salesforce Architect and founder of Clear Concise Consulting. He has 14 years in the Salesforce ecosystem, taught the first Salesforce Administration at NYU Tandon School of Engineering, and has published in Salesforce Ben on AI governance and data quality. Schedule a Consultation 13 Salesforce Certifications 14 Years in Salesforce Ecosystem 160+ Students Trained at NYU Tandon 80% Student Job Placement Rate Certification List Architecture Track Salesforce Certified Application Architect Salesforce Certified Data Architect Salesforce Certified Sharing and Visibility Architect Consultant Track: Salesforce Certified Sales Cloud Consultant Salesforce Certified Service Cloud Consultant Salesforce Certified Experience Cloud Consultant Salesforce Certified Nonprofit Cloud Consultant Salesforce Certified Business Analyst Builder Track: Salesforce Certified Administrator Salesforce Certified Advanced Administrator Salesforce Certified Platform App Builder Salesforce Certified Platform Developer I Salesforce Certified Marketing Cloud Administrator Verify on Trailhead As Featured In Salesforce Ben AI Governance February 4, 2026 \u00b7 Authored 5 Questions Salesforce Admins Must Ask Before Turning on AI Why AI in Salesforce is data governance with higher stakes, and why you cannot turn on Einstein without solid controls in place. AI Governance May 15, 2026 \u00b7 Authored 3 Key Questions Your Board Will Ask Before Approving Agentforce The gap between what Agentforce can do and whether an organization is ready for it comes down to governance, not technology. Quoted Source April 22, 2026 Are Salesforce Admins Becoming 'Accidental Architects'? \"I didn't just observe this phenomenon. I am the accidental architect.\" Quoted in this Salesforce Ben feature on admins making architectural decisions without the title. Why a Journalism Background Matters Most Salesforce consultants came from IT. I came from a newsroom. Journalists are trained to take complex information and make it clear for general audiences. To verify facts before publishing. To organize chaos into narrative. That training shows up in everything I deliver: Documentation that reads like it was written for humans. Not technical jargon designed to impress other technicians. Data standards borrowed from AP Style. State abbreviations, phone formats, address structures. The same discipline that makes newspapers consistent makes your Salesforce data clean. Questions before solutions. Journalists ask questions. They don't assume. That's why my discovery process uncovers problems other consultants miss. Your Salesforce org tells a story. I make sure it's a clear one. From Confused Beginner to Certified Architect In 2012, I stared at a Salesforce screen at Environmental Defense Fund, surrounded by unfamiliar objects and automation menus, wondering what I'd gotten myself into. No technical background. No training. Just a mandate to \"figure it out.\" That confusion became the foundation for everything I do now. I earned 13 certifications not because exams are fun, but because I needed to understand the platform deeply enough to explain it simply. I started teaching at NYU Tandon because I remembered what it felt like to have no clear path forward. Clear Concise Consulting exists for the people still staring at that screen. \"I know exactly how it feels to be on the other side: confused, overwhelmed, and wondering if you made a mistake. That's why I build Salesforce solutions that don't require a technical background to use.\" \u2014 Jeremy Carmona, Founder NYU Tandon Salesforce Instructor Since 2022, I've taught Salesforce Administration to career changers at NYU Tandon School of Engineering through PathStream's certificate program 160+ STUDENTS TRAINED 80% JOB PLACEMENT RATE Students who complete the program and actively job search land Salesforce roles. That's not a marketing number. That's tracked outcomes. The teaching philosophy: If you can't explain it simply, you don't understand it well enough . What Clients Say Nonprofit Data Migration Migrated 50,700 records from legacy system to Salesforce with full deduplication. Zero data loss. Healthcare Compliance Configured HIPAA-compliant Salesforce instance for patient management workflows. Government Cloud Implementation Senior Consultant on FedRAMP-authorized Government Cloud deployment for federal contractor. The Approach Understand before building. Every engagement starts with questions, not assumptions. I need to know what's actually happening before I propose what should happen. Work with what you have. No \"rip and replace\" unless absolutely necessary. Your team knows their processes. I build on that knowledge. Document everything. Your next admin shouldn't need to call me to understand what I built. Every configuration is documented for handoff. Teach as I go. Every project includes training. Your team should be more capable when I leave than when I arrived. Care about outcomes. Clean dashboards, better donor retention, happier staff. Not just checked boxes on a project plan. Results, Not Promises Flow Automation Quote Follow-Up Automation Replaced fragile manual process with Salesforce Flow using native Scheduled Paths. Sales team now gets automatic reminders without admin intervention. Gov Cloud Government Cloud Implementation Senior Consultant on FedRAMP-authorized Salesforce deployment for federal contractor. Security, compliance, and documentation to government standards. 50,700 Records Migrated. Zero Data Loss. Full deduplication and data quality remediation for enterprise Salesforce instance. Legacy system retired on schedule. EU Consent Management Built EU consent management system with Cookiebot integration, custom consent tracking objects, and regional segmentation for Account Engagement. You Get the Senior Person. Every Time. Big consultancies send senior architects to win your business. Then they hand your project to junior staff you've never met. That doesn't happen here. When you hire Clear Concise Consulting, you get me: the 13x certified architect, from discovery through deployment. \u2713 The same person on every call. No handoffs to junior staff. \u2713 The same person reviewing every deliverable. Consistent quality throughout. \u2713 Direct access when something breaks. No \"let me check with my team.\" \u2713 No wondering who's actually building your system. You know exactly who. We Might Not Be the Right Fit I'm selective about projects I take on. Here's who I don't work with: Organizations shopping for the cheapest option. Quality Salesforce work takes time. If budget is the only factor, we're not aligned. Teams unwilling to participate in discovery. I need access to the people who do the work. If stakeholders won't make time for interviews, the project will fail regardless of who builds it. Projects with no decision-maker. \"We'll need to run this by the board\" after every milestone creates delays neither of us wants. Someone needs authority to approve. Requests for work I can't verify. If you ask me to build something that violates Salesforce best practices or creates security risks, I'll tell you. If you insist anyway, we part ways. What to Expect 24-Hour Response Time You'll never wonder if I got your message. Emails and Slack messages get responses within one business day. Usually faster. Weekly Progress Updates Even if nothing dramatic happened, you'll know where things stand. No surprises. Documentation Before Handoff Your next admin shouldn't need to call me to understand what I built. Everything is documented. Paid Discovery, No Obligation Every engagement starts with a discovery phase. If we determine we're not the right fit, you keep the documentation and we part ways professionally. Ready to Fix Your Salesforce? Schedule a free 30-minute consultation. We'll discuss your current challenges, identify quick wins, and determine if working together makes sense. Schedule Consultation No sales pitch. No pressure. Just a conversation.",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Schedule a Consultation"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/contact",
+   "text": "Schedule Consultation"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://www.salesforce.com/trailblazer/jeremy-carmona",
+   "text": "Verify on Trailhead"
+  },
+  {
+   "url": "https://www.salesforceben.com/how-salesforce-admins-can-apply-data-governance-to-einstein/",
+   "text": "5 Questions Salesforce Admins Must Ask Before Turning on AI"
+  },
+  {
+   "url": "https://www.salesforceben.com/3-key-questions-your-board-will-ask-before-approving-agentforce/",
+   "text": "3 Key Questions Your Board Will Ask Before Approving Agentforce"
+  },
+  {
+   "url": "https://www.salesforceben.com/are-salesforce-admins-becoming-accidental-architects/",
+   "text": "Are Salesforce Admins Becoming 'Accidental Architects'?"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/173ef59e-7cb5-4e1a-b1bb-6a5c80af8762/01_hero_expertise_network.jpg",
+   "alt": "",
+   "width": "2500",
+   "height": "1395",
+   "loading": "eager"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/6f0a161b-a322-458e-b044-c9a883704538/03_teaching_knowledge_transfer.jpg",
+   "alt": "A modern, abstract infographic featuring concentric circles and radial lines resembling a radar chart, with 3D bar graphs in the foreground.",
+   "width": "2500",
+   "height": "1395",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/f8c07d6a-1efb-425a-8729-aebdd8d30467/05_outcomes_results.jpg",
+   "alt": "Decorative wall art with blue geometric square frames and gold check marks arranged in an upward trend pattern.",
+   "width": "2500",
+   "height": "1395",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@type": "AboutPage",
+   "@id": "https://www.clearconciseconsulting.com/about#webpage",
+   "url": "https://www.clearconciseconsulting.com/about",
+   "name": "About Jeremy Carmona | Salesforce Architect",
+   "about": {
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+   },
+   "mainEntity": {
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+   },
+   "isPartOf": {
+    "@id": "https://www.clearconciseconsulting.com/#website"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+   "name": "Jeremy Carmona",
+   "jobTitle": "Salesforce Architect and Founder",
+   "url": "https://www.clearconciseconsulting.com/about",
+   "worksFor": {
+    "@id": "https://www.clearconciseconsulting.com/#organization"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/in/jeremy-a-carmona/",
+    "https://www.salesforce.com/trailblazer/jeremy-carmona",
+    "https://medium.com/@jcarmona86",
+    "https://www.salesforceben.com/author/jeremy-carmona/"
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,28 @@
+{
+ "evidence_id": "EV-022",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:09Z",
+ "query": "site:clearconciseconsulting.com pricing \"starts at\" OR $5,000 OR $8,000 OR \"fixed price\" OR \"free consultation\"",
+ "links": [
+  {
+   "title": "Salesforce Consulting FAQs | Pricing, Process & Timeline | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/faqs"
+  },
+  {
+   "title": "Salesforce Implementation Cost Guide 2026 | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/how-much-does-a-salesforce-implementation-cost-in-2026"
+  },
+  {
+   "title": "Salesforce Implementation Services | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation"
+  },
+  {
+   "title": "Salesforce Implementation Services | Clear Concise Consulting (non-www host, different path)",
+   "url": "https://clearconciseconsulting.com/services/salesforce-administration"
+  }
+ ],
+ "observations": [
+  "Snippets: 'Every engagement begins with a free consultation to determine scope, timeline, and fixed pricing'; 'A data quality assessment starts at $5,000'; 'Most projects are fixed-price based on a scoping document you approve before work begins'; implementation $15,000-$75,000; training workshops $2,500 (half-day) to $15,000 (executive session); administration retainers starting at $3,000/month (15 hours, 24-hour response time, 3-month minimum); retained advisory $3,000-$5,000/month.",
+  "Note: non-www URL /services/salesforce-administration indexed with the SAME title as /services/salesforce-implementation."
+ ]
+}

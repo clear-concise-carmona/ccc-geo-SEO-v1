@@ -1,0 +1,15 @@
+{
+ "evidence_id": "EV-027",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:11Z",
+ "query": "site:clearconciseconsulting.com/case-studies",
+ "links": [
+  {
+   "title": "Enterprise CPQ Implementation Case Study | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/case-studies/enterprise"
+  }
+ ],
+ "observations": [
+  "Only one case-study URL indexed. Snippet: CPQ and DocuSign implementation across 30+ regions; automated quote-to-contract workflow; 40% cycle-time reduction."
+ ]
+}

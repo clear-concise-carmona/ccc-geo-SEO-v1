@@ -1,0 +1,261 @@
+{
+ "url": "http://127.0.0.1:8765/b4dc7bcc81ca.html",
+ "total_blocks_analyzed": 6,
+ "average_citability_score": 57.3,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 5,
+  "D": 0,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "Why do flows fail silently?",
+   "word_count": 247,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 16,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "The pattern repeats across orgs for a short list of reasons. No fault paths.A flow element fails, the transaction rolls back or partially commits, and the error email goes to..."
+  },
+  {
+   "heading": "What does a silent flow failure look like?",
+   "word_count": 219,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Two years ago I audited case routing for an enterprise client that wanted AI to triage high-priority cases. Under the hood we found three workflow rules, two Process Builder processes,..."
+  },
+  {
+   "heading": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "word_count": 287,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your automations already break silently, and adding an AI agent on top of them will not fix the architecture. It will scale the breakage. That is a Salesforce flow governance..."
+  },
+  {
+   "heading": "How do you fix what the audit finds?",
+   "word_count": 390,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fix in this order, and resist the urge to build anything new until the list is done. Consolidate the stack.Migrate workflow rules and Process Builder logic into flows, and move..."
+  },
+  {
+   "heading": "How do you diagnose ungoverned automation?",
+   "word_count": 280,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "You do not need a tool purchase to see the exposure. You need an afternoon in Setup. Start atSetup > Flow Trigger Explorerand pick your highest-traffic object. This screen shows..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "How do you prevent the next silent failure?",
+   "word_count": 451,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 10,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prevention is governance, and governance is a calendar, not a binder. Put a quarterly flow review on the schedule and treat it like a close process. The agenda is three..."
+  },
+  {
+   "heading": "How do you diagnose ungoverned automation?",
+   "word_count": 280,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "You do not need a tool purchase to see the exposure. You need an afternoon in Setup. Start atSetup > Flow Trigger Explorerand pick your highest-traffic object. This screen shows..."
+  },
+  {
+   "heading": "How do you fix what the audit finds?",
+   "word_count": 390,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fix in this order, and resist the urge to build anything new until the list is done. Consolidate the stack.Migrate workflow rules and Process Builder logic into flows, and move..."
+  },
+  {
+   "heading": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "word_count": 287,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your automations already break silently, and adding an AI agent on top of them will not fix the architecture. It will scale the breakage. That is a Salesforce flow governance..."
+  },
+  {
+   "heading": "What does a silent flow failure look like?",
+   "word_count": 219,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Two years ago I audited case routing for an enterprise client that wanted AI to triage high-priority cases. Under the hood we found three workflow rules, two Process Builder processes,..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Salesforce Flow Governance Broke Before the AI Showed Up",
+   "word_count": 287,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your automations already break silently, and adding an AI agent on top of them will not fix the architecture. It will scale the breakage. That is a Salesforce flow governance..."
+  },
+  {
+   "heading": "What does a silent flow failure look like?",
+   "word_count": 219,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Two years ago I audited case routing for an enterprise client that wanted AI to triage high-priority cases. Under the hood we found three workflow rules, two Process Builder processes,..."
+  },
+  {
+   "heading": "Why do flows fail silently?",
+   "word_count": 247,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 16,
+    "statistical_density": 4,
+    "uniqueness_signals": 0
+   },
+   "preview": "The pattern repeats across orgs for a short list of reasons. No fault paths.A flow element fails, the transaction rolls back or partially commits, and the error email goes to..."
+  },
+  {
+   "heading": "How do you diagnose ungoverned automation?",
+   "word_count": 280,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "You do not need a tool purchase to see the exposure. You need an afternoon in Setup. Start atSetup > Flow Trigger Explorerand pick your highest-traffic object. This screen shows..."
+  },
+  {
+   "heading": "How do you fix what the audit finds?",
+   "word_count": 390,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fix in this order, and resist the urge to build anything new until the list is done. Consolidate the stack.Migrate workflow rules and Process Builder logic into flows, and move..."
+  },
+  {
+   "heading": "How do you prevent the next silent failure?",
+   "word_count": 451,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 10,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prevention is governance, and governance is a calendar, not a binder. Put a quarterly flow review on the schedule and treat it like a close process. The agenda is three..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

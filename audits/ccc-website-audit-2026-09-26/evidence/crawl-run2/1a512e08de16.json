@@ -1,0 +1,366 @@
+{
+  "url": "https://www.clearconciseconsulting.com/services/ai-governance",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "87576",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 17:36:49 GMT",
+    "Etag": "W/\"d6143ac484d1c36f06c5ffc04f903a59\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "D3rsMbaq/gdKjrlmf",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce AI Governance Consulting | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/services/ai-governance",
+    "og:type": "website",
+    "og:description": "AI governance consulting for Salesforce teams. Data integrity, review cycles, human oversight. Written about in Salesforce Ben. Structure before speed.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/692b2b7e5ffe5d15bb6c338a/1745318940386/CCC+%28Logo%29.jpg?format=1500w",
+    "og:image:width": "1080",
+    "og:image:height": "1080",
+    "twitter:title": "Salesforce AI Governance Consulting | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/692b2b7e5ffe5d15bb6c338a/1745318940386/CCC+%28Logo%29.jpg?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/services/ai-governance",
+    "twitter:card": "summary",
+    "twitter:description": "AI governance consulting for Salesforce teams. Data integrity, review cycles, human oversight. Written about in Salesforce Ben. Structure before speed.",
+    "description": "AI governance consulting for Salesforce teams. Data integrity, review cycles, human oversight. Written about in Salesforce Ben. Structure before speed.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce AI Governance Consulting | Clear Concise Consulting",
+  "description": "AI governance consulting for Salesforce teams. Data integrity, review cycles, human oversight. Written about in Salesforce Ben. Structure before speed.",
+  "canonical": "https://www.clearconciseconsulting.com/services/ai-governance",
+  "h1_tags": [
+    "AI Governance for Salesforce Teams"
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "AI Governance for Salesforce Teams"
+    },
+    {
+      "level": 2,
+      "text": "Practical guardrails for automation that affects real people."
+    },
+    {
+      "level": 2,
+      "text": "What Is AI Data Governance in Salesforce?"
+    },
+    {
+      "level": 2,
+      "text": "Why Data Quality Must Come Before AI in Salesforce"
+    },
+    {
+      "level": 2,
+      "text": "How the Einstein Trust Layer Protects Your Data"
+    },
+    {
+      "level": 2,
+      "text": "Aligning Salesforce AI Governance with the NIST AI Risk Management Framework"
+    },
+    {
+      "level": 2,
+      "text": "How CCC's AI Governance Assessment Works"
+    },
+    {
+      "level": 2,
+      "text": "What Gets Measured in an AI Readiness Assessment"
+    },
+    {
+      "level": 2,
+      "text": "AI Governance for Regulated Industries"
+    },
+    {
+      "level": 2,
+      "text": "AI Governance Assessment"
+    },
+    {
+      "level": 2,
+      "text": "Accountability Framework Setup"
+    },
+    {
+      "level": 2,
+      "text": "Review Loops & Human Approval Steps"
+    },
+    {
+      "level": 2,
+      "text": "Nonprofit AI Oversight"
+    },
+    {
+      "level": 2,
+      "text": "Free Starter Tools"
+    },
+    {
+      "level": 2,
+      "text": "Common AI Data Governance Mistakes in Salesforce"
+    },
+    {
+      "level": 2,
+      "text": "FAQs"
+    },
+    {
+      "level": 3,
+      "text": "Unclear ownership"
+    },
+    {
+      "level": 3,
+      "text": "Messy inputs"
+    },
+    {
+      "level": 3,
+      "text": "Unreviewed outputs"
+    },
+    {
+      "level": 3,
+      "text": "What You Get with AI Governance"
+    },
+    {
+      "level": 4,
+      "text": "What is AI governance in Salesforce?"
+    },
+    {
+      "level": 4,
+      "text": "Do I need governance even if I’m only using prompts or small automations?"
+    },
+    {
+      "level": 4,
+      "text": "What does an AI governance framework include?"
+    },
+    {
+      "level": 4,
+      "text": "How does this apply to Salesforce Einstein, Copilot, or other LLM tools?"
+    },
+    {
+      "level": 4,
+      "text": "What if I’m a small team? We don’t have a “governance committee.”"
+    },
+    {
+      "level": 4,
+      "text": "How can nonprofits use AI safely without risking donor trust?"
+    },
+    {
+      "level": 4,
+      "text": "Is governance going to slow us down?"
+    },
+    {
+      "level": 4,
+      "text": "What’s the first thing I should do before adopting AI in Salesforce?"
+    },
+    {
+      "level": 4,
+      "text": "How often should AI outputs be reviewed?"
+    },
+    {
+      "level": 4,
+      "text": "Can you help us build policies or do audits?"
+    }
+  ],
+  "word_count": 2833,
+  "text_content": "Salesforce AI Governance Consulting | Clear Concise Consulting 0 AI Governance for Salesforce Teams Practical guardrails for automation that affects real people. Book a short consult What Is AI Data Governance in Salesforce? AI data governance is the system of rules, roles, and review cycles that controls how artificial intelligence interacts with your Salesforce data. It covers four areas: what data feeds into AI workflows, who owns each workflow, how outputs get reviewed, and what happens when something goes wrong. Data quality is the foundation of every AI governance decision. According to Salesforce's 2026 State of Data and Analytics report , 84% of data and analytics leaders say their data strategies need a complete overhaul before their AI ambitions can succeed. Only 43% have formal data governance frameworks in place. That gap is where AI failures start. Most Salesforce teams adopt Einstein, Copilot, Agentforce, or third-party LLMs without answering the data quality question first. The result is automation that trains on duplicates, missing fields, and inconsistent formats, and nobody knows who is responsible when it produces wrong answers. Governance is not a committee. It is a decision log, a review schedule, and a short list of people who are accountable when AI produces incorrect results. For a 10-person team, this can be two people and a shared spreadsheet. For a 500-person org, it requires defined roles, escalation paths, and audit documentation. CCC builds governance frameworks that start with data quality and layer AI controls on top. Every framework includes data quality thresholds, ownership assignment, input validation rules, output review cadences, and documentation that a non-technical executive can read and approve. AI brings speed. It also brings risk. I help teams keep their automation predictable by adding review cycles, clear ownership, and human oversight. Unclear ownership When nobody owns the AI, mistakes spread. Messy inputs AI is only as steady as the data it reads. Unreviewed outputs Small errors grow fast when nobody checks them. What You Get with AI Governance A review loop that fits your team Clear ownership for each AI workflow Input checks before issues begin Output checks that keep results steady Human-in-the-loop where it matters A simple log to track decisions Nonprofit-friendly language for donors and boards Why Data Quality Must Come Before AI in Salesforce Einstein predictions, Copilot suggestions, and Agentforce actions all consume data from your Salesforce org. If that data includes duplicates, missing values, inconsistent formats, or stale records, the AI will learn the wrong patterns and produce the wrong outputs. This is not theoretical. Salesforce's own research shows that organizations estimate 26% of their data is untrustworthy. A misconfigured Einstein prediction model will score records incorrectly with the same confidence as a correctly configured one. The platform does not flag bad data. CCC's data quality assessment evaluates five dimensions before activating any AI feature: Field Completeness: What percentage of records have all required fields populated? If your Contact records are missing 23% of email addresses (a real finding from a CCC engagement with 70,000 records), your AI engagement scoring is using incomplete information. Duplicate Rate: How many records represent the same person or organization? A donor who appears three times gets three separate AI scores, three separate predictions, and three separate communications. Identity resolution must happen before AI activation. Format Consistency: Are field values standardized? \"USA,\" \"United States,\" \"US,\" and \"U.S.\" in the same Country field means your AI treats one country as four. AP Style data standardization reduces this variance. Validation Coverage: Are validation rules enforcing data entry standards on the objects AI depends on? Without validation rules, data quality degrades with every new record. Data Freshness: When was the data last verified? Records with addresses, job titles, or contact information older than 18 months will skew AI predictions toward outdated patterns. The output of this assessment is a data quality scorecard that quantifies readiness for AI activation. If scores fall below defined thresholds, CCC remediates the data foundation before configuring any AI features. This sequence, data quality first, AI second, is the single most important architectural decision in any Salesforce AI project. How the Einstein Trust Layer Protects Your Data The Einstein Trust Layer is the security architecture that sits between your Salesforce data and external AI models. Every time Einstein, Copilot, or Agentforce processes a request, data passes through a three-phase sequence: the Prompt Journey, Response Generation, and the Response Journey. Understanding this sequence is the foundation of any governance framework. Phase 1: Prompt Journey. When a user asks Copilot a question or an Agentforce action fires, the system first performs dynamic grounding: it retrieves specific CRM context (record details, knowledge articles, related data) so the model's response is relevant to your org. This grounding step follows standard Salesforce security controls, meaning the AI only accesses data that the executing user is permitted to see. After grounding, the Trust Layer runs data masking. PII, payment card data, and other sensitive fields are identified using pattern matching and replaced with generic placeholders before any data leaves Salesforce. Phase 2: Response Generation. The masked prompt reaches the LLM through a unified gateway. Salesforce maintains zero data retention agreements with third-party model providers (including OpenAI and Azure). The provider cannot store the prompt data or use it for model training. This is a contractual control, not a technical one, which is why governance documentation must include verification of these agreements. Phase 3: Response Journey. After the LLM generates a response, it passes through toxicity detection (scanning for harmful language or bias, with a confidence score logged in an audit trail) and then de-masking (re-inserting the original CRM data into placeholders). The completed response reaches the user only after both checks pass. What the Trust Layer does not do: It does not validate whether the AI's answer is factually correct for your business context. It does not check whether the data that fed the prompt was accurate in the first place. It does not decide who should be allowed to use AI features or how often outputs should be reviewed. Those are governance decisions. The Trust Layer handles security. Your governance framework handles accountability. Aligning Salesforce AI Governance with the NIST AI Risk Management Framework The NIST AI Risk Management Framework (AI RMF 1.0) provides a structured approach to AI risk across four functions: Govern, Map, Measure, and Manage. For Salesforce teams in government, healthcare, and regulated industries, aligning to this framework is increasingly a procurement requirement, not a recommendation. Here is how each NIST function maps to Salesforce architecture: Govern: Embed AI risk management into organizational decision-making. In Salesforce, this means storing governance rules in Custom Metadata Types (CMDT) rather than static documents. When a bias threshold or compliance mandate changes, the configuration updates without code changes. The governance artifact is an AI Acceptable Use Policy that defines which teams can activate AI features and under what conditions. Map: Identify the context of every AI operation. Build an AI Use Case Tracker that documents the owner, objective, data sensitivity level, and regulatory impact of each AI implementation. This tracker answers the question every auditor asks first: \"Where does AI touch your data, and who authorized it?\" Measure: Test and evaluate AI performance continuously. When a user overrides an AI recommendation, the system should force the selection of a reason code. That code gets logged as a non-repudiable audit artifact. Over time, these override patterns reveal where the model's predictions diverge from reality. This is how you measure AI accuracy without guessing. Manage: Treat identified risks through technical enforcement. For organizations subject to data residency requirements (GDPR, CCPA, FedRAMP), this includes using Data Spaces in Data Cloud to isolate data by jurisdiction and prevent cross-border profile stitching. For all organizations, it includes an Incident Response Playbook that defines what happens when AI produces a result that causes harm. How CCC's AI Governance Assessment Works The assessment is a structured review of your Salesforce org's AI touchpoints, data quality, and decision-making gaps. It takes 5 to 10 business days depending on org complexity. Here is what happens at each stage. Stage 1: AI Inventory (Days 1-2) CCC maps every point where AI touches your data. This includes Einstein predictions, Copilot actions, automated record scoring, recommendation engines, and any third-party AI tools connected to Salesforce. Most teams discover 2 to 3 AI touchpoints they didn't know existed. Stage 2: Data Quality Audit (Days 2-4) AI outputs are only as reliable as the data they read. CCC audits field completeness rates, duplicate record percentages, and data entry consistency across the objects your AI workflows depend on. A client with 70,000 records discovered that 23% of their contact records had missing email addresses, which meant their AI-driven engagement scoring was using incomplete information. Stage 3: Risk Mapping (Days 4-6) Each AI touchpoint gets scored on three dimensions: data sensitivity (does it touch PII, financial data, or donor records?), output visibility (does a human see the result before it reaches a stakeholder?), and failure cost (what happens if the AI is wrong?). The result is a prioritized risk map that shows where to add review loops first. Stage 4: Framework Delivery (Days 7-10) CCC delivers a governance framework document that includes an ownership matrix (who reviews what, and how often), input validation rules (what data quality thresholds must be met before AI processes run), output review protocols (which results require human approval before action), and an escalation path for when AI produces unexpected results. The document is written in plain language for leadership review, with a technical appendix for your Salesforce admin team. Pricing: AI Governance Assessments start at $5,000 for orgs with fewer than 50 users and 5 or fewer AI touchpoints. Complex environments (multiple Clouds, GovCloud, HIPAA requirements) are scoped individually after a 15-minute consultation. What Gets Measured in an AI Readiness Assessment An AI strategy without a data foundation is a wish list. Before activating any AI feature, CCC evaluates five pillars of readiness: Data Unification: Are your customer records consolidated into a single view, or scattered across Sales Cloud, Service Cloud, Marketing Cloud, and external systems? The target is 100% visibility of customer data in one profile. Most orgs start at 40-60%. Data Harmonization: Are formats standardized across objects? \"USA,\" \"United States,\" \"US,\" and \"U.S.\" appearing in the same Country field means your AI is treating one country as four. Harmonization reduces data variance so AI models produce consistent predictions. Identity Resolution: How many duplicate records exist for the same individual? A donor who appears three times in your database gets three separate AI scores, three separate engagement predictions, and three separate communications. Identity resolution merges those records into one accurate profile. Security Policy: Are masking rules and least-privilege access controls in place for the data AI will consume? CCPA, GDPR, FedRAMP, and HIPAA each impose specific requirements on what data AI can access and how long it can retain results. Human Feedback Loop: Is there a mechanism for users to flag incorrect AI outputs? Without a feedback loop, model accuracy degrades silently. CCC implements human-in-the-loop (HITL) checkpoints using Agentforce Command Center engagement tracking, so your team catches drift before it compounds. AI Governance for Regulated Industries Organizations in healthcare, government, and financial services face specific AI compliance requirements that generic governance frameworks miss. Healthcare (HIPAA): Any AI that touches Protected Health Information (PHI) requires documented access controls, audit trails for every AI-generated recommendation, and a process for correcting AI errors in patient-facing records. CCC builds HIPAA-aligned review loops that satisfy compliance officers without creating bottlenecks for care coordination teams. Government (FedRAMP / StateRAMP): Government Salesforce implementations on GovCloud require AI governance documentation that maps to NIST 800-53 controls . CCC has direct experience building governance frameworks for federal agencies, including documentation that passed FedRAMP auditor review. AI models in government settings require explicit authorization boundaries: which data the model can access, which actions it can take, and which outputs require human approval before reaching constituents. Nonprofit (Donor Trust): Nonprofits face a different kind of AI risk. Donors expect transparency about how their data is used. AI-driven donor scoring, automated thank-you messages, and predictive giving models all carry reputational risk if they produce inaccurate or insensitive outputs. CCC's nonprofit governance framework includes consent documentation templates, donor-facing transparency statements, and review protocols for AI-generated donor communications. What We Offer AI Governance Assessment Short review of your setup, data, and AI touchpoints. You get a list of risks and a plan to steady them. Accountability Framework Setup Clear ownership, review schedule, and decision flow. Review Loops & Human Approval Steps Checkpoints that add order, not friction. Nonprofit AI Oversight Support for donor data, consent, and transparency. Book a consult Free Starter Tools Accountability Checklist Shows who owns what, what AI touches, and when reviews happen. Open the Checklist Prompt Charter A short list of rules to keep prompts consistent and safe. Prompt Charter Risk Map Template A simple template that helps you link small AI errors to real cost. Risk Map Template Common AI Data Governance Mistakes in Salesforce Activating AI before fixing data quality. This is the most expensive mistake in Salesforce AI projects. Teams rush to turn on Einstein predictions or Agentforce actions without auditing the data those features depend on. The result: AI confidently produces wrong answers at scale. Treating Einstein as \"built-in and safe.\" Salesforce's native AI tools still rely on your data quality and your configuration. A misconfigured Einstein prediction model will score records incorrectly with the same confidence as a correctly configured one. The Einstein Trust Layer prevents data leaks. It does not prevent bad business decisions based on bad data. Skipping the human-in-the-loop. Automating decisions without human review works until it doesn't. A healthcare client automated patient outreach based on Einstein case classification. The model misclassified 8% of cases as low-priority, which meant patients with urgent needs received delayed follow-up. A weekly review cycle, checking a random sample of 20 classified cases, would have caught the pattern within the first two weeks. Documenting once and forgetting. Governance is not a one-time project. AI models drift as data changes. Review cadences that made sense at launch may need adjustment after six months. CCC builds governance frameworks with built-in review triggers: when data volume changes by more than 15%, when model accuracy drops below a defined threshold, or when new AI features are activated in the org. Confusing AI policy with AI governance. A policy says \"we will use AI responsibly.\" A governance framework says \"Maria reviews Einstein lead scores every Tuesday, flags any score that changed by more than 20 points in a week, and escalates anomalies to the VP of Sales by Thursday.\" One is a statement. The other is a system. FAQs What is AI governance in Salesforce? It’s the process of deciding who owns an AI system, what data it uses, how often it gets reviewed, and what happens when it gets something wrong. If you’ve ever said “the model usually gets it right,” this is for you. Do I need governance even if I’m only using prompts or small automations? Yes. If AI touches data, produces recommendations, or triggers automation, it needs oversight. The risk is not how “advanced” the AI is — it’s how quietly it can make mistakes. What does an AI governance framework include? Four pieces: Data hygiene Ownership and review loops Risk checks Documentation and audit trails If you’re missing any of these, your AI will behave unpredictably. How does this apply to Salesforce Einstein, Copilot, or other LLM tools? Salesforce tools still rely on the same rules: clear inputs, clear outputs, and human review. AI native to Salesforce doesn’t remove the need for governance — it simplifies where the guardrails sit. What if I’m a small team? We don’t have a “governance committee.” You don’t need one. A two-person loop works: one person checks the outputs, the other owns the workflow. Small teams also have an advantage: fewer systems, fewer surprises.tem description How can nonprofits use AI safely without risking donor trust? Start with transparent data use, clear opt-ins, review loops on donor-facing content, and a lightweight audit log. AI should amplify impact, not create PR headaches. Is governance going to slow us down? Only if your current workflows depend on speed instead of accuracy. Governance reduces rework, backtracking, and “why did AI do that?” conversations. The slowdown you fear is smaller than the cleanup you avoid. What’s the first thing I should do before adopting AI in Salesforce? Run a 20-minute audit: What data do we rely on? Who touches it? Who reviews outputs? What breaks if AI is wrong? Your second step is using the Accountability Checklist.escription How often should AI outputs be reviewed? High-risk workflows: weekly Medium-risk: biweekly or monthly Low-risk: when system behavior changes If it affects money, access, or donors, check it more often. Can you help us build policies or do audits? Yes. CCC supports: AI Accountability Assessments Governance frameworks Human-in-the-loop design Nonprofit AI oversight Salesforce-admin-ready workflows Just ask.",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Book a short consult"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+      "text": "Einstein Trust Layer"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Book a consult"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/AI_Accountability_Checklist.pdf",
+      "text": "Open the Checklist"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/AI_Prompt_Charter.pdf",
+      "text": "Prompt Charter"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/s/AI_Touchpoint_Risk_Map.pdf",
+      "text": "Risk Map Template"
+    }
+  ],
+  "external_links": [
+    {
+      "url": "https://www.salesforce.com/news/stories/data-analytics-trends-2026/",
+      "text": "Salesforce's 2026 State of Data and Analytics report"
+    },
+    {
+      "url": "https://www.nist.gov/artificial-intelligence/ai-risk-management-framework",
+      "text": "TheNIST AI Risk Management Framework"
+    },
+    {
+      "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "text": "NIST 800-53 controls"
+    },
+    {
+      "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm",
+      "text": "Einstein Trust Layer"
+    }
+  ],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "AI Governance for Salesforce",
+      "description": "AI governance for Salesforce teams deploying Agentforce, Einstein, or other AI features. Data quality audit, sharing model review, AI readiness assessment, governance framework with review cycles, ownership assignments, and human oversight.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Clear Concise Consulting",
+        "url": "https://www.clearconciseconsulting.com"
+      },
+      "serviceType": "AI Governance",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI Governance Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "AI Readiness Assessment",
+            "description": "15 scored metrics across Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. Includes data quality audit, sharing model review, and recommendations report.",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "8000",
+              "maxPrice": "15000",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "AI Governance Implementation",
+            "description": "Governance framework with review cycles, ownership assignments, human oversight protocols, and documentation for board and leadership review.",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "price": "15000",
+              "maxPrice": "40000",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      "url": "https://www.clearconciseconsulting.com/services/ai-governance"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.clearconciseconsulting.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.clearconciseconsulting.com/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Governance",
+          "item": "https://www.clearconciseconsulting.com/services/ai-governance"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

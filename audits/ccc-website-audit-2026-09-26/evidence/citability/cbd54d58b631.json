@@ -1,0 +1,246 @@
+{
+ "url": "http://127.0.0.1:8765/cbd54d58b631.html",
+ "total_blocks_analyzed": 5,
+ "average_citability_score": 37.4,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 0,
+  "D": 3,
+  "F": 2
+ },
+ "top_5_citable": [
+  {
+   "heading": "\u00f0\u009f\u00a4\u009d Diversity, Equity & Inclusion (DEI) Statement",
+   "word_count": 96,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access..."
+  },
+  {
+   "heading": "Editorial Standards",
+   "word_count": 67,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "All content published by Clear Concise Consulting is written or reviewed by Jeremy Carmona, a 13x certified Salesforce Architect with expertise in data governance, data quality, and AI governance. Technical..."
+  },
+  {
+   "heading": "\u00f0\u009f\u008c\u008d Environmental Commitment",
+   "word_count": 79,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "At Clear Concise Consulting, we take our environmental responsibility seriously. While we are a service-based organization, we understand that every business leaves a footprint\u00e2\u0080\u0094and we\u00e2\u0080\u0099re committed to minimizing ours. Reduce..."
+  },
+  {
+   "heading": "Policies & Commitments",
+   "word_count": 38,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Welcome to Clear Concise Consulting\u00e2\u0080\u0099s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u00e2\u0080\u0099ll find a summary of our guiding policies that reflect our..."
+  },
+  {
+   "heading": "Our Commitments",
+   "word_count": 57,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "These Terms and Conditions (\"Terms\") govern your use of the Clear Concise Consulting website (https://www.clearconciseconsulting.com) and the services offered through our platform. By accessing our website or using our services,..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Our Commitments",
+   "word_count": 57,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "These Terms and Conditions (\"Terms\") govern your use of the Clear Concise Consulting website (https://www.clearconciseconsulting.com) and the services offered through our platform. By accessing our website or using our services,..."
+  },
+  {
+   "heading": "Policies & Commitments",
+   "word_count": 38,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Welcome to Clear Concise Consulting\u00e2\u0080\u0099s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u00e2\u0080\u0099ll find a summary of our guiding policies that reflect our..."
+  },
+  {
+   "heading": "\u00f0\u009f\u008c\u008d Environmental Commitment",
+   "word_count": 79,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "At Clear Concise Consulting, we take our environmental responsibility seriously. While we are a service-based organization, we understand that every business leaves a footprint\u00e2\u0080\u0094and we\u00e2\u0080\u0099re committed to minimizing ours. Reduce..."
+  },
+  {
+   "heading": "\u00f0\u009f\u00a4\u009d Diversity, Equity & Inclusion (DEI) Statement",
+   "word_count": 96,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access..."
+  },
+  {
+   "heading": "Editorial Standards",
+   "word_count": 67,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "All content published by Clear Concise Consulting is written or reviewed by Jeremy Carmona, a 13x certified Salesforce Architect with expertise in data governance, data quality, and AI governance. Technical..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Our Commitments",
+   "word_count": 57,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "These Terms and Conditions (\"Terms\") govern your use of the Clear Concise Consulting website (https://www.clearconciseconsulting.com) and the services offered through our platform. By accessing our website or using our services,..."
+  },
+  {
+   "heading": "Policies & Commitments",
+   "word_count": 38,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Welcome to Clear Concise Consulting\u00e2\u0080\u0099s Policies & Commitments page. We believe in operating with transparency, integrity, and responsibility. Below you\u00e2\u0080\u0099ll find a summary of our guiding policies that reflect our..."
+  },
+  {
+   "heading": "\u00f0\u009f\u00a4\u009d Diversity, Equity & Inclusion (DEI) Statement",
+   "word_count": 96,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Clear Concise Consulting values diversity, equity, and inclusion as fundamental to our business success and community impact. We are committed to fostering an inclusive workplace where everyone has equal access..."
+  },
+  {
+   "heading": "\u00f0\u009f\u008c\u008d Environmental Commitment",
+   "word_count": 79,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "At Clear Concise Consulting, we take our environmental responsibility seriously. While we are a service-based organization, we understand that every business leaves a footprint\u00e2\u0080\u0094and we\u00e2\u0080\u0099re committed to minimizing ours. Reduce..."
+  },
+  {
+   "heading": "Editorial Standards",
+   "word_count": 67,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "All content published by Clear Concise Consulting is written or reviewed by Jeremy Carmona, a 13x certified Salesforce Architect with expertise in data governance, data quality, and AI governance. Technical..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/policies-commitments",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

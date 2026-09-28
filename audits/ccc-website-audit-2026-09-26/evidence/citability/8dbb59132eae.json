@@ -1,0 +1,381 @@
+{
+ "url": "http://127.0.0.1:8765/8dbb59132eae.html",
+ "total_blocks_analyzed": 14,
+ "average_citability_score": 34.1,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 4,
+  "F": 8
+ },
+ "top_5_citable": [
+  {
+   "heading": "13x Certified Salesforce Architect",
+   "word_count": 45,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Jeremy Carmona is a 13x certified Salesforce Architect and founder of Clear Concise Consulting. He has 14 years in the Salesforce ecosystem, taught the first Salesforce Administration at NYU Tandon..."
+  },
+  {
+   "heading": "From Confused Beginner to Certified Architect",
+   "word_count": 136,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 20,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "In 2012, I stared at a Salesforce screen at Environmental Defense Fund, surrounded by unfamiliar objects and automation menus, wondering what I'd gotten myself into. No technical background. No training...."
+  },
+  {
+   "heading": "Builder Track:",
+   "word_count": 83,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Certified Platform App Builder Salesforce Certified Platform Developer I Salesforce Certified Marketing Cloud Administrator Why AI in Salesforce is data governance with higher stakes, and why you cannot turn..."
+  },
+  {
+   "heading": "The Approach",
+   "word_count": 196,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Understand before building.Every engagement starts with questions, not assumptions. I need to know what's actually happening before I propose what should happen.Work with what you have.No \"rip and replace\" unless..."
+  },
+  {
+   "heading": "Why a Journalism Background Matters",
+   "word_count": 113,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most Salesforce consultants came from IT. I came from a newsroom. Journalists are trained to take complex information and make it clear for general audiences. To verify facts before publishing...."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "80%",
+   "word_count": 35,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Students who complete the program and actively job search land Salesforce roles. That's not a marketing number. That's tracked outcomes. The teaching philosophy: If you can't explain it simply, you..."
+  },
+  {
+   "heading": "80%",
+   "word_count": 51,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Architecture TrackSalesforce Certified Application ArchitectSalesforce Certified Data ArchitectSalesforce Certified Sharing and Visibility ArchitectConsultant Track:Salesforce Certified Sales Cloud ConsultantSalesforce Certified Service Cloud ConsultantSalesforce Certified Experience Cloud ConsultantSalesforce Certified Nonprofit Cloud ConsultantSalesforce..."
+  },
+  {
+   "heading": "24-Hour Response Time",
+   "word_count": 20,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "You'll never wonder if I got your message. Emails and Slack messages get responses within one business day. Usually faster."
+  },
+  {
+   "heading": "Paid Discovery, No Obligation",
+   "word_count": 24,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every engagement starts with a discovery phase. If we determine we're not the right fit, you keep the documentation and we part ways professionally."
+  },
+  {
+   "heading": "You Get the Senior Person. Every Time.",
+   "word_count": 76,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Big consultancies send senior architects to win your business. Then they hand your project to junior staff you've never met. When you hire Clear Concise Consulting, you get me: the..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "13x Certified Salesforce Architect",
+   "word_count": 45,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Jeremy Carmona is a 13x certified Salesforce Architect and founder of Clear Concise Consulting. He has 14 years in the Salesforce ecosystem, taught the first Salesforce Administration at NYU Tandon..."
+  },
+  {
+   "heading": "80%",
+   "word_count": 51,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Architecture TrackSalesforce Certified Application ArchitectSalesforce Certified Data ArchitectSalesforce Certified Sharing and Visibility ArchitectConsultant Track:Salesforce Certified Sales Cloud ConsultantSalesforce Certified Service Cloud ConsultantSalesforce Certified Experience Cloud ConsultantSalesforce Certified Nonprofit Cloud ConsultantSalesforce..."
+  },
+  {
+   "heading": "Consultant Track:",
+   "word_count": 20,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Certified Sales Cloud Consultant Salesforce Certified Service Cloud Consultant Salesforce Certified Experience Cloud Consultant Salesforce Certified Nonprofit Cloud Consultant"
+  },
+  {
+   "heading": "Builder Track:",
+   "word_count": 83,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Salesforce Certified Platform App Builder Salesforce Certified Platform Developer I Salesforce Certified Marketing Cloud Administrator Why AI in Salesforce is data governance with higher stakes, and why you cannot turn..."
+  },
+  {
+   "heading": "Why a Journalism Background Matters",
+   "word_count": 113,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Most Salesforce consultants came from IT. I came from a newsroom. Journalists are trained to take complex information and make it clear for general audiences. To verify facts before publishing...."
+  },
+  {
+   "heading": "From Confused Beginner to Certified Architect",
+   "word_count": 136,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 20,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "In 2012, I stared at a Salesforce screen at Environmental Defense Fund, surrounded by unfamiliar objects and automation menus, wondering what I'd gotten myself into. No technical background. No training...."
+  },
+  {
+   "heading": "80%",
+   "word_count": 35,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Students who complete the program and actively job search land Salesforce roles. That's not a marketing number. That's tracked outcomes. The teaching philosophy: If you can't explain it simply, you..."
+  },
+  {
+   "heading": "The Approach",
+   "word_count": 196,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Understand before building.Every engagement starts with questions, not assumptions. I need to know what's actually happening before I propose what should happen.Work with what you have.No \"rip and replace\" unless..."
+  },
+  {
+   "heading": "Results, Not Promises",
+   "word_count": 69,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Replaced fragile manual process with Salesforce Flow using native Scheduled Paths. Sales team now gets automatic reminders without admin intervention. Senior Consultant on FedRAMP-authorized Salesforce deployment for federal contractor. Security,..."
+  },
+  {
+   "heading": "You Get the Senior Person. Every Time.",
+   "word_count": 76,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Big consultancies send senior architects to win your business. Then they hand your project to junior staff you've never met. When you hire Clear Concise Consulting, you get me: the..."
+  },
+  {
+   "heading": "Requests for work I can't verify.",
+   "word_count": 78,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "24-Hour Response TimeYou'll never wonder if I got your message. Emails and Slack messages get responses within one business day. Usually faster.Weekly Progress UpdatesEven if nothing dramatic happened, you'll know..."
+  },
+  {
+   "heading": "24-Hour Response Time",
+   "word_count": 20,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "You'll never wonder if I got your message. Emails and Slack messages get responses within one business day. Usually faster."
+  },
+  {
+   "heading": "Paid Discovery, No Obligation",
+   "word_count": 24,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every engagement starts with a discovery phase. If we determine we're not the right fit, you keep the documentation and we part ways professionally."
+  },
+  {
+   "heading": "Ready to Fix Your Salesforce?",
+   "word_count": 28,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 13,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Schedule a free 30-minute consultation. We'll discuss your current challenges, identify quick wins, and determine if working together makes sense. No sales pitch. No pressure. Just a conversation."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/about",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

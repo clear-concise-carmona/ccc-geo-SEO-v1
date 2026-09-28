@@ -1,0 +1,28 @@
+{
+ "evidence_id": "EV-018",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:07Z",
+ "query": "\"Jeremy Carmona\" Salesforce Ben \"data governance\" Einstein article",
+ "links": [
+  {
+   "title": "Carmona | Salesforce Ben",
+   "url": "https://www.salesforceben.com/author/jeremy-carmona/"
+  },
+  {
+   "title": "5 Questions Salesforce Admins Must Ask Before Turning on AI | Salesforce Ben",
+   "url": "https://www.salesforceben.com/how-salesforce-admins-can-apply-data-governance-to-einstein/"
+  },
+  {
+   "title": "Jeremy Carmona \u2013 Medium",
+   "url": "https://medium.com/@jcarmona86"
+  },
+  {
+   "title": "Jeremy Carmona - data #salesforce (LinkedIn post)",
+   "url": "https://www.linkedin.com/posts/jeremy-a-carmona_data-salesforce-activity-7401175800022196224-FJnV"
+  }
+ ],
+ "observations": [
+  "Published Salesforce Ben title as indexed: '5 Questions Salesforce Admins Must Ask Before Turning on AI'. URL slug retains 'how-salesforce-admins-can-apply-data-governance-to-einstein'.",
+  "Snippet: 'AI governance isn't a brand new discipline, but rather data governance with higher stakes and way faster consequences'."
+ ]
+}

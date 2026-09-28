@@ -1,0 +1,296 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "64299",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:18:15 GMT",
+  "Etag": "W/\"26b1735f65b8e3d39c40b76faff0c366\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "1UjV9B4o/kP0sMCR5",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+  "og:type": "article",
+  "og:description": "A regional healthcare nonprofit deploying an Agentforce triage agent. 11 weeks. Six checkpoints. 12 documents. HIPAA review passed in 35 minutes.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a0661262cda070a669c0f78/1778802982972/ccc-may-2026-article-8-checkpoints-social.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "837",
+  "twitter:title": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a0661262cda070a669c0f78/1778802982972/ccc-may-2026-article-8-checkpoints-social.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+  "twitter:card": "summary",
+  "twitter:description": "A regional healthcare nonprofit deploying an Agentforce triage agent. 11 weeks. Six checkpoints. 12 documents. HIPAA review passed in 35 minutes.",
+  "description": " A regional healthcare nonprofit deploying an Agentforce triage agent. 11 weeks. Six checkpoints. 12 documents. HIPAA review passed in 35 minutes.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting",
+ "description": " A regional healthcare nonprofit deploying an Agentforce triage agent. 11 weeks. Six checkpoints. 12 documents. HIPAA review passed in 35 minutes.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+ "h1_tags": [
+  "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "The Six Governance Checkpoints: A Real Engagement, Walked Through"
+  },
+  {
+   "level": 2,
+   "text": "What provides governance checkpoints from request through execution?"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 1: Data Readiness"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 2: Permission and Access"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 3: Design Review"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 4: Agentic Governance Review"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 5: Pre-Production Validation"
+  },
+  {
+   "level": 2,
+   "text": "Checkpoint 6: Post-Launch Governance"
+  },
+  {
+   "level": 2,
+   "text": "What This Engagement Cost"
+  },
+  {
+   "level": 2,
+   "text": "What This Series Was"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Flow Governance Broke Before the AI Showed Up"
+  },
+  {
+   "level": 2,
+   "text": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+  }
+ ],
+ "word_count": 2122,
+ "text_content": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting 0 The Six Governance Checkpoints: A Real Engagement, Walked Through AI Governance May 27 Written By Jeremy Carmona This is the eighth article in the May 2026 AI CoE series. The previous seven covered the principles. This one is the application. A regional healthcare nonprofit engaged CCC last year to deploy an Agentforce-based intake triage agent. The agent's job was to read incoming patient intake forms, classify symptom severity, and route the case to the appropriate clinical team. Tier 3 by every measure: PHI exposure, classification authority, external impact on patient care. The engagement ran 11 weeks. Three weeks of configuration. Eight weeks of governance. By the time the agent went live, it had passed through every CCC governance checkpoint. Two of them stopped the engagement. One caught a permission issue nobody had seen. One revealed a bias risk that would have shipped silently. This article walks the engagement through all six checkpoints. Names and details have been changed. The pattern is real. What provides governance checkpoints from request through execution? A documented AI governance lifecycle provides checkpoints from request through execution. CCC uses six pass/fail gates so an engagement cannot move from intake to production without evidence that its data, permissions, design, agent boundaries, validation, and monitoring are ready. Data Readiness (MAP): Validate data quality, ownership, and sharing before AI uses the records. Permission and Access (GOVERN): Confirm field-level security, least-privilege access, and Trust Layer configuration. Design Review (MAP plus GOVERN): Classify risk, define human oversight, document decisions, and assign accountability. Agentic Governance Review (GOVERN plus MAP): Bound the agent's topics, tools, actions, tracing, and kill-switch procedure. Pre-Production Validation (MEASURE): Test bias and fairness, run the rollback drill, and complete a controlled pilot. Post-Launch Governance (MANAGE): Monitor overrides, incidents, performance drift, and scheduled review commitments. Checkpoint 1: Data Readiness Gate criteria: data quality score 7 of 10 or higher across the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed. What happened in the engagement: the org's initial data quality score was 5.2. The duplicate rate on Contact records was 17%. The completion rate on the symptom_description field, which the agent would read to classify severity, was 71%. Approximately 8,400 active records had no last-updated date in the past three years. The engagement stopped at Checkpoint 1 for four weeks. Work performed during the stop: Duplicate consolidation across 11,200 Contact records Required-field enforcement on the symptom_description field at the form layer Inactive-record archival workflow standing up a clean data set for the agent to operate on Sharing model documentation showing which clinical teams could see which patient records When Checkpoint 1 reopened, the score was 7.4. Not perfect. Acceptable. The engagement proceeded. Lesson worth carrying: the most expensive checkpoint to skip is the first one. Every downstream checkpoint assumes the data is ready. If the data is not ready and you proceed, the rest of the engagement runs on a foundation that will eventually crack. Checkpoint 2: Permission and Access Gate criteria: field-level security verified on every object the agent touches. Trust Layer configured. Integration user permission set audited and least-privilege confirmed. What happened: the integration user the agent would run as had been created in 2022 for an unrelated marketing automation integration. The user had System Administrator profile assigned. The user had not been touched in two years. The user also had a Permission Set assigned that granted Modify All Data on Account, Contact, and seven custom objects. This was the issue that would have shipped silently. The marketing integration had been decommissioned. The integration user remained. The new agent would have inherited System Administrator authority through the existing user, and nobody would have noticed because the integration user pre-dated the agent project. The engagement stopped at Checkpoint 2 for one week. Work performed: Created a new dedicated integration user for the agent Built a least-privilege Permission Set with read access to Contact and Case, write access to Case only on the four fields the agent would modify Confirmed Trust Layer was active and the agent's prompts were configured to mask PHI at the prompt layer per Article 4 of this series Documented the permission audit and named the system administrator responsible for quarterly review The legacy 2022 integration user was deactivated. The Permission Set Modify All Data assignment was removed across all integration users. Standard ongoing hygiene that the engagement created the forcing function to perform. When Checkpoint 2 reopened, the agent was running on a least-privilege user. The engagement proceeded. Checkpoint 3: Design Review Gate criteria: use case risk classified per the Article 6 framework. Human oversight defined per Article 3. Documentation drafted per the Article 4 four-audience standard. Accountability assigned per Article 5. What happened: this is where the engagement stopped a second time. The original design had no documented human review gate before the agent committed a severity classification to the Case record. The team's logic: \"the clinical staff will see the classification on the Case page when they open it.\" That is not a review gate. That is a notification. Work performed during the second stop: Designed an explicit human review gate: agent writes the classification to a \"Proposed_Severity__c\" field, not the official Case_Severity__c field. Clinical reviewer confirms or overrides within 30 minutes during business hours. Wrote the four-audience documentation per Article 4: executive summary, project plan, admin runbook, end-user job aid. Named the medical director as the AI Decision Log owner per Article 5. Quarterly review. Annual board reporting. Classified the use case at Tier 3 per Article 6. Six-week governance review confirmed. Multi-stage human review confirmed. The engagement stopped for two weeks at Checkpoint 3. The team initially pushed back on the human review gate. The argument was efficiency. The pushback was answered by walking through what would happen if the agent classified a high-severity case as routine. The clinical reviewer's 30-minute window was the difference between a triage error and a near miss. Two weeks of design work prevented an outcome that no governance committee would have wanted to discuss six months later. Checkpoint 4: Agentic Governance Review Gate criteria: agent action boundaries documented and tested. Session Tracing enabled. Topic restrictions configured. Tool authorization scoped. Behavior governance written into the agent's system prompt. What happened: this is the checkpoint that most engagements have not had to run before 2026. The introduction of Headless 360 and broader Agentforce action authority made it a required gate. The agent's original system prompt allowed it to read the patient intake form and write the proposed severity. It did not explicitly restrict the agent from invoking other tools available in the org. With the org's tool permissions as configured, the agent could have invoked an outbound email tool, a SOQL query tool with access to the entire patient roster, and a calendar tool. None of those tools should have been available to the triage agent. They had not been deliberately granted. They were available because the agent inherited tool authorization from the integration user's Permission Set, which had been configured before the Agentic Governance Review was a standard checkpoint. Work performed: Defined an explicit allowlist of tools the agent could invoke: read intake form, write proposed severity field. Two tools. Restricted the agent's topics: triage classification only. Prompt explicitly refuses any request that does not match the topic. Enabled Session Tracing so every agent action was logged with the prompt, the tool calls, and the response. Wrote a kill switch procedure tied to the new dedicated integration user from Checkpoint 2. The engagement did not stop at Checkpoint 4 for as long as Checkpoints 1 or 3, but the work performed was the most consequential. The agent's bounded tool authorization is the single configuration choice that makes the deployment safe at scale. Checkpoint 5: Pre-Production Validation Gate criteria: bias and fairness testing conducted on a representative sample. Rollback drill executed in a Full sandbox per the Article 7 framework. Pilot testing with at least three clinical reviewers. What happened: bias testing surfaced the issue that would have shipped silently. The agent was tested on a representative sample of 400 historical intake forms, classified by clinical staff as the ground truth, run through the agent for comparison. The agent agreed with clinical staff on 87% of cases. Acceptable headline number. The breakdown by patient demographic was where the issue surfaced. The agent's accuracy on patients whose intake forms were submitted in Spanish was 71%, materially lower than the 89% on English-language intake forms. The agent's prompt had been written and tested in English. Spanish-language intake forms were getting classified less reliably. This is not a unique issue. It is a documented failure mode in clinical AI systems. The bias testing is the checkpoint that catches it before deployment. Work performed: Updated the agent's prompt to explicitly handle Spanish-language inputs and translate before classifying Re-ran the bias test on a fresh sample of 200 Spanish-language intakes. Accuracy moved to 86%. Acceptable. Documented the language-fluency limitation in the AI Decision Log: the agent is currently validated for English and Spanish only, additional languages require revalidation Executed the rollback drill in a Full sandbox per Article 7. The drill took 90 minutes including the post-drill retrospective. Conducted pilot testing with three clinical reviewers over two weeks. The reviewers caught two more design issues that surfaced only in live workflow. Both were fixed. When Checkpoint 5 closed, the agent had documented validated performance, a tested rollback procedure, and pilot-confirmed workflow integration. The engagement proceeded to launch. Checkpoint 6: Post-Launch Governance Gate criteria: 30-day review scheduled. Drift indicators baselined. Incident response runbook published. Quarterly review cadence committed. What happened: this checkpoint is ongoing. The agent went live in week 11. The 30-day review was held on day 31 with the medical director, the system administrator, the project sponsor, and CCC. The 30-day review found: Agent agreement rate with clinical reviewers held at 86% across the first 30 days, consistent with pre-production validation Two cases where the clinical reviewer overrode the agent's classification. Both overrides were correct. The cases were reviewed for whether they revealed a new failure mode. Conclusion: the agent's edge-case handling on patients with multiple comorbidities was less reliable. Documented for the next prompt iteration. Zero incidents requiring rollback. The kill switch had not been needed. Drift baseline established: agreement rate, override rate, response latency, language distribution. Quarterly review will compare against this baseline. The named medical director will own the AI Decision Log going forward. CCC's engagement closed at the 30-day review. The org continues quarterly self-review per the runbook. What This Engagement Cost 11 weeks. Eight of them governance work. Three of them configuration. The configuration could have shipped in three weeks alone. It would have shipped with a System Administrator integration user, no human review gate, no bias testing, no language-fluency validation, no Session Tracing, no rollback drill. The agent would have been live faster. Whether the deployment would still be live, or whether it would have shipped a bias error or a permission incident, is the question that the engagement answered by running the checkpoints. The eight governance weeks were not slow. They were the work. What This Series Was Eight articles. One per principle. One per the wrap. The principles, in order: Data First Human Oversight Transparency Accountability Proportionality Reversibility The structure that holds them: Six Governance Checkpoints. Pass/fail. Documented. Reviewable. The CCC AI Center of Excellence is published in full at clearconciseconsulting.com/ai-center-of-excellence . The framework is free. The principles are not new ideas. The work of applying them inside a Salesforce org is what the practice does. If your org is standing up an AI deployment this quarter, start with the AI Readiness Scorecard. Use the overall result and five category scores to identify where foundational work is weakest; the paid assessment determines which governance checkpoint needs evidence, remediation, or review before production. Either way, the order is the same. Data first. Then permissions. Then human oversight. Then deployment. This concludes the May 2026 AI CoE series. Take the AI Readiness Scorecard: clearconciseconsulting.com/scorecard Schedule a 15-minute call: scheduler.zoom.us/jeremy-carmona Read the AI CoE charter: clearconciseconsulting.com/ai-center-of-excellence NIST AI RMF AI Center of Excellence AI Governance Case Study Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Salesforce Flow Governance Broke Before the AI Showed Up Next Next Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+   "text": "which clinical teams could see which patient records"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/transparency-ai-governance-documentation",
+   "text": "Documented the permission audit"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/human-oversight-salesforce-ai-deployment",
+   "text": "human review gate"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "clearconciseconsulting.com/ai-center-of-excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "clearconciseconsulting.com/scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+   "text": "clearconciseconsulting.com/ai-center-of-excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/NIST+AI+RMF",
+   "text": "NIST AI RMF"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Center+of+Excellence",
+   "text": "AI Center of Excellence"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Case+Study",
+   "text": "Case Study"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/fable-5-salesforce-flow-governance-automation",
+   "text": "PreviousPreviousSalesforce Flow Governance Broke Before the AI Showed Up"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+   "text": "NextNextReversibility: The Rollback Plan Nobody Writes Until It's Too Late"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://scheduler.zoom.us/jeremy-carmona",
+   "text": "scheduler.zoom.us/jeremy-carmona"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/799643b0-2ab8-4704-bcc4-26152a1e471f/ccc-may-2026-article-8-checkpoints-inline.png",
+   "alt": "Geometric minimal illustration in CCC navy and beige showing six numbered gates aligned to NIST AI RMF functions Govern Map Measure Manage",
+   "width": "2528",
+   "height": "1696",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement",
+   "datePublished": "2026-05-27T11:04:08-0400",
+   "dateModified": "2026-08-30T14:07:58-0400",
+   "headline": "The Six Governance Checkpoints: A Real Engagement, Walked Through",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a0661262cda070a669c0f78/1778802982972/ccc-may-2026-article-8-checkpoints-social.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

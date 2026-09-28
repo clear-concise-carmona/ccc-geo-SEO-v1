@@ -1,0 +1,441 @@
+{
+ "url": "http://127.0.0.1:8765/f32a2c072031.html",
+ "total_blocks_analyzed": 18,
+ "average_citability_score": 38.4,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 12,
+  "F": 4
+ },
+ "top_5_citable": [
+  {
+   "heading": "Continuous Support",
+   "word_count": 123,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Learning doesn't stop after the training ends. We provide ongoing resources and support to help you continue growing your Salesforce skills. Been There, Done ThatOur training is born from real..."
+  },
+  {
+   "heading": "I've tried learning Salesforce before and got stuck. How is your training different?",
+   "word_count": 58,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Our approach is specifically designed for people who've struggled with traditional Salesforce training. We break complex concepts into digestible pieces, use relatable examples instead of technical jargon, and provide hands-on..."
+  },
+  {
+   "heading": "Salesforce Resources for Real People",
+   "word_count": 52,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Tired of technical documentation that leaves you more confused than when you started? You're in the right place. Our resource library is designed for humans\u00e2\u0080\u0094especially those new to Salesforce, making..."
+  },
+  {
+   "heading": "Practical Application",
+   "word_count": 24,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 15,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Every concept we teach is immediately applied to real-world scenarios. You won't just learn Salesforce, you'll learn how to make Salesforce work for you."
+  },
+  {
+   "heading": "Do I need technical experience to learn Salesforce?",
+   "word_count": 51,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of life master the platform. Our training starts..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "For Complete Beginners",
+   "word_count": 45,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "New to Salesforce? Start with these resources to build a strong foundation: Salesforce Basics: A Human GuideUnderstanding core concepts without the technical jargon [Navigation Essentials] COMING SOON- Finding your way..."
+  },
+  {
+   "heading": "Empowerment Focus",
+   "word_count": 21,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our goal isn't to make you dependent on us. We aim to empower you to become self-sufficient in your Salesforce journey."
+  },
+  {
+   "heading": "For Non-Technical Admins",
+   "word_count": 44,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Suddenly responsible for your organization's Salesforce? We've got you covered: Salesforce Admin\u00e2\u0080\u0099s Survival GuideWhether you're a new admin feeling overwhelmed or an experienced one looking to up your game Salesforce..."
+  },
+  {
+   "heading": "Build Real Salesforce Admin Skills With Real World Project",
+   "word_count": 30,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Based off real life client projects, new learners and administrators can select from beginner to advanced level projects to add to their resume. Beginner Level ProjectsIntermediate Level ProjectsAdvanced Level Projects"
+  },
+  {
+   "heading": "Step-by-Step Tutorials",
+   "word_count": 30,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our administration services provide the expertise you need without the complexity. We offer: Regular system maintenanceUser administration and supportPerformance optimizationRelease managementClear documentation and knowledge transfer Clear documentation and knowledge transfer"
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Salesforce Resources for Real People",
+   "word_count": 52,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Tired of technical documentation that leaves you more confused than when you started? You're in the right place. Our resource library is designed for humans\u00e2\u0080\u0094especially those new to Salesforce, making..."
+  },
+  {
+   "heading": "For Complete Beginners",
+   "word_count": 45,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "New to Salesforce? Start with these resources to build a strong foundation: Salesforce Basics: A Human GuideUnderstanding core concepts without the technical jargon [Navigation Essentials] COMING SOON- Finding your way..."
+  },
+  {
+   "heading": "For Career Changers",
+   "word_count": 48,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Making the leap into the Salesforce ecosystem? These resources are for you: Zero to Salesforce HeroDesigned for beginners and career changers From Cert Skeptic to Certified BeastA step-by-step approach to..."
+  },
+  {
+   "heading": "For Non-Technical Admins",
+   "word_count": 44,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Suddenly responsible for your organization's Salesforce? We've got you covered: Salesforce Admin\u00e2\u0080\u0099s Survival GuideWhether you're a new admin feeling overwhelmed or an experienced one looking to up your game Salesforce..."
+  },
+  {
+   "heading": "Step-by-Step Tutorials",
+   "word_count": 30,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our administration services provide the expertise you need without the complexity. We offer: Regular system maintenanceUser administration and supportPerformance optimizationRelease managementClear documentation and knowledge transfer Clear documentation and knowledge transfer"
+  },
+  {
+   "heading": "Problem-Solving Guides",
+   "word_count": 30,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our administration services provide the expertise you need without the complexity. We offer: Regular system maintenanceUser administration and supportPerformance optimizationRelease managementClear documentation and knowledge transfer Clear documentation and knowledge transfer"
+  },
+  {
+   "heading": "Build Real Salesforce Admin Skills With Real World Project",
+   "word_count": 30,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Based off real life client projects, new learners and administrators can select from beginner to advanced level projects to add to their resume. Beginner Level ProjectsIntermediate Level ProjectsAdvanced Level Projects"
+  },
+  {
+   "heading": "Continuous Support",
+   "word_count": 123,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Learning doesn't stop after the training ends. We provide ongoing resources and support to help you continue growing your Salesforce skills. Been There, Done ThatOur training is born from real..."
+  },
+  {
+   "heading": "Been There, Done That",
+   "word_count": 22,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our training is born from real struggles and triumphs. We've faced the same frustrations you're experiencing and found the shortcuts to success."
+  },
+  {
+   "heading": "Practical Application",
+   "word_count": 24,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 15,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Every concept we teach is immediately applied to real-world scenarios. You won't just learn Salesforce, you'll learn how to make Salesforce work for you."
+  },
+  {
+   "heading": "Empowerment Focus",
+   "word_count": 21,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our goal isn't to make you dependent on us. We aim to empower you to become self-sufficient in your Salesforce journey."
+  },
+  {
+   "heading": "Ready to Explore?",
+   "word_count": 60,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Start building your Salesforce knowledge with resources designed for real people\u00e2\u0080\u0094no technical background required. Remember:great data governance isn't about perfection \u00e2\u0080\u0093 it's about progress. With Clear Concise Consulting, you're not..."
+  },
+  {
+   "heading": "FAQs",
+   "word_count": 314,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 3
+   },
+   "preview": "Do I need technical experience to learn Salesforce?Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of..."
+  },
+  {
+   "heading": "Do I need technical experience to learn Salesforce?",
+   "word_count": 51,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Absolutely not. Our founder transitioned from journalism to Salesforce with no technical background, and we've helped hundreds of people from all walks of life master the platform. Our training starts..."
+  },
+  {
+   "heading": "How long will it take me to learn Salesforce?",
+   "word_count": 58,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The timeline varies based on your goals and learning pace. For basic user skills, most people become comfortable within 1-2 weeks of training. For administrator skills, expect 4-8 weeks to..."
+  },
+  {
+   "heading": "Can you train our entire team with different skill levels?",
+   "word_count": 59,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes, we specialize in mixed-skill training environments. We begin with a skills assessment to understand each team member's current abilities and learning goals. Then we create a training program that..."
+  },
+  {
+   "heading": "I've tried learning Salesforce before and got stuck. How is your training different?",
+   "word_count": 58,
+   "total_score": 58,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Our approach is specifically designed for people who've struggled with traditional Salesforce training. We break complex concepts into digestible pieces, use relatable examples instead of technical jargon, and provide hands-on..."
+  },
+  {
+   "heading": "Do you offer ongoing support after the training?",
+   "word_count": 49,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Absolutely. Learning doesn't stop when training ends. All our training packages include post-training support options, from Q&A sessions to office hours and reference materials. We also offer advanced training paths..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/resources/beginners-career-changers",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

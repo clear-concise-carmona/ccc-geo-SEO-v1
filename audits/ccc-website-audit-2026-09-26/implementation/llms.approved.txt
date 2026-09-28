@@ -1,0 +1,59 @@
+# llms.txt, approved revision (ISS-023; decisions 4 and FACT-01, EV-048). Replace the live file at /llms.txt with everything below this line, then delete this line.
+# Clear Concise Consulting
+
+> Architect-led Salesforce AI governance, data governance, and implementation for nonprofit, government, healthcare, and enterprise organizations. Clear Concise Consulting provides Salesforce implementation, data governance, NPSP-to-Nonprofit-Cloud migration planning, AI governance, and training. Jeremy Carmona leads CCC and is a Salesforce Architect with 13 Salesforce certifications.
+
+Linked CCC pages are the source of record for current services, credentials, approved client context, policies, and contact information.
+
+CCC's published point of view is that data quality should precede AI or Agentforce activation. Linked pages explain the method, scope, and limits.
+
+Last reviewed: [YYYY-MM-DD, set on publication].
+
+## Start Here
+
+- [About Jeremy Carmona](https://www.clearconciseconsulting.com/about): Current credentials, published work, teaching, and company background.
+- [Services](https://www.clearconciseconsulting.com/services): Service selection and current commercial information.
+- [Case Studies](https://www.clearconciseconsulting.com/case-studies): Approved public client context, constraints, work performed, and results.
+- [Contact](https://www.clearconciseconsulting.com/contact): Assessment requests and current contact information.
+
+## Core Services
+
+- [AI Governance for Salesforce](https://www.clearconciseconsulting.com/services/ai-governance): AI readiness assessment, ownership, review cycles, human oversight, and governance documentation.
+- [Data Governance and Migration](https://www.clearconciseconsulting.com/services/data-governance): Data-quality assessment, deduplication, field standards, identity resolution, and migration controls.
+- [Salesforce Implementation](https://www.clearconciseconsulting.com/services/salesforce-implementation): Architecture, configuration, data migration, testing, documentation, and training.
+- [Salesforce Nonprofit Consulting](https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting): Salesforce services for nonprofit organizations.
+- [Salesforce Training and Documentation](https://www.clearconciseconsulting.com/services/salesforce-training): Administrator, end-user, leadership, and certification training plus handoff documentation.
+
+## Assessments and Guides
+
+- [AI Data Readiness Assessment](https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment): Assessment scope and request path.
+- [AI Readiness Scorecard](https://www.clearconciseconsulting.com/scorecard): Free assessment covering data quality, governance readiness, automation maturity, AI preparedness, and documentation health.
+- [AI Center of Excellence](https://www.clearconciseconsulting.com/ai-center-of-excellence): CCC's AI governance charter and organizational-readiness material.
+- [CCC Blog](https://www.clearconciseconsulting.com/blog): Published guidance on AI governance, data quality, implementation, documentation, and Salesforce careers.
+- [Salesforce AI Governance Publication](https://www.salesforceben.com/how-salesforce-admins-can-apply-data-governance-to-einstein/): Jeremy Carmona's Salesforce Ben article on governance before AI activation.
+
+## Selected Resources
+
+- [Salesforce Implementation Cost Guide](https://www.clearconciseconsulting.com/blog/how-much-does-a-salesforce-implementation-cost-in-2026): Cost factors and current implementation context.
+- [NPSP vs. Nonprofit Cloud](https://www.clearconciseconsulting.com/blog/npsp-vs-nonprofit-cloud): Migration criteria, data-model differences, and decision factors.
+- [Salesforce's Official NPSP-to-Nonprofit-Cloud Migration Guides](https://help.salesforce.com/s/articleView?id=sfdo.NPC_Implementation_Migration_Guides.htm&language=en_US): Vendor migration-planning reference CCC uses alongside its own guidance.
+- [Salesforce Data Quality Monitoring](https://www.clearconciseconsulting.com/blog/salesforce-reports-data-quality): Report-based monitoring, validation patterns, and field-completeness tracking.
+- [Salesforce Flow Audit Checklist](https://www.clearconciseconsulting.com/blog/salesforce-flow-spaghetti-audit): Automation technical-debt assessment and data-integrity checks.
+- [Salesforce Org Autopsy Assessment Checklist](https://www.clearconciseconsulting.com/blog/salesforce-org-autopsy-assessment-checklist): Technical-debt assessment covering data quality, automation health, and security-model gaps.
+
+## Policies and Public Profiles
+
+- [Editorial Standards](https://www.clearconciseconsulting.com/policies-commitments): CCC content-review and correction policy.
+- [Privacy Policy](https://www.clearconciseconsulting.com/privacy-policy): Current data-handling and privacy information.
+- [LinkedIn (Jeremy Carmona)](https://www.linkedin.com/in/jeremy-a-carmona/)
+- [LinkedIn (Clear Concise Consulting company page)](https://www.linkedin.com/company/clear-concise-consulting/)
+- [Trailblazer Profile](https://www.salesforce.com/trailblazer/jeremy-carmona)
+- [GitHub](https://github.com/clear-concise-carmona)
+- [Instagram (Clear Concise Consulting)](https://www.instagram.com/clearconcisecarmona/)
+- Contact: contact@clearconciseconsulting.com
+
+## Maintenance
+
+Review this file each quarter and after any change to a core service, credential, public profile, business contact route, published case study, or primary resource. Do not place unpublished client information, internal frameworks, passwords, API keys, or mutable price and timeline details in this file.
+
+This file is a discovery aid, not a guarantee of citation. Being listed here does not mean ChatGPT, Gemini, Perplexity, Google, or any other system will cite Clear Concise Consulting. Keep it accurate, small, and current, and treat citation as a possible outcome, not an expected one.

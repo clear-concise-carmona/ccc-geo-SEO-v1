@@ -1,0 +1,24 @@
+{
+ "evidence_id": "EV-012",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:05Z",
+ "query": "\"Clear Concise Consulting\" Salesforce AI governance assessment price OR pricing OR $",
+ "links": [
+  {
+   "title": "Salesforce Implementation Cost Guide 2026 | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/how-much-does-a-salesforce-implementation-cost-in-2026"
+  },
+  {
+   "title": "AI Services for Salesforce Teams \u2014 Clear Concise Consulting (built-in Squarespace domain)",
+   "url": "https://clearconciseconsulting.squarespace.com/ai-services"
+  },
+  {
+   "title": "Salesforce Consulting Services \u2014 Clear Concise Consulting (built-in Squarespace domain)",
+   "url": "https://clearconciseconsulting.squarespace.com/services"
+  }
+ ],
+ "observations": [
+  "Snippets: workshops on AI readiness $2,500-$15,000 (half-day, full-day, two-day); architect-led implementations $15,000-$75,000 with one architect scoping to go-live; retained advisory $3,000-$5,000 per month; 'every engagement begins with a free consultation to determine scope, timeline, and fixed pricing'.",
+  "No standalone price for an AI governance or AI data readiness assessment was returned."
+ ]
+}

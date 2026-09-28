@@ -1,0 +1,34 @@
+{
+ "evidence_id": "EV-011",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:05Z",
+ "query": "clearconciseconsulting.com salesforce nonprofit consulting NPSP Nonprofit Cloud migration",
+ "links": [
+  {
+   "title": "Salesforce Non Profit Support \u2014 Clear Concise Consulting (built-in Squarespace domain)",
+   "url": "https://clearconciseconsulting.squarespace.com/services/non-profit"
+  },
+  {
+   "title": "FAQs 2 \u2014 Clear Concise Consulting (built-in Squarespace domain)",
+   "url": "https://clearconciseconsulting.squarespace.com/faqs"
+  },
+  {
+   "title": "Salesforce for Nonprofits, Small Business & Enterprise Teams \u2014 Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/who-we-help"
+  },
+  {
+   "title": "Salesforce Consulting FAQs | Pricing, Process & Timeline | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/faqs"
+  },
+  {
+   "title": "Diverse-owned Experts in the Nonprofit Industry (AppExchange collection)",
+   "url": "https://appexchange.salesforce.com/mktcollections/curated/diversenonprofitexperts"
+  }
+ ],
+ "observations": [
+  "Mirror FAQ snippet: 'founded by Jeremy Carmona, a certified Salesforce consultant and former journalist. Jeremy is backed by a network of Salesforce administrators, developers and trainers'.",
+  "Nonprofit snippet: 'Nonprofit Cloud solutions that streamline donor management, program delivery, and impact reporting'; 'unlock the full potential of Salesforce NPSP and Nonprofit Cloud'.",
+  "FAQ snippet: 'A data quality assessment starts at $5,000'; 'full Salesforce implementation ranges from $15,000 to $75,000'; 'CCC has worked with USCIS, Environmental Defense Fund, UnitedHealth Group, HRSA, and NYU'.",
+  "Whether CCC appears in the AppExchange collection was not verified."
+ ]
+}

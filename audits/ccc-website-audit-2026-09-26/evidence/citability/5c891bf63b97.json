@@ -1,0 +1,321 @@
+{
+ "url": "http://127.0.0.1:8765/5c891bf63b97.html",
+ "total_blocks_analyzed": 10,
+ "average_citability_score": 55.7,
+ "optimal_length_passages": 3,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 7,
+  "D": 2,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What Reversibility Costs",
+   "word_count": 165,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "There is a real cost to building reversibility correctly. The data isolation layer adds custom fields and storage. The reversal procedure adds developer time. The drill adds engineering and admin..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 160,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Reversibility. Every AI deployment includes a documented rollback procedure. If something goes wrong, the system returns to its pre-AI state within a defined timeframe. Two phrases in that sentence do..."
+  },
+  {
+   "heading": "Part 2: The Data Isolation Layer",
+   "word_count": 191,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a way to identify, in a query, every record the AI created or modified. This is the part that the nonprofit Agentforce deployment skipped. Without isolation, the..."
+  },
+  {
+   "heading": "What's Next",
+   "word_count": 202,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The next article in this series is the wrap. The Six Governance Checkpoints, walked through with a real engagement. Eight articles in, the principles have been laid out. The eighth..."
+  },
+  {
+   "heading": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+   "word_count": 276,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The best way to roll back a problematic AI agent deployment is to version every release, require human approval before activation, tag every affected record, and test a documented reversal..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "The Four Parts of a Real Rollback Plan",
+   "word_count": 31,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Off is not rollback. A real AI rollback plan has four parts. All four are required. Skipping any one of them means the rollback works in theory but fails in..."
+  },
+  {
+   "heading": "Part 4: The Post-Incident Review",
+   "word_count": 176,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a structured retrospective after any rollback execution. Documented within 72 hours. What did the agent do that triggered the rollback?What in the design allowed that to happen?What..."
+  },
+  {
+   "heading": "The Rollback Drill",
+   "word_count": 277,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A rollback plan that has never been tested is not a rollback plan. It is a wish. Every CCC engagement at Tier 2 or Tier 3 includes a rollback drill..."
+  },
+  {
+   "heading": "Part 1: The Kill Switch",
+   "word_count": 149,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a documented procedure to immediately stop the AI from taking further action. Deactivate the integration user the agent runs asDisable the named credential the agent uses to..."
+  },
+  {
+   "heading": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+   "word_count": 276,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The best way to roll back a problematic AI agent deployment is to version every release, require human approval before activation, tag every affected record, and test a documented reversal..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Reversibility: The Rollback Plan Nobody Writes Until It's Too Late",
+   "word_count": 276,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The best way to roll back a problematic AI agent deployment is to version every release, require human approval before activation, tag every affected record, and test a documented reversal..."
+  },
+  {
+   "heading": "The Principle",
+   "word_count": 160,
+   "total_score": 60,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Reversibility. Every AI deployment includes a documented rollback procedure. If something goes wrong, the system returns to its pre-AI state within a defined timeframe. Two phrases in that sentence do..."
+  },
+  {
+   "heading": "The Four Parts of a Real Rollback Plan",
+   "word_count": 31,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Off is not rollback. A real AI rollback plan has four parts. All four are required. Skipping any one of them means the rollback works in theory but fails in..."
+  },
+  {
+   "heading": "Part 1: The Kill Switch",
+   "word_count": 149,
+   "total_score": 55,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a documented procedure to immediately stop the AI from taking further action. Deactivate the integration user the agent runs asDisable the named credential the agent uses to..."
+  },
+  {
+   "heading": "Part 2: The Data Isolation Layer",
+   "word_count": 191,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a way to identify, in a query, every record the AI created or modified. This is the part that the nonprofit Agentforce deployment skipped. Without isolation, the..."
+  },
+  {
+   "heading": "Part 3: The Reversal Procedure",
+   "word_count": 217,
+   "total_score": 56,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "What it is: a documented sequence of steps to restore the system to its pre-AI state. Reversal procedures depend on what the agent did: For records the agent created: bulk..."
+  },
+  {
+   "heading": "Part 4: The Post-Incident Review",
+   "word_count": 176,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it is: a structured retrospective after any rollback execution. Documented within 72 hours. What did the agent do that triggered the rollback?What in the design allowed that to happen?What..."
+  },
+  {
+   "heading": "The Rollback Drill",
+   "word_count": 277,
+   "total_score": 53,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A rollback plan that has never been tested is not a rollback plan. It is a wish. Every CCC engagement at Tier 2 or Tier 3 includes a rollback drill..."
+  },
+  {
+   "heading": "What Reversibility Costs",
+   "word_count": 165,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "There is a real cost to building reversibility correctly. The data isolation layer adds custom fields and storage. The reversal procedure adds developer time. The drill adds engineering and admin..."
+  },
+  {
+   "heading": "What's Next",
+   "word_count": 202,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "The next article in this series is the wrap. The Six Governance Checkpoints, walked through with a real engagement. Eight articles in, the principles have been laid out. The eighth..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/ai-reversibility-rollback-plan",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

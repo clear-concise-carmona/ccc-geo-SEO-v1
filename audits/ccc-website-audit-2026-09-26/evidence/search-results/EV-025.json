@@ -1,0 +1,28 @@
+{
+ "evidence_id": "EV-025",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:09Z",
+ "query": "\"Clear Concise Consulting\" LinkedIn company page Salesforce New York",
+ "links": [
+  {
+   "title": "Clear Concise Consulting LLC | BBB Business Profile (Brooklyn, NY)",
+   "url": "https://www.bbb.org/us/ny/brooklyn/profile/business-consultant/clear-concise-consulting-llc-0121-87143876"
+  },
+  {
+   "title": "Clear Concise Consulting | Facebook",
+   "url": "https://www.facebook.com/people/Clear-Concise-Consulting/61565894325721/"
+  },
+  {
+   "title": "Clear Concise Consulting (LinkedIn company)",
+   "url": "https://www.linkedin.com/company/clear-concise-consulting"
+  },
+  {
+   "title": "Salesforce Consulting Services \u2014 Clear Concise Consulting (built-in domain, different path)",
+   "url": "https://clearconciseconsulting.squarespace.com/salesforce-consulting-services"
+  }
+ ],
+ "observations": [
+  "BBB snippet: 'business development and consulting services such as training, document strategy, data migration, system administration and project management within Salesforce'.",
+  "Snippet: founded 2018; headquartered in New York City."
+ ]
+}

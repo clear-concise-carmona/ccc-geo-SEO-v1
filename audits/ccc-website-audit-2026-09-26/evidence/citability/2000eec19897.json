@@ -1,0 +1,276 @@
+{
+ "url": "http://127.0.0.1:8765/2000eec19897.html",
+ "total_blocks_analyzed": 7,
+ "average_citability_score": 68.4,
+ "optimal_length_passages": 3,
+ "grade_distribution": {
+  "A": 2,
+  "B": 3,
+  "C": 1,
+  "D": 1,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What is the difference between hiring a solo architect and a large consulting firm?",
+   "word_count": 160,
+   "total_score": 82,
+   "grade": "A",
+   "label": "Highly Citable",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 10,
+    "uniqueness_signals": 5
+   },
+   "preview": "A large consulting firm (Deloitte, Accenture, Slalom, or a Salesforce SI partner) typically staffs 4-6 people on an implementation: a solutions architect, a technical lead, one or two developers, a..."
+  },
+  {
+   "heading": "Why is there such a wide price range?",
+   "word_count": 158,
+   "total_score": 80,
+   "grade": "A",
+   "label": "Highly Citable",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 13,
+    "uniqueness_signals": 0
+   },
+   "preview": "The range exists because \"Salesforce implementation\" can mean very different things. A nonprofit setting up NPSP with 10 users and basic reporting is not the same project as a healthcare..."
+  },
+  {
+   "heading": "How Much Does a Salesforce Implementation Cost in 2026?",
+   "word_count": 87,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 9,
+    "uniqueness_signals": 0
+   },
+   "preview": "A Salesforce implementationcosts between $15,000 and $150,000 for most organizations in 2026. The price depends on four factors: the number of Salesforce Clouds being configured, how many users need access,..."
+  },
+  {
+   "heading": "How do I know if I am getting a fair price?",
+   "word_count": 197,
+   "total_score": 69,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Ask three questions before signing a contract: Is the pricing fixed or hourly? Fixed-price contracts protect you from scope creep costs. Hourly billing incentivizes longer projects. Who is doing the..."
+  },
+  {
+   "heading": "Can I reduce the cost without cutting corners?",
+   "word_count": 125,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Yes. Three approaches that lower cost without creating technical debt: Start with one Cloud. Deploy Sales Cloud or Service Cloud first. Add Marketing Cloud or Experience Cloud in Phase 2...."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "What factors increase the cost of an implementation?",
+   "word_count": 147,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Several things push the price up: Multiple Salesforce Clouds. Adding Sales Cloud, Service Cloud, and Marketing Cloud to the same implementation multiplies configuration, testing, and training. Custom development. Any feature..."
+  },
+  {
+   "heading": "What does CCC charge for an implementation?",
+   "word_count": 103,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers four service tiers: Digital products ($7-$49): Self-service governance kits, documentation templates, and debugging guides on Gumroad. Workshops ($2,500-$15,000): Half-day, full-day, or two-day working sessions on data governance, Flow..."
+  },
+  {
+   "heading": "Can I reduce the cost without cutting corners?",
+   "word_count": 125,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Yes. Three approaches that lower cost without creating technical debt: Start with one Cloud. Deploy Sales Cloud or Service Cloud first. Add Marketing Cloud or Experience Cloud in Phase 2...."
+  },
+  {
+   "heading": "How do I know if I am getting a fair price?",
+   "word_count": 197,
+   "total_score": 69,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Ask three questions before signing a contract: Is the pricing fixed or hourly? Fixed-price contracts protect you from scope creep costs. Hourly billing incentivizes longer projects. Who is doing the..."
+  },
+  {
+   "heading": "How Much Does a Salesforce Implementation Cost in 2026?",
+   "word_count": 87,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 9,
+    "uniqueness_signals": 0
+   },
+   "preview": "A Salesforce implementationcosts between $15,000 and $150,000 for most organizations in 2026. The price depends on four factors: the number of Salesforce Clouds being configured, how many users need access,..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "How Much Does a Salesforce Implementation Cost in 2026?",
+   "word_count": 87,
+   "total_score": 70,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 9,
+    "uniqueness_signals": 0
+   },
+   "preview": "A Salesforce implementationcosts between $15,000 and $150,000 for most organizations in 2026. The price depends on four factors: the number of Salesforce Clouds being configured, how many users need access,..."
+  },
+  {
+   "heading": "Why is there such a wide price range?",
+   "word_count": 158,
+   "total_score": 80,
+   "grade": "A",
+   "label": "Highly Citable",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 13,
+    "uniqueness_signals": 0
+   },
+   "preview": "The range exists because \"Salesforce implementation\" can mean very different things. A nonprofit setting up NPSP with 10 users and basic reporting is not the same project as a healthcare..."
+  },
+  {
+   "heading": "What is the difference between hiring a solo architect and a large consulting firm?",
+   "word_count": 160,
+   "total_score": 82,
+   "grade": "A",
+   "label": "Highly Citable",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 25,
+    "structural_readability": 12,
+    "statistical_density": 10,
+    "uniqueness_signals": 5
+   },
+   "preview": "A large consulting firm (Deloitte, Accenture, Slalom, or a Salesforce SI partner) typically staffs 4-6 people on an implementation: a solutions architect, a technical lead, one or two developers, a..."
+  },
+  {
+   "heading": "What factors increase the cost of an implementation?",
+   "word_count": 147,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 25,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Several things push the price up: Multiple Salesforce Clouds. Adding Sales Cloud, Service Cloud, and Marketing Cloud to the same implementation multiplies configuration, testing, and training. Custom development. Any feature..."
+  },
+  {
+   "heading": "Can I reduce the cost without cutting corners?",
+   "word_count": 125,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 13,
+    "statistical_density": 0,
+    "uniqueness_signals": 5
+   },
+   "preview": "Yes. Three approaches that lower cost without creating technical debt: Start with one Cloud. Deploy Sales Cloud or Service Cloud first. Add Marketing Cloud or Experience Cloud in Phase 2...."
+  },
+  {
+   "heading": "What does CCC charge for an implementation?",
+   "word_count": 103,
+   "total_score": 62,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC offers four service tiers: Digital products ($7-$49): Self-service governance kits, documentation templates, and debugging guides on Gumroad. Workshops ($2,500-$15,000): Half-day, full-day, or two-day working sessions on data governance, Flow..."
+  },
+  {
+   "heading": "How do I know if I am getting a fair price?",
+   "word_count": 197,
+   "total_score": 69,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 12,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Ask three questions before signing a contract: Is the pricing fixed or hourly? Fixed-price contracts protect you from scope creep costs. Hourly billing incentivizes longer projects. Who is doing the..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/how-much-does-a-salesforce-implementation-cost-in-2026",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

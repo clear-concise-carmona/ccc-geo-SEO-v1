@@ -1,0 +1,426 @@
+{
+ "url": "http://127.0.0.1:8765/bd36cddb024b.html",
+ "total_blocks_analyzed": 17,
+ "average_citability_score": 34.7,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 0,
+  "D": 10,
+  "F": 7
+ },
+ "top_5_citable": [
+  {
+   "heading": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist",
+   "word_count": 92,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The pre-flight inspection that determines whether your AI takes off or crashes The pattern repeats across every failed AI implementation I've seen: Organization gets excited about AI capabilitiesTeam enables the..."
+  },
+  {
+   "heading": "1.5 Duplicate Assessment",
+   "word_count": 37,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Duplicate rules are active for Contacts, Leads, AccountsHistorical duplicates have been mergedDuplicate Record Sets are reviewed weeklyDuplicate rate is below 5% Check:Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Duplicate Record Sets If..."
+  },
+  {
+   "heading": "1.1 Completeness Audit",
+   "word_count": 89,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "For every object the AI will access: Email populated on 90%+ of recordsTitle populated on 80%+ of recordsAccount relationship exists for 95%+ of recordsPhone populated on 70%+ of records Industry..."
+  },
+  {
+   "heading": "Red Flags That Should Pause AI Enablement",
+   "word_count": 97,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Stop and address these before proceeding: More than 30% of critical fields are blankAccuracy audit shows less than 70% correct dataMore than 15% of records are duplicatesMore than 40% of..."
+  },
+  {
+   "heading": "2.3 Object Permissions",
+   "word_count": 20,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 8,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI actions respect user object permissionsAI cannot create/update/delete records users shouldn't modifyCRUD permissions are appropriate for each AI use case"
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Days 1-30: Foundation",
+   "word_count": 28,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run data quality auditDocument gaps and issuesPrioritize cleanup work Execute high-priority data cleanupImplement validation rules for critical fieldsConfigure duplicate management Verify security configurationConfigure Trust LayerPrepare sandbox for testing"
+  },
+  {
+   "heading": "3.3 Integration Considerations",
+   "word_count": 22,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 8,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI features compatible with existing integrationsExternal data sources accessible to AI where neededIntegration users have appropriate permissionsAPI limits sufficient for AI workload"
+  },
+  {
+   "heading": "The Readiness Score",
+   "word_count": 53,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "0: Not started1: Partially complete2: Mostly complete3: Fully complete Data Quality (1.1-1.5): ___ / 15Security (2.1-2.4): ___ / 12Technical (3.1-3.4): ___ / 12Governance (4.1-4.4): ___ / 12Organizational (5.1-5.4): ___ /..."
+  },
+  {
+   "heading": "Days 31-60: Configuration and Testing",
+   "word_count": 25,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Configure AI features in sandboxTest with users at different permission levelsDocument findings and adjust Run pilot in sandbox with real scenariosCollect feedback and iterateFinalize configuration"
+  },
+  {
+   "heading": "3.4 Testing Environment",
+   "word_count": 20,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sandbox available for AI testingSandbox has representative data (not production, but realistic)Test users configured with various permission levelsTesting plan documented"
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Preparing Your Salesforce Org for AI: A Data Readiness Checklist",
+   "word_count": 92,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The pre-flight inspection that determines whether your AI takes off or crashes The pattern repeats across every failed AI implementation I've seen: Organization gets excited about AI capabilitiesTeam enables the..."
+  },
+  {
+   "heading": "1.1 Completeness Audit",
+   "word_count": 89,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "For every object the AI will access: Email populated on 90%+ of recordsTitle populated on 80%+ of recordsAccount relationship exists for 95%+ of recordsPhone populated on 70%+ of records Industry..."
+  },
+  {
+   "heading": "1.2 Accuracy Audit",
+   "word_count": 36,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sample 50-100 records per object: Contact job titles match LinkedIn/company websitesAccount industry classifications are correctPhone numbers are valid and currentEmail addresses are deliverableAddress data matches actual locations Accuracy Threshold:85%+ accuracy..."
+  },
+  {
+   "heading": "1.3 Consistency Audit",
+   "word_count": 54,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "State fields use consistent format(all 2-letter abbreviations or all spelled out)Phone numbers use consistent formatIndustry values follow single taxonomy (no overlapping categories)Title formatting is standardized (VP vs Vice President)Date fields..."
+  },
+  {
+   "heading": "1.4 Timeliness Audit",
+   "word_count": 60,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "80%+ of Contact records updated in past 12 months90%+ of Account records updated in past 12 monthsActivity data exists for recent time periodsOpportunity stages reflect current reality (no stale \"In..."
+  },
+  {
+   "heading": "1.5 Duplicate Assessment",
+   "word_count": 37,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Duplicate rules are active for Contacts, Leads, AccountsHistorical duplicates have been mergedDuplicate Record Sets are reviewed weeklyDuplicate rate is below 5% Check:Setup \u00e2\u0086\u0092 Duplicate Management \u00e2\u0086\u0092 Duplicate Record Sets If..."
+  },
+  {
+   "heading": "2.1 Sharing Model Verification",
+   "word_count": 36,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Organization-Wide Defaults are correctly configuredRole Hierarchy reflects actual organizational structureSharing rules cover necessary scenariosAI features will only access appropriate data Test:For each AI feature, test with users at different levels...."
+  },
+  {
+   "heading": "2.2 Field-Level Security",
+   "word_count": 25,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sensitive fields identified (SSN, salary, health info, etc.)Sensitive fields have appropriate FLS restrictionsAI features cannot access restricted fields inappropriatelyTrust Layer masking configured for sensitive fields"
+  },
+  {
+   "heading": "2.3 Object Permissions",
+   "word_count": 20,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 8,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI actions respect user object permissionsAI cannot create/update/delete records users shouldn't modifyCRUD permissions are appropriate for each AI use case"
+  },
+  {
+   "heading": "3.3 Integration Considerations",
+   "word_count": 22,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 8,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "AI features compatible with existing integrationsExternal data sources accessible to AI where neededIntegration users have appropriate permissionsAPI limits sufficient for AI workload"
+  },
+  {
+   "heading": "3.4 Testing Environment",
+   "word_count": 20,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sandbox available for AI testingSandbox has representative data (not production, but realistic)Test users configured with various permission levelsTesting plan documented"
+  },
+  {
+   "heading": "4.1 Ownership",
+   "word_count": 22,
+   "total_score": 33,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Data Owner assigned for each AI-accessed objectAI Feature Owner assigned (who's responsible for the AI?)Escalation path defined for AI issuesExecutive sponsor identified"
+  },
+  {
+   "heading": "Days 1-30: Foundation",
+   "word_count": 28,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run data quality auditDocument gaps and issuesPrioritize cleanup work Execute high-priority data cleanupImplement validation rules for critical fieldsConfigure duplicate management Verify security configurationConfigure Trust LayerPrepare sandbox for testing"
+  },
+  {
+   "heading": "Days 31-60: Configuration and Testing",
+   "word_count": 25,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Configure AI features in sandboxTest with users at different permission levelsDocument findings and adjust Run pilot in sandbox with real scenariosCollect feedback and iterateFinalize configuration"
+  },
+  {
+   "heading": "Red Flags That Should Pause AI Enablement",
+   "word_count": 97,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 6,
+    "uniqueness_signals": 0
+   },
+   "preview": "Stop and address these before proceeding: More than 30% of critical fields are blankAccuracy audit shows less than 70% correct dataMore than 15% of records are duplicatesMore than 40% of..."
+  },
+  {
+   "heading": "The Readiness Score",
+   "word_count": 53,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "0: Not started1: Partially complete2: Mostly complete3: Fully complete Data Quality (1.1-1.5): ___ / 15Security (2.1-2.4): ___ / 12Technical (3.1-3.4): ___ / 12Governance (4.1-4.4): ___ / 12Organizational (5.1-5.4): ___ /..."
+  },
+  {
+   "heading": "Next Steps",
+   "word_count": 115,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Print this checklistScore your current state honestlyIdentify the biggest gapsCreate a remediation plan with timelineDon't enable AI until you've addressed critical gaps If you're planning an Agentforce implementation and want..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-ai-data-readiness-checklist",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

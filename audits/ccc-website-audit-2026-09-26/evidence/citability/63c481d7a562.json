@@ -1,0 +1,381 @@
+{
+ "url": "http://127.0.0.1:8765/63c481d7a562.html",
+ "total_blocks_analyzed": 14,
+ "average_citability_score": 32.1,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 1,
+  "D": 6,
+  "F": 7
+ },
+ "top_5_citable": [
+  {
+   "heading": "Need More Help?",
+   "word_count": 145,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Securing Salesforce can feel overwhelming, but you don't have to tackle it alone. OurSalesforce Security Starter Packincludes templates, checklists, and step-by-step guides to help you implement these best practices. Or..."
+  },
+  {
+   "heading": "Permission Sets: The Swiss Army Knife of Access Control",
+   "word_count": 100,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When someone needs temporary superpowers or special access, permission sets are your best friend. They let you extend permissions without creating endless profiles. Name them clearly (e.g., \"Marketing_Campaign_Manager\" not \"Set_12\")Use..."
+  },
+  {
+   "heading": "Login Must-Haves:",
+   "word_count": 70,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 9,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Enforce strong password policiesImplement Multi-Factor Authentication (MFA)\u00e2\u0080\u0094this is non-negotiable!Set session timeout limitsRestrict login hours if appropriateConsider IP restrictions for highly sensitive orgs Implement Multi-Factor Authentication (MFA)\u00e2\u0080\u0094this is non-negotiable! Restrict login..."
+  },
+  {
+   "heading": "Why Salesforce Security Matters (Even When It's a Pain)",
+   "word_count": 70,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your Salesforce org is like a digital vault. It holds customer data, financial records, and probably a few secrets your CEO would rather keep under wraps. A security breach isn't..."
+  },
+  {
+   "heading": "Login Security: Locking Your Digital Doors",
+   "word_count": 29,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Even with perfect internal security, you're vulnerable if someone can just walk in the front door. Strong login security is like having both a doorman and a security system."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Health Check Routine:",
+   "word_count": 29,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run monthly security auditsAddress \"Critical\" and \"High Risk\" findings immediatelyDocument your security decisionsSet calendar reminders for reviews Address \"Critical\" and \"High Risk\" findings immediately Set calendar reminders for reviews"
+  },
+  {
+   "heading": "Building Your Security Culture:",
+   "word_count": 81,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Train users on basic security principlesMake security part of your onboarding processRecognize and reward good security habitsCreate clear procedures for reporting security concerns Train users on basic security principles Make..."
+  },
+  {
+   "heading": "Role Hierarchies: Who Sees What",
+   "word_count": 80,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 11,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "A well-designed role hierarchy ensures managers can see their team's data without allowing everyone to see everything. It's one-way visibility, like a manager having a window into their team's workspace,..."
+  },
+  {
+   "heading": "Sharing Settings: Building Your Security Fence",
+   "word_count": 87,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sharing settings control which records users can see and modify. Think of them as the fence around your property\u00e2\u0080\u0094you need to decide how high to build it and where to..."
+  },
+  {
+   "heading": "Regular Security Health Checks: Your Security Physical",
+   "word_count": 29,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Just like you need regular check-ups at the doctor, your Salesforce org needs regular security reviews. Salesforce's built-in Health Check feature scores your security settings and highlights weak points."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Mastering Salesforce Security: A No-Nonsense Guide for Admins",
+   "word_count": 65,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Let's be honest, when someone mentions \"Salesforce security,\" most admins either get a headache or start reaching for more coffee. But securing your Salesforce instance doesn't have to feel like..."
+  },
+  {
+   "heading": "Why Salesforce Security Matters (Even When It's a Pain)",
+   "word_count": 70,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your Salesforce org is like a digital vault. It holds customer data, financial records, and probably a few secrets your CEO would rather keep under wraps. A security breach isn't..."
+  },
+  {
+   "heading": "Profiles: Your First Line of Defense",
+   "word_count": 117,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Profiles in Salesforce work like hotel key cards as they determine which doors your users can open. Every user needs one, but not everyone needs access to the presidential suite...."
+  },
+  {
+   "heading": "Permission Sets: The Swiss Army Knife of Access Control",
+   "word_count": 100,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 19,
+    "self_containment": 14,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When someone needs temporary superpowers or special access, permission sets are your best friend. They let you extend permissions without creating endless profiles. Name them clearly (e.g., \"Marketing_Campaign_Manager\" not \"Set_12\")Use..."
+  },
+  {
+   "heading": "Sharing Settings: Building Your Security Fence",
+   "word_count": 87,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Sharing settings control which records users can see and modify. Think of them as the fence around your property\u00e2\u0080\u0094you need to decide how high to build it and where to..."
+  },
+  {
+   "heading": "Role Hierarchies: Who Sees What",
+   "word_count": 80,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 11,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "A well-designed role hierarchy ensures managers can see their team's data without allowing everyone to see everything. It's one-way visibility, like a manager having a window into their team's workspace,..."
+  },
+  {
+   "heading": "Login Security: Locking Your Digital Doors",
+   "word_count": 29,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Even with perfect internal security, you're vulnerable if someone can just walk in the front door. Strong login security is like having both a doorman and a security system."
+  },
+  {
+   "heading": "Login Must-Haves:",
+   "word_count": 70,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 9,
+    "structural_readability": 12,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Enforce strong password policiesImplement Multi-Factor Authentication (MFA)\u00e2\u0080\u0094this is non-negotiable!Set session timeout limitsRestrict login hours if appropriateConsider IP restrictions for highly sensitive orgs Implement Multi-Factor Authentication (MFA)\u00e2\u0080\u0094this is non-negotiable! Restrict login..."
+  },
+  {
+   "heading": "Regular Security Health Checks: Your Security Physical",
+   "word_count": 29,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Just like you need regular check-ups at the doctor, your Salesforce org needs regular security reviews. Salesforce's built-in Health Check feature scores your security settings and highlights weak points."
+  },
+  {
+   "heading": "Health Check Routine:",
+   "word_count": 29,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Run monthly security auditsAddress \"Critical\" and \"High Risk\" findings immediatelyDocument your security decisionsSet calendar reminders for reviews Address \"Critical\" and \"High Risk\" findings immediately Set calendar reminders for reviews"
+  },
+  {
+   "heading": "Creating a Culture of Security",
+   "word_count": 29,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The best security setup in the world won't help if your users are writing passwords on sticky notes or sharing logins. Technical solutions must be paired with human awareness."
+  },
+  {
+   "heading": "Building Your Security Culture:",
+   "word_count": 81,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 16,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Train users on basic security principlesMake security part of your onboarding processRecognize and reward good security habitsCreate clear procedures for reporting security concerns Train users on basic security principles Make..."
+  },
+  {
+   "heading": "Taking Action: Your Salesforce Security Checklist",
+   "word_count": 96,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Ready to level up your Salesforce security? Here's your starter checklist: Run a Salesforce Health Check todayReview all profiles and permission sets for the principle of least privilegeVerify your sharing..."
+  },
+  {
+   "heading": "Need More Help?",
+   "word_count": 145,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Securing Salesforce can feel overwhelming, but you don't have to tackle it alone. OurSalesforce Security Starter Packincludes templates, checklists, and step-by-step guides to help you implement these best practices. Or..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-security-guide",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

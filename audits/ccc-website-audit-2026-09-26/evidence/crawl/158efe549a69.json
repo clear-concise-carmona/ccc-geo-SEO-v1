@@ -1,0 +1,164 @@
+{
+ "url": "https://www.clearconciseconsulting.com/contact",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "63601",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:45 GMT",
+  "Etag": "W/\"5c54013dc11124feca3ed988e6b57bec\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "NWVkjNAn/eHs5htKb",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Contact CCC | Free Salesforce Consultation | Clear Concise Consulting",
+  "og:url": "https://www.clearconciseconsulting.com/contact",
+  "og:type": "website",
+  "og:description": "Contact Clear Concise Consulting about Salesforce architecture, implementation, data governance, AI readiness, training, and technical scoping.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d44960ea56e8724331ebb0/1775520096055/X+%28400x400%29.png?format=1500w",
+  "og:image:width": "400",
+  "og:image:height": "400",
+  "twitter:title": "Contact CCC | Free Salesforce Consultation | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d44960ea56e8724331ebb0/1775520096055/X+%28400x400%29.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/contact",
+  "twitter:card": "summary",
+  "twitter:description": "Contact Clear Concise Consulting about Salesforce architecture, implementation, data governance, AI readiness, training, and technical scoping.",
+  "description": "Contact Clear Concise Consulting about Salesforce architecture, implementation, data governance, AI readiness, training, and technical scoping.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Contact CCC | Free Salesforce Consultation | Clear Concise Consulting",
+ "description": "Contact Clear Concise Consulting about Salesforce architecture, implementation, data governance, AI readiness, training, and technical scoping.",
+ "canonical": "https://www.clearconciseconsulting.com/contact",
+ "h1_tags": [
+  "Architecture without the handoffs."
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Architecture without the handoffs."
+  },
+  {
+   "level": 2,
+   "text": "Technical Intake"
+  }
+ ],
+ "word_count": 139,
+ "text_content": "Contact CCC | Free Salesforce Consultation | Clear Concise Consulting 0 REQUEST A SCOPING CALL Architecture without the handoffs. Fixed Timeline Delivery Most implementations ship in 8 to 12 weeks. I do not use indefinite hourly billing models. Zero Junior Associates Large firms cycle through junior associates. CCC provides 13x Certified accountability on every build. Documentation Standard Admin runbooks, data dictionaries, and process maps are delivered as standard assets. Not footnotes. One architect designs your system, configures your org, and writes your documentation. Speak directly to the person doing the work. \"Jeremy's aptitude at work is something I personally intend to model myself after. He managed the team's internal knowledge base of business processes, training, and developer code with expert precision.\" Manuel Borge, USCIS Technical Intake Currently booking for Q3 2026 \u00b7 Response within 24 hours Or book directly",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  }
+ ],
+ "external_links": [],
+ "images": [],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Organization",
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "contactType": "customer support",
+     "email": "contact@clearconciseconsulting.com",
+     "telephone": "+1-917-719-4629",
+     "areaServed": "US",
+     "availableLanguage": [
+      "en"
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": false,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": [
+  "Possible client-side only rendering detected: #spark-app has minimal server-rendered content (139 words on page)"
+ ]
+}

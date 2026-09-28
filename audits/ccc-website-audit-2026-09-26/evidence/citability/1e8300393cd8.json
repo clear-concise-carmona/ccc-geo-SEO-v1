@@ -1,0 +1,156 @@
+{
+ "url": "http://127.0.0.1:8765/1e8300393cd8.html",
+ "total_blocks_analyzed": 3,
+ "average_citability_score": 54.3,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 3,
+  "D": 0,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "How Is the Score Calculated?",
+   "word_count": 65,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fifteen questions, three per category, are scored on a 1-to-5 maturity scale. Each category is normalized to 0 to 100, and the weighted overall score has a maximum of 100...."
+  },
+  {
+   "heading": "How Ready Is Your Salesforce Org for AI?",
+   "word_count": 40,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This free 15-question assessment measures your Salesforce org's readiness for AI across five categories: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. The result is a weighted..."
+  },
+  {
+   "heading": "What Does the AI Readiness Scorecard Measure?",
+   "word_count": 50,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Five categories of Salesforce AI readiness: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. Each category is assessed through three questions on a 1-to-5 maturity scale. Category..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "How Ready Is Your Salesforce Org for AI?",
+   "word_count": 40,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This free 15-question assessment measures your Salesforce org's readiness for AI across five categories: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. The result is a weighted..."
+  },
+  {
+   "heading": "What Does the AI Readiness Scorecard Measure?",
+   "word_count": 50,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Five categories of Salesforce AI readiness: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. Each category is assessed through three questions on a 1-to-5 maturity scale. Category..."
+  },
+  {
+   "heading": "How Is the Score Calculated?",
+   "word_count": 65,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fifteen questions, three per category, are scored on a 1-to-5 maturity scale. Each category is normalized to 0 to 100, and the weighted overall score has a maximum of 100...."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "How Ready Is Your Salesforce Org for AI?",
+   "word_count": 40,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This free 15-question assessment measures your Salesforce org's readiness for AI across five categories: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. The result is a weighted..."
+  },
+  {
+   "heading": "What Does the AI Readiness Scorecard Measure?",
+   "word_count": 50,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Five categories of Salesforce AI readiness: data quality, governance readiness, automation maturity, AI preparedness, and documentation health. Each category is assessed through three questions on a 1-to-5 maturity scale. Category..."
+  },
+  {
+   "heading": "How Is the Score Calculated?",
+   "word_count": 65,
+   "total_score": 59,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Fifteen questions, three per category, are scored on a 1-to-5 maturity scale. Each category is normalized to 0 to 100, and the weighted overall score has a maximum of 100...."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/scorecard",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

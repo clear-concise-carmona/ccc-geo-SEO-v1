@@ -1,0 +1,490 @@
+{
+ "url": "https://www.clearconciseconsulting.com/",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "5262",
+  "Content-Encoding": "gzip",
+  "Content-Length": "95425",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 15:56:12 GMT",
+  "Etag": "W/\"f3ba99b39aba172a0441611d0aa15d21\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "27TcwtqS/CiukFXbl",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce AI Governance & Architecture",
+  "og:url": "https://www.clearconciseconsulting.com",
+  "og:type": "website",
+  "og:description": "Architect-led Salesforce AI readiness, data governance, and architecture for nonprofit, government, healthcare, and enterprise organizations.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d5796e4d15e0196298a000/1775597934899/og_homepage.jpg?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce AI Governance & Architecture",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69d5796e4d15e0196298a000/1775597934899/og_homepage.jpg?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com",
+  "twitter:card": "summary",
+  "twitter:description": "Architect-led Salesforce AI readiness, data governance, and architecture for nonprofit, government, healthcare, and enterprise organizations.",
+  "description": "Architect-led Salesforce AI readiness, data governance, and architecture for nonprofit, government, healthcare, and enterprise organizations.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce AI Governance & Architecture",
+ "description": "Architect-led Salesforce AI readiness, data governance, and architecture for nonprofit, government, healthcare, and enterprise organizations.",
+ "canonical": "https://www.clearconciseconsulting.com",
+ "h1_tags": [
+  "Salesforce AI Governance and Architecture for Complex Organizations"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce AI Governance and Architecture for Complex Organizations"
+  },
+  {
+   "level": 2,
+   "text": "13"
+  },
+  {
+   "level": 2,
+   "text": "Since 2012"
+  },
+  {
+   "level": 2,
+   "text": "NYU"
+  },
+  {
+   "level": 2,
+   "text": "1"
+  },
+  {
+   "level": 2,
+   "text": "Your Salesforce platform should make work clearer, not harder."
+  },
+  {
+   "level": 2,
+   "text": "Know What Salesforce AI Is Building On"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce Services Built Around Governance and Accountability"
+  },
+  {
+   "level": 2,
+   "text": "Evidence Before Assumptions"
+  },
+  {
+   "level": 2,
+   "text": "Why Clear Concise Consulting"
+  },
+  {
+   "level": 2,
+   "text": "A Three Step Engagement Process"
+  },
+  {
+   "level": 2,
+   "text": "Get a Clear View of Your Salesforce Risk"
+  },
+  {
+   "level": 3,
+   "text": "Data You Cannot Trust"
+  },
+  {
+   "level": 3,
+   "text": "AI Plans Ahead of Controls"
+  },
+  {
+   "level": 3,
+   "text": "Too Many Project Handoffs"
+  },
+  {
+   "level": 3,
+   "text": "AI Readiness and Governance"
+  },
+  {
+   "level": 3,
+   "text": "Data Governance and Quality"
+  },
+  {
+   "level": 3,
+   "text": "Architecture and Implementation"
+  },
+  {
+   "level": 3,
+   "text": "Selected Case Studies"
+  },
+  {
+   "level": 3,
+   "text": "Assessment Method"
+  },
+  {
+   "level": 3,
+   "text": "Published Guidance"
+  },
+  {
+   "level": 3,
+   "text": "One Lead Architect"
+  },
+  {
+   "level": 3,
+   "text": "Documented Decisions"
+  },
+  {
+   "level": 3,
+   "text": "Plain-Language Guidance"
+  },
+  {
+   "level": 3,
+   "text": "Knowledge Transfer"
+  },
+  {
+   "level": 3,
+   "text": "Request"
+  },
+  {
+   "level": 3,
+   "text": "Assess"
+  },
+  {
+   "level": 3,
+   "text": "Deliver"
+  },
+  {
+   "level": 3,
+   "text": "Frequently Asked Questions"
+  },
+  {
+   "level": 4,
+   "text": "What types of Salesforce organizations does CCC support?"
+  },
+  {
+   "level": 4,
+   "text": "Does CCC only work on AI projects?"
+  },
+  {
+   "level": 4,
+   "text": "Can CCC work with an internal Salesforce team?"
+  },
+  {
+   "level": 4,
+   "text": "Does CCC provide development work?"
+  },
+  {
+   "level": 4,
+   "text": "What happens after an assessment request?"
+  },
+  {
+   "level": 4,
+   "text": "Does CCC offer fixed pricing?"
+  },
+  {
+   "level": 4,
+   "text": "Can CCC help prepare Salesforce for Agentforce?"
+  }
+ ],
+ "word_count": 737,
+ "text_content": "Salesforce AI Governance & Architecture 0 Salesforce AI Governance and Architecture for Complex Organizations Architect-led governance, data readiness, and architecture that reduce risk and build a reliable foundation for Salesforce and AI. REQUEST AN ASSESSMENT TAKE THE FREE SCORECARD 13 Verified Salesforce Certifications Since 2012 Salesforce Experience NYU Tandon Instruction 1 Lead Architect \u00b7 Details on About Your Salesforce platform should make work clearer, not harder. Data You Cannot Trust Incomplete, inconsistent, or duplicated records weaken reporting, automation, migration, and AI results. Review Salesforce Data Governance AI Plans Ahead of Controls New capabilities can move faster than access review, governance, documentation, and human oversight. Assess Salesforce AI Readiness Too Many Project Handoffs Fragmented delivery creates repeated explanations, conflicting decisions, and unclear accountability. Work With One Lead Architect Know What Salesforce AI Is Building On The Salesforce AI Data Readiness Assessment reviews data quality, governance, access controls, automation, documentation, and AI readiness. You receive written findings, prioritized next actions, and a review session focused on the risks that matter most. REQUEST AN ASSESSMENT Take the Free Scorecard Salesforce Services Built Around Governance and Accountability CCC provides senior architecture and governance support for teams that need clear decisions, documented controls, and direct accountability. AI Readiness and Governance Review Salesforce data, access, automation, documentation, and human oversight before AI risk reaches production. Explore Salesforce AI Readiness Data Governance and Quality Define ownership, standards, cleanup priorities, and controls that make Salesforce data more dependable. Explore Salesforce Data Governance Architecture and Implementation Set requirements, architecture decisions, testing controls, and delivery oversight for maintainable Salesforce work. Explore Salesforce Architecture Evidence Before Assumptions CCC uses documented project context, assessment findings, and published technical guidance to show how decisions are made. Selected Case Studies Review project context, architecture decisions, delivery constraints, and operating changes from prior work. View Client Results Assessment Method See the areas reviewed, the findings delivered, and the distinction between the free scorecard and paid assessment. Review the Assessment Published Guidance Read practical Salesforce guidance on AI governance, data quality, implementation, and documentation. Browse Salesforce Resources Why Clear Concise Consulting One Lead Architect Jeremy remains responsible for architecture decisions and client communication throughout the engagement. Documented Decisions Assumptions, risks, approvals, architecture choices, and open questions are written in plain language. Plain-Language Guidance Recommendations are written for the people who need to approve, use, and maintain the system. Knowledge Transfer Teams receive information they can use after the engagement ends, without permanent dependence on a consultant. A Three Step Engagement Process 1 Request Share the Salesforce problem, current priority, and relevant deadline through the assessment request form. 2 Assess CCC reviews the available data, governance, architecture, documentation, and delivery constraints. 3 Deliver You receive defined findings, decisions, next actions, and the documentation included in the approved scope. Frequently Asked Questions What types of Salesforce organizations does CCC support? CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and accountable delivery. Does CCC only work on AI projects? No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control. Can CCC work with an internal Salesforce team? Yes. CCC can lead an assessment, support an internal administrator, provide architecture oversight, review existing work, or fill a defined advisory gap. Does CCC provide development work? CCC leads architecture, technical review, configuration strategy, testing, and documentation. Work requiring significant Apex, Lightning Web Components, or integration development may be completed with an approved delivery partner while Jeremy retains architectural oversight. What happens after an assessment request? CCC reviews the request and schedules a short fit call when the problem matches the practice. The call identifies the main issue, establishes whether CCC is the right provider, and selects the next engagement step. Detailed discovery and solution design occur during paid work. Does CCC offer fixed pricing? Some services are offered as fixed-scope assessments or defined packages. Larger engagements are priced after discovery establishes the requirements, risks, dependencies, and client responsibilities. Can CCC help prepare Salesforce for Agentforce? Yes. CCC can review data quality, access controls, automation, documentation, knowledge sources, human-review requirements, and governance before an Agentforce implementation moves into production. Get a Clear View of Your Salesforce Risk Identify the data, governance, access, automation, documentation, and architecture issues that could weaken your next Salesforce or AI initiative. REQUEST AN ASSESSMENT",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "REQUEST AN ASSESSMENT"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "TAKE THE FREE SCORECARD"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance",
+   "text": "Review Salesforce Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "Assess Salesforce AI Readiness"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/about",
+   "text": "Work With One Lead Architect"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "REQUEST AN ASSESSMENT"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "Take the Free Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "Explore Salesforce AI Readiness"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/data-governance",
+   "text": "Explore Salesforce Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-implementation",
+   "text": "Explore Salesforce Architecture"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/case-studies",
+   "text": "View Client Results"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "Review the Assessment"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog",
+   "text": "Browse Salesforce Resources"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "REQUEST AN ASSESSMENT"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c0bb3e3c-e7fe-4095-a125-f1d7d49db85e/ccc-ai-readiness-assessment-preview.png",
+   "alt": "Example Salesforce AI data readiness assessment showing five review categories and a sample priority finding",
+   "width": "1200",
+   "height": "900",
+   "loading": null
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c0bb3e3c-e7fe-4095-a125-f1d7d49db85e/ccc-ai-readiness-assessment-preview.png",
+   "alt": "Example Salesforce AI data readiness assessment showing five review categories and a sample priority finding",
+   "width": "1200",
+   "height": "900",
+   "loading": null
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c0bb3e3c-e7fe-4095-a125-f1d7d49db85e/ccc-ai-readiness-assessment-preview.png",
+   "alt": "Salesforce AI Data Readiness Assessment report showing scores in various categories with a note on governance ownership.",
+   "width": "1200",
+   "height": "900",
+   "loading": "lazy"
+  },
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/c0bb3e3c-e7fe-4095-a125-f1d7d49db85e/ccc-ai-readiness-assessment-preview.png",
+   "alt": "Salesforce AI Data Readiness Assessment report showing scores in various categories with a note on governance ownership.",
+   "width": "1200",
+   "height": "900",
+   "loading": "lazy"
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What types of Salesforce organizations does CCC support?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and accountable delivery."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC only work on AI projects?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can CCC work with an internal Salesforce team?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC can lead an assessment, support an internal administrator, provide architecture oversight, review existing work, or fill a defined advisory gap."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC provide development work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC leads architecture, technical review, configuration strategy, testing, and documentation. Work requiring significant Apex, Lightning Web Components, or integration development may be completed with an approved delivery partner while Jeremy retains architectural oversight."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens after an assessment request?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC reviews the request and schedules a short fit call when the problem matches the practice. The call identifies the main issue, establishes whether CCC is the right provider, and selects the next engagement step. Detailed discovery and solution design occur during paid work."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC offer fixed pricing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some services are offered as fixed-scope assessments or defined packages. Larger engagements are priced after discovery establishes the requirements, risks, dependencies, and client responsibilities."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can CCC help prepare Salesforce for Agentforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC can review data quality, access controls, automation, documentation, knowledge sources, human-review requirements, and governance before an Agentforce implementation moves into production."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What types of Salesforce organizations does CCC support?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and accountable delivery."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC only work on AI projects?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can CCC work with an internal Salesforce team?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC can lead an assessment, support an internal administrator, provide architecture oversight, review existing work, or fill a defined advisory gap."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC provide development work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC leads architecture, technical review, configuration strategy, testing, and documentation. Work requiring significant Apex, Lightning Web Components, or integration development may be completed with an approved delivery partner while Jeremy retains architectural oversight."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens after an assessment request?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "CCC reviews the request and schedules a short fit call when the problem matches the practice. The call identifies the main issue, establishes whether CCC is the right provider, and selects the next engagement step. Detailed discovery and solution design occur during paid work."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does CCC offer fixed pricing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some services are offered as fixed-scope assessments or defined packages. Larger engagements are priced after discovery establishes the requirements, risks, dependencies, and client responsibilities."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can CCC help prepare Salesforce for Agentforce?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. CCC can review data quality, access controls, automation, documentation, knowledge sources, human-review requirements, and governance before an Agentforce implementation moves into production."
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

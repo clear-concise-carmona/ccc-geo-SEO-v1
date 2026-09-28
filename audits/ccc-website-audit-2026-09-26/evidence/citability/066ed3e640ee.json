@@ -1,0 +1,306 @@
+{
+ "url": "http://127.0.0.1:8765/066ed3e640ee.html",
+ "total_blocks_analyzed": 9,
+ "average_citability_score": 39.9,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 2,
+  "D": 4,
+  "F": 3
+ },
+ "top_5_citable": [
+  {
+   "heading": "Frequently Asked Questions",
+   "word_count": 230,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What types of Salesforce organizations does CCC support?CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and..."
+  },
+  {
+   "heading": "What happens after an assessment request?",
+   "word_count": 44,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC reviews the request and schedules a short fit call when the problem matches the practice. The call identifies the main issue, establishes whether CCC is the right provider, and..."
+  },
+  {
+   "heading": "Does CCC offer fixed pricing?",
+   "word_count": 24,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some services are offered as fixed-scope assessments or defined packages. Larger engagements are priced after discovery establishes the requirements, risks, dependencies, and client responsibilities."
+  },
+  {
+   "heading": "What types of Salesforce organizations does CCC support?",
+   "word_count": 25,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and accountable delivery."
+  },
+  {
+   "heading": "Does CCC only work on AI projects?",
+   "word_count": 26,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Can CCC work with an internal Salesforce team?",
+   "word_count": 22,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 13,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC can lead an assessment, support an internal administrator, provide architecture oversight, review existing work, or fill a defined advisory gap."
+  },
+  {
+   "heading": "Can CCC help prepare Salesforce for Agentforce?",
+   "word_count": 23,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 13,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC can review data quality, access controls, automation, documentation, knowledge sources, human-review requirements, and governance before an Agentforce implementation moves into production."
+  },
+  {
+   "heading": "Know What Salesforce AI Is Building On",
+   "word_count": 35,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Salesforce AI Data Readiness Assessment reviews data quality, governance, access controls, automation, documentation, and AI readiness. You receive written findings, prioritized next actions, and a review session focused on..."
+  },
+  {
+   "heading": "Does CCC only work on AI projects?",
+   "word_count": 26,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control."
+  },
+  {
+   "heading": "Does CCC provide development work?",
+   "word_count": 33,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC leads architecture, technical review, configuration strategy, testing, and documentation. Work requiring significant Apex, Lightning Web Components, or integration development may be completed with an approved delivery partner while Jeremy..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Know What Salesforce AI Is Building On",
+   "word_count": 35,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "The Salesforce AI Data Readiness Assessment reviews data quality, governance, access controls, automation, documentation, and AI readiness. You receive written findings, prioritized next actions, and a review session focused on..."
+  },
+  {
+   "heading": "Frequently Asked Questions",
+   "word_count": 230,
+   "total_score": 54,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What types of Salesforce organizations does CCC support?CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and..."
+  },
+  {
+   "heading": "What types of Salesforce organizations does CCC support?",
+   "word_count": 25,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC works with nonprofit, government, healthcare, and enterprise teams. The best fit is an organization that values direct senior involvement, clear documentation, and accountable delivery."
+  },
+  {
+   "heading": "Does CCC only work on AI projects?",
+   "word_count": 26,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "No. AI readiness is a central practice area. CCC also supports Salesforce architecture, data governance, implementation oversight, documentation, and training when that work strengthens long-term control."
+  },
+  {
+   "heading": "Can CCC work with an internal Salesforce team?",
+   "word_count": 22,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 13,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC can lead an assessment, support an internal administrator, provide architecture oversight, review existing work, or fill a defined advisory gap."
+  },
+  {
+   "heading": "Does CCC provide development work?",
+   "word_count": 33,
+   "total_score": 41,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC leads architecture, technical review, configuration strategy, testing, and documentation. Work requiring significant Apex, Lightning Web Components, or integration development may be completed with an approved delivery partner while Jeremy..."
+  },
+  {
+   "heading": "What happens after an assessment request?",
+   "word_count": 44,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "CCC reviews the request and schedules a short fit call when the problem matches the practice. The call identifies the main issue, establishes whether CCC is the right provider, and..."
+  },
+  {
+   "heading": "Does CCC offer fixed pricing?",
+   "word_count": 24,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some services are offered as fixed-scope assessments or defined packages. Larger engagements are priced after discovery establishes the requirements, risks, dependencies, and client responsibilities."
+  },
+  {
+   "heading": "Can CCC help prepare Salesforce for Agentforce?",
+   "word_count": 23,
+   "total_score": 27,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 13,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. CCC can review data quality, access controls, automation, documentation, knowledge sources, human-review requirements, and governance before an Agentforce implementation moves into production."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

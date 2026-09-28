@@ -1,0 +1,246 @@
+{
+  "url": "http://127.0.0.1:8766/b7e99ffe6585.html",
+  "total_blocks_analyzed": 5,
+  "average_citability_score": 35.4,
+  "optimal_length_passages": 0,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 2,
+    "D": 1,
+    "F": 2
+  },
+  "top_5_citable": [
+    {
+      "heading": "What CCC Did Differently",
+      "word_count": 223,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 2,
+        "uniqueness_signals": 2
+      },
+      "preview": "The same person who led the discovery sessions configured the org, built the Flows, wrote the Apex validation scripts, and produced the documentation. No handoffs. No ramp-up time for new..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 50,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency terminated a 3-month engagement with a large consulting firm after zero features were deployed. CCC completed the same scope in 8 weeks with a single architect. The..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 128,
+      "total_score": 37,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 22,
+        "structural_readability": 9,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency needed to move their Salesforce instance to GovCloud with full FedRAMP compliance. The project required data migration, sharing model redesign, Flow automation, and a complete documentation package..."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 79,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 17,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Platform: Salesforce GovCloud (FedRAMP Compliant) Scope: Full implementation with data migration, sharing model redesign, Flow automation, and documentation Timeline: 8 weeks (quoted at 6 months by two competing firms) Team..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 53,
+      "total_score": 16,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 14,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCImplementation timeline6 months (quoted by two firms)8 weeksDeployed features after 3 months0Full implementation liveTeam members on project4 (rotating: architect, senior dev, junior dev, PM)1 architect, start to finishDocumentation..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "Before and After",
+      "word_count": 53,
+      "total_score": 16,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 14,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCImplementation timeline6 months (quoted by two firms)8 weeksDeployed features after 3 months0Full implementation liveTeam members on project4 (rotating: architect, senior dev, junior dev, PM)1 architect, start to finishDocumentation..."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 79,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 17,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Platform: Salesforce GovCloud (FedRAMP Compliant) Scope: Full implementation with data migration, sharing model redesign, Flow automation, and documentation Timeline: 8 weeks (quoted at 6 months by two competing firms) Team..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 128,
+      "total_score": 37,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 22,
+        "structural_readability": 9,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency needed to move their Salesforce instance to GovCloud with full FedRAMP compliance. The project required data migration, sharing model redesign, Flow automation, and a complete documentation package..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 50,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency terminated a 3-month engagement with a large consulting firm after zero features were deployed. CCC completed the same scope in 8 weeks with a single architect. The..."
+    },
+    {
+      "heading": "What CCC Did Differently",
+      "word_count": 223,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 2,
+        "uniqueness_signals": 2
+      },
+      "preview": "The same person who led the discovery sessions configured the org, built the Flows, wrote the Apex validation scripts, and produced the documentation. No handoffs. No ramp-up time for new..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "Key Takeaways",
+      "word_count": 99,
+      "total_score": 50,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 19,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency terminated a 3-month engagement with a large consulting firm after zero features were deployed. CCC completed the same scope in 8 weeks with a single architect. The..."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 79,
+      "total_score": 19,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 17,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Platform: Salesforce GovCloud (FedRAMP Compliant) Scope: Full implementation with data migration, sharing model redesign, Flow automation, and documentation Timeline: 8 weeks (quoted at 6 months by two competing firms) Team..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 128,
+      "total_score": 37,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 6,
+        "self_containment": 22,
+        "structural_readability": 9,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "A federal agency needed to move their Salesforce instance to GovCloud with full FedRAMP compliance. The project required data migration, sharing model redesign, Flow automation, and a complete documentation package..."
+    },
+    {
+      "heading": "What CCC Did Differently",
+      "word_count": 223,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 23,
+        "self_containment": 16,
+        "structural_readability": 12,
+        "statistical_density": 2,
+        "uniqueness_signals": 2
+      },
+      "preview": "The same person who led the discovery sessions configured the org, built the Flows, wrote the Apex validation scripts, and produced the documentation. No handoffs. No ramp-up time for new..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 53,
+      "total_score": 16,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 0,
+        "self_containment": 14,
+        "structural_readability": 2,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCImplementation timeline6 months (quoted by two firms)8 weeksDeployed features after 3 months0Full implementation liveTeam members on project4 (rotating: architect, senior dev, junior dev, PM)1 architect, start to finishDocumentation..."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/case-studies/government",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

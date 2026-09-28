@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Architect-led Salesforce AI governance, data governance, and implementation architecture for nonprofit, government, healthcare, and enterprise organizations.",
+      "founder": {
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://www.salesforceben.com/author/jeremy-carmona/",
+        "https://medium.com/@jcarmona86",
+        "https://salesforcebreak.com/author/cccjeremycarmona/",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://jeremycarmona.gumroad.com/",
+        "https://www.salesforce.com/trailblazer/jeremy-carmona"
+      ],
+      "knowsAbout": [
+        "Salesforce AI governance",
+        "Salesforce data governance",
+        "Salesforce data quality",
+        "Salesforce Nonprofit Cloud",
+        "Salesforce implementation architecture"
+      ],
+      "email": "contact@clearconciseconsulting.com",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "contact@clearconciseconsulting.com",
+          "url": "https://www.clearconciseconsulting.com/contact",
+          "availableLanguage": "en"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+      "name": "Jeremy Carmona",
+      "url": "https://www.clearconciseconsulting.com/about",
+      "jobTitle": "Salesforce Architect and Founder",
+      "worksFor": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/jeremy-a-carmona/",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://www.salesforceben.com/author/jeremy-carmona/",
+        "https://medium.com/@jcarmona86",
+        "https://salesforcebreak.com/author/cccjeremycarmona/",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://jeremycarmona.gumroad.com/",
+        "https://www.salesforce.com/trailblazer/jeremy-carmona"
+      ],
+      "knowsAbout": [
+        "Salesforce AI governance",
+        "Salesforce data governance",
+        "Salesforce data quality",
+        "Salesforce Nonprofit Cloud"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.clearconciseconsulting.com/#website",
+      "url": "https://www.clearconciseconsulting.com/",
+      "name": "Clear Concise Consulting",
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      }
+    }
+  ],
+  "_decisions_2026_09_27": "EV-048: contact@clearconciseconsulting.com is the one public inquiry address (email and contactPoint set on the Organization); LocalBusiness and openingHours are removed, PostalAddress stays on the Organization; sameAs uses the decided set in sameas-target-list.json (no X/Twitter)."
+}

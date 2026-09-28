@@ -1,0 +1,186 @@
+{
+  "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "60762",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:57 GMT",
+    "Etag": "W/\"04039808d5477388cbafedb8c84b1e54\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "wu8KuBna/OR7n6dhB",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce Healthcare Governance Case Study | CCC | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+    "og:type": "website",
+    "og:description": "A Salesforce healthcare case study focused on AI readiness, data quality, access controls, governance, and safer deployment preparation.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578d39bbeeb1bb619a909/1779792083383/case-study-healthcare-agentforce.jpg?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "1006",
+    "twitter:title": "Salesforce Healthcare Governance Case Study | CCC | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a1578d39bbeeb1bb619a909/1779792083383/case-study-healthcare-agentforce.jpg?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+    "twitter:card": "summary",
+    "twitter:description": "A Salesforce healthcare case study focused on AI readiness, data quality, access controls, governance, and safer deployment preparation.",
+    "description": "A Salesforce healthcare case study focused on AI readiness, data quality, access controls, governance, and safer deployment preparation.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce Healthcare Governance Case Study | CCC | Clear Concise Consulting",
+  "description": "A Salesforce healthcare case study focused on AI readiness, data quality, access controls, governance, and safer deployment preparation.",
+  "canonical": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+  "h1_tags": [
+    "$30,000 AI failure prevented with an $8,000 assessment."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "$30,000 AI failure prevented with an $8,000 assessment."
+    },
+    {
+      "level": 2,
+      "text": "Key Takeaways"
+    },
+    {
+      "level": 2,
+      "text": "At a Glance"
+    },
+    {
+      "level": 2,
+      "text": "The Situation"
+    },
+    {
+      "level": 2,
+      "text": "What CCC Did"
+    },
+    {
+      "level": 2,
+      "text": "Before and After"
+    },
+    {
+      "level": 2,
+      "text": "Ready to see what CCC can do for your org?"
+    }
+  ],
+  "word_count": 832,
+  "text_content": "Salesforce Healthcare Governance Case Study | CCC | Clear Concise Consulting 0 Healthcare · AI Governance $30,000 AI failure prevented with an $8,000 assessment. National Health Services Provider · Agentforce Deployment · Data Quality Audit · Sharing Model Redesign 12,000 Duplicate Records Found $8K Assessment Investment $30K Waste Prevented 0 Patient Errors Since Fix Key Takeaways A national health services provider deployed Agentforce without a data quality review or sharing model audit. The AI gave patients two different account balances because it pulled from duplicate records. The failed deployment cost $30,000. CCC's AI readiness assessment cost $8,000 and identified 12,000 duplicate Account records, 3,400 with active patient cases. The root cause was not an AI configuration error. It was a data quality problem that existed before AI was turned on. After cleanup and governance framework deployment, the organization's AI Readiness Score moved from 38 to 79 in 90 days with zero patient errors since relaunch. At a Glance Industry: Healthcare (National Health Services Provider) Platform: Salesforce with Agentforce (AI) Scope: AI readiness assessment, data quality audit, sharing model redesign, and governance framework Assessment Cost: $8,000 Waste Prevented: $30,000 (failed Agentforce deployment) Duplicate Records Found: 12,000 (3,400 with active patient cases) AI Readiness Score: Moved from 38 to 79 in 90 days Root Cause: Data quality issues and missing field-level security, not AI configuration Patient Errors Since Fix: 0 Related Publication: \"How Salesforce Admins Can Apply Data Governance to Einstein\" in Salesforce Ben The Situation A national health services provider deployed Salesforce Agentforce across their patient services team. The goal was to speed up case resolution by giving AI agents access to patient account data, case history, and billing records. The deployment skipped two steps: a data quality review and a sharing model audit. Nobody checked whether the underlying data was clean enough for AI to use. Nobody checked whether the sharing rules would give the AI agent access to the right records at the right time. The result: the AI agent gave patients two different account balances depending on which human agent had handled the original case. One balance came from the primary Account record. The other came from a duplicate Account that had been created during a previous data migration. The AI treated both as valid. The organization disabled Agentforce after two weeks. Total cost of the failed deployment: $30,000 in implementation fees plus six weeks of internal staff time. The root cause was not an AI configuration error. It was a data quality problem that existed before AI was ever turned on. What CCC Did 1 AI Readiness Assessment (15 Scored Metrics) CCC ran the AI Readiness Scorecard across five categories: Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. The organization scored 38 out of 100. Governance Readiness was at 22. 2 Data Quality Audit SOQL queries identified 12,000 duplicate Account records. 3,400 of those duplicates had active patient cases attached. The AI had been pulling data from whichever record it found first. CCC built deduplication rules and executed a controlled merge with business user validation at each step. 3 Sharing Model Redesign The existing sharing model had no field-level security on PHI fields. The AI agent had the same data access as a system administrator. CCC redesigned the role hierarchy and built permission sets aligned to HIPAA requirements. The AI agent now sees only the fields it needs for case resolution. 4 Governance Framework CCC built a governance framework with quarterly review cycles, clear field ownership assignments, and human oversight checkpoints for every AI-generated response. The framework included a documentation package for the board and leadership review: what AI can do, what it cannot do, and who is responsible when it does something unexpected. The Result Agentforce was redeployed six weeks later with clean data and proper access controls. Zero patient-facing errors since relaunch. The governance assessment cost $8,000. It prevented a repeat of the $30,000 failed deployment. The governance framework now runs quarterly, catching data quality issues before they reach production. The organization's AI Readiness Score moved from 38 to 79 in 90 days. Before and After Metric Before CCC After CCC AI Readiness Score 38/100 79/100 Duplicate Account records 12,000 undetected Identified and merged Duplicates with active patient cases 3,400 Resolved with business user validation Patient billing accuracy Two different balances per patient Zero patient errors since fix PHI field-level security AI had system administrator access Permission sets aligned to HIPAA Governance framework None Quarterly reviews, field ownership, human oversight Cost of failed deployment $30,000 + 6 weeks staff time Assessment: $8,000 AI deployment status Disabled after 2 weeks Running in production Related Publication CCC Founder Jeremy Carmona published \"How Salesforce Admins Can Apply Data Governance to Einstein\" in Salesforce Ben, drawing directly on the methodology developed during this engagement. Ready to see what CCC can do for your org? Take the Scorecard to see where you stand, or request a scoping call to discuss your project. Take the Scorecard Request a Scoping Call",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/contact",
+      "text": "Request a Scoping Call"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CaseStudy",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/healthcare#case-study",
+      "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+      "name": "Salesforce Healthcare Governance Case Study | CCC",
+      "about": {
+        "@type": "Thing",
+        "name": "Salesforce healthcare implementation"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

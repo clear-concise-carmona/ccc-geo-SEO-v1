@@ -1,0 +1,316 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:30:57 GMT",
+  "Etag": "W/\"4d62298a5c2291ed09a52286a908694f--gzip\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "MoWd7CTY/dtgbOCEo",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Transfer-Encoding": "chunked"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "Salesforce Trust Layer Explained: What Admins Need to Know | Clear Concise Consulting",
+  "og:latitude": "40.7376861",
+  "og:longitude": "-73.9885827",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+  "og:type": "article",
+  "og:description": "Understand how Trust Layer protects your data when using Agentforce and Einstein. Configure masking, guardrails, and audit logging for enterprise AI security.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b045b91c4f8f6c407d2d77/1773159865812/05_trust_layer_explained.png?format=1500w",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "twitter:title": "Salesforce Trust Layer Explained: What Admins Need to Know | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b045b91c4f8f6c407d2d77/1773159865812/05_trust_layer_explained.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+  "twitter:card": "summary",
+  "twitter:description": "Understand how Trust Layer protects your data when using Agentforce and Einstein. Configure masking, guardrails, and audit logging for enterprise AI security.",
+  "description": "Understand how Trust Layer protects your data when using Agentforce and Einstein. Configure masking, guardrails, and audit logging for enterprise AI security.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "Salesforce Trust Layer Explained: What Admins Need to Know | Clear Concise Consulting",
+ "description": "Understand how Trust Layer protects your data when using Agentforce and Einstein. Configure masking, guardrails, and audit logging for enterprise AI security.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+ "h1_tags": [
+  "Salesforce Trust Layer Explained: What Admins Need to Know"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "Salesforce Trust Layer Explained: What Admins Need to Know"
+  },
+  {
+   "level": 2,
+   "text": "Administrator Checklist: What to Verify Before Enabling Salesforce AI"
+  },
+  {
+   "level": 2,
+   "text": "How to Test the Trust Layer Configuration"
+  },
+  {
+   "level": 2,
+   "text": "What Administrators Should Document"
+  },
+  {
+   "level": 2,
+   "text": "Common Trust Layer Questions for Administrators"
+  },
+  {
+   "level": 2,
+   "text": "Production Approval Checklist"
+  },
+  {
+   "level": 2,
+   "text": "Official Salesforce References"
+  },
+  {
+   "level": 2,
+   "text": "Next Step"
+  },
+  {
+   "level": 2,
+   "text": "Pardot Engagement Studio: How to Build Drip Campaigns That Actually Convert"
+  },
+  {
+   "level": 2,
+   "text": "The Org Autopsy: What I Check First When Companies Hire Me to Fix Their Salesforce"
+  },
+  {
+   "level": 3,
+   "text": "1. Verify the Permission Context"
+  },
+  {
+   "level": 3,
+   "text": "2. Map the Data Path Before Relying on Masking"
+  },
+  {
+   "level": 3,
+   "text": "3. Confirm External-Model Handling"
+  },
+  {
+   "level": 3,
+   "text": "4. Test Prompt Defense and Toxicity Controls"
+  },
+  {
+   "level": 3,
+   "text": "5. Configure Audit and Feedback Collection"
+  },
+  {
+   "level": 3,
+   "text": "6. Limit Agent Actions and Define Human Review"
+  },
+  {
+   "level": 3,
+   "text": "Does data masking protect a prompt template invoked through Agentforce?"
+  },
+  {
+   "level": 3,
+   "text": "Does the Trust Layer override Salesforce permissions?"
+  },
+  {
+   "level": 3,
+   "text": "Are all AI interactions automatically stored for audit?"
+  },
+  {
+   "level": 3,
+   "text": "What do prompt-defense guardrails protect against?"
+  },
+  {
+   "level": 3,
+   "text": "Does the Trust Layer automatically govern third-party AI tools?"
+  }
+ ],
+ "word_count": 1501,
+ "text_content": "Salesforce Trust Layer Explained: What Admins Need to Know | Clear Concise Consulting 0 Salesforce Trust Layer Explained: What Admins Need to Know Data Governance Apr 7 Written By Jeremy Carmona The security architecture that makes Agentforce enterprise-ready \"How do we know the AI won't leak customer data?\" That is the right question to ask before enabling Agentforce or another supported Salesforce generative AI feature. The Einstein Trust Layer provides important safeguards, but an administrator still has to verify permissions, data pathways, masking behavior, audit collection, testing, and human review. For the architecture-level explanation, start with What Is the Salesforce Einstein Trust Layer? . This page is the implementation checklist: what an administrator should confirm before approving a Salesforce AI use case for production. Administrator Checklist: What to Verify Before Enabling Salesforce AI 1. Verify the Permission Context Secure data retrieval grounds supported prompts with Salesforce data that the executing user or running context can access. The Trust Layer does not repair an unsafe sharing model, excessive Permission Sets, or overly broad field access. Before testing: Identify the user, integration, or agent context that executes each feature. Review object permissions, field-level security, record access, and Data 360 permissions used by the feature. Test with a least-privileged user and with a deliberately restricted user. Confirm that restricted records and fields do not appear in generated responses or agent actions. 2. Map the Data Path Before Relying on Masking Document where the prompt template is invoked, what data is added, which model processes it, and whether the model is inside or outside the Salesforce trust boundary. For supported direct generative AI flows, the Trust Layer can mask sensitive information according to the configured pattern-based and field-based masking rules. Important Agentforce limitation: Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent action. When the same prompt template is used directly, masking can apply according to the Trust Layer configuration. Do not approve an Agentforce use case on the assumption that prompt-template masking will protect agent inputs. 3. Confirm External-Model Handling Salesforce's external model-provider agreements include zero-data-retention commitments. Data sent to those providers is not retained, viewed, or used for model training after the response is returned. Grounding and zero data retention are different controls: Grounding supplies relevant business context to the prompt. Permission-aware retrieval limits which Salesforce data can be used for that grounding. Zero data retention governs what an external model provider may do with data sent outside the Salesforce trust boundary. Record the selected model, provider, trust boundary, and applicable contractual terms for each production use case. 4. Test Prompt Defense and Toxicity Controls Prompt defense adds system policies intended to reduce jailbreaking, prompt injection, and unintended outputs. Salesforce notes that these policies can vary by generative AI feature and use case. Toxicity scoring provides another safety signal for supported responses. Your test plan should include: Benign prompts that represent normal user work. Prompts that request data the test user cannot access. Prompt-injection attempts that try to override instructions. Inputs containing sensitive or toxic content. Expected escalation or refusal behavior. Confirmation that relevant safety signals appear in the configured audit data. These controls reduce risk; they do not replace least-privilege access, scoped agent actions, monitoring, or human review. 5. Configure Audit and Feedback Collection Do not assume every interaction is automatically or permanently available for review. Salesforce requires audit and feedback collection and storage to be configured. Current Salesforce setup path: Provision Data 360 and enable Einstein for the applicable feature. In Setup Quick Find, enter Einstein Audit . Select Einstein Audit, Analytics, and Monitoring Setup . Turn on Audit and Feedback . Choose the appropriate Data 360 data space. Restrict access to the resulting audit and feedback data. Verify that the reports, dashboards, and data streams are available. Salesforce states that collected data can take up to 24 hours to appear in Data 360 and then refreshes hourly. Assign an owner for reviewing masking signals, toxicity scores, prompts, responses, user feedback, and anomalies. 6. Limit Agent Actions and Define Human Review The Trust Layer does not decide which actions an agent should be allowed to take. Administrators and business owners must define that boundary. For each agent action: Grant only the permissions and actions required for the use case. Separate read-only, draft, approval-required, and autonomous actions. Require human approval for high-impact or irreversible outcomes. Define escalation paths for sensitive, ambiguous, or failed requests. Test rollback, deactivation, and incident-response steps before production. Document who owns ongoing monitoring and who can suspend the feature. How to Test the Trust Layer Configuration Run the same test cases across users with different permissions and compare the results. Test area Evidence to capture Pass condition Record access User, record, prompt, and response Restricted records do not surface Field access Field permissions and returned content Restricted fields do not surface Direct prompt masking Prompt-template pathway and audit signal Configured sensitive data is masked Agent prompt-template pathway Agent action, prompt data, and model path Team does not rely on unavailable masking Prompt defense Injection test and resulting behavior Unsupported instructions are rejected or safely handled Toxicity Test input, response, and score Signal is captured and reviewed as designed Agent actions Requested action and resulting changes Only approved actions execute Audit and feedback Data 360 record, report, or dashboard Required evidence is available to authorized reviewers A control is not verified because a setup toggle is on. It is verified when the expected behavior is demonstrated with the intended user, data, prompt, model, and action pathway. What Administrators Should Document Keep one implementation record for each production AI use case: Business purpose and accountable owner Feature, prompt template, agent, and action versions Executing user or agent permission context Salesforce and external data sources Model provider and trust-boundary decision Sensitive-data inventory Masking behavior for the actual invocation pathway Prompt-defense and toxicity test results Audit and feedback configuration Human-review and escalation rules Rollback or deactivation procedure Review cadence and evidence owner Common Trust Layer Questions for Administrators Does data masking protect a prompt template invoked through Agentforce? No. Salesforce states that pattern-based and field-based LLM data masking is disabled when a prompt template is invoked through an agent action. The same template used directly can apply masking according to its Trust Layer configuration. Does the Trust Layer override Salesforce permissions? No. Permission-aware retrieval uses the executing context's existing access. Excessive permissions remain excessive, so object, field, record, and Data 360 access must be reviewed before production. Are all AI interactions automatically stored for audit? No. Audit and feedback collection and storage must be enabled and supported by the required Data 360 configuration. Administrators must also restrict access to the collected data and establish a review process. What do prompt-defense guardrails protect against? Prompt defense adds system policies intended to reduce jailbreaking, prompt injection, and unintended or harmful outputs. The policies vary by feature and use case and must be tested with the actual production pathway. Does the Trust Layer automatically govern third-party AI tools? Not necessarily. A third-party tool can have its own data path, model provider, storage terms, and security controls. Verify whether the tool uses supported Salesforce Trust Layer architecture before applying Salesforce's claims to it. Production Approval Checklist Before enabling a use case, confirm: Access and data Executing permission context identified Object, field, record, and Data 360 access tested Sensitive-data inventory completed External data pathways reviewed Model and masking Model provider and trust boundary documented Direct prompt-template masking tested where applicable Agentforce masking limitation explicitly documented Zero-data-retention terms reviewed for external models Safety and actions Prompt-injection tests completed Toxicity behavior reviewed Agent actions limited to approved scope Human approval and escalation rules documented Monitoring and recovery Audit and feedback collection configured Authorized reviewer and cadence assigned Rollback or deactivation procedure tested Production approval recorded Official Salesforce References Einstein Trust Layer overview Data masking limitations in Agentforce Set up Einstein generative AI audit and feedback Einstein audit and feedback data Audit Trail Next Step Use this checklist alongside the primary Trust Layer explainer to evaluate the real configuration and invocation pathway\u2014not the demo. If you need a structured review of Salesforce data, access, automation, documentation, and AI controls, request a Salesforce AI Data Readiness Assessment . Jeremy Carmona is a 13x certified Salesforce Architect who has written about AI governance for Salesforce Ben. He helps organizations implement AI features with appropriate security controls. Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous Pardot Engagement Studio: How to Build Drip Campaigns That Actually Convert Next Next The Org Autopsy: What I Check First When Companies Hire Me to Fix Their Salesforce",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/Data+Governance",
+   "text": "Data Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+   "text": "What Is the Salesforce Einstein Trust Layer?"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+   "text": "request a Salesforce AI Data Readiness Assessment"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/pardot-engagement-studio-drip-campaigns",
+   "text": "PreviousPreviousPardot Engagement Studio: How to Build Drip Campaigns That Actually Convert"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-autopsy-assessment-checklist",
+   "text": "NextNextThe Org Autopsy: What I Check First When Companies Hire Me to Fix Their Salesforce"
+  }
+ ],
+ "external_links": [
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_layer.htm&language=en_US&type=5",
+   "text": "Einstein Trust Layer overview"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.agent_trust_data_masking.htm&language=en_US",
+   "text": "Data masking limitations in Agentforce"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_feedback_enable.htm&language=en_US&type=5",
+   "text": "Set up Einstein generative AI audit and feedback"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_feedback.htm&language=en_US&type=5",
+   "text": "Einstein audit and feedback data"
+  },
+  {
+   "url": "https://help.salesforce.com/s/articleView?id=sf.generative_ai_audit_trail.htm&language=en_US&type=5",
+   "text": "Audit Trail"
+  }
+ ],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/323a0ec6-05c7-4f67-826e-2b45c042019b/05_trust_layer_explained.png",
+   "alt": "",
+   "width": "2048",
+   "height": "2048",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "Salesforce Trust Layer Explained: What Admins Need to Know | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-trust-layer-explained",
+   "datePublished": "2026-04-07T07:45:10-0400",
+   "dateModified": "2026-08-30T20:58:53-0400",
+   "headline": "Salesforce Trust Layer Explained: What Admins Need to Know",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69b045b91c4f8f6c407d2d77/1773159865812/05_trust_layer_explained.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

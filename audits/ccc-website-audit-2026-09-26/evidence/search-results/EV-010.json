@@ -1,0 +1,29 @@
+{
+ "evidence_id": "EV-010",
+ "method": "WebSearch tool (search-engine index; titles and snippets as returned; snippet summaries are tool-generated and may blend sources)",
+ "collected_utc_approx": "2026-09-26T09:05Z",
+ "query": "site:clearconciseconsulting.com \"trust test\" OR assessment OR \"case study\" OR contact",
+ "links": [
+  {
+   "title": "Enterprise CPQ Implementation Case Study | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/case-studies/enterprise"
+  },
+  {
+   "title": "What Is the Salesforce Einstein Trust Layer? | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer"
+  },
+  {
+   "title": "Six AI Governance Checkpoints: One Engagement, Walked Through | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/six-governance-checkpoints-engagement"
+  },
+  {
+   "title": "Salesforce Consulting FAQs | Pricing, Process & Timeline | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/faqs"
+  }
+ ],
+ "observations": [
+  "No page or snippet containing 'Trust Test' as an offer name was returned.",
+  "Case study snippet: global services company, 40% reduction in quote-to-contract cycle time; 30+ regional offices; quotes previously took 2-5 days.",
+  "No dedicated /contact URL surfaced in this result set (contact page referenced elsewhere: EV-007, EV-026)."
+ ]
+}

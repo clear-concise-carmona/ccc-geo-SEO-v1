@@ -1,0 +1,12 @@
+2026-09-27T19:34:50Z queue=10 excluded_by_cap=10
+2026-09-27T19:34:51Z 200 https://www.clearconciseconsulting.com/home words=737 schema=6
+2026-09-27T19:34:52Z 200 https://www.clearconciseconsulting.com/services/ai-governance words=2833 schema=6
+2026-09-27T19:34:54Z 200 https://www.clearconciseconsulting.com/org-health words=613 schema=4
+2026-09-27T19:34:55Z 200 https://www.clearconciseconsulting.com/case-studies words=233 schema=4
+2026-09-27T19:34:56Z 200 https://www.clearconciseconsulting.com/case-studies/government words=772 schema=5
+2026-09-27T19:34:57Z 200 https://www.clearconciseconsulting.com/case-studies/healthcare words=832 schema=5
+2026-09-27T19:34:58Z 200 https://www.clearconciseconsulting.com/case-studies/nonprofit words=875 schema=5
+2026-09-27T19:34:59Z 200 https://www.clearconciseconsulting.com/ai-center-of-excellence words=1054 schema=6
+2026-09-27T19:35:00Z 200 https://www.clearconciseconsulting.com/ai-coe-practice-map words=561 schema=4
+2026-09-27T19:35:01Z 200 https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment words=1878 schema=5
+2026-09-27T19:35:01Z done rows=10

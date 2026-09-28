@@ -1,0 +1,276 @@
+{
+ "url": "http://127.0.0.1:8765/be11703afff8.html",
+ "total_blocks_analyzed": 7,
+ "average_citability_score": 58.9,
+ "optimal_length_passages": 2,
+ "grade_distribution": {
+  "A": 0,
+  "B": 3,
+  "C": 3,
+  "D": 1,
+  "F": 0
+ },
+ "top_5_citable": [
+  {
+   "heading": "What This Means for Your Org",
+   "word_count": 143,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 16,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you're a nonprofit, government agency, healthcare org, or enterprise running Salesforce, the practical question is whether your org is ready to deploy AI responsibly. The CCCAI Readiness Scorecardanswers that..."
+  },
+  {
+   "heading": "Why Now",
+   "word_count": 189,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 16,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Two events in April 2026 made the timing of this announcement obvious. First, Salesforce announced Headless 360 at TDX. Every platform capability is now exposed as an API, MCP tool,..."
+  },
+  {
+   "heading": "What's Next in This Series",
+   "word_count": 182,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Over the next four weeks, I will publish seven follow-up articles. One per Guiding Principle, plus a deep dive on the Six Governance Checkpoints. Each article includes a concrete example,..."
+  },
+  {
+   "heading": "What the AI CoE Is",
+   "word_count": 194,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "TheCCC AI Center of Excellenceis a structured advisory practice for organizations running Salesforce who need to deploy AI responsibly. It packages the governance frameworks,assessment tools, anddocumentation standardsI've been developing for..."
+  },
+  {
+   "heading": "The Six Guiding Principles",
+   "word_count": 191,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "The CoE runs onsix principles drawn from NIST AI RMFtrustworthiness characteristics. Each one becomes a working article in this series over the next four weeks. Data First.No AI feature is..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Six Governance Checkpoints",
+   "word_count": 161,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 25,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every CoE engagement runs through six mandatory checkpoints. Each is pass/fail. Engagements do not proceed until gate criteria are met. The checkpoints map to NIST functions: Data Readiness (MAP). Data..."
+  },
+  {
+   "heading": "Introducing the CCC AI Center of Excellence",
+   "word_count": 131,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A nonprofit director called me last fall. She had just been told by her board that her organization needed an \"AI strategy\" by the end of the quarter. She had..."
+  },
+  {
+   "heading": "The Six Guiding Principles",
+   "word_count": 191,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "The CoE runs onsix principles drawn from NIST AI RMFtrustworthiness characteristics. Each one becomes a working article in this series over the next four weeks. Data First.No AI feature is..."
+  },
+  {
+   "heading": "What the AI CoE Is",
+   "word_count": 194,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "TheCCC AI Center of Excellenceis a structured advisory practice for organizations running Salesforce who need to deploy AI responsibly. It packages the governance frameworks,assessment tools, anddocumentation standardsI've been developing for..."
+  },
+  {
+   "heading": "Why Now",
+   "word_count": 189,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 16,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Two events in April 2026 made the timing of this announcement obvious. First, Salesforce announced Headless 360 at TDX. Every platform capability is now exposed as an API, MCP tool,..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Introducing the CCC AI Center of Excellence",
+   "word_count": 131,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A nonprofit director called me last fall. She had just been told by her board that her organization needed an \"AI strategy\" by the end of the quarter. She had..."
+  },
+  {
+   "heading": "What the AI CoE Is",
+   "word_count": 194,
+   "total_score": 63,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "TheCCC AI Center of Excellenceis a structured advisory practice for organizations running Salesforce who need to deploy AI responsibly. It packages the governance frameworks,assessment tools, anddocumentation standardsI've been developing for..."
+  },
+  {
+   "heading": "Why Now",
+   "word_count": 189,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 17,
+    "structural_readability": 16,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Two events in April 2026 made the timing of this announcement obvious. First, Salesforce announced Headless 360 at TDX. Every platform capability is now exposed as an API, MCP tool,..."
+  },
+  {
+   "heading": "The Six Guiding Principles",
+   "word_count": 191,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 19,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "The CoE runs onsix principles drawn from NIST AI RMFtrustworthiness characteristics. Each one becomes a working article in this series over the next four weeks. Data First.No AI feature is..."
+  },
+  {
+   "heading": "Six Governance Checkpoints",
+   "word_count": 161,
+   "total_score": 44,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 25,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every CoE engagement runs through six mandatory checkpoints. Each is pass/fail. Engagements do not proceed until gate criteria are met. The checkpoints map to NIST functions: Data Readiness (MAP). Data..."
+  },
+  {
+   "heading": "What This Means for Your Org",
+   "word_count": 143,
+   "total_score": 66,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 20,
+    "structural_readability": 16,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you're a nonprofit, government agency, healthcare org, or enterprise running Salesforce, the practical question is whether your org is ready to deploy AI responsibly. The CCCAI Readiness Scorecardanswers that..."
+  },
+  {
+   "heading": "What's Next in This Series",
+   "word_count": 182,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 8,
+    "statistical_density": 5,
+    "uniqueness_signals": 0
+   },
+   "preview": "Over the next four weeks, I will publish seven follow-up articles. One per Guiding Principle, plus a deep dive on the Six Governance Checkpoints. Each article includes a concrete example,..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/introducing-the-ccc-ai-center-of-excellence",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

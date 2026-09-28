@@ -1,0 +1,89 @@
+{
+  "_note": "One Article block per case-study page, replacing the CaseStudy block (schema.org defines no CaseStudy type; ISS-028, ISS-040). Headlines are the live H1s (EV-038, EV-047). Bracketed values are owner-supplied: the label line (real and anonymized, composite, or illustrative; delivered by Jeremy before founding CCC or a CCC engagement) and the dates. Paste each block into its page Header Code Injection after the copy edits in change pack Batch 4.4.",
+  "blocks": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/government#article",
+      "url": "https://www.clearconciseconsulting.com/case-studies/government",
+      "mainEntityOfPage": "https://www.clearconciseconsulting.com/case-studies/government",
+      "headline": "6-month quoted timeline delivered in 8 weeks.",
+      "description": "[Label line from change pack 4.4: real and anonymized | composite | illustrative; delivered by Jeremy Carmona before founding CCC | a Clear Concise Consulting engagement.] [One sentence of scope.]",
+      "about": {
+        "@type": "Thing",
+        "name": "Salesforce Government Cloud implementation"
+      },
+      "author": {
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "datePublished": "[owner supplies, YYYY-MM-DD]",
+      "dateModified": "[date of this edit, YYYY-MM-DD]"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/healthcare#article",
+      "url": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+      "mainEntityOfPage": "https://www.clearconciseconsulting.com/case-studies/healthcare",
+      "headline": "$30,000 AI failure prevented with an $8,000 assessment.",
+      "description": "[Label line from change pack 4.4: real and anonymized | composite | illustrative; delivered by Jeremy Carmona before founding CCC | a Clear Concise Consulting engagement.] [One sentence of scope.]",
+      "about": {
+        "@type": "Thing",
+        "name": "Salesforce healthcare AI governance"
+      },
+      "author": {
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "datePublished": "[owner supplies, YYYY-MM-DD]",
+      "dateModified": "[date of this edit, YYYY-MM-DD]"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/nonprofit#article",
+      "url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+      "mainEntityOfPage": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+      "headline": "Pipeline inflated by 100x. Fixed in 3 weeks.",
+      "description": "[Label line from change pack 4.4: real and anonymized | composite | illustrative; delivered by Jeremy Carmona before founding CCC | a Clear Concise Consulting engagement.] [One sentence of scope.]",
+      "about": {
+        "@type": "Thing",
+        "name": "Nonprofit Salesforce data migration"
+      },
+      "author": {
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "datePublished": "[owner supplies, YYYY-MM-DD]",
+      "dateModified": "[date of this edit, YYYY-MM-DD]"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://www.clearconciseconsulting.com/case-studies/enterprise#article",
+      "url": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+      "mainEntityOfPage": "https://www.clearconciseconsulting.com/case-studies/enterprise",
+      "headline": "Quote-to-contract time cut by 40% across 30 regions.",
+      "description": "[Label line from change pack 4.4: real and anonymized | composite | illustrative; delivered by Jeremy Carmona before founding CCC | a Clear Concise Consulting engagement.] [One sentence of scope.]",
+      "about": {
+        "@type": "Thing",
+        "name": "Enterprise Salesforce CPQ implementation"
+      },
+      "author": {
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona"
+      },
+      "publisher": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "datePublished": "[owner supplies, YYYY-MM-DD]",
+      "dateModified": "[date of this edit, YYYY-MM-DD]"
+    }
+  ]
+}

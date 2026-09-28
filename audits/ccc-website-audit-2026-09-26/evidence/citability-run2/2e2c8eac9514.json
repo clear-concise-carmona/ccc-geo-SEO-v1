@@ -1,0 +1,246 @@
+{
+  "url": "http://127.0.0.1:8766/2e2c8eac9514.html",
+  "total_blocks_analyzed": 5,
+  "average_citability_score": 53.0,
+  "optimal_length_passages": 1,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 4,
+    "D": 1,
+    "F": 0
+  },
+  "top_5_citable": [
+    {
+      "heading": "The Situation",
+      "word_count": 161,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 25,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records from a legacy database to Salesforce. The migration was done by a previous consultant without deduplication, field validation, or a test load reviewed..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 97,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 19,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records without deduplication, field validation, or a test load. A cents-to-dollars conversion error inflated every financial value by 100x. The pipeline dashboard showed $4.2M...."
+    },
+    {
+      "heading": "What CCC Did",
+      "word_count": 264,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran SOQL validation queries against every donor-facing object. The audit quantified the damage: 12,000 duplicates, 8,000 orphans, 4,200 records with currency errors, and 15,000 records with non-standardized name formats..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 113,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 18,
+        "self_containment": 22,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCPipeline dashboard$4.2M displayed ($42,000 actual)Accurate within 48 hoursDuplicate Account records12,000Consolidated into 5,400 master recordsOrphaned Contact records8,000 (no parent Account)Reconnected to correct AccountsRecords with currency errors4,200Corrected with full audit..."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 61,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 17,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Scope:Data quality audit, deduplication, currency correction, AP Style standardization, and governance rules Duplicates Merged:12,000 consolidated into 5,400 master records Orphaned Contacts:8,000 with no parent Account Pipeline Reporting Error:100x inflation ($4.2M..."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "At a Glance",
+      "word_count": 61,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 17,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Scope:Data quality audit, deduplication, currency correction, AP Style standardization, and governance rules Duplicates Merged:12,000 consolidated into 5,400 master records Orphaned Contacts:8,000 with no parent Account Pipeline Reporting Error:100x inflation ($4.2M..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 113,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 18,
+        "self_containment": 22,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCPipeline dashboard$4.2M displayed ($42,000 actual)Accurate within 48 hoursDuplicate Account records12,000Consolidated into 5,400 master recordsOrphaned Contact records8,000 (no parent Account)Reconnected to correct AccountsRecords with currency errors4,200Corrected with full audit..."
+    },
+    {
+      "heading": "What CCC Did",
+      "word_count": 264,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran SOQL validation queries against every donor-facing object. The audit quantified the damage: 12,000 duplicates, 8,000 orphans, 4,200 records with currency errors, and 15,000 records with non-standardized name formats..."
+    },
+    {
+      "heading": "Key Takeaways",
+      "word_count": 97,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 19,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records without deduplication, field validation, or a test load. A cents-to-dollars conversion error inflated every financial value by 100x. The pipeline dashboard showed $4.2M...."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 161,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 25,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records from a legacy database to Salesforce. The migration was done by a previous consultant without deduplication, field validation, or a test load reviewed..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "Key Takeaways",
+      "word_count": 97,
+      "total_score": 55,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 19,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records without deduplication, field validation, or a test load. A cents-to-dollars conversion error inflated every financial value by 100x. The pipeline dashboard showed $4.2M...."
+    },
+    {
+      "heading": "At a Glance",
+      "word_count": 61,
+      "total_score": 42,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 15,
+        "self_containment": 17,
+        "structural_readability": 5,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "Scope:Data quality audit, deduplication, currency correction, AP Style standardization, and governance rules Duplicates Merged:12,000 consolidated into 5,400 master records Orphaned Contacts:8,000 with no parent Account Pipeline Reporting Error:100x inflation ($4.2M..."
+    },
+    {
+      "heading": "The Situation",
+      "word_count": 161,
+      "total_score": 61,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 22,
+        "self_containment": 25,
+        "structural_readability": 9,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "An environmental nonprofit migrated 70,000 donor records from a legacy database to Salesforce. The migration was done by a previous consultant without deduplication, field validation, or a test load reviewed..."
+    },
+    {
+      "heading": "What CCC Did",
+      "word_count": 264,
+      "total_score": 54,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 24,
+        "self_containment": 17,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "CCC ran SOQL validation queries against every donor-facing object. The audit quantified the damage: 12,000 duplicates, 8,000 orphans, 4,200 records with currency errors, and 15,000 records with non-standardized name formats..."
+    },
+    {
+      "heading": "Before and After",
+      "word_count": 113,
+      "total_score": 53,
+      "grade": "C",
+      "label": "Moderate Citability",
+      "breakdown": {
+        "answer_block_quality": 18,
+        "self_containment": 22,
+        "structural_readability": 8,
+        "statistical_density": 5,
+        "uniqueness_signals": 0
+      },
+      "preview": "MetricBefore CCCAfter CCCPipeline dashboard$4.2M displayed ($42,000 actual)Accurate within 48 hoursDuplicate Account records12,000Consolidated into 5,400 master recordsOrphaned Contact records8,000 (no parent Account)Reconnected to correct AccountsRecords with currency errors4,200Corrected with full audit..."
+    }
+  ],
+  "source_url": "https://www.clearconciseconsulting.com/case-studies/nonprofit",
+  "note": "Scored from the HTML saved by the 2026-09-27 second-pass crawl (EV-047), served locally; no refetch of the live site."
+}

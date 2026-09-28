@@ -1,0 +1,309 @@
+{
+ "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+ "status_code": 200,
+ "redirect_chain": [],
+ "headers": {
+  "Accept-Ranges": "bytes",
+  "Age": "0",
+  "Content-Encoding": "gzip",
+  "Content-Length": "63759",
+  "Content-Type": "text/html;charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 17:31:19 GMT",
+  "Etag": "W/\"c589fd73d52ccd1a7cb9156e6084d333\"",
+  "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+  "Server": "Squarespace",
+  "Set-Cookie": "[removed from evidence: response cookie]",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Vary": "Accept-Encoding",
+  "X-Content-Type-Options": "nosniff",
+  "X-Contextid": "8tGC9QfQ/tKRc7ViO",
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+ },
+ "meta_tags": {
+  "viewport": "width=device-width, initial-scale=1",
+  "og:site_name": "Clear Concise Consulting",
+  "og:title": "AI Queries in Search Console: What My Own Data Shows | Clear Concise Consulting",
+  "og:latitude": "40.7376675",
+  "og:longitude": "-73.9885894",
+  "og:street-address": "228 Park Avenue South",
+  "og:locality": "New York",
+  "og:region": "NY",
+  "og:postal-code": "10003",
+  "og:country-name": "United States",
+  "og:url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+  "og:type": "article",
+  "og:description": "AI queries in Search Console are not hypothetical. In my last 90-day export, 15% of visible query strings read machine-phrased. The receipts, with numbers.",
+  "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a5cb40822d8fb7a65bbc208/1784460296145/ai-queries-in-search-console-og.png?format=1500w",
+  "og:image:width": "1500",
+  "og:image:height": "792",
+  "twitter:title": "AI Queries in Search Console: What My Own Data Shows | Clear Concise Consulting",
+  "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a5cb40822d8fb7a65bbc208/1784460296145/ai-queries-in-search-console-og.png?format=1500w",
+  "twitter:url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+  "twitter:card": "summary",
+  "twitter:description": "AI queries in Search Console are not hypothetical. In my last 90-day export, 15% of visible query strings read machine-phrased. The receipts, with numbers.",
+  "description": "AI queries in Search Console are not hypothetical. In my last 90-day export, 15% of visible query strings read machine-phrased. The receipts, with numbers.",
+  "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+ },
+ "title": "AI Queries in Search Console: What My Own Data Shows | Clear Concise Consulting",
+ "description": "AI queries in Search Console are not hypothetical. In my last 90-day export, 15% of visible query strings read machine-phrased. The receipts, with numbers.",
+ "canonical": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+ "h1_tags": [
+  "The AI Queries in My Search Console"
+ ],
+ "heading_structure": [
+  {
+   "level": 1,
+   "text": "The AI Queries in My Search Console"
+  },
+  {
+   "level": 2,
+   "text": "What the export actually shows"
+  },
+  {
+   "level": 2,
+   "text": "How to check your own Search Console"
+  },
+  {
+   "level": 2,
+   "text": "What to change in how you write"
+  },
+  {
+   "level": 2,
+   "text": "The standing rule"
+  },
+  {
+   "level": 2,
+   "text": "See where you stand"
+  },
+  {
+   "level": 2,
+   "text": "What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+  },
+  {
+   "level": 2,
+   "text": "Salesforce GovCloud Implementation: What Changes Before the First Login"
+  }
+ ],
+ "word_count": 1080,
+ "text_content": "AI Queries in Search Console: What My Own Data Shows | Clear Concise Consulting 0 The AI Queries in My Search Console AI Governance Jul 28 Written By Jeremy Carmona The AI queries in my Search Console export were not what I went looking for. I pulled the file on a Sunday in July to build a title-rewrite list, standard monthly hygiene for clearconciseconsulting.com. The top query by impressions stopped me before I got there: \"nonprofit\" \"salesforce\" \"messy\" \"cleanup\" Four quoted terms, boolean-style. 472 impressions in 90 days at an average position of 2.97, and zero clicks. Nobody types like this. Something types like this, and it typed it hundreds of times. My highest-impression keyword last quarter was never entered by a human. That sent me through all 524 visible query rows in the export. What I found changes how I think about writing for search, so I am publishing the numbers. What the export actually shows I flagged every query string that was sentence-length (over 55 characters) or wrapped in search operators. Results from the 90-day file: 77 of 524 visible query strings, 15 percent, matched. They carried 914 impressions, about 18 percent of all impressions Google attributes to visible queries on my site. The visible queries themselves are a minority report. Google's privacy filtering shows me query strings for roughly a quarter of my 19,483 total impressions. Whatever is in the hidden three-quarters, I cannot audit. A sample of the flagged strings, verbatim from the export: what provides governance checkpoints from request through execution (20 impressions, position 8.9) how do you manage a salesforce org that has years of accumulated customisations that nobody fully understands anymore? (16 impressions, position 7.4) what ensures that agentforce protects your company's data and detects toxicity? a data 360 b einstein trust layer c external apis (18 impressions, position 10.1) list affordable enterprise ai adoption consulting alternatives for us nonprofits and public sector organizations (position 7.2) einstein trust layer documentation regarding toxicity scoring for ai-generated content (27 impressions, position 21.2) Look closely at that third one. It is a multiple-choice exam question, options a through c included, submitted as a search. Someone, or something, ran a certification quiz through Google and my Einstein Trust Layer explainer showed up as a candidate answer. Note the British spelling in the second one, \"customisations,\" on a site with a US audience. These strings have fingerprints, and the fingerprints are not thumbs. Three explanations cover the set, and honesty requires all three. Some of this is rank-tracking and scraping bots, which is what a quoted four-term query repeated hundreds of times looks like. Some of it is AI-mediated retrieval: assistants and AI search experiences decomposing a user's request into long natural-language lookups. Some of it is people who now type into Google the way they talk to chatbots, full questions with punctuation. I cannot cleanly attribute any single string, and neither can you. The aggregate is the finding: a measurable slice of what reaches Google's index lookup, with my site in the candidate set, was composed by or for a machine. How to check your own Search Console Fifteen minutes, no tooling beyond what Google gives you. Open search.google.com/search-console, pick your property, then Performance > Search results. Set the date range to the last 3 months. Click New > Query > Custom (regex) and filter with ^.{55,} to surface sentence-length strings. Sort by impressions. Run a second pass filtering queries that contain a quote character. Repeated operator-quoted strings at high impression counts are your bot traffic. Export the full report and keep the file. One export proves nothing; the same export every month is a trend line. While you are in there, note the positions on the sentence-length queries. Mine averaged positions 5 through 12. Long machine-phrased lookups are less competitive than head terms, which means a mid-sized site can rank for them without a backlink campaign. What to change in how you write The strings above never appear in a keyword tool. Volume: zero, officially. They still produced impressions at page-one positions, which tells you what actually gets retrieved when the query is a full question. Write answer blocks, not just articles. Each H2 that poses a real question gets a two-to-four sentence self-contained answer directly beneath it, before the elaboration. Retrieval systems lift blocks, not essays, and a block that depends on the paragraph above it does not travel. Match the question grammar. My pages surfaced for \"how do you manage a salesforce org that has years of accumulated customisations\" because the org cleanup content contains sentences shaped like answers to that sentence. Headings phrased as questions are not a style choice anymore. They are an address format. Keep the structured data honest and current. Article and FAQPage schema, an llms.txt file, and a consistent entity story (same organization details everywhere your name appears) are the difference between being retrievable and being a candidate the system cannot verify. My Agentforce data governance piece ranks for governance questions because the page says what it is in formats machines parse. Do not chase the bots. The 472-impression quoted query gets no content strategy. It gets ignored. Chasing scraper strings is how you end up writing for an audience of scripts. The standing rule On export is an anecdote. My governance rule going forward: pull the Performance export monthly, run the two filters above, and log the machine-phrased share as a tracked metric next to clicks and CTR. When that share moves, the writing priorities move with it. Rank is a human-era metric. Retrievability is the one this decade grades on. See where you stand The same shift is happening to your org's public footprint, and to the Salesforce data your own AI features read. The AI Readiness Scorecard is the free self-assessment I use to show organizations where they stand on both. Ten minutes, scored output, no sales sequence attached. GEO Search Console AI search original research Jeremy Carmona 13x certified Salesforce Architect and founder of Clear Concise Consulting. 14 years of platform experience specializing in data governance, data quality, and AI governance for nonprofit, government, healthcare, and enterprise organizations. Instructor of NYU Tandon's Salesforce Administration course with 160+ students trained and an ~80% job placement rate. Published in Salesforce Ben on AI governance and data quality. Based in New York. https://www.clearconciseconsulting.com Previous Previous What \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It) Next Next Salesforce GovCloud Implementation: What Changes Before the First Login",
+ "internal_links": [
+  {
+   "url": "https://www.clearconciseconsulting.com/cart",
+   "text": "0"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/category/AI+Governance",
+   "text": "AI Governance"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/what-is-the-salesforce-einstein-trust-layer",
+   "text": "Einstein Trust Layer explainer"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-org-autopsy-assessment-checklist",
+   "text": "org cleanup content"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/services/salesforce-ai-data-preparation",
+   "text": "Agentforce data governance piece"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/scorecard",
+   "text": "AI Readiness Scorecard"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/GEO",
+   "text": "GEO"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/Search+Console",
+   "text": "Search Console"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/AI+search",
+   "text": "AI search"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/tag/original+research",
+   "text": "original research"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog?author=5c7743625ce3506cd23d559b",
+   "text": "Jeremy Carmona"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "text": "https://www.clearconciseconsulting.com"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/ai-ready-data-salesforce-measurable-standard",
+   "text": "PreviousPreviousWhat \"AI-Ready Data\" Actually Means in Salesforce (And How to Measure It)"
+  },
+  {
+   "url": "https://www.clearconciseconsulting.com/blog/salesforce-govcloud-implementation",
+   "text": "NextNextSalesforce GovCloud Implementation: What Changes Before the First Login"
+  }
+ ],
+ "external_links": [],
+ "images": [
+  {
+   "src": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/859c6e99-6925-4834-ba75-20cbe3e4c889/ai-queries-in-search-console-hero.png",
+   "alt": "",
+   "width": "2500",
+   "height": "1395",
+   "loading": "lazy"
+  },
+  {
+   "src": "",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "loading": null
+  }
+ ],
+ "structured_data": [
+  {
+   "url": "https://www.clearconciseconsulting.com",
+   "name": "Clear Concise Consulting",
+   "description": "",
+   "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+   "@context": "http://schema.org",
+   "@type": "WebSite"
+  },
+  {
+   "legalName": "Clear Concise Consulting",
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "email": "j.carmona@clearconciseconsulting.com",
+   "telephone": "917-719-4629",
+   "sameAs": [
+    "https://medium.com/@jcarmona86",
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting"
+   ],
+   "@context": "http://schema.org",
+   "@type": "Organization"
+  },
+  {
+   "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+   "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+   "name": "Clear Concise Consulting",
+   "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+   "@context": "http://schema.org",
+   "@type": "LocalBusiness"
+  },
+  {
+   "name": "AI Queries in Search Console: What My Own Data Shows | Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "datePublished": "2026-07-28T07:24:36-0400",
+   "dateModified": "2026-07-28T07:24:46-0400",
+   "headline": "The AI Queries in My Search Console",
+   "author": "Jeremy Carmona",
+   "publisher": {
+    "name": "Clear Concise Consulting",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/"
+    },
+    "@context": "http://schema.org",
+    "@type": "Organization"
+   },
+   "image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a5cb40822d8fb7a65bbc208/1784460296145/ai-queries-in-search-console-og.png?format=1500w",
+   "@context": "http://schema.org",
+   "@type": "Article"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "BlogPosting",
+   "@id": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console#article",
+   "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console"
+   },
+   "headline": "The AI Queries in My Search Console",
+   "alternativeHeadline": "AI Queries in Search Console: What My Own Data Shows",
+   "description": "AI queries in Search Console are not hypothetical. In my last 90-day export, 15% of visible query strings read machine-phrased. The receipts, with numbers.",
+   "image": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b56cd0c3-ae11-4b80-ab8b-b59de18677b0/ai-queries-in-search-console-hero.png?format=2500w",
+   "author": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy",
+    "name": "Jeremy Carmona",
+    "jobTitle": "Salesforce Architect",
+    "url": "https://www.clearconciseconsulting.com/about",
+    "sameAs": [
+     "https://www.linkedin.com/in/jeremy-a-carmona/",
+     "https://github.com/jcarmona86",
+     "https://x.com/c_c_carmona"
+    ]
+   },
+   "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.clearconciseconsulting.com/#organization",
+    "name": "Clear Concise Consulting",
+    "url": "https://www.clearconciseconsulting.com",
+    "logo": {
+     "@type": "ImageObject",
+     "url": "https://images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/62919ed9-1b6d-431c-b089-2470e0ad86e1/Logo+Update+Two+%28Custom%29.png"
+    }
+   },
+   "datePublished": "2026-07-28",
+   "dateModified": "2026-07-28",
+   "url": "https://www.clearconciseconsulting.com/blog/ai-queries-in-search-console",
+   "keywords": "GEO, Search Console, AI search, original research",
+   "articleSection": "AI Governance",
+   "inLanguage": "en-US",
+   "wordCount": 1152
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": [
+    "Organization",
+    "ProfessionalService"
+   ],
+   "@id": "https://www.clearconciseconsulting.com/#organization",
+   "name": "Clear Concise Consulting",
+   "url": "https://www.clearconciseconsulting.com/",
+   "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+   "telephone": "+1-917-719-4629",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "228 Park Ave S #871721",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "postalCode": "10003",
+    "addressCountry": "US"
+   },
+   "founder": {
+    "@type": "Person",
+    "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+    "name": "Jeremy Carmona",
+    "url": "https://www.clearconciseconsulting.com/about"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/clear-concise-consulting",
+    "https://github.com/clear-concise-carmona",
+    "https://www.instagram.com/clearconcisecarmona",
+    "https://www.facebook.com/profile.php?id=61565894325721",
+    "https://www.youtube.com/@clearconciseconsulting",
+    "https://medium.com/@jcarmona86",
+    "https://jeremycarmona.gumroad.com/"
+   ]
+  }
+ ],
+ "has_ssr_content": true,
+ "security_headers": {
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": null,
+  "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": null,
+  "Permissions-Policy": null
+ },
+ "errors": []
+}

@@ -1,0 +1,546 @@
+{
+ "url": "http://127.0.0.1:8765/203fe58ae7ec.html",
+ "total_blocks_analyzed": 25,
+ "average_citability_score": 29.3,
+ "optimal_length_passages": 1,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 1,
+  "D": 8,
+  "F": 15
+ },
+ "top_5_citable": [
+  {
+   "heading": "Next Steps",
+   "word_count": 167,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 3
+   },
+   "preview": "1. Audit existing validation rules. Are they documented? Still relevant? 2. Identify your biggest data quality pain points 3. Implement validation rules addressing the top 3 issues 4. Monitor for..."
+  },
+  {
+   "heading": "The Validation Rule Checklist",
+   "word_count": 81,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before deploying a new validation rule: \u00e2\u0080\u00a2 [ ] Does this prevent a data entry error (not a business decision)? \u00e2\u0080\u00a2 [ ] Is the error message clear and actionable?..."
+  },
+  {
+   "heading": "Validation Rule Fundamentals",
+   "word_count": 61,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A validation rule has two parts: 1.Error Condition Formula:Returns TRUE when the data is invalid 2.Error Message:What the user sees when they try to save invalid data The rule fires..."
+  },
+  {
+   "heading": "Monthly Review",
+   "word_count": 26,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 Which rules are triggering most often? (Check error logs) \u00e2\u0080\u00a2 Are there legitimate use cases being blocked? \u00e2\u0080\u00a2 Have business processes changed, making rules obsolete?"
+  },
+  {
+   "heading": "No HTML in Text Fields",
+   "word_count": 24,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Junk data from form spam OR( CONTAINS(Description, \"<script\"), CONTAINS(Description, \"<iframe\"), CONTAINS(Description, \"<a href\")) Error Message:\"HTML code is not allowed in this field\""
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Close Date in the Future (New Opportunities)",
+   "word_count": 28,
+   "total_score": 9,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Opportunities with past close dates that skew pipeline AND( ISNEW(), CloseDate < TODAY()) Error Message:\"Close Date must be today or in the future for new opportunities\""
+  },
+  {
+   "heading": "Prevent Backdating",
+   "word_count": 28,
+   "total_score": 15,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Users changing historical data they shouldn't modify AND( ISCHANGED(Amount), PRIORVALUE(CloseDate) < TODAY() - 30) Error Message:\"Cannot change Amount on opportunities closed more than 30 days ago\""
+  },
+  {
+   "heading": "Website URL Format",
+   "word_count": 27,
+   "total_score": 15,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Invalid URLs that break links AND( NOT(ISBLANK(Website)), NOT(OR( LEFT(Website, 7) = \"http://\", LEFT(Website, 8) = \"https://\" ))) Error Message:\"Website must start with http:// or https://\""
+  },
+  {
+   "heading": "Required Fields Based on Stage",
+   "word_count": 27,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Opportunities advancing without necessary data AND( ISPICKVAL(StageName, \"Closed Won\"), OR( ISBLANK(Amount), ISBLANK(CloseDate), ISBLANK(Primary_Contact__c) )) Error Message:\"Closed Won opportunities require Amount, Close Date, and Primary Contact\""
+  },
+  {
+   "heading": "Principle 4: Provide Bypass When Necessary",
+   "word_count": 29,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some rules need admin override. Create a checkbox field (Bypass_Validation__c) and include it in rules: AND( NOT(Bypass_Validation__c), [your validation logic]) Only admins can check the bypass field. Use sparingly."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Validation Rules That Actually Work: Preventing Bad Data at Entry",
+   "word_count": 95,
+   "total_score": 29,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 11,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Stop cleaning up data and start preventing bad data from entering in the first place The admin before me had a philosophy: \"Let users enter data however they want, we'll..."
+  },
+  {
+   "heading": "Validation Rule Fundamentals",
+   "word_count": 61,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "A validation rule has two parts: 1.Error Condition Formula:Returns TRUE when the data is invalid 2.Error Message:What the user sees when they try to save invalid data The rule fires..."
+  },
+  {
+   "heading": "Principle 1: Block Entry Errors, Not Business Decisions",
+   "word_count": 25,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Good: Blocking invalid email formats Bad: Blocking opportunities under $10,000 Validation rules prevent data entry errors. They shouldn't enforce business policies that have legitimate exceptions."
+  },
+  {
+   "heading": "Principle 2: Explain the Fix, Not Just the Problem",
+   "word_count": 25,
+   "total_score": 22,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Bad message: \"Invalid phone number\" Good message: \"Phone number must be exactly 10 digits (e.g., 5551234567)\" Users should know exactly how to fix the error."
+  },
+  {
+   "heading": "Principle 3: Don't Over-Validate",
+   "word_count": 34,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Every validation rule is friction. Only validate what matters: \u00e2\u0080\u00a2 Fields that break automation \u00e2\u0080\u00a2 Fields that affect reporting \u00e2\u0080\u00a2 Fields that impact customer communications Don't validate fields that are..."
+  },
+  {
+   "heading": "Principle 4: Provide Bypass When Necessary",
+   "word_count": 29,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some rules need admin override. Create a checkbox field (Bypass_Validation__c) and include it in rules: AND( NOT(Bypass_Validation__c), [your validation logic]) Only admins can check the bypass field. Use sparingly."
+  },
+  {
+   "heading": "Phone Number Format",
+   "word_count": 39,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 9,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Inconsistent phone data that's hard to use AND( NOT(ISBLANK(Phone)), NOT(REGEX(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(Phone, \"(\", \"\"), \")\", \"\"), \"-\", \"\"), \" \", \"\"), \"^[0-9]{10}$\"))) This strips common formatting before checking for 10..."
+  },
+  {
+   "heading": "State Abbreviation",
+   "word_count": 24,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 7,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Inconsistent state data that breaks segmentation Formula (after converting to picklist, validate text if needed): Better approach:Use a picklist instead of validation."
+  },
+  {
+   "heading": "Close Date in the Future (New Opportunities)",
+   "word_count": 28,
+   "total_score": 9,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Opportunities with past close dates that skew pipeline AND( ISNEW(), CloseDate < TODAY()) Error Message:\"Close Date must be today or in the future for new opportunities\""
+  },
+  {
+   "heading": "Required Fields Based on Stage",
+   "word_count": 27,
+   "total_score": 16,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 12,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Opportunities advancing without necessary data AND( ISPICKVAL(StageName, \"Closed Won\"), OR( ISBLANK(Amount), ISBLANK(CloseDate), ISBLANK(Primary_Contact__c) )) Error Message:\"Closed Won opportunities require Amount, Close Date, and Primary Contact\""
+  },
+  {
+   "heading": "Prevent Backdating",
+   "word_count": 28,
+   "total_score": 15,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Users changing historical data they shouldn't modify AND( ISCHANGED(Amount), PRIORVALUE(CloseDate) < TODAY() - 30) Error Message:\"Cannot change Amount on opportunities closed more than 30 days ago\""
+  },
+  {
+   "heading": "No HTML in Text Fields",
+   "word_count": 24,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 25,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Junk data from form spam OR( CONTAINS(Description, \"<script\"), CONTAINS(Description, \"<iframe\"), CONTAINS(Description, \"<a href\")) Error Message:\"HTML code is not allowed in this field\""
+  },
+  {
+   "heading": "Prevent All-Caps Entry",
+   "word_count": 24,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 3,
+    "self_containment": 7,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:SCREAMING DATA THAT LOOKS UNPROFESSIONAL AND( NOT(ISBLANK(LastName)), LastName = UPPER(LastName), LEN(LastName) > 1) Error Message:\"Please use standard capitalization (e.g., Smith, not SMITH)\""
+  },
+  {
+   "heading": "Website URL Format",
+   "word_count": 27,
+   "total_score": 15,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 7,
+    "structural_readability": 6,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Invalid URLs that break links AND( NOT(ISBLANK(Website)), NOT(OR( LEFT(Website, 7) = \"http://\", LEFT(Website, 8) = \"https://\" ))) Error Message:\"Website must start with http:// or https://\""
+  },
+  {
+   "heading": "Prevent Duplicative Data",
+   "word_count": 24,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 7,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "What it prevents:Same value in fields that should differ AND( NOT(ISBLANK(Phone)), NOT(ISBLANK(Fax)), Phone = Fax) Error Message:\"Phone and Fax cannot be the same number\""
+  },
+  {
+   "heading": "Cross-Object Validation",
+   "word_count": 29,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 15,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Validate based on related record data: Formula (Contact level validation based on Account): AND( NOT(ISBLANK(Email)), Account.Do_Not_Contact__c = TRUE) Error Message:\"Cannot add email to contacts for Do Not Contact accounts\""
+  },
+  {
+   "heading": "Time-Based Validation",
+   "word_count": 24,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 10,
+    "self_containment": 15,
+    "structural_readability": 9,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Prevent edits after a certain period: AND( NOT(ISNEW()), ISCHANGED(Amount), CreatedDate < TODAY() - 90) Error Message:\"Cannot modify Amount on records older than 90 days\""
+  },
+  {
+   "heading": "Profile-Based Exceptions",
+   "word_count": 23,
+   "total_score": 24,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Allow certain profiles to bypass validation: AND( NOT($Profile.Name = \"System Administrator\"), [your validation logic]) Use sparingly. Better to use the bypass checkbox approach."
+  },
+  {
+   "heading": "Test in Sandbox",
+   "word_count": 27,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 7,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "1. Create the rule inactive 2. Test scenarios that should pass (no error) 3. Test scenarios that should fail (error displayed) 4. Verify error message is clear"
+  },
+  {
+   "heading": "Document Test Cases",
+   "word_count": 31,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Scenario | Input | Expected Result Valid email |test@company.com| Save succeeds Missing @ | testcompany.com | Error displayed No domain | test@ | Error displayed Valid with + |test+tag@company.com| Save..."
+  },
+  {
+   "heading": "Monthly Review",
+   "word_count": 26,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 22,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 Which rules are triggering most often? (Check error logs) \u00e2\u0080\u00a2 Are there legitimate use cases being blocked? \u00e2\u0080\u00a2 Have business processes changed, making rules obsolete?"
+  },
+  {
+   "heading": "When to Retire Rules",
+   "word_count": 30,
+   "total_score": 31,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "\u00e2\u0080\u00a2 The business process the rule protected has changed \u00e2\u0080\u00a2 A Flow or Apex trigger now handles the validation better \u00e2\u0080\u00a2 The rule is causing more problems than it prevents"
+  },
+  {
+   "heading": "Documentation",
+   "word_count": 42,
+   "total_score": 21,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Maintain a list of all validation rules: Rule Name | Object | Purpose | Owner | Last Reviewed Email_Format | Contact | Prevent invalid emails | Sales Ops | 2026-03..."
+  },
+  {
+   "heading": "The Validation Rule Checklist",
+   "word_count": 81,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 19,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Before deploying a new validation rule: \u00e2\u0080\u00a2 [ ] Does this prevent a data entry error (not a business decision)? \u00e2\u0080\u00a2 [ ] Is the error message clear and actionable?..."
+  },
+  {
+   "heading": "Next Steps",
+   "word_count": 167,
+   "total_score": 67,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 9,
+    "statistical_density": 3,
+    "uniqueness_signals": 3
+   },
+   "preview": "1. Audit existing validation rules. Are they documented? Still relevant? 2. Identify your biggest data quality pain points 3. Implement validation rules addressing the top 3 issues 4. Monitor for..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-validation-rules-guide",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

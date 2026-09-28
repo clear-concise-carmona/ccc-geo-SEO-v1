@@ -1,0 +1,309 @@
+{
+  "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Content-Encoding": "gzip",
+    "Content-Length": "59069",
+    "Content-Type": "text/html;charset=utf-8",
+    "Date": "Sun, 27 Sep 2026 19:34:59 GMT",
+    "Etag": "W/\"92f3126f71323592d4a7b3ea54443860\"",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Server": "Squarespace",
+    "Strict-Transport-Security": "max-age=15552000",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Contextid": "KL0wPWof/twaivNv7",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "og:site_name": "Clear Concise Consulting",
+    "og:title": "Salesforce AI Center of Excellence & Governance | Clear Concise Consulting",
+    "og:url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+    "og:type": "website",
+    "og:description": "Build Salesforce AI governance with readiness scoring, human review, decision logging, and Agentforce controls for high-stakes organizations before deployment.",
+    "og:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69dc25d40d7cda50fe259d86/1776035284476/CCC_AI_CoE_OG.png?format=1500w",
+    "og:image:width": "1500",
+    "og:image:height": "787",
+    "twitter:title": "Salesforce AI Center of Excellence & Governance | Clear Concise Consulting",
+    "twitter:image": "http://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/69dc25d40d7cda50fe259d86/1776035284476/CCC_AI_CoE_OG.png?format=1500w",
+    "twitter:url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+    "twitter:card": "summary",
+    "twitter:description": "Build Salesforce AI governance with readiness scoring, human review, decision logging, and Agentforce controls for high-stakes organizations before deployment.",
+    "description": "Build Salesforce AI governance with readiness scoring, human review, decision logging, and Agentforce controls for high-stakes organizations before deployment.",
+    "msvalidate.01": "639F9F83298EAFB8FEECDF2CFB08411D"
+  },
+  "title": "Salesforce AI Center of Excellence & Governance | Clear Concise Consulting",
+  "description": "Build Salesforce AI governance with readiness scoring, human review, decision logging, and Agentforce controls for high-stakes organizations before deployment.",
+  "canonical": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+  "h1_tags": [
+    "AI governance for organizations that can't afford to guess."
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "AI governance for organizations that can't afford to guess."
+    },
+    {
+      "level": 2,
+      "text": "74% of nonprofits are using AI. Formal governance still lags."
+    },
+    {
+      "level": 2,
+      "text": "Three tools. One principle: clean data first, AI second."
+    },
+    {
+      "level": 2,
+      "text": "Built for organizations where AI errors have real consequences."
+    },
+    {
+      "level": 2,
+      "text": "CCC's Six Salesforce AI Governance Gates, Mapped to NIST AI RMF."
+    },
+    {
+      "level": 2,
+      "text": "Six gates. Fifteen cells. One operational reference."
+    },
+    {
+      "level": 2,
+      "text": "Illustrative healthcare AI governance scenario."
+    },
+    {
+      "level": 2,
+      "text": "Fixed-scope engagements. No hourly surprises."
+    },
+    {
+      "level": 2,
+      "text": "Three steps. No sales pressure. A clear plan by the end of step two."
+    },
+    {
+      "level": 3,
+      "text": "AI Readiness Scorecard"
+    },
+    {
+      "level": 3,
+      "text": "Human Validation Framework"
+    },
+    {
+      "level": 3,
+      "text": "AI Decision Log"
+    },
+    {
+      "level": 3,
+      "text": "Nonprofit"
+    },
+    {
+      "level": 3,
+      "text": "Government"
+    },
+    {
+      "level": 3,
+      "text": "Healthcare"
+    },
+    {
+      "level": 3,
+      "text": "Enterprise"
+    },
+    {
+      "level": 3,
+      "text": "Data Readiness"
+    },
+    {
+      "level": 3,
+      "text": "Permission and Access"
+    },
+    {
+      "level": 3,
+      "text": "Design Review"
+    },
+    {
+      "level": 3,
+      "text": "Agentic Governance Review"
+    },
+    {
+      "level": 3,
+      "text": "Pre-Production Validation"
+    },
+    {
+      "level": 3,
+      "text": "Post-Launch Governance"
+    },
+    {
+      "level": 3,
+      "text": "Governance Scenario"
+    },
+    {
+      "level": 3,
+      "text": "Take the Scorecard"
+    },
+    {
+      "level": 3,
+      "text": "Request an Assessment"
+    },
+    {
+      "level": 3,
+      "text": "Get a Clear Plan"
+    }
+  ],
+  "word_count": 1054,
+  "text_content": "Salesforce AI Center of Excellence & Governance | Clear Concise Consulting 0 AI Center of Excellence AI governance for organizations that can't afford to guess. Most Salesforce orgs are adding AI before they're ready. The problems don't show up in the demo. They show up in production, in audit, and in board meetings. CCC's AI CoE practice builds the governance layer before the AI layer. Take the AI Readiness Scorecard Request an Assessment The Gap 74% of nonprofits are using AI. Formal governance still lags. Adoption alone does not establish readiness. Wrong donor data can distort predictions, generated grant language can contradict program reality, and automated outreach can bypass consent records. These are foreseeable failure patterns when AI is deployed on weak data, access, documentation, and review controls. AI adoption is not the same as AI readiness. Governance should define data ownership, access boundaries, human review, and incident response before production. 74% of nonprofits are using AI Source: Salesforce Nonprofit Trends Report, 2025 26% are not currently using AI Govern data, access, and approved use cases Review outputs, overrides, and incidents The CoE Toolkit Three tools. One principle: clean data first, AI second. AI Readiness Scorecard 15 questions. Five categories. A weighted score in under 2 minutes. Evaluates Data Quality, Governance Readiness, Automation Maturity, AI Preparedness, and Documentation Health. Take the Scorecard Human Validation Framework Human review gates before AI outputs reach production. Defines who reviews, what escalation looks like, and how overrides get recorded. No handwave governance, no checkbox compliance. Request an Assessment AI Decision Log A Salesforce-native custom object designed to record defined AI-assisted decisions, confidence scores, human review status, and override history. It supports audit, compliance, and board reporting when included in the approved implementation scope. Request an Assessment Who We Work With Built for organizations where AI errors have real consequences. Nonprofit Donor data, grant reporting, and constituent outreach all carry trust obligations. AI without governance is a compliance and reputational risk, not just a technical one. Government OMB M-25-21 governs federal AI use and public trust, while M-25-22 addresses AI acquisition. GovCloud implementations need governance documentation that holds up to audit. Healthcare Patient data, clinical workflows, and billing systems are high-stakes. AI outputs touching these areas require human review gates and documented override protocols. Enterprise Large orgs with multiple Salesforce clouds and AI features activated across business units need a governance layer that works at scale, not just in a single sandbox. Aligned With NIST AI RMF AI Risk Management Framework ISO 42001 AI Management Systems Standard Salesforce Trusted AI Einstein Trust Layer Principles OECD AI Principles on Artificial Intelligence EU AI Act High-Risk System Requirements Six Checkpoints CCC's Six Salesforce AI Governance Gates, Mapped to NIST AI RMF. The NIST AI RMF functions are adaptable governance functions, not a mandatory linear checklist. CCC maps them to six Salesforce delivery gates for operational use. 01 NIST: MAP Data Readiness Data quality score of 7 of 10 or higher on the 10-metric SOQL audit. Sharing model documented. Data ownership confirmed. Pass/Fail Gate 02 NIST: GOVERN Permission and Access Field-level security verified on every object the agent touches. Trust Layer configured. Integration user scoped to least privilege. Pass/Fail Gate 03 NIST: MAP + GOVERN Design Review Use case risk classified. Human oversight defined. Four-audience documentation drafted. Accountability assigned. Pass/Fail Gate 04 NIST: GOVERN + MAP Agentic Governance Review Agent action boundaries documented and tested. Session Tracing enabled. Topic restrictions and tool authorization scoped. Pass/Fail Gate 05 NIST: MEASURE Pre-Production Validation Bias and fairness testing on a representative sample. Rollback drill executed in a Full sandbox. Pilot testing with named reviewers. Pass/Fail Gate 06 NIST: MANAGE Post-Launch Governance 30-day review scheduled. Drift indicators baselined. Incident response runbook published. Quarterly review cadence committed. Pass/Fail Gate The Full Practice Six gates. Fifteen cells. One operational reference. The gates above are six checkpoints mapped to NIST AI RMF. The full practice has fifteen cells across three layers and seven roles. Click any cell to see the deliverable, the named owner, and the cited source. Built as a working reference for scoping calls. See the Full Practice Map 13x Salesforce certified, including Data Architecture and App Architecture Since 2012 Salesforce delivery, architecture, and governance experience 160+ Students trained at NYU Tandon School of Engineering Governance Scenario Illustrative healthcare AI governance scenario. Consider a Service Cloud org where AI-generated case summaries reach agents without defined human review or override records. A billing discrepancy could become difficult to trace when the recommendation, approval, and exception path are not documented. A governance response would define review gates, record approval and override decisions, and document escalation paths before expanding the use case. Review gates Defined before production Decision log Records approvals and overrides Escalation Named owner and response path Services and Pricing Fixed-scope engagements. No hourly surprises. Every engagement is scoped before it starts. You know the deliverable, the timeline, and the cost before signing. Service What's Included Who It's For Investment AI Readiness Scorecard Free self-assessment, five-category weighted report Any org exploring AI Free Governance Assessment Scored audit across NIST AI RMF, gap report, priority roadmap Orgs pre-Agentforce or post-Einstein activation $8,000 AI CoE Setup Human Validation Framework, AI Decision Log, governance documentation, training Orgs ready to build governance infrastructure $18,000 Agentforce Governance Agent scope review, guardrails configuration, escalation design, audit trail Orgs deploying or evaluating Agentforce Custom scoped Data Quality Baseline Field completeness audit, deduplication, standardization, documentation Orgs with data quality gaps blocking AI adoption Custom scoped Board-Ready AI Report Executive summary of AI usage, risks, governance status, and recommendations Orgs needing to report AI activity to leadership $3,500 Governance Training Half-day workshop for admin and technical teams on governance principles and tools Teams being handed AI tools without training $2,500 All engagements include a scoping document before work begins. No retainers. No surprises. Get Started Three steps. No sales pressure. A clear plan by the end of step two. Step 01 Take the Scorecard 2 minutes. Free. A personalized readiness report across five categories. No account required. Step 02 Request an Assessment Walk through your results. Ask questions. Get a direct read on where you stand and what comes next. Step 03 Get a Clear Plan A scoping document with deliverables, timeline, and fixed pricing. Before any work begins. Take the AI Readiness Scorecard Request an Assessment",
+  "internal_links": [
+    {
+      "url": "https://www.clearconciseconsulting.com/cart",
+      "text": "0"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "text": "Request an Assessment"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/ai-coe-practice-map",
+      "text": "See the Full Practice Map"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/scorecard",
+      "text": "Take the AI Readiness Scorecard"
+    },
+    {
+      "url": "https://www.clearconciseconsulting.com/salesforce-ai-data-readiness-assessment",
+      "text": "Request an Assessment"
+    }
+  ],
+  "external_links": [],
+  "images": [],
+  "structured_data": [
+    {
+      "url": "https://www.clearconciseconsulting.com",
+      "name": "Clear Concise Consulting",
+      "description": "",
+      "image": "//images.squarespace-cdn.com/content/v1/67a43ea63c59165a526c1986/b2cae13f-d1b3-4844-9651-a9ea50e9bb73/ccc-logo-stacked-navy.png",
+      "@context": "http://schema.org",
+      "@type": "WebSite"
+    },
+    {
+      "legalName": "Clear Concise Consulting",
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "email": "j.carmona@clearconciseconsulting.com",
+      "telephone": "917-719-4629",
+      "sameAs": [
+        "https://medium.com/@jcarmona86",
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting"
+      ],
+      "@context": "http://schema.org",
+      "@type": "Organization"
+    },
+    {
+      "address": "228 Park Avenue South\nNew York, NY, 10003\nUnited States",
+      "image": "https://static1.squarespace.com/static/67a43ea63c59165a526c1986/t/6a61b0d8b0e48b18e150381e/1790214012493/",
+      "name": "Clear Concise Consulting",
+      "openingHours": "Mo 08:00-17:00, Tu 08:00-17:00, We 08:00-17:00, Th 08:00-17:00, Fr 08:00-17:00, , ",
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.clearconciseconsulting.com/ai-center-of-excellence#service",
+      "name": "Salesforce AI Center of Excellence and AI Governance",
+      "serviceType": "Salesforce AI Center of Excellence and AI Governance",
+      "url": "https://www.clearconciseconsulting.com/ai-center-of-excellence",
+      "provider": {
+        "@id": "https://www.clearconciseconsulting.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "description": "Salesforce AI governance services covering readiness scoring, human review, decision logging, and Agentforce controls for high-stakes organizations."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.clearconciseconsulting.com/ai-center-of-excellence#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.clearconciseconsulting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AI Center of Excellence",
+          "item": "https://www.clearconciseconsulting.com/ai-center-of-excellence"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.clearconciseconsulting.com/#organization",
+      "name": "Clear Concise Consulting",
+      "url": "https://www.clearconciseconsulting.com/",
+      "description": "Salesforce consulting focused on implementation, data governance, AI readiness, training, and clear technical guidance.",
+      "telephone": "+1-917-719-4629",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "228 Park Ave S #871721",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10003",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://www.clearconciseconsulting.com/about#jeremy-carmona",
+        "name": "Jeremy Carmona",
+        "url": "https://www.clearconciseconsulting.com/about"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/clear-concise-consulting",
+        "https://github.com/clear-concise-carmona",
+        "https://www.instagram.com/clearconcisecarmona",
+        "https://www.facebook.com/profile.php?id=61565894325721",
+        "https://www.youtube.com/@clearconciseconsulting",
+        "https://medium.com/@jcarmona86",
+        "https://jeremycarmona.gumroad.com/"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=15552000",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": null,
+    "Permissions-Policy": null
+  },
+  "errors": []
+}

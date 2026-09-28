@@ -1,0 +1,621 @@
+{
+ "url": "http://127.0.0.1:8765/3a90101ca2bc.html",
+ "total_blocks_analyzed": 30,
+ "average_citability_score": 36.9,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 0,
+  "C": 5,
+  "D": 13,
+  "F": 12
+ },
+ "top_5_citable": [
+  {
+   "heading": "Understanding the Power of Us Program",
+   "word_count": 98,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Eligible organizations may select 10 donated Agentforce Nonprofit Enterprise licenses or 10 Sales and Service Enterprise licenses throughSalesforce's Power of Us Program. NPSP is a managed-package suite that can be..."
+  },
+  {
+   "heading": "Frequently Asked Questions",
+   "word_count": 438,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 7
+   },
+   "preview": "Should we stay on NPSP or move to Nonprofit Cloud?It depends on your organization's size, technical capacity, and growth plans. NPSP remains fully supported and works well for small to..."
+  },
+  {
+   "heading": "What's the difference between Household Accounts and Person Accounts?",
+   "word_count": 50,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Household Accounts (used by NPSP) create an Account record for each household with related Contact records for individuals. Person Accounts (used by Nonprofit Cloud) combine Account and Contact into a..."
+  },
+  {
+   "heading": "NPSP or Nonprofit Cloud? The Decision That Shapes Everything",
+   "word_count": 95,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you're researching Salesforce for your nonprofit, you've hit the fork in the road: stick with the Nonprofit Success Pack (NPSP) that over 56,000 organizations trust, or migrate to the..."
+  },
+  {
+   "heading": "What happens to our data when we migrate from our current system?",
+   "word_count": 41,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We extract data from your existing system, clean and transform it to match Salesforce's data model, and load it in the correct sequence. Relationships between records (like contacts and donations)..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Nonprofit Cloud",
+   "word_count": 26,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Contact Salesforce for current pricing Contact Salesforce for current pricing 10 Sales and Service Enterprise licenses 10 Agentforce Nonprofit Enterprise licenses Large organizations with technical staff"
+  },
+  {
+   "heading": "Person Accounts Mistakes",
+   "word_count": 30,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some consultants enable Person Accounts for nonprofits without understanding the consequences. It's a one-way decision that breaks NPSP compatibility. We help you choose the right data model from the start."
+  },
+  {
+   "heading": "Nonprofit Salesforce guides, free to use",
+   "word_count": 70,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "NPSP vs Nonprofit Cloud: which one fits your orgThe data quality risks nonprofits carry into AIValidation rules for nonprofit Salesforce orgsA flow governance checklist for nonprofit teamsWhy nonprofits lose donations..."
+  },
+  {
+   "heading": "Build for Sustainability",
+   "word_count": 29,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 9,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your team will maintain this system long after we're gone. We prioritize clicks over code, train your staff thoroughly, and document everything so future admins aren't starting from scratch."
+  },
+  {
+   "heading": "NPSP Implementation",
+   "word_count": 21,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Full configuration of the Nonprofit Success Pack for organizations new to Salesforce. Includes data migration, user training, and 90-day post-launch support."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Clear Concise Consulting provides Salesforce consulting for nonprofits, including NPSP implementation, Agentforce Nonprofit (formerly Nonprofit Cloud) migration, donor data management, and grants tracking. CCC holds the Nonprofit Cloud Consultant certification and has 14 years of nonprofit Salesforce experience.",
+   "word_count": 31,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 21,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Nonprofits lose up to 30% of potential revenue due to bad data. Duplicate contacts split donation histories. Obsolete emails compromise campaigns. Program management lives in spreadsheets while your CRM collects..."
+  },
+  {
+   "heading": "NPSP or Nonprofit Cloud? The Decision That Shapes Everything",
+   "word_count": 95,
+   "total_score": 51,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "If you're researching Salesforce for your nonprofit, you've hit the fork in the road: stick with the Nonprofit Success Pack (NPSP) that over 56,000 organizations trust, or migrate to the..."
+  },
+  {
+   "heading": "Nonprofit Cloud",
+   "word_count": 26,
+   "total_score": 17,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Contact Salesforce for current pricing Contact Salesforce for current pricing 10 Sales and Service Enterprise licenses 10 Agentforce Nonprofit Enterprise licenses Large organizations with technical staff"
+  },
+  {
+   "heading": "Problems We Solve Every Day",
+   "word_count": 195,
+   "total_score": 40,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 9,
+    "self_containment": 19,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Duplicate Contacts Splitting Donation HistoriesWhen the same donor appears twice (or five times), their giving history fragments. Annual reports undercount loyal supporters. Acknowledgment letters go to wrong addresses. We implement..."
+  },
+  {
+   "heading": "Duplicate Contacts Splitting Donation Histories",
+   "word_count": 41,
+   "total_score": 25,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When the same donor appears twice (or five times), their giving history fragments. Annual reports undercount loyal supporters. Acknowledgment letters go to wrong addresses. We implement matching rules, merge strategies,..."
+  },
+  {
+   "heading": "Data Silos Across Fundraising, Events, and Programs",
+   "word_count": 33,
+   "total_score": 25,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 11,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your development team uses one system, events uses another, and program staff manage participants in spreadsheets. We unify these into a single source of truth so every team sees the..."
+  },
+  {
+   "heading": "Reports That Don't Match Finance",
+   "word_count": 28,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "When your Salesforce donation totals don't match your accounting system, nobody trusts either one. We configure proper opportunity stages, payment mappings, and reconciliation processes so your numbers align."
+  },
+  {
+   "heading": "Payment Processing Gaps",
+   "word_count": 26,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Neither NPSP nor Nonprofit Cloud includes native payment processing. We integrate third-party solutions like Stripe, PosiPay, or Classy so you can accept donations without leaving Salesforce."
+  },
+  {
+   "heading": "Person Accounts Mistakes",
+   "word_count": 30,
+   "total_score": 18,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 9,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Some consultants enable Person Accounts for nonprofits without understanding the consequences. It's a one-way decision that breaks NPSP compatibility. We help you choose the right data model from the start."
+  },
+  {
+   "heading": "Recurring Donation Tracking",
+   "word_count": 110,
+   "total_score": 42,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Managing monthly donors shouldn't require spreadsheets. We configure Enhanced Recurring Donations, payment processor integrations, and automated receipting so sustainer programs run themselves. How We Work With Nonprofits DiscoveryFirst We audit..."
+  },
+  {
+   "heading": "Discovery",
+   "word_count": 27,
+   "total_score": 26,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 5,
+    "self_containment": 15,
+    "structural_readability": 6,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "First We audit your current systems, data quality, and processes before recommending solutions. No generic implementations. Your org structure, funding model, and program delivery shape every decision."
+  },
+  {
+   "heading": "Build for Sustainability",
+   "word_count": 29,
+   "total_score": 20,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 9,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Your team will maintain this system long after we're gone. We prioritize clicks over code, train your staff thoroughly, and document everything so future admins aren't starting from scratch."
+  },
+  {
+   "heading": "Data Quality as Foundation",
+   "word_count": 176,
+   "total_score": 37,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Clean data isn't optional. We establish governance frameworks, duplicate rules, and validation processes during implementation because retrofitting these later costs three times as much. NPSP ImplementationFull configuration of the Nonprofit..."
+  },
+  {
+   "heading": "NPSP Implementation",
+   "word_count": 21,
+   "total_score": 23,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Full configuration of the Nonprofit Success Pack for organizations new to Salesforce. Includes data migration, user training, and 90-day post-launch support."
+  },
+  {
+   "heading": "Understanding the Power of Us Program",
+   "word_count": 98,
+   "total_score": 61,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 16,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 3
+   },
+   "preview": "Eligible organizations may select 10 donated Agentforce Nonprofit Enterprise licenses or 10 Sales and Service Enterprise licenses throughSalesforce's Power of Us Program. NPSP is a managed-package suite that can be..."
+  },
+  {
+   "heading": "Why Nonprofits Choose Clear Concise Consulting",
+   "word_count": 94,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 20,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "Nonprofit Cloud Consultant CertifiedOne of the few consultants with the Nonprofit Cloud Consultant certification, demonstrating specialized expertise beyond generic Salesforce knowledge. 13x Salesforce Certified ArchitectTechnical depth to solve complex problems,..."
+  },
+  {
+   "heading": "Frequently Asked Questions",
+   "word_count": 438,
+   "total_score": 57,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 12,
+    "structural_readability": 12,
+    "statistical_density": 2,
+    "uniqueness_signals": 7
+   },
+   "preview": "Should we stay on NPSP or move to Nonprofit Cloud?It depends on your organization's size, technical capacity, and growth plans. NPSP remains fully supported and works well for small to..."
+  },
+  {
+   "heading": "Should we stay on NPSP or move to Nonprofit Cloud?",
+   "word_count": 50,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 18,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "It depends on your organization's size, technical capacity, and growth plans. NPSP remains fully supported and works well for small to mid-sized nonprofits. Nonprofit Cloud offers more advanced features but..."
+  },
+  {
+   "heading": "How long does a typical NPSP implementation take?",
+   "word_count": 33,
+   "total_score": 39,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For a basic implementation with data migration, 6-10 weeks. Complex implementations with multiple integrations, custom automation, and large data volumes may take 12-16 weeks. We provide realistic timelines during discovery,..."
+  },
+  {
+   "heading": "What happens to our data when we migrate from our current system?",
+   "word_count": 41,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We extract data from your existing system, clean and transform it to match Salesforce's data model, and load it in the correct sequence. Relationships between records (like contacts and donations)..."
+  },
+  {
+   "heading": "Do you work with organizations outside New York?",
+   "word_count": 27,
+   "total_score": 47,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Yes. While Clear Concise Consulting is based in Manhattan, we work with nonprofits across the United States. Most implementation work happens remotely, with optional on-site training sessions."
+  },
+  {
+   "heading": "What if we already have Salesforce but it's not working for us?",
+   "word_count": 35,
+   "total_score": 46,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 14,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "This is common. We offer health checks to assess your current configuration, identify problems, and create a remediation roadmap. Sometimes a few targeted fixes dramatically improve usability. Other times, a..."
+  },
+  {
+   "heading": "Can you help us integrate Salesforce with our email marketing platform?",
+   "word_count": 26,
+   "total_score": 34,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 15,
+    "self_containment": 15,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 2
+   },
+   "preview": "Yes. We build integrations with Mailchimp, Constant Contact, Pardot, Marketing Cloud, and other platforms. The right integration depends on your email volume, segmentation needs, and budget."
+  },
+  {
+   "heading": "What does ongoing support look like after implementation?",
+   "word_count": 31,
+   "total_score": 38,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 16,
+    "self_containment": 14,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We offer retainer-based support for organizations needing regular assistance, as well as ad-hoc consulting for occasional needs. All implementations include documentation and training so your team can handle day-to-day administration..."
+  },
+  {
+   "heading": "How do you handle payment processing since it's not native to Salesforce?",
+   "word_count": 36,
+   "total_score": 43,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 9,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We integrate third-party payment solutions like Stripe, Classy, or PosiPay. The right choice depends on your donation page needs, transaction volume, and existing infrastructure. We configure the integration so payments..."
+  },
+  {
+   "heading": "What's the difference between Household Accounts and Person Accounts?",
+   "word_count": 50,
+   "total_score": 52,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 8,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Household Accounts (used by NPSP) create an Account record for each household with related Contact records for individuals. Person Accounts (used by Nonprofit Cloud) combine Account and Contact into a..."
+  },
+  {
+   "heading": "Do you offer nonprofit discounts?",
+   "word_count": 33,
+   "total_score": 48,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 6,
+    "structural_readability": 12,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Our rates reflect the specialized expertise required for nonprofit implementations. We work with organizations to scope projects appropriately for their budgets, whether that means a phased approach or focusing on..."
+  },
+  {
+   "heading": "Nonprofit Salesforce guides, free to use",
+   "word_count": 70,
+   "total_score": 19,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 0,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "NPSP vs Nonprofit Cloud: which one fits your orgThe data quality risks nonprofits carry into AIValidation rules for nonprofit Salesforce orgsA flow governance checklist for nonprofit teamsWhy nonprofits lose donations..."
+  },
+  {
+   "heading": "Open-source tools",
+   "word_count": 96,
+   "total_score": 30,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 6,
+    "self_containment": 16,
+    "structural_readability": 8,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "We publish some of our NPSP-to-Nonprofit-Cloud migration work as open-source repos: NPSP to Nonprofit Cloud Field Map: a source-cited, field-level crosswalk between NPSP and Nonprofit Cloud objects, with every entry..."
+  },
+  {
+   "heading": "Ready to Put Your CRM to Work for Your Mission?",
+   "word_count": 61,
+   "total_score": 36,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 17,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Schedule a free 30-minute consultation to discuss your nonprofit's Salesforce needs. Data GovernanceClean data drives accurate reporting and AI readiness. Establish governance frameworks that protect your constituent information.Data Governance ServicesData..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/services/salesforce-nonprofit-consulting",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}

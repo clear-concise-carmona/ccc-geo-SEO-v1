@@ -1,0 +1,276 @@
+{
+ "url": "http://127.0.0.1:8765/8f8c79b3af38.html",
+ "total_blocks_analyzed": 7,
+ "average_citability_score": 43.4,
+ "optimal_length_passages": 0,
+ "grade_distribution": {
+  "A": 0,
+  "B": 1,
+  "C": 1,
+  "D": 3,
+  "F": 2
+ },
+ "top_5_citable": [
+  {
+   "heading": "Quick Reference",
+   "word_count": 112,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "AdminDeveloperConsultantArchitectSalary$70-110K$100-150K$100-140K$140-200K+Key CertAdmin/Adv AdminPlatform Dev I/IICloud ConsultantArchitect certsClient-Facing?SometimesRarelyAlwaysAlwaysCodes?NoYesSometimesSometimesDesigns Systems?NoNoPartiallyYes Part 8 of a10-part series. Previously:Nonprofit Cloud Screening Guide. Next:Certification Decoder Jeremy Carmona is a 13x Salesforce certified architect, founder of Clear..."
+  },
+  {
+   "heading": "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know",
+   "word_count": 76,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "A recruiter presented me for a \"Senior Admin\" role last month. I am a 13x certified Architect. The salary was $40K below my range. The job involved resetting passwords and..."
+  },
+  {
+   "heading": "The Four Tiers",
+   "word_count": 119,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "Administrator($70K-$110K, 1-5 years typical): Configures the platform using clicks, not code. Manages users, security, reports, dashboards, and automations (Flows). Day-to-day operators. They answer: \"How do I build this in Salesforce?\"..."
+  },
+  {
+   "heading": "What Each Role Touches Daily",
+   "word_count": 115,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Admins live in Setup: Flow Builder, Report Builder, Data Loader, user management. Their output is configured features, reports, and Flows. They talk to end users and managers. Developers live in..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying About Their Role Level",
+   "word_count": 198,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For Admin candidates: \"What happens when you deploy a Flow from sandbox to production?\"Real: Describes change set or Salesforce DX deployment. Notes Flow must be activated separately in production. Mentions..."
+  }
+ ],
+ "bottom_5_citable": [
+  {
+   "heading": "Task Complexity by Role",
+   "word_count": 95,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Simple work:Admin handles user setup and reports. Consultant documents requirements. Architect reviews existing architecture. Moderate work:Admin builds Flows and approval processes. Consultant leads discovery sessions and writes specs. Architect designs..."
+  },
+  {
+   "heading": "When to Present Up or Down",
+   "word_count": 98,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Admin for Consultant role:Works if 3+ years, client-facing experience, and demonstrated requirements gathering skills. Does not work if the candidate has only done internal admin work. Consultant for Architect role:Works..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying About Their Role Level",
+   "word_count": 198,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For Admin candidates: \"What happens when you deploy a Flow from sandbox to production?\"Real: Describes change set or Salesforce DX deployment. Notes Flow must be activated separately in production. Mentions..."
+  },
+  {
+   "heading": "What Each Role Touches Daily",
+   "word_count": 115,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Admins live in Setup: Flow Builder, Report Builder, Data Loader, user management. Their output is configured features, reports, and Flows. They talk to end users and managers. Developers live in..."
+  },
+  {
+   "heading": "The Four Tiers",
+   "word_count": 119,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "Administrator($70K-$110K, 1-5 years typical): Configures the platform using clicks, not code. Manages users, security, reports, dashboards, and automations (Flows). Day-to-day operators. They answer: \"How do I build this in Salesforce?\"..."
+  }
+ ],
+ "all_blocks": [
+  {
+   "heading": "Salesforce Admin vs. Consultant vs. Architect: What Recruiters Need to Know",
+   "word_count": 76,
+   "total_score": 50,
+   "grade": "C",
+   "label": "Moderate Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 12,
+    "structural_readability": 5,
+    "statistical_density": 3,
+    "uniqueness_signals": 0
+   },
+   "preview": "A recruiter presented me for a \"Senior Admin\" role last month. I am a 13x certified Architect. The salary was $40K below my range. The job involved resetting passwords and..."
+  },
+  {
+   "heading": "The Four Tiers",
+   "word_count": 119,
+   "total_score": 49,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 23,
+    "self_containment": 17,
+    "structural_readability": 2,
+    "statistical_density": 7,
+    "uniqueness_signals": 0
+   },
+   "preview": "Administrator($70K-$110K, 1-5 years typical): Configures the platform using clicks, not code. Manages users, security, reports, dashboards, and automations (Flows). Day-to-day operators. They answer: \"How do I build this in Salesforce?\"..."
+  },
+  {
+   "heading": "What Each Role Touches Daily",
+   "word_count": 115,
+   "total_score": 45,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 24,
+    "self_containment": 14,
+    "structural_readability": 5,
+    "statistical_density": 2,
+    "uniqueness_signals": 0
+   },
+   "preview": "Admins live in Setup: Flow Builder, Report Builder, Data Loader, user management. Their output is configured features, reports, and Flows. They talk to end users and managers. Developers live in..."
+  },
+  {
+   "heading": "Task Complexity by Role",
+   "word_count": 95,
+   "total_score": 28,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 7,
+    "self_containment": 19,
+    "structural_readability": 2,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Simple work:Admin handles user setup and reports. Consultant documents requirements. Architect reviews existing architecture. Moderate work:Admin builds Flows and approval processes. Consultant leads discovery sessions and writes specs. Architect designs..."
+  },
+  {
+   "heading": "When to Present Up or Down",
+   "word_count": 98,
+   "total_score": 32,
+   "grade": "F",
+   "label": "Poor Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 19,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "Admin for Consultant role:Works if 3+ years, client-facing experience, and demonstrated requirements gathering skills. Does not work if the candidate has only done internal admin work. Consultant for Architect role:Works..."
+  },
+  {
+   "heading": "How to Tell If Someone Is Lying About Their Role Level",
+   "word_count": 198,
+   "total_score": 35,
+   "grade": "D",
+   "label": "Low Citability",
+   "breakdown": {
+    "answer_block_quality": 8,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 0,
+    "uniqueness_signals": 0
+   },
+   "preview": "For Admin candidates: \"What happens when you deploy a Flow from sandbox to production?\"Real: Describes change set or Salesforce DX deployment. Notes Flow must be activated separately in production. Mentions..."
+  },
+  {
+   "heading": "Quick Reference",
+   "word_count": 112,
+   "total_score": 65,
+   "grade": "B",
+   "label": "Good Citability",
+   "breakdown": {
+    "answer_block_quality": 30,
+    "self_containment": 22,
+    "structural_readability": 5,
+    "statistical_density": 8,
+    "uniqueness_signals": 0
+   },
+   "preview": "AdminDeveloperConsultantArchitectSalary$70-110K$100-150K$100-140K$140-200K+Key CertAdmin/Adv AdminPlatform Dev I/IICloud ConsultantArchitect certsClient-Facing?SometimesRarelyAlwaysAlwaysCodes?NoYesSometimesSometimesDesigns Systems?NoNoPartiallyYes Part 8 of a10-part series. Previously:Nonprofit Cloud Screening Guide. Next:Certification Decoder Jeremy Carmona is a 13x Salesforce certified architect, founder of Clear..."
+  }
+ ],
+ "source_url": "https://www.clearconciseconsulting.com/blog/salesforce-admin-vs-consultant-vs-architect-what-recruiters-need-to-know",
+ "note": "scored from saved crawl HTML (EV-038), not refetched"
+}
