@@ -3,7 +3,7 @@
 | Change class | Rollback | Time to revert | Evidence to keep |
 |---|---|---|---|
 | SEO title / description / og edits | Re-enter the previous string from the crawl cache (evidence/crawl/*.json 'title' and 'description') | minutes | before/after JSON |
-| Page body copy | Squarespace page version history or the saved before-state HTML in evidence/crawl/ | minutes | before HTML |
+| Page body copy | implementation/rollback-log.md (live value written before each edit) or the saved before-state HTML in evidence/crawl/ and evidence/crawl-run2/; Squarespace keeps no text version history for page content (EV-032) | minutes | before HTML and the log row |
 | JSON-LD in Code Injection | Restore the previous block from evidence/crawl/*.json 'structured_data' (exact prior JSON) | minutes | before JSON-LD |
 | URL Mappings | Delete the mapping line; the old URL serves again if the page still exists | minutes | mapping list before/after |
 | Page deletion | Restore from Squarespace trash (30-day window); never delete without a live mapping first | minutes within 30 days | page export |

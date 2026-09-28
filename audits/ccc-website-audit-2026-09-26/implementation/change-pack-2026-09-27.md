@@ -6,7 +6,7 @@ Voice check: replacement copy was scanned against the owner's forbidden-word lis
 
 ## Batch 0. Before the first edit
 - Export the analytics and Search Console baseline (ISS-026; MEASUREMENT-AND-ROADMAP.md section 2) so a before/after record exists.
-- Keep a copy of each page's current text (Squarespace version history covers this; rollback notes in implementation/rollback-notes.md).
+- Keep a copy of each page's current text. Squarespace keeps no text version history for page content (owner record, EV-032), so the local session writes the live value to implementation/rollback-log.md before each edit; the crawl HTML in evidence/ is the second copy (implementation/rollback-notes.md). How to run the batches from your own browser: implementation/browser-session-runbook.md.
 
 ## Batch 1. Fix on sight (ISS-027, ISS-031, ISS-022)
 

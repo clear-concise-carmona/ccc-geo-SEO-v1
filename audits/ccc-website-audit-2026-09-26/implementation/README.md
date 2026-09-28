@@ -10,6 +10,8 @@ Mode: AUDIT_AND_DRAFT. Nothing in this folder has been applied to the website, a
 | redirects-and-indexing.md | Verified redirect results (EV-039, EV-043), the mirror-host state, index residuals, and the plan any URL change must follow | DRAFT |
 | rollback-notes.md | How to reverse each class of change, including the GitHub Pages instrument | DRAFT |
 | form-test-plan.md | How to test the assessment form, the contact page scheduler, the scorecard iframe, and outbound links without creating live leads | DRAFT (no live submissions authorized) |
+| browser-session-runbook.md | How to run the approved batches from a local Claude Code session driving your logged-in Chrome: rules, preflight, the per-batch prompt template, the Batch 1 prompt, acceptance-test commands, what to watch, and notes on credentials and a future Squarespace MCP | DRAFT (added 2026-09-28) |
+| rollback-log.md | Append-only log the local session writes before each edit (live value, replacement, saved, verified) plus per-batch verification output | empty template |
 
 Approval model:
 - DRAFT: wording is proposed; may be edited freely.
